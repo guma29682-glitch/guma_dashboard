@@ -32,6 +32,6 @@ const observer = new IntersectionObserver(
   { threshold: 0.12 },
 );
 
-document.querySelectorAll(".priority, .panel, .event-item, .news-item").forEach((item) => {
+document.querySelectorAll(".decision, .rail-section, .timeline-item, .news-item").forEach((item) => {
   observer.observe(item);
 });
