@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GUMA Dashboard - 29. cervna 2026</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">GUMA dashboard</p>
+        <h1>Pondeli 29. cervna 2026</h1>
+      </div>
+      <div class="freshness">
+        <span>Vygenerovano</span>
+        <strong>09:37 CEST</strong>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-band" aria-labelledby="summary-title">
+        <div>
+          <p class="eyebrow">Dnesni stav</p>
+          <h2 id="summary-title">Volny kalendar, horke pocasi, par veci k pohlidani.</h2>
+        </div>
+        <div class="signal-grid">
+          <article>
+            <span class="signal-value">0</span>
+            <span class="signal-label">schuzek v hlavnim kalendari</span>
+          </article>
+          <article>
+            <span class="signal-value">25 °C</span>
+            <span class="signal-label">normal po ochlazeni v dalsich dnech</span>
+          </article>
+          <article>
+            <span class="signal-value">1</span>
+            <span class="signal-label">administrativni zmena k ohlidani</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="priority-strip" aria-label="Priority dne">
+        <div class="priority weather">
+          <span>01</span>
+          <strong>Pocasi</strong>
+          <p>Po extremne horkem vikendu maji prijit silne bourky a citelne ochlazeni.</p>
+        </div>
+        <div class="priority">
+          <span>02</span>
+          <strong>Administrativa</strong>
+          <p>Od cervence se meni hlaseni novych zamestnancu pred nastupem.</p>
+        </div>
+        <div class="priority">
+          <span>03</span>
+          <strong>Focus blok</strong>
+          <p>Bez dnesnich schuzek dava smysl blok na hlubsi praci nebo resty.</p>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="day-column" aria-label="Program a priprava">
+          <section class="panel">
+            <p class="eyebrow">Program</p>
+            <h2>Nadchazejici schuzky</h2>
+            <p>V hlavnim Google Kalendari dnes nejsou zadne udalosti. Nevidim ani kolize, ani konkretni meetingy k priprave.</p>
+          </section>
+
+          <section class="panel">
+            <p class="eyebrow">Priprava</p>
+            <h2>Co si pohlidat</h2>
+            <ul class="clean-list">
+              <li>Pokud mas presuny venku, pocitej s bourkami a rezervou.</li>
+              <li>Pokud resis lidi, dohody nebo HR, over zmenu u CSSZ.</li>
+              <li>Volny kalendar pouzij na jednu delsi vec misto drobneho prepinani.</li>
+            </ul>
+          </section>
+
+          <section class="panel">
+            <p class="eyebrow">Rizika</p>
+            <h2>Nejasnosti</h2>
+            <ul class="clean-list">
+              <li>Online zpravy se behem dne meni, hlavne pocasi.</li>
+              <li>Kalendar je zkontrolovany pro primarni kalendar, ne pro sdilene kalendare.</li>
+              <li>Neni co parovat s e-maily nebo dokumenty, protoze dnes nejsou meetingy.</li>
+            </ul>
+          </section>
+        </aside>
+
+        <section class="news-column" aria-labelledby="news-title">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Novinky</p>
+              <h2 id="news-title">Zpravy podle rubrik</h2>
+            </div>
+            <div class="filters" aria-label="Filtr rubrik">
+              <button class="filter active" data-filter="all" type="button">Vse</button>
+              <button class="filter" data-filter="main" type="button">Hlavni</button>
+              <button class="filter" data-filter="domaci" type="button">Domaci</button>
+              <button class="filter" data-filter="zahranicni" type="button">Zahranicni</button>
+              <button class="filter" data-filter="ekonomika" type="button">Ekonomika</button>
+              <button class="filter" data-filter="stalo-se" type="button">Stalo se</button>
+            </div>
+          </div>
+
+          <div class="news-list">
+            <article class="news-item" data-category="main">
+              <span class="category">Hlavni strana</span>
+              <h3><a href="https://www.novinky.cz/clanek/pocasi-prijdou-silne-bourky-a-citelne-se-ochladi-40585507" target="_blank" rel="noreferrer">Prijdou</a> silne bourky a citelne se ochladi</h3>
+              <p>Vlna extremnich veder v Cesku konci. Studena fronta ma prinest silne bourky a od poloviny tydne navrat teplot zhruba k normalu.</p>
+            </article>
+
+            <article class="news-item" data-category="main">
+              <span class="category">Hlavni strana</span>
+              <h3><a href="https://www.novinky.cz/sekce/stalo-se-154" target="_blank" rel="noreferrer">ON-LINE:</a> Pocasi v Cesku</h3>
+              <p>Prubezne zpravodajstvi sleduje tropicke pondeli, hlavne na Morave a ve Slezsku, a vyvoj po rekordne teplem vikendu.</p>
+            </article>
+
+            <article class="news-item" data-category="domaci">
+              <span class="category">Domaci</span>
+              <h3><a href="https://www.novinky.cz/clanek/pocasi-on-line-vedra-budou-kulminovat-40585418" target="_blank" rel="noreferrer">Absolutni</a> rekord ze soboty byl pokoren</h3>
+              <p>V Doksanech padl novy absolutni teplotni rekord 41,9 °C. CHMU poprve ve sve siti zaznamenal i hodnotu 41 °C.</p>
+            </article>
+
+            <article class="news-item" data-category="domaci">
+              <span class="category">Domaci</span>
+              <h3><a href="https://www.novinky.cz/clanek/domaci-zpravy-hlavni-mesto-praha-meteorologove-vyhlasili-smogovou-situaci-v-praze-stredoceskem-i-usteckem-kraji-40585510" target="_blank" rel="noreferrer">Meteorologove</a> vyhlasili smogovou situaci v Praze, Stredoceskem i Usteckem kraji</h3>
+              <p>Vedro zhorsuje kvalitu ovzdusi, hlavne kvuli pocasi a mestskemu provozu. Prakticky dopad: horsi podminky pro pohyb venku.</p>
+            </article>
+
+            <article class="news-item" data-category="zahranicni">
+              <span class="category">Zahranicni</span>
+              <h3><a href="https://www.novinky.cz/clanek/zahranicni-evropa-fico-brani-stovky-tisic-pro-syna-ze-stranicke-firmy-40582345" target="_blank" rel="noreferrer">Fico</a> brani stovky tisic pro syna ze stranicke firmy</h3>
+              <p>Na Slovensku bezi kauza kolem Michala Fica a prijmu ze stranicke firmy Agentura Smer.</p>
+            </article>
+
+            <article class="news-item" data-category="zahranicni">
+              <span class="category">Zahranicni</span>
+              <h3><a href="https://www.novinky.cz/clanek/zahranicni-blizky-a-stredni-vychod-usa-a-iran-prerusi-utoky-a-budou-jednat-v-dauha-40585520" target="_blank" rel="noreferrer">USA</a> a Iran prerusi utoky a budou jednat v Dauha</h3>
+              <p>Podle Novinek se obe strany maji sejit k jednani v katarske metropoli. Je to dulezity signal pro vyvoj napeti v regionu.</p>
+            </article>
+
+            <article class="news-item" data-category="ekonomika">
+              <span class="category">Ekonomika</span>
+              <h3><a href="https://www.novinky.cz/clanek/ekonomika-konec-osmidenni-lhuty-firmy-musi-nove-zamestnance-hlasit-jeste-pred-nastupem-40584947" target="_blank" rel="noreferrer">Konec</a> osmidenni lhuty. Firmy musi nove zamestnance hlasit jeste pred nastupem</h3>
+              <p>Od cervence maji zamestnavatele prihlasovat nove pracovniky na CSSZ driv, nez zacnou pracovat. Za nedodrzeni hrozi sankce.</p>
+            </article>
+
+            <article class="news-item" data-category="ekonomika">
+              <span class="category">Ekonomika</span>
+              <h3><a href="https://www.novinky.cz/clanek/ekonomika-prehledne-jak-zapsat-psa-do-nove-centralni-evidence-40585126" target="_blank" rel="noreferrer">Prehledne:</a> Jak zapsat psa do nove centralni evidence</h3>
+              <p>Od cervence startuje centralni evidence psu s udaji o cipu a ockovani proti vztekline.</p>
+            </article>
+
+            <article class="news-item" data-category="stalo-se">
+              <span class="category">Stalo se</span>
+              <h3><a href="https://www.novinky.cz/clanek/domaci-v-brne-hori-centrum-pro-handicapovane-kocianka-hasici-evakuuji-klienty-40585528" target="_blank" rel="noreferrer">V</a> Brne horelo v domove pro seniory, klienty museli evakuovat</h3>
+              <p>V zarizeni na Kociance zasahovalo deset hasicskych jednotek a probihala evakuace klientu.</p>
+            </article>
+
+            <article class="news-item" data-category="stalo-se">
+              <span class="category">Stalo se</span>
+              <h3><a href="https://www.novinky.cz/clanek/domaci-nku-policie-stale-nema-nove-vrtulniky-hangar-je-v-havarijnim-stavu-40585524" target="_blank" rel="noreferrer">NKU:</a> Policie stale nema nove vrtulniky, hangar je v havarijnim stavu</h3>
+              <p>Kontrola upozornuje na osmilete zpozdeni v nakupu vrtulniku i problem s hangarem hlavni letecke zakladny.</p>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <span>Zdroj zprav: Novinky.cz</span>
+      <span>Kalendář: primární Google Calendar</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
