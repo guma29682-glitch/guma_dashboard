@@ -371,6 +371,7 @@ li {
 }
 
 .news-item p {
+  grid-column: 2;
   margin-bottom: 0;
 }
 
@@ -461,5 +462,9 @@ footer {
   .news-item {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .news-item p {
+    grid-column: 1;
   }
 }
