@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GUMA Dashboard - 30. cervna 2026</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #1f2528;
+        --muted: #667077;
+        --line: #d9dedb;
+        --soft: #f4f6f1;
+        --paper: #fbfbf7;
+        --accent: #2f6f5f;
+        --accent-2: #a94442;
+        --warm: #d8a84f;
+        --blue: #426b8f;
+        --shadow: 0 18px 50px rgba(31, 37, 40, 0.09);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100svh;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(216, 168, 79, 0.16), transparent 32rem),
+          linear-gradient(135deg, #fbfbf7 0%, #f0f4ef 100%);
+      }
+
+      a {
+        color: inherit;
+        text-decoration-thickness: 0.08em;
+        text-underline-offset: 0.18em;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        align-items: end;
+        padding: 28px 0 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 750;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 0;
+        font-size: clamp(2rem, 5vw, 4.5rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin-bottom: 14px;
+        font-size: clamp(1.35rem, 2.6vw, 2.1rem);
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+        line-height: 1.25;
+        letter-spacing: 0;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .freshness {
+        display: grid;
+        justify-items: end;
+        gap: 4px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .freshness strong {
+        color: var(--ink);
+        font-size: 1.08rem;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.18fr) minmax(280px, 0.82fr);
+        gap: 40px;
+        align-items: stretch;
+        padding: 38px 0;
+      }
+
+      .hero-copy {
+        display: grid;
+        align-content: center;
+        min-height: 340px;
+      }
+
+      .lead {
+        max-width: 760px;
+        margin-bottom: 26px;
+        color: #3d464b;
+        font-size: clamp(1.12rem, 2vw, 1.45rem);
+        line-height: 1.42;
+      }
+
+      .signal-row {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        background: var(--line);
+        box-shadow: var(--shadow);
+      }
+
+      .signal {
+        min-height: 128px;
+        padding: 18px;
+        background: rgba(251, 251, 247, 0.92);
+      }
+
+      .signal strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--ink);
+        font-size: 1.7rem;
+        line-height: 1;
+      }
+
+      .signal span {
+        color: var(--muted);
+        line-height: 1.38;
+      }
+
+      .focus-panel {
+        display: grid;
+        align-content: space-between;
+        padding: 24px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.62);
+        box-shadow: var(--shadow);
+      }
+
+      .priority-list {
+        display: grid;
+        gap: 16px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .priority-list li {
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+      }
+
+      .priority-list strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 310px minmax(0, 1fr);
+        gap: 34px;
+        padding: 10px 0 48px;
+      }
+
+      .rail {
+        display: grid;
+        align-content: start;
+        gap: 24px;
+      }
+
+      .rail-section {
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+      }
+
+      .clean-list {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .tag-row,
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .tag,
+      .filter {
+        min-height: 34px;
+        padding: 7px 10px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.65);
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .filter {
+        cursor: pointer;
+        transition:
+          background 160ms ease,
+          color 160ms ease,
+          transform 160ms ease;
+      }
+
+      .filter:hover,
+      .filter.active {
+        transform: translateY(-1px);
+        background: var(--ink);
+        color: white;
+      }
+
+      .section {
+        padding: 28px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 20px;
+        align-items: end;
+        margin-bottom: 18px;
+      }
+
+      .section-note {
+        max-width: 380px;
+        margin-bottom: 0;
+        font-size: 0.92rem;
+        text-align: right;
+      }
+
+      .agenda {
+        display: grid;
+        gap: 1px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        background: var(--line);
+      }
+
+      .agenda-item {
+        display: grid;
+        grid-template-columns: 148px minmax(0, 1fr) 110px;
+        gap: 18px;
+        align-items: start;
+        padding: 17px 18px;
+        background: rgba(251, 251, 247, 0.88);
+      }
+
+      .agenda-item time {
+        color: var(--accent);
+        font-weight: 760;
+      }
+
+      .agenda-kind {
+        justify-self: end;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .agenda-item.transparent .agenda-kind {
+        color: var(--blue);
+      }
+
+      .news-list {
+        display: grid;
+        gap: 1px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        background: var(--line);
+      }
+
+      .news-item {
+        display: grid;
+        grid-template-columns: 124px minmax(0, 1fr) 96px;
+        gap: 18px;
+        padding: 18px;
+        background: rgba(251, 251, 247, 0.9);
+        transition:
+          transform 180ms ease,
+          background 180ms ease;
+      }
+
+      .news-item:hover {
+        transform: translateX(2px);
+        background: white;
+      }
+
+      .news-item[hidden] {
+        display: none;
+      }
+
+      .category {
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 760;
+      }
+
+      .news-time {
+        justify-self: end;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+
+      .impact {
+        display: inline-flex;
+        width: fit-content;
+        margin-top: 6px;
+        padding: 4px 8px;
+        border-radius: 999px;
+        background: rgba(47, 111, 95, 0.1);
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 700;
+      }
+
+      .empty-state {
+        display: none;
+        padding: 24px;
+        border: 1px solid var(--line);
+        color: var(--muted);
+        background: rgba(255, 255, 255, 0.7);
+      }
+
+      .empty-state.visible {
+        display: block;
+      }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+        padding: 24px 0 34px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 920px) {
+        .hero,
+        .layout {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-copy {
+          min-height: auto;
+        }
+
+        .section-head,
+        .topbar {
+          grid-template-columns: 1fr;
+        }
+
+        .freshness,
+        .section-note {
+          justify-items: start;
+          text-align: left;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .shell {
+          width: min(100% - 22px, 1180px);
+        }
+
+        .signal-row,
+        .agenda-item,
+        .news-item {
+          grid-template-columns: 1fr;
+        }
+
+        .agenda-kind,
+        .news-time {
+          justify-self: start;
+        }
+
+        .signal {
+          min-height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">GUMA dashboard</p>
+          <h1>Utery 30. cervna 2026</h1>
+        </div>
+        <div class="freshness" aria-label="Cas generovani">
+          <span>Vygenerovano</span>
+          <strong>16:50 CEST</strong>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="today-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Dnesni orientace</p>
+            <h2 id="today-title">Hlavni signal dne: pocasi a doprava. Kalendář uz je prakticky volny.</h2>
+            <p class="lead">
+              Novinky jsou nově bez pevného počtu. Do výběru prošly jen zprávy zachycené od 29. 6. 08:00 CEST,
+              mimo sport a mimo obsah navázaný na válku na Ukrajině.
+            </p>
+            <div class="signal-row" aria-label="Rychla cisla">
+              <article class="signal">
+                <strong>1</strong>
+                <span>běžná událost v kalendáři dnes, už dopoledne proběhla</span>
+              </article>
+              <article class="signal">
+                <strong>8</strong>
+                <span>vybraných zpráv po novém časovém a obsahovém filtru</span>
+              </article>
+              <article class="signal">
+                <strong>0</strong>
+                <span>zpráv ze sportu a ukrajinské válečné rubriky ve výběru</span>
+              </article>
+            </div>
+          </div>
+
+          <aside class="focus-panel" aria-label="Co resit jako prvni">
+            <div>
+              <p class="eyebrow">Prvni pohled</p>
+              <h2>Co bych pohlidal</h2>
+            </div>
+            <ul class="priority-list">
+              <li>
+                <strong>Bouřky na východě a Moravě</strong>
+                <p>Pokud dnes nebo večer něco řešíš venku, počítej s přívalovým deštěm, kroupami a větrem.</p>
+              </li>
+              <li>
+                <strong>Praha od středy</strong>
+                <p>Kbelska se zužuje na jeden pruh v každém směru. Pokud pojedeš severem Prahy, dej si rezervu.</p>
+              </li>
+              <li>
+                <strong>AI regulace v EU</strong>
+                <p>EU posouvá pravidla pro AI, včetně zákazu svlékacích aplikací od 2. prosince.</p>
+              </li>
+            </ul>
+          </aside>
+        </section>
+
+        <section class="layout">
+          <aside class="rail" aria-label="Filtry a poznamky">
+            <section class="rail-section">
+              <p class="eyebrow">Filtr Novinek</p>
+              <h2>Nové pravidlo</h2>
+              <ul class="clean-list">
+                <li>Časové okno: od 29. 6. 2026 08:00 CEST.</li>
+                <li>Bez pevného limitu na rubriku.</li>
+                <li>Vynecháno: sport a válka na Ukrajině.</li>
+                <li>Řazení: praktický dopad pro dnešek, práci nebo přesuny.</li>
+              </ul>
+            </section>
+
+            <section class="rail-section">
+              <p class="eyebrow">Kalendář</p>
+              <h2>Dnes a zitra</h2>
+              <ul class="clean-list">
+                <li>`hasici` proběhli dnes 09:00-10:00.</li>
+                <li>Tipy z Objev Brno jsou transparentní, neblokují dostupnost.</li>
+                <li>Zítra začíná dlouhodobý tip `Sochy mezi květy`.</li>
+              </ul>
+            </section>
+
+            <section class="rail-section">
+              <p class="eyebrow">Poznamka ke zdrojum</p>
+              <h2>Co je pokryté</h2>
+              <p>
+                Výběr Novinek je z titulní strany a dostupných rubrik v době generování. Online články se mohou během dne
+                měnit, hlavně počasí a průběžné zpravodajství.
+              </p>
+            </section>
+          </aside>
+
+          <section>
+            <section class="section" aria-labelledby="agenda-title">
+              <div class="section-head">
+                <div>
+                  <p class="eyebrow">Google Calendar</p>
+                  <h2 id="agenda-title">Nadchazejici a relevantni polozky</h2>
+                </div>
+                <p class="section-note">Transparentní akce jsou tipy, ne pracovní závazky.</p>
+              </div>
+
+              <div class="agenda">
+                <article class="agenda-item">
+                  <time datetime="2026-06-30T09:00:00+02:00">dnes 09:00-10:00</time>
+                  <div>
+                    <h3>hasici</h3>
+                    <p>Jediná běžná událost v dnešním kalendáři; v době generování už byla po termínu.</p>
+                  </div>
+                  <span class="agenda-kind">běžná</span>
+                </article>
+                <article class="agenda-item transparent">
+                  <time datetime="2026-06-30T17:00:00+02:00">dnes 17:00-18:30</time>
+                  <div>
+                    <h3>Akce zdarma: Trauma a naděje</h3>
+                    <p>Café Práh, Ve Vaňkovce 1. Tip z Objev Brno, vstup zdarma.</p>
+                  </div>
+                  <span class="agenda-kind">transparentní</span>
+                </article>
+                <article class="agenda-item transparent">
+                  <time datetime="2026-07-01T09:00:00+02:00">od zítra</time>
+                  <div>
+                    <h3>Akce zdarma: Sochy mezi květy</h3>
+                    <p>Botanická zahrada PřF MU. Dlouhodobý venkovní tip založený do kalendáře jako neblokující.</p>
+                  </div>
+                  <span class="agenda-kind">transparentní</span>
+                </article>
+              </div>
+            </section>
+
+            <section class="section" aria-labelledby="news-title">
+              <div class="section-head">
+                <div>
+                  <p class="eyebrow">Novinky.cz</p>
+                  <h2 id="news-title">Zpravy po novem filtru</h2>
+                </div>
+                <div class="filters" aria-label="Filtr zpráv">
+                  <button class="filter active" type="button" data-filter="all">Vše</button>
+                  <button class="filter" type="button" data-filter="pocasi">Počasí</button>
+                  <button class="filter" type="button" data-filter="domaci">Domácí</button>
+                  <button class="filter" type="button" data-filter="ekonomika">Ekonomika</button>
+                  <button class="filter" type="button" data-filter="technologie">Technologie</button>
+                  <button class="filter" type="button" data-filter="lifestyle">Lifestyle</button>
+                </div>
+              </div>
+
+              <div class="news-list" id="news-list">
+                <article class="news-item" data-category="pocasi">
+                  <span class="category">Počasí</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/pocasi-prachaticko-bombardovaly-deseticentimetrove-kroupy-40585907" target="_blank" rel="noreferrer">Prachaticko bombardovaly deseticentimetrové kroupy</a></h3>
+                    <p>Pošumaví zasáhly mimořádně silné bouřky; v Ratiborově Lhotě se objevily kroupy kolem 9 až 10 cm a škody na střechách, sklenících i autech.</p>
+                    <span class="impact">dopad: počasí a škody</span>
+                  </div>
+                  <span class="news-time">dnes 14:46</span>
+                </article>
+
+                <article class="news-item" data-category="pocasi">
+                  <span class="category">Počasí</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/pocasi-vychod-ceska-zasahnou-velmi-silne-bourky-40585821" target="_blank" rel="noreferrer">Východ Česka zasáhnou velmi silné bouřky</a></h3>
+                    <p>ČHMÚ čeká odpoledne a večer silné až velmi silné bouřky hlavně na pomezí Čech a Moravy, na Moravě a ve Slezsku.</p>
+                    <span class="impact">dopad: plánování přesunů</span>
+                  </div>
+                  <span class="news-time">dnes 11:35</span>
+                </article>
+
+                <article class="news-item" data-category="domaci">
+                  <span class="category">Domácí</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/domaci-zpravy-hlavni-mesto-praha-praze-hrozi-dopravni-kolaps-kbelska-se-od-stredy-uzavre-na-jediny-pruh-40585830" target="_blank" rel="noreferrer">Severu Prahy hrozí od středy dopravní kolaps</a></h3>
+                    <p>Kbelska se kvůli opravě zúží na jeden pruh v každém směru; omezení se dotkne 3,9 km úseku mezi Novopackou a Cínoveckou.</p>
+                    <span class="impact">dopad: cestování přes Prahu</span>
+                  </div>
+                  <span class="news-time">dnes 13:27</span>
+                </article>
+
+                <article class="news-item" data-category="domaci">
+                  <span class="category">Domácí</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/domaci-podrztaska-zmetek-zranene-ego-slachta-se-chytnul-s-macinkou-40585922" target="_blank" rel="noreferrer">Šlachta se ostře střetl s Macinkou</a></h3>
+                    <p>Na sítích eskaloval spor mezi Róbertem Šlachtou a Petrem Macinkou kvůli víkendovému vystoupení ve Strážnici.</p>
+                    <span class="impact">dopad: domácí politika</span>
+                  </div>
+                  <span class="news-time">dnes 15:15</span>
+                </article>
+
+                <article class="news-item" data-category="ekonomika">
+                  <span class="category">Ekonomika</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/ekonomika-gasnet-loni-zvysil-cisty-zisk-na-287-miliardy-korun-zisk-stoupl-i-materskemu-holdingu-40585905" target="_blank" rel="noreferrer">GasNet zvýšil čistý zisk na 2,87 miliardy korun</a></h3>
+                    <p>Největší distributor plynu v Česku loni meziročně zvýšil čistý zisk zhruba o 21 procent a tržby na 21,16 miliardy korun.</p>
+                    <span class="impact">dopad: energetika</span>
+                  </div>
+                  <span class="news-time">dnes 15:54</span>
+                </article>
+
+                <article class="news-item" data-category="ekonomika">
+                  <span class="category">Ekonomika</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/ekonomika-radim-fiala-z-spd-povede-dozorci-radu-cez-40585897" target="_blank" rel="noreferrer">Radim Fiala z SPD povede dozorčí radu ČEZ</a></h3>
+                    <p>Dozorčí rada ČEZ si zvolila za předsedu místopředsedu SPD Radima Fialu; změna je relevantní pro energetiku i politický dohled nad firmou.</p>
+                    <span class="impact">dopad: energetika a stát</span>
+                  </div>
+                  <span class="news-time">dnes 14:20</span>
+                </article>
+
+                <article class="news-item" data-category="technologie">
+                  <span class="category">Technologie</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/internet-a-pc-ai-konec-svlekacich-aplikaci-eu-schvalila-pravidla-pro-ai-40585870" target="_blank" rel="noreferrer">EU schválila pravidla pro AI včetně zákazu svlékacích aplikací</a></h3>
+                    <p>Členské státy EU finálně odsouhlasily balíček k pravidlům AI. Zákaz svlékacích aplikací má platit od 2. prosince.</p>
+                    <span class="impact">dopad: AI regulace</span>
+                  </div>
+                  <span class="news-time">dnes 13:18</span>
+                </article>
+
+                <article class="news-item" data-category="lifestyle">
+                  <span class="category">Lifestyle</span>
+                  <div>
+                    <h3><a href="https://www.novinky.cz/clanek/dite-rodina-ceske-deti-online-hrozba-je-mensi-nez-si-myslime-vetsinou-si-pry-umeji-poradit-40584852" target="_blank" rel="noreferrer">České děti online: hrozba je menší, než si myslíme</a></h3>
+                    <p>Výzkum EU Kids Online V říká, že dvě třetiny dětí v Česku se s nevhodným chováním nebo znepokojivým obsahem setkávají zřídka nebo vůbec.</p>
+                    <span class="impact">dopad: děti a online bezpečí</span>
+                  </div>
+                  <span class="news-time">dnes 13:32</span>
+                </article>
+              </div>
+              <div class="empty-state" id="empty-state">V tomhle filtru teď není žádná položka.</div>
+            </section>
+          </section>
+        </section>
+      </main>
+
+      <footer>
+        <span>Kalendář: Google Calendar, primární kalendář</span>
+        <span>Zprávy: Novinky.cz, kontrola 30. 6. 2026 16:50 CEST</span>
+        <span>Filtr: od 29. 6. 2026 08:00 CEST, bez sportu a ukrajinské války</span>
+      </footer>
+    </div>
+
+    <script>
+      const filters = document.querySelectorAll(".filter");
+      const items = document.querySelectorAll(".news-item");
+      const emptyState = document.querySelector("#empty-state");
+
+      filters.forEach((button) => {
+        button.addEventListener("click", () => {
+          const filter = button.dataset.filter;
+          let visible = 0;
+
+          filters.forEach((candidate) => candidate.classList.toggle("active", candidate === button));
+          items.forEach((item) => {
+            const shouldShow = filter === "all" || item.dataset.category === filter;
+            item.hidden = !shouldShow;
+            if (shouldShow) visible += 1;
+          });
+
+          emptyState.classList.toggle("visible", visible === 0);
+        });
+      });
+    </script>
+  </body>
+</html>
