@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "0.1.0",
+  "latest": "data/latest.json",
+  "reports": [
+    {
+      "date": "2026-07-01",
+      "label": "GUMA dashboard - 1. 7. 2026",
+      "json": "data/reports/2026-07-01.json",
+      "html": "reports/2026-07-01.html",
+      "generatedAt": "2026-07-01T08:06:00+02:00"
+    }
+  ],
+  "modules": [
+    "today",
+    "calendar",
+    "gmail",
+    "news",
+    "events",
+    "prices",
+    "tasks"
+  ]
+}
