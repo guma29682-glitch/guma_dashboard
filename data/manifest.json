@@ -3,6 +3,13 @@
   "latest": "data/latest.json",
   "reports": [
     {
+      "date": "2026-07-02",
+      "label": "GUMA dashboard - 2. 7. 2026",
+      "json": "data/reports/2026-07-02.json",
+      "html": "reports/2026-07-02.html",
+      "generatedAt": "2026-07-02T08:06:00+02:00"
+    },
+    {
       "date": "2026-07-01",
       "label": "GUMA dashboard - 1. 7. 2026",
       "json": "data/reports/2026-07-01.json",
