@@ -8,13 +8,25 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: guma-os-publish
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
+          fetch-depth: 0
           persist-credentials: true
+
+      - name: Sync main before update
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
 
       - name: Download GUMA OS publish ZIP
         run: |
@@ -47,8 +59,20 @@ jobs:
           git add .
           if git diff --cached --quiet; then
             echo "No GUMA OS changes to publish."
-          else
-            git commit -m "Update GUMA OS"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m "Update GUMA OS"
+
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt}"
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 3
+          done
+
+          echo "Push failed after retries."
+          exit 1
