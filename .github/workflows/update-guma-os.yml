@@ -18,9 +18,13 @@ jobs:
 
       - name: Download GUMA OS publish ZIP
         run: |
+          CACHE_BUST="$(date +%s)"
           curl -L --fail \
-            "https://drive.google.com/uc?export=download&id=1FiBqj-M_-rM1yKWnCzqsczn1L5r_D99J" \
+            -H "Cache-Control: no-cache" \
+            "https://drive.google.com/uc?export=download&id=1FiBqj-M_-rM1yKWnCzqsczn1L5r_D99J&cacheBust=${CACHE_BUST}" \
             -o guma_os_publish.zip
+          file guma_os_publish.zip
+          unzip -l guma_os_publish.zip
 
       - name: Unpack update
         run: |
@@ -32,15 +36,19 @@ jobs:
           jq empty data/latest.json
           jq empty data/manifest.json
           find data/reports -name "*.json" -print0 | xargs -0 -I {} jq empty "{}"
+          echo "Manifest after unpack:"
+          jq '.reports[].date' data/manifest.json
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git status --short
           git add .
           if git diff --cached --quiet; then
             echo "No GUMA OS changes to publish."
           else
             git commit -m "Update GUMA OS"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
