@@ -2,6 +2,8 @@ name: Update GUMA OS
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "15 6 * * *"
 
 permissions:
   contents: write
@@ -12,7 +14,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show repo status
+      - name: Download GUMA OS publish ZIP
         run: |
-          pwd
-          find . -maxdepth 3 -type f | sort
+          curl -L --fail \
+            "https://drive.google.com/uc?export=download&id=1FiBqj-M_-rM1yKWnCzqsczn1L5r_D99J" \
+            -o guma_os_publish.zip
+
+      - name: Unpack update
+        run: |
+          unzip -o guma_os_publish.zip
+          rm guma_os_publish.zip
+
+      - name: Validate JSON
+        run: |
+          jq empty data/latest.json
+          jq empty data/manifest.json
+          find data/reports -name "*.json" -print0 | xargs -0 -I {} jq empty "{}"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "guma-os-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "No GUMA OS changes to publish."
+          else
+            git commit -m "Update GUMA OS data"
+            git push
+          fi
