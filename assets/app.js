@@ -105,12 +105,28 @@ function renderHistory() {
   const list = el("#historyList");
   list.innerHTML = "";
   (manifest.reports || []).slice(0, 8).forEach((report) => {
-    const link = document.createElement("a");
-    link.className = "history-link";
-    link.href = report.html || report.json;
-    link.innerHTML = `<strong>${report.label}</strong><div class="meta">${formatDateTime(report.generatedAt)}</div>`;
-    list.append(link);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "history-link";
+    button.innerHTML = `<strong>${report.label}</strong><div class="meta">${formatDateTime(report.generatedAt)}</div>`;
+    button.addEventListener("click", () => loadReport(report));
+    list.append(button);
   });
+}
+
+async function loadReport(report) {
+  if (!report.json) return;
+
+  try {
+    dashboard = await loadJson(report.json);
+    activeModule = "today";
+    renderShell();
+    renderModule(activeModule);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } catch (error) {
+    text("#healthLabel", "Historie se nenacetla");
+    text("#healthNotes", error.message);
+  }
 }
 
 function renderSources() {
