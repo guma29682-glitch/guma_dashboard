@@ -1,1 +1,90 @@
-{"name":"Update GUMA OS","on":{"workflow_dispatch":{},"schedule":[{"cron":"15 6 * * *"}]},"permissions":{"contents":"read","pages":"write","id-token":"write"},"concurrency":{"group":"pages","cancel-in-progress":true},"jobs":{"deploy":{"environment":{"name":"github-pages","url":"${{ steps.deployment.outputs.page_url }}"},"runs-on":"ubuntu-latest","steps":[{"name":"Download GUMA OS publish ZIP","run":"CACHE_BUST=\"$(date +%s)\"\ncurl -L --fail -H \"Cache-Control: no-cache\" \"https://drive.google.com/uc?export=download&id=1FiBqj-M_-rM1yKWnCzqsczn1L5r_D99J&cacheBust=${CACHE_BUST}\" -o guma_os_publish.zip\nfile guma_os_publish.zip\nunzip -l guma_os_publish.zip"},{"name":"Unpack site","run":"mkdir -p _site\nunzip -o guma_os_publish.zip -d _site\nrm guma_os_publish.zip"},{"name":"Validate JSON","run":"jq empty _site/data/latest.json\njq empty _site/data/manifest.json\nfind _site/data/reports -name \"*.json\" -print0 | xargs -0 -I {} jq empty \"{}\"\necho \"Manifest after unpack:\"\njq '.reports[].date' _site/data/manifest.json"},{"name":"Configure Pages","uses":"actions/configure-pages@v5"},{"name":"Upload Pages artifact","uses":"actions/upload-pages-artifact@v3","with":{"path":"_site"}},{"name":"Deploy to GitHub Pages","id":"deployment","uses":"actions/deploy-pages@v4"}]}}}
+name: GUMA OS Pages Deploy v8
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:25 Europe/Prague during CEST. Adjust to 07:25 UTC during CET if needed.
+    - cron: "25 6 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: guma-os-pages
+  cancel-in-progress: false
+
+env:
+  DRIVE_FILE_ID: "1FiBqj-M_-rM1yKWnCzqsczn1L5r_D99J"
+  ZIP_NAME: "guma_os_publish.zip"
+  SITE_DIR: "site"
+
+jobs:
+  deploy:
+    name: Publish GUMA OS ZIP to Pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download publish ZIP from Google Drive
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 5 --retry-delay 5 \
+            "https://drive.google.com/uc?export=download&id=${DRIVE_FILE_ID}" \
+            --output "${ZIP_NAME}"
+          test -s "${ZIP_NAME}"
+          unzip -t "${ZIP_NAME}"
+
+      - name: Unpack site
+        run: |
+          set -euo pipefail
+          rm -rf "${SITE_DIR}"
+          mkdir -p "${SITE_DIR}"
+          unzip -o "${ZIP_NAME}" -d "${SITE_DIR}"
+
+      - name: Validate JSON payload
+        run: |
+          set -euo pipefail
+          test -f "${SITE_DIR}/data/latest.json"
+          test -f "${SITE_DIR}/data/manifest.json"
+
+          jq -e '.latestReport and .reportPath' "${SITE_DIR}/data/latest.json"
+          jq -e '.reports | length > 0' "${SITE_DIR}/data/manifest.json"
+
+          while IFS= read -r report; do
+            test -f "${SITE_DIR}/${report}"
+            jq -e '.id and .title and .date' "${SITE_DIR}/${report}" > /dev/null
+          done < <(jq -r '.reports[].path' "${SITE_DIR}/data/manifest.json")
+
+          latest_path="$(jq -r '.reportPath' "${SITE_DIR}/data/latest.json")"
+          test -f "${SITE_DIR}/${latest_path}"
+          jq -e '.date == "2026-07-04" or .schemaVersion' "${SITE_DIR}/${latest_path}" > /dev/null
+
+      - name: Inspect Pages payload
+        run: |
+          set -euo pipefail
+          echo "Files that will be uploaded to Pages:"
+          find "${SITE_DIR}" -maxdepth 4 -type f | sort
+          echo "latest.json:"
+          jq . "${SITE_DIR}/data/latest.json"
+          latest_path="$(jq -r '.reportPath' "${SITE_DIR}/data/latest.json")"
+          echo "latest report (${latest_path}):"
+          jq '{id, title, date, summary: .summary[0:2]}' "${SITE_DIR}/${latest_path}"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ env.SITE_DIR }}
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
