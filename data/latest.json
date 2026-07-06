@@ -1,11 +1,11 @@
 {
-  "latest": "2026-07-05",
-  "reportPath": "data/reports/2026-07-05.json",
-  "updatedAt": "2026-07-05T08:08:01+02:00",
-  "title": "GUMA dashboard - 5. 7. 2026",
+  "latest": "2026-07-06",
+  "reportPath": "data/reports/2026-07-06.json",
+  "updatedAt": "2026-07-06T08:08:00+02:00",
+  "title": "GUMA dashboard - 6. 7. 2026",
   "summary": [
-    "Dnes nejsou v kalendari zadne blokujici schuzky ani busy okna.",
-    "Hlavni akcni vec mimo kalendar je GUMA OS: vcera opakovane selhal Pages deploy.",
-    "Dnesni ZIP obsahuje JSON snapshot pro historii aplikace."
+    "Dnes nejsou v kalendáři žádné blokující schůzky ani busy okna.",
+    "Kalendář ukazuje jen transparentní brněnské tipy: Festival UPROSTŘED, Sochy mezi květy a Festival planet Brno.",
+    "Prakticky je dnešek celý volný pro fokus, osobní admin nebo kontrolu GUMA OS publikování."
   ]
 }
