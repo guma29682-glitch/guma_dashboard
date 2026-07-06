@@ -1,20 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-06T08:08:01+02:00",
+  "updatedAt": "2026-07-06T08:08:00+02:00",
   "reports": [
     {
       "id": "2026-07-06",
       "date": "2026-07-06",
       "title": "GUMA dashboard - 6. 7. 2026",
       "path": "data/reports/2026-07-06.json",
-      "generatedAt": "2026-07-06T08:08:01+02:00"
-    },
-    {
-      "id": "2026-07-05",
-      "date": "2026-07-05",
-      "title": "GUMA dashboard - 5. 7. 2026",
-      "path": "data/reports/2026-07-05.json",
-      "generatedAt": "2026-07-05T08:08:01+02:00"
+      "generatedAt": "2026-07-06T08:08:00+02:00"
     }
   ]
 }

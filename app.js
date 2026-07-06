@@ -4,11 +4,13 @@ const state = {
 };
 
 const text = (selector, value) => {
-  document.querySelector(selector).textContent = value || "";
+  const node = document.querySelector(selector);
+  if (node) node.textContent = value || "";
 };
 
-const list = (selector, items, ordered = false) => {
+const list = (selector, items) => {
   const node = document.querySelector(selector);
+  if (!node) return;
   node.innerHTML = "";
   for (const item of items || []) {
     const li = document.createElement("li");
@@ -36,7 +38,7 @@ const itemBlock = (title, body, url) => {
 };
 
 async function loadJson(path) {
-  const response = await fetch(path, { cache: "no-store" });
+  const response = await fetch(`${path}?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`Cannot load ${path}`);
   return response.json();
 }
@@ -56,7 +58,7 @@ function renderReport(report) {
   }).format(new Date(report.generatedAt)));
   list("#summary", report.summary);
   text("#day-shape", report.calendar?.dayShape);
-  list("#steps", report.recommendedNextSteps, true);
+  list("#steps", report.recommendedNextSteps);
   list("#risks", report.risks);
 
   const events = document.querySelector("#events");
@@ -102,6 +104,6 @@ async function boot() {
 }
 
 boot().catch((error) => {
-  text("#title", "Dashboard se nepodařilo načíst");
+  text("#title", "Dashboard se nepodarilo nacist");
   text("#day-shape", error.message);
 });
