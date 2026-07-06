@@ -3,7 +3,7 @@ name: Update GUMA OS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 14 * * *"
+    - cron: "45 17 * * *"
 
 permissions:
   contents: read
