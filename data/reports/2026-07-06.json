@@ -1,130 +1,145 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": "1.0",
   "id": "2026-07-06",
   "title": "GUMA dashboard - 6. 7. 2026",
   "date": "2026-07-06",
-  "generatedAt": "2026-07-06T08:08:00+02:00",
+  "weekday": "pondělí",
   "timezone": "Europe/Prague",
-  "locale": "cs-CZ",
-  "privacy": {
-    "publicSafe": true,
-    "redactions": [
-      "no tokens",
-      "no full emails",
-      "no private message bodies"
-    ]
+  "generatedAt": "2026-07-06T16:12:00+02:00",
+  "sourceWindow": {
+    "calendar": "2026-07-06 plus vyhled na 2026-07-14",
+    "newsSince": "2026-07-05T08:00:00+02:00",
+    "newsFilters": [
+      "bez sportu",
+      "bez informaci o valce na Ukrajine"
+    ],
+    "slackUsed": false
+  },
+  "status": {
+    "dayLoad": "volný den bez blokujících schůzek",
+    "priority": "zkontrolovat GUMA OS publishing, protože poslední GitHub Pages deploy selhal po úspěšném buildu",
+    "riskLevel": "střední technické riziko, nízké kalendářní riziko"
   },
   "summary": [
-    "Dnes nejsou v kalendáři žádné blokující schůzky ani busy okna.",
-    "Kalendář ukazuje jen transparentní brněnské tipy: Festival UPROSTŘED, Sochy mezi květy a Festival planet Brno.",
-    "Prakticky je dnešek celý volný pro fokus, osobní admin nebo kontrolu GUMA OS publikování.",
-    "Gmail, Drive ani Notion neukázaly nové meeting podklady nebo follow-upy navázané na dnešní schůzky."
+    "V kalendáři dnes nejsou žádné busy schůzky ani kolize; transparentní brněnské akce den neblokují.",
+    "Dnes je vhodné okno na fokus, admin nebo opravu publikačního mostu GUMA OS.",
+    "Gmail přinesl nový signál: GitHub Actions build pro Pages proběhl, ale deploy selhal.",
+    "Drive a Notion neukázaly nové meeting podklady k dnešku."
   ],
   "calendar": {
-    "dayShape": "Volný den bez pevných schůzek.",
-    "busyWindows": [],
+    "meetings": [],
+    "transparentEvents": [
+      {
+        "title": "Akce zdarma: Festival UPROSTŘED",
+        "time": "dlouhodobě, dnes transparentně",
+        "location": "centrum Brna",
+        "why": "volitelný kulturní tip, ne závazek"
+      },
+      {
+        "title": "Akce zdarma: Sochy mezi květy",
+        "time": "dlouhodobě, dnes transparentně",
+        "location": "Botanická zahrada PřF MU, Brno",
+        "why": "volitelný venkovní tip"
+      },
+      {
+        "title": "Akce zdarma: Festival planet Brno - červencový blok",
+        "time": "6.-12. 7.",
+        "location": "Hvězdárna a planetárium Brno, Kraví hora",
+        "why": "dnes startuje, může být dobrý večerní plán"
+      },
+      {
+        "title": "Akce zdarma: Mendel Festival",
+        "time": "od 13. 7.",
+        "location": "Brno",
+        "why": "nejbližší transparentní tip v dalším týdnu"
+      }
+    ],
     "freeWindows": [
-      {
-        "label": "Celý den",
-        "start": "2026-07-06T00:00:00+02:00",
-        "end": "2026-07-07T00:00:00+02:00"
-      }
+      "Prakticky celý dnešní den je volný pro soustředěnou práci nebo osobní plán."
     ],
-    "conflicts": [],
-    "events": [
-      {
-        "title": "Festival planet Brno - červencový blok",
-        "timeLabel": "dnes / transparentní",
-        "status": "transparent",
-        "importance": "Volitelný brněnský tip na večer nebo volno, ne závazek."
-      },
-      {
-        "title": "Festival UPROSTŘED",
-        "timeLabel": "dlouhodobě",
-        "status": "transparent",
-        "importance": "Volitelný kulturní tip v centru Brna, neblokuje den."
-      },
-      {
-        "title": "Sochy mezi květy",
-        "timeLabel": "dlouhodobě",
-        "status": "transparent",
-        "importance": "Venkovní výstava, jen kontext pro Brno."
-      }
-    ]
+    "conflicts": []
   },
-  "preparation": [
-    "K GUMA OS: po přepsání ZIPu zkontrolovat, že GitHub Actions bere aktuální Drive ZIP a historie na Pages načítá JSON snapshoty.",
-    "K brněnským akcím: pokud chceš vyrazit na Festival planet, ověř program a počasí.",
-    "K adminu: není vidět žádný nový e-mailový follow-up k dnešním událostem, takže inbox nemá z kalendáře prioritu."
+  "contextSignals": [
+    {
+      "source": "Gmail",
+      "label": "GitHub Pages deploy",
+      "safeSummary": "Nové upozornění říká, že build proběhl úspěšně, ale deploy selhal. Neobsahuje akci pro schůzku, ale přímo souvisí s GUMA OS publikováním.",
+      "action": "Po přepsání ZIPu sledovat další automatický deploy a případně otevřít poslední GitHub Actions log."
+    },
+    {
+      "source": "Google Drive",
+      "label": "publikacni ZIP",
+      "safeSummary": "Soubor guma_os_publish.zip existuje pod pevným ID a má být přepsán bez změny sdílení.",
+      "action": "Nahrát kompletní ZIP se snapshoty JSON."
+    },
+    {
+      "source": "Notion",
+      "label": "meeting/context search",
+      "safeSummary": "Cílené hledání od 5. 7. nenašlo relevantní nové podklady pro dnešní schůzky.",
+      "action": "Bez akce."
+    }
   ],
-  "signals": {
-    "gmail": [
-      {
-        "label": "Gmail",
-        "summary": "V okně od 5. 7. 08:00 CEST nebyly nalezené relevantní nové e-maily mimo spam/koš/promotions.",
-        "action": "Nic neeskalovat bez nového zdroje."
-      }
-    ],
-    "drive": [
-      {
-        "label": "Google Drive",
-        "summary": "Drive ukázal hlavně včerejší dashboard; nové meeting podklady k dnešku nebyly nalezené.",
-        "action": "Ověřit, že webová data míří na dnešní JSON."
-      }
-    ],
-    "notion": [
-      {
-        "label": "Notion",
-        "summary": "Cílené hledání pro dnešní dashboard, meeting notes a priority nenašlo relevantní nové podklady.",
-        "action": "Nic nedoplňovat bez nového zdroje."
-      }
-    ]
-  },
   "news": [
     {
-      "category": "Doprava / bezpečnost",
-      "summary": "Správa železnic letos zabezpečí 51 přejezdů, hlavně nepřehledná nebo zastavěná místa.",
-      "whyItMatters": "Při cestách mimo město počítej s možností lokálních dopravních prací, ale není to dnešní blokace.",
+      "topic": "Doprava / bezpečnost",
+      "summary": "Správa železnic chce letos zabezpečit 51 přejezdů, hlavně v problematických nebo nepřehledných místech.",
+      "whyItMatters": "Při cestách mimo město může přibývat lokálních prací a objížděk; není to dnešní blokace.",
+      "source": "iROZHLAS, 6. 7. 2026",
+      "url": "https://www.irozhlas.cz/zpravy-domov/ridic-si-malem-vykrouti-hlavu-zeleznicari-letos-zabezpeci-51-prejezdu-pomuzou-i_2607060752_jho"
+    },
+    {
+      "topic": "Brno / technologie",
+      "summary": "Brněnský tým vyvinul přenosné zařízení, které umí rozpoznat drogu a spojovat související zásilky/případy.",
+      "whyItMatters": "Silný lokální signál z vědy a bezpečnostních technologií; bez dnešní akce.",
+      "source": "iROZHLAS, 6. 7. 2026",
+      "url": "https://www.irozhlas.cz/veda-technologie/veda/drogu-rozpozna-a-odhali-i-jeji-puvod-zarizeni-vyvinute-v-brne-muze-pomoct_2607060700_dns"
+    },
+    {
+      "topic": "AI / regulace",
+      "summary": "Generální tajemník OSN vyzval, aby tvůrci AI nesli odpovědnost za rychle se šířící technologii.",
+      "whyItMatters": "Relevantní pro strategické přemýšlení kolem AI nástrojů a odpovědnosti produktu.",
+      "source": "iROZHLAS, 6. 7. 2026",
       "url": "https://www.irozhlas.cz/zpravy-archiv/2026-07-06"
     },
     {
-      "category": "Brno / technologie",
-      "summary": "V Brně vyvinuté zařízení umí rozpoznat drogu a odhalovat souvislosti mezi zásilkami.",
-      "whyItMatters": "Zajímavý lokální vědecko-bezpečnostní signál, bez akce pro dnešek.",
+      "topic": "Počasí / města",
+      "summary": "Česká města řeší vedra chladicími oázami a mlžítky; komplexnější krizový plán má hlavně Praha.",
+      "whyItMatters": "Pro venkovní plánování počítat s vodou, stínem a flexibilitou.",
+      "source": "iROZHLAS, 6. 7. 2026",
       "url": "https://www.irozhlas.cz/zpravy-archiv/2026-07-06"
     },
     {
-      "category": "Cestování / volný čas",
-      "summary": "Část zámku Hluboká jde nově projít bez průvodce a vlastním tempem.",
-      "whyItMatters": "Dobrý tip pro výlet, pokud budeš plánovat jih Čech.",
+      "topic": "Cestování / volný čas",
+      "summary": "Část zámku Hluboká lze nově projít bez průvodce a vlastním tempem.",
+      "whyItMatters": "Dobrý tip pro budoucí výlet, zejména s rodinou nebo při volnějším programu.",
+      "source": "iROZHLAS, 6. 7. 2026",
       "url": "https://www.irozhlas.cz/zpravy-archiv/2026-07-06"
     },
     {
-      "category": "Počasí / města",
-      "summary": "Česká města řeší vedra chladicími oázami a mlžítky.",
-      "whyItMatters": "Při venkovním programu počítej s letním režimem, vodou a stínem.",
-      "url": "https://www.irozhlas.cz/zpravy-archiv/2026-07-06"
+      "topic": "Trhy / technologie",
+      "summary": "Americké akciové futures posilovaly hlavně díky technologickým a čipovým titulům; začínají výsledky velkých firem.",
+      "whyItMatters": "Signál pro sentiment kolem AI/čipů a rizikovějších aktiv, bez okamžité osobní akce.",
+      "source": "Investopedia, 6. 7. 2026",
+      "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-monday-july-6-2026-12012247"
     }
   ],
   "risks": [
-    "Hlavní riziko dnes není kalendář, ale technické publikování GUMA OS.",
-    "Gmail/Drive/Notion nedodaly nové meeting podklady; pokud něco chybí, není to v dostupných zdrojích vidět.",
-    "Do veřejných GUMA OS dat patří jen bezpečná shrnutí a akční indikátory, ne soukromé zprávy nebo celé zdroje."
+    "Technické riziko: Pages deploy už jednou selhal, proto je potřeba po přepsání ZIPu zkontrolovat další běh.",
+    "Kalendářní riziko: žádné kolize ani pevné meetingy nebyly nalezeny.",
+    "Datové riziko: do veřejného webu patří jen shrnutí a indikátory, ne celé e-maily, tokeny nebo citlivé detaily."
   ],
-  "recommendedNextSteps": [
-    "Po automatickém Pages deployi otevřít GUMA OS web a ověřit, že latest ukazuje 2026-07-06.",
-    "Zkontrolovat historii v aplikaci: položky mají načítat data/reports/YYYY-MM-DD.json.",
-    "Pokud deploy spadne, řešit poslední GitHub Actions log.",
-    "Využít volný kalendářový den na fokus nebo odpočinek; žádná schůzka dnes netlačí."
+  "nextSteps": [
+    "Přepsat pevný Drive soubor guma_os_publish.zip aktuálním ZIPem.",
+    "Po automatickém Pages deployi otevřít web a ověřit, že latest ukazuje 2026-07-06.",
+    "V historii kliknout na denní report a ověřit, že se načítá data/reports/2026-07-06.json.",
+    "Využít volný den na fokus nebo odpočinek; kalendář dnes netlačí."
   ],
   "sources": [
-    {
-      "label": "Google Doc",
-      "detail": "GUMA dashboard - 6. 7. 2026"
-    }
-  ],
-  "googleDoc": {
-    "title": "GUMA dashboard - 6. 7. 2026",
-    "url": "https://docs.google.com/document/d/1btTkvnjwvQ2IqD-aGXFot7wWNiFZ2mTiR2xoCXqAuk0/edit"
-  }
+    "Google Calendar: primární kalendář guma, 6. 7. 2026 a výhled do 14. 7. 2026.",
+    "Gmail: účet guma, zprávy od 5. 7. 2026 08:00 CEST, bez spamu/koše/promotions.",
+    "Google Drive: poslední dashboardy a publikační ZIP metadata.",
+    "Notion: cílené hledání meeting/dashboard/follow-up od 5. 7. 2026.",
+    "iROZHLAS archiv 6. 7. 2026 a uvedené články.",
+    "Investopedia market brief 6. 7. 2026."
+  ]
 }
