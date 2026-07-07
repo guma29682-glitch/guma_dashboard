@@ -1,1 +1,91 @@
-const reportEl=document.querySelector('#report');const historyEl=document.querySelector('#history');const statusEl=document.querySelector('#status');const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function list(items,render){return `<ul class="list">${(items||[]).map(x=>`<li class="item">${render(x)}</li>`).join('')}</ul>`}function renderReport(r){document.title=`GUMA OS - ${r.date}`;statusEl.textContent=`Aktualizováno ${new Date(r.generatedAt).toLocaleString('cs-CZ',{timeZone:r.timezone})}`;reportEl.innerHTML=`<section class="hero"><p class="eyebrow">${esc(r.weekday)} / ${esc(r.timezone)}</p><h1>${esc(r.title)}</h1><p class="date">${esc(r.status.dayLoad)} · ${esc(r.status.riskLevel)}</p><div class="pillrow"><span class="pill">Slack: ${r.sourceWindow.slackUsed?'použit':'nepoužit'}</span><span class="pill">Novinky od ${esc(r.sourceWindow.newsSince)}</span></div></section><section class="section"><h2>Krátké shrnutí</h2>${list(r.summary,x=>esc(x))}</section><section class="section"><h2>Kalendář</h2>${r.calendar.meetings.length?list(r.calendar.meetings,x=>`<strong>${esc(x.title)}</strong>${esc(x.time||'')}`):'<p class="empty">Žádné blokující schůzky.</p>'}<h3>Transparentní tipy</h3>${list(r.calendar.transparentEvents,x=>`<strong>${esc(x.title)}</strong><span class="muted">${esc(x.time)} · ${esc(x.location)}</span><br>${esc(x.why)}`)}<h3>Volná okna</h3>${list(r.calendar.freeWindows,x=>esc(x))}</section><section class="section"><h2>Signály</h2>${list(r.contextSignals,x=>`<strong>${esc(x.source)}: ${esc(x.label)}</strong>${esc(x.safeSummary)}<br><span class="muted">Akce: ${esc(x.action)}</span>`)}</section><section class="section"><h2>Novinky</h2>${list(r.news,x=>`<strong>${esc(x.topic)}</strong>${esc(x.summary)}<br><span class="muted">Proč: ${esc(x.whyItMatters)}</span>`)}</section><section class="section"><h2>Rizika</h2>${list(r.risks,x=>esc(x))}</section><section class="section"><h2>Další kroky</h2>${list(r.nextSteps,x=>esc(x))}</section>`}async function load(path){const res=await fetch(path,{cache:'no-store'});if(!res.ok)throw new Error(path);return res.json()}async function main(){try{const [latest,manifest]=await Promise.all([load('data/latest.json'),load('data/manifest.json')]);renderReport(latest);historyEl.innerHTML=(manifest.reports||[]).map((r,i)=>`<button data-path="${esc(r.path)}" class="${i===0?'active':''}"><strong>${esc(r.date)}</strong><br><span>${esc(r.summary)}</span></button>`).join('');historyEl.addEventListener('click',async e=>{const b=e.target.closest('button[data-path]');if(!b)return;historyEl.querySelectorAll('button').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderReport(await load(b.dataset.path));});}catch(err){statusEl.textContent='Data se nepodařilo načíst';reportEl.innerHTML='<p class="empty">Zkontroluj, že ZIP obsahuje data/latest.json, data/manifest.json a denní JSON snapshoty.</p>';}}main();
+const state = {
+  manifest: null,
+  currentDate: null,
+};
+
+async function fetchJson(path) {
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Nepodarilo se nacist ${path}`);
+  }
+  return response.json();
+}
+
+function setText(id, value) {
+  document.getElementById(id).textContent = value || "";
+}
+
+function renderList(items) {
+  const list = document.createElement("ul");
+  for (const item of items || []) {
+    const li = document.createElement("li");
+    li.textContent = item;
+    list.appendChild(li);
+  }
+  return list;
+}
+
+function renderReport(report) {
+  state.currentDate = report.date;
+  setText("generatedAt", `Aktualizovano ${report.generated_at_label}`);
+  setText("calendarStatus", report.status.calendar);
+  setText("publishStatus", report.status.publishing);
+  setText("priorityStatus", report.status.priority);
+  setText("reportDate", report.date_label);
+  setText("reportTitle", report.title);
+  setText("reportSummary", report.summary);
+
+  const sections = document.getElementById("sections");
+  sections.replaceChildren();
+  for (const section of report.sections) {
+    const node = document.createElement("section");
+    node.className = "section";
+    const heading = document.createElement("h3");
+    heading.textContent = section.title;
+    if (section.risk) {
+      const tag = document.createElement("span");
+      tag.className = "tag";
+      tag.textContent = section.risk;
+      heading.appendChild(tag);
+    }
+    node.appendChild(heading);
+    node.appendChild(renderList(section.items));
+    sections.appendChild(node);
+  }
+
+  for (const button of document.querySelectorAll("[data-report-date]")) {
+    button.setAttribute("aria-current", String(button.dataset.reportDate === report.date));
+  }
+}
+
+async function loadReport(entry) {
+  const report = await fetchJson(entry.path);
+  renderReport(report);
+}
+
+function renderHistory(manifest) {
+  const history = document.getElementById("historyList");
+  history.replaceChildren();
+  for (const entry of manifest.reports) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.reportDate = entry.date;
+    button.textContent = entry.label;
+    button.addEventListener("click", () => loadReport(entry));
+    history.appendChild(button);
+  }
+}
+
+async function init() {
+  try {
+    const manifest = await fetchJson("data/manifest.json");
+    state.manifest = manifest;
+    renderHistory(manifest);
+    await loadReport(manifest.reports[0]);
+  } catch (error) {
+    setText("reportTitle", "Dashboard se nepodarilo nacist");
+    setText("reportSummary", error.message);
+  }
+}
+
+init();
