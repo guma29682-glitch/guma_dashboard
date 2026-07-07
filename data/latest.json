@@ -1,85 +1,12 @@
 {
-  "schema_version": 1,
-  "date": "2026-07-06",
-  "date_label": "6. 7. 2026",
-  "title": "GUMA dashboard - 6. 7. 2026",
-  "generated_at": "2026-07-06T21:13:01+02:00",
-  "generated_at_label": "6. 7. 2026 vecer",
-  "source_window": {
-    "timezone": "Europe/Prague",
-    "news_from": "2026-07-05T08:00:00+02:00",
-    "calendar_from": "2026-07-06T00:00:00+02:00",
-    "calendar_to": "2026-07-08T00:00:00+02:00"
-  },
-  "public_safety": {
-    "contains_full_emails": false,
-    "contains_tokens": false,
-    "contains_sensitive_health_details": false,
-    "notes": "Public summary only; Gmail and Drive details are aggregated."
-  },
-  "status": {
-    "calendar": "Volny den",
-    "publishing": "ZIP pripraven k deployi",
-    "priority": "GitHub Actions"
-  },
-  "summary": "Kalendar dnes neblokuje zadnou schuzkou. Nejdulezitejsi je provozni oprava GUMA OS publikace, protoze prislo vice signalů o selhani GitHub Actions.",
-  "sections": [
-    {
-      "title": "Shrnuti dne",
-      "items": [
-        "V primarnim kalendari nejsou dnes ani zitra zadne blokujici pracovni schuzky.",
-        "Dnesni viditelne kalendarni polozky jsou transparentni kulturni akce v Brne.",
-        "Nejvetsi prakticka priorita je stabilizovat GUMA OS publish balicek a navazujici Pages deploy."
-      ]
-    },
-    {
-      "title": "Kalendar a volna okna",
-      "items": [
-        "Casove kolize: zadne nalezene.",
-        "Volne okno: prakticky cely zbytek dne je pouzitelny pro focus praci.",
-        "Transparentni kontext: Festival UPROSTRED, Sochy mezi kvety a Festival planet Brno."
-      ]
-    },
-    {
-      "title": "Priprava",
-      "items": [
-        "Zkontrolovat posledni GitHub Actions behy pro guma_dashboard.",
-        "Overit, ze aplikace nacita historii z data/reports/YYYY-MM-DD.json.",
-        "Po deployi zkontrolovat, ze latest.json odpovida dennimu snapshotu."
-      ]
-    },
-    {
-      "title": "Novinky od 5. 7. 2026 08:00",
-      "risk": "bez sportu/Ukrajiny",
-      "items": [
-        "Provozni: dnes prislo nekolik GitHub Actions notifikaci o selhani workflowu pro guma_dashboard.",
-        "Lokalni: Festival planet Brno ma od dneska cervencovy blok na Kravi hore.",
-        "Web: dnesni publish balicek pridava JSON snapshot pro historii a aktualizuje latest/manifest data."
-      ]
-    },
-    {
-      "title": "Rizika a nejasnosti",
-      "risk": "pozor",
-      "items": [
-        "Samotne prepsani ZIPu nemusi vyresit deploy, pokud problem zustava ve workflow konfiguraci nebo Pages opravnenich.",
-        "Notion v dnesnim okne nenasel relevantni nove podklady.",
-        "Do verejnych dat nejsou vlozene zadne e-mailove texty, tokeny ani citlive detaily."
-      ]
-    },
-    {
-      "title": "Dalsi kroky",
-      "items": [
-        "Nechat ZIP projit automatickym GitHub Pages deployem.",
-        "Pokud deploy selze, zamerit se na trigger/workflow podminky a Pages permissions.",
-        "Kalendarove dnes neni potreba nic presouvat."
-      ]
-    }
+  "latestReport": "2026-07-07",
+  "latestReportPath": "data/reports/2026-07-07.json",
+  "updatedAt": "2026-07-07T11:06:01+02:00",
+  "title": "GUMA dashboard - 7. 7. 2026",
+  "summary": [
+    "Kalendář je dnes bez blokujících schůzek a kolizí.",
+    "Hlavní priorita: ověřit GUMA OS / GitHub Pages publishing po přepsání ZIPu.",
+    "Notion nenašel relevantní meeting podklady; Slack nebyl použit."
   ],
-  "source_health": {
-    "calendar": "read",
-    "gmail": "summarized",
-    "drive": "read_and_publish_target_found",
-    "notion": "searched_no_relevant_results",
-    "slack": "not_used_by_request"
-  }
+  "publicSafe": true
 }

@@ -7,45 +7,43 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">GUMA OS</p>
-          <h1>Denní dashboard</h1>
-        </div>
-        <time id="generatedAt">Nahrávám...</time>
-      </header>
-
-      <section class="status-strip" aria-label="Stav dne">
-        <article>
-          <span>Kalendář</span>
-          <strong id="calendarStatus">...</strong>
-        </article>
-        <article>
-          <span>Publikace</span>
-          <strong id="publishStatus">...</strong>
-        </article>
-        <article>
-          <span>Priorita</span>
-          <strong id="priorityStatus">...</strong>
-        </article>
-      </section>
-
-      <section class="layout">
-        <aside class="history-panel">
-          <h2>Historie</h2>
-          <div id="historyList" class="history-list"></div>
-        </aside>
-
-        <article class="report">
-          <p class="eyebrow" id="reportDate"></p>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">GUMA OS</p>
+        <h1>Denní dashboard</h1>
+      </div>
+      <time id="generatedAt"></time>
+    </header>
+    <main class="layout">
+      <section class="panel primary">
+        <div class="section-head">
           <h2 id="reportTitle">Načítám dashboard...</h2>
-          <p id="reportSummary" class="lead"></p>
-          <div id="sections" class="sections"></div>
-        </article>
+          <span id="reportDate" class="pill"></span>
+        </div>
+        <div id="summary" class="summary-grid"></div>
       </section>
+      <section class="panel">
+        <h2>Dnešní kalendář</h2>
+        <div id="calendar"></div>
+      </section>
+      <section class="panel">
+        <h2>Akční signály</h2>
+        <div id="signals"></div>
+      </section>
+      <section class="panel">
+        <h2>Novinky</h2>
+        <div id="news"></div>
+      </section>
+      <section class="panel">
+        <h2>Další kroky</h2>
+        <ol id="nextSteps"></ol>
+      </section>
+      <aside class="panel history">
+        <h2>Historie</h2>
+        <div id="historyList"></div>
+        <p class="muted">Historie načítá JSON snapshoty z <code>data/reports/</code>.</p>
+      </aside>
     </main>
-
     <script src="app.js"></script>
   </body>
 </html>
