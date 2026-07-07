@@ -3,7 +3,7 @@ name: Update GUMA OS v16
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "15 8 * * *"
+    - cron: "45 11 * * *"
       timezone: "Europe/Prague"
 
 permissions:
