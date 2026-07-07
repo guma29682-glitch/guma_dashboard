@@ -1,12 +1,13 @@
-name: Update GUMA OS
+name: Update GUMA OS v16
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
-    - cron: "15 6 * * *"
+    - cron: "15 8 * * *"
+      timezone: "Europe/Prague"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,43 +16,72 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  update:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
       - name: Download ZIP
         run: |
           CACHE_BUST=$(date +%s)
+          echo "Downloading ZIP"
           curl -L --fail -H 'Cache-Control: no-cache' \
             "https://drive.google.com/uc?export=download&id=1FiBqj-M_-rM1yKWnCzqsczn1L5r_D99J&cacheBust=${CACHE_BUST}" \
             -o guma_os_publish.zip
           file guma_os_publish.zip
           unzip -t guma_os_publish.zip
 
-      - name: Prepare site
+      - name: Replace site files
+        run: |
+          rm -rf data reports assets docs index.html README.md .nojekyll
+          unzip -o guma_os_publish.zip
+          rm -f guma_os_publish.zip
+          find . -maxdepth 4 -type f | sort
+
+      - name: Show JSON summary
+        run: |
+          echo "latest"
+          jq '.schemaVersion,.period,.summary' data/latest.json || true
+          echo "manifest"
+          jq '.schemaVersion,.latest,.reports[0]' data/manifest.json || true
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git status --short
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No GUMA OS changes to publish"
+          else
+            git commit -m 'Update GUMA OS'
+            git push origin HEAD:main
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare Pages artifact
         run: |
           rm -rf _site
           mkdir _site
-          unzip -o guma_os_publish.zip -d _site
-          touch _site/.nojekyll
-
-          test -f _site/index.html
-          test -f _site/data/latest.json
-          test -f _site/data/manifest.json
-
-          echo latest
-          jq '.generatedAt // .updatedAt // .latest' _site/data/latest.json
-          echo manifest
-          jq '.generatedAt // .updatedAt // .reports[0]' _site/data/manifest.json
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='_site' \
+            ./ _site/
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
