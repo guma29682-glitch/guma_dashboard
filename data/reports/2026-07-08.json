@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0",
+  "id": "guma-dashboard-2026-07-08",
+  "date": "2026-07-08",
+  "title": "GUMA dashboard - 8. 7. 2026",
+  "timezone": "Europe/Prague",
+  "generatedAt": "2026-07-08T11:09:38+02:00",
+  "publicSafe": true,
+  "privacy": {
+    "publicSafe": true,
+    "redactions": [
+      "Žádné celé e-maily, tokeny ani soukromé konverzace nejsou uloženy.",
+      "Citlivé zdravotní detaily nejsou součástí snapshotu.",
+      "Slack nebyl použit."
+    ]
+  },
+  "summary": [
+    "Kalendář je dnes bez blokujících schůzek, busy oken i kolizí.",
+    "V kalendáři jsou jen transparentní brněnské tipy: Festival UPROSTŘED, Sochy mezi květy a Festival planet Brno.",
+    "Gmail od včerejška 08:00 CEST nevrátil nové relevantní zprávy mimo spam/koš/promotions.",
+    "Hlavní praktická priorita zůstává GUMA OS publishing: přepsat ZIP a ověřit automatický Pages deploy."
+  ],
+  "calendar": {
+    "dateWindow": {
+      "start": "2026-07-08T00:00:00+02:00",
+      "end": "2026-07-09T00:00:00+02:00"
+    },
+    "busyEvents": [],
+    "conflicts": [],
+    "freeWindows": [
+      {
+        "label": "Celý den",
+        "start": "2026-07-08T00:00:00+02:00",
+        "end": "2026-07-09T00:00:00+02:00",
+        "note": "Žádné opaque/busy události."
+      }
+    ],
+    "transparentContext": [
+      {
+        "title": "Akce zdarma: Festival UPROSTŘED",
+        "location": "centrum Brna",
+        "start": "2026-06-29T09:00:00+02:00",
+        "end": "2026-08-19T22:00:00+02:00",
+        "whyItMatters": "Dlouhodobý volnočasový tip zdarma; není to závazek a neblokuje den."
+      },
+      {
+        "title": "Akce zdarma: Sochy mezi květy",
+        "location": "Botanická zahrada PřF MU, Brno",
+        "start": "2026-07-01T09:00:00+02:00",
+        "end": "2026-08-29T20:00:00+02:00",
+        "whyItMatters": "Transparentní venkovní výstava; jen kontext pro Brno."
+      },
+      {
+        "title": "Akce zdarma: Festival planet Brno - červencový blok",
+        "location": "Hvězdárna a planetárium Brno, Kraví hora",
+        "start": "2026-07-06T05:00:00+02:00",
+        "end": "2026-07-12T23:00:00+02:00",
+        "whyItMatters": "Volitelný večerní/volnočasový tip do neděle 12. 7.; ne pracovní schůzka."
+      }
+    ]
+  },
+  "preparation": [
+    "K dnešním schůzkám není potřeba příprava, protože žádné busy schůzky nejsou v kalendáři.",
+    "Po přepsání ZIPu zkontrolovat, že GitHub Pages bere data/latest.json a data/reports/2026-07-08.json.",
+    "Pokud deploy znovu spadne, otevřít poslední GitHub Actions log a řešit trigger/práva/Pages konfiguraci.",
+    "Pokud chceš využít Festival planet, stačí ověřit aktuální program a počasí."
+  ],
+  "signals": [
+    {
+      "source": "Google Calendar",
+      "severity": "low",
+      "title": "Žádné blokující schůzky",
+      "safeSummary": "Primární kalendář guma pro 8. 7. 2026 obsahuje jen transparentní volnočasové akce.",
+      "recommendedAction": "Využít den jako fokusové nebo odpočinkové okno; nic není potřeba přesouvat."
+    },
+    {
+      "source": "Gmail",
+      "severity": "low",
+      "title": "Bez nových relevantních e-mailů od včerejška 08:00",
+      "safeSummary": "Vyhledávání v Gmailu od 7. 7. 2026 nevrátilo nové zprávy mimo spam/koš/promotions.",
+      "recommendedAction": "Inbox dnes z kalendáře netlačí; není vidět nový follow-up ke schůzkám."
+    },
+    {
+      "source": "Google Drive",
+      "severity": "medium",
+      "title": "Publikační ZIP existuje a má pevné ID",
+      "safeSummary": "Soubor guma_os_publish.zip je na Drive jako application/zip a má zůstat stejným souborem.",
+      "recommendedAction": "Přepsat obsah ZIPu bez změny ID a sdílení; po deployi ověřit latest a historii."
+    },
+    {
+      "source": "Notion",
+      "severity": "low",
+      "title": "Nenalezeny relevantní meeting notes",
+      "safeSummary": "Notion workspace search ukázal hlavně výchozí task/databázové položky, ne dnešní podklady.",
+      "recommendedAction": "Neplánovat podle Notionu žádnou další přípravu, dokud se neobjeví konkrétní stránka."
+    }
+  ],
+  "news": [
+    {
+      "category": "AI / Česko",
+      "title": "ČTK/České noviny: OpenAI má ve čtvrtek uvést nejpokročilejší model AI",
+      "safeSummary": "Zpráva z 8. 7. 2026 09:03 je relevantní pro sledování AI ekosystému; bez okamžité osobní akce.",
+      "source": "České noviny / ČTK",
+      "url": "https://www.ceskenoviny.cz/magazin/",
+      "actionability": "sledovat"
+    },
+    {
+      "category": "Věda / Brno",
+      "title": "Družice Kostka vytvořená studenty VUT je na oběžné dráze",
+      "safeSummary": "ČTK uvádí zprávu z 7. 7. 2026 11:07; zajímavý lokální signál z brněnské technické scény.",
+      "source": "České noviny / ČTK",
+      "url": "https://www.ceskenoviny.cz/magazin/",
+      "actionability": "kontext"
+    },
+    {
+      "category": "Věda / AI",
+      "title": "AI simulace zrychluje modelování srážek neutronových hvězd",
+      "safeSummary": "ScienceDaily 8. 7. 2026 shrnuje nový AI model pro astrofyzikální simulace těžkých prvků.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/",
+      "actionability": "inspirace"
+    },
+    {
+      "category": "Počasí / Česko",
+      "title": "První půlka července má být teplotně nadprůměrná",
+      "safeSummary": "iDNES shrnuje výhled ČHMÚ: začátek července má mít maxima zhruba 23 až 31 °C; u venkovních plánů počítej s vodou a stínem.",
+      "source": "iDNES.cz",
+      "url": "https://www.idnes.cz/zpravy/domaci/pocasi-cervenec-prognoza-predpoved-chmu.A260701_085533_domaci_skr",
+      "actionability": "praktické"
+    }
+  ],
+  "risks": [
+    "Kalendářní riziko je nízké: žádné busy schůzky, kolize ani pevné pracovní závazky.",
+    "Technické riziko je střední: Pages deploy může znovu selhat i při správném ZIPu, pokud je problém ve workflow nebo právech.",
+    "Datové riziko je ošetřené: veřejná JSON data obsahují jen bezpečná shrnutí a akční indikátory.",
+    "Notion neukázal relevantní podklady; pokud existují pod jiným názvem, nejsou v dnešním briefu zahrnuté."
+  ],
+  "nextSteps": [
+    "Přepsat Drive soubor guma_os_publish.zip aktuálním ZIPem bez změny ID a sdílení.",
+    "Po automatickém Pages deployi otevřít GUMA OS a ověřit, že latest ukazuje 2026-07-08.",
+    "V historii aplikace ověřit, že dnešní report načítá data/reports/2026-07-08.json.",
+    "Pokud deploy spadne, řešit poslední GitHub Actions log; nejpravděpodobnější oblasti jsou trigger, Pages práva nebo workflow konfigurace.",
+    "Využít volný kalendářový den na fokus nebo odpočinek; schůzky dnes netlačí."
+  ],
+  "sources": [
+    {
+      "type": "calendar",
+      "label": "Google Calendar primary guma",
+      "scope": "2026-07-08 a výhled 2026-07-09 až 2026-07-12"
+    },
+    {
+      "type": "gmail",
+      "label": "Gmail guma",
+      "scope": "after:2026/7/7 -in:spam -in:trash -category:promotions"
+    },
+    {
+      "type": "drive",
+      "label": "Google Drive",
+      "scope": "předchozí GUMA dashboardy a metadata guma_os_publish.zip"
+    },
+    {
+      "type": "notion",
+      "label": "Notion workspace search",
+      "scope": "today meeting agenda decision task Karel GUMA"
+    },
+    {
+      "type": "web",
+      "label": "České noviny / ČTK magazín",
+      "url": "https://www.ceskenoviny.cz/magazin/"
+    },
+    {
+      "type": "web",
+      "label": "ScienceDaily Top Science News",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "type": "web",
+      "label": "iDNES počasí červenec 2026",
+      "url": "https://www.idnes.cz/zpravy/domaci/pocasi-cervenec-prognoza-predpoved-chmu.A260701_085533_domaci_skr"
+    }
+  ]
+}

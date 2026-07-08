@@ -1,12 +1,13 @@
 {
-  "latestReport": "2026-07-07",
-  "latestReportPath": "data/reports/2026-07-07.json",
-  "updatedAt": "2026-07-07T11:06:01+02:00",
-  "title": "GUMA dashboard - 7. 7. 2026",
+  "title": "GUMA dashboard - 8. 7. 2026",
+  "updatedAt": "2026-07-08T11:09:38+02:00",
+  "latestReport": "2026-07-08",
+  "latestReportPath": "data/reports/2026-07-08.json",
+  "publicSafe": true,
   "summary": [
-    "Kalendář je dnes bez blokujících schůzek a kolizí.",
-    "Hlavní priorita: ověřit GUMA OS / GitHub Pages publishing po přepsání ZIPu.",
-    "Notion nenašel relevantní meeting podklady; Slack nebyl použit."
-  ],
-  "publicSafe": true
+    "Kalendář je dnes bez blokujících schůzek, busy oken i kolizí.",
+    "V kalendáři jsou jen transparentní brněnské tipy: Festival UPROSTŘED, Sochy mezi květy a Festival planet Brno.",
+    "Gmail od včerejška 08:00 CEST nevrátil nové relevantní zprávy mimo spam/koš/promotions.",
+    "Hlavní praktická priorita zůstává GUMA OS publishing: přepsat ZIP a ověřit automatický Pages deploy."
+  ]
 }
