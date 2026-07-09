@@ -1,134 +1,102 @@
 const state = {
   manifest: null,
-  report: null
+  active: null,
 };
 
 const el = (id) => document.getElementById(id);
 
-async function fetchJson(path) {
+async function loadJson(path) {
   const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) {
-    throw new Error(`Nepodařilo se načíst ${path}`);
+    throw new Error(`Nepodarilo se nacist ${path}`);
   }
   return response.json();
 }
 
-function itemList(items, className = "list") {
-  const list = document.createElement("ul");
-  list.className = className;
+function setList(id, items) {
+  const list = el(id);
+  list.innerHTML = "";
   items.forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
     list.appendChild(li);
   });
-  return list;
 }
 
-function renderSummary(report) {
-  const root = el("summary");
-  root.innerHTML = "";
-  report.summary.forEach((text) => {
-    const card = document.createElement("article");
-    card.className = "summary-item";
-    card.textContent = text;
-    root.appendChild(card);
-  });
-}
-
-function renderCalendar(calendar) {
+function renderCalendar(report) {
   const root = el("calendar");
   root.innerHTML = "";
-
-  const busy = document.createElement("p");
-  busy.className = "callout";
-  busy.textContent = calendar.busyEvents.length
-    ? `${calendar.busyEvents.length} blokujících událostí`
-    : "Žádné busy schůzky ani kolize.";
-  root.appendChild(busy);
-
-  if (calendar.transparentContext.length) {
-    const heading = document.createElement("h3");
-    heading.textContent = "Transparentní kontext";
-    root.appendChild(heading);
-    calendar.transparentContext.forEach((event) => {
-      const row = document.createElement("div");
-      row.className = "row";
-      row.innerHTML = `<strong>${event.title}</strong><span>${event.location}</span><p>${event.whyItMatters}</p>`;
-      root.appendChild(row);
-    });
-  }
-}
-
-function renderSignals(signals) {
-  const root = el("signals");
-  root.innerHTML = "";
-  signals.forEach((signal) => {
-    const article = document.createElement("article");
-    article.className = `signal severity-${signal.severity}`;
-    article.innerHTML = `<div><span class="source">${signal.source}</span><h3>${signal.title}</h3></div><p>${signal.safeSummary}</p><p class="action">${signal.recommendedAction}</p>`;
-    root.appendChild(article);
+  report.calendar.items.forEach((item) => {
+    const node = document.createElement("article");
+    node.className = "item";
+    node.innerHTML = `<span class="tag ${item.type === "transparent" ? "" : "warn"}">${item.typeLabel}</span><h3>${item.title}</h3><p>${item.detail}</p>`;
+    root.appendChild(node);
   });
 }
 
-function renderNews(news) {
+function renderNews(report) {
   const root = el("news");
   root.innerHTML = "";
-  news.forEach((item) => {
-    const article = document.createElement("article");
-    article.className = "news-item";
-    article.innerHTML = `<span class="source">${item.category}</span><h3>${item.title}</h3><p>${item.safeSummary}</p><p class="muted">${item.source} · Akčnost: ${item.actionability}</p>`;
-    root.appendChild(article);
+  report.news.items.forEach((item) => {
+    const node = document.createElement("article");
+    node.className = "item";
+    const source = item.url ? ` <a href="${item.url}" rel="noopener" target="_blank">Zdroj</a>` : "";
+    node.innerHTML = `<span class="tag">${item.category}</span><h3>${item.title}</h3><p>${item.summary}${source}</p>`;
+    root.appendChild(node);
   });
 }
 
-function renderSteps(steps) {
-  const root = el("nextSteps");
+function renderFacts(report) {
+  const root = el("quickFacts");
   root.innerHTML = "";
-  steps.forEach((step) => {
-    const li = document.createElement("li");
-    li.textContent = step;
-    root.appendChild(li);
+  report.quickFacts.forEach((fact) => {
+    const node = document.createElement("div");
+    node.className = "fact";
+    node.innerHTML = `<strong>${fact.value}</strong><span>${fact.label}</span>`;
+    root.appendChild(node);
   });
-}
-
-async function loadReport(path) {
-  state.report = await fetchJson(path);
-  el("reportTitle").textContent = state.report.title;
-  el("reportDate").textContent = state.report.date;
-  el("generatedAt").textContent = new Intl.DateTimeFormat("cs-CZ", {
-    dateStyle: "medium",
-    timeStyle: "short",
-    timeZone: state.report.timezone
-  }).format(new Date(state.report.generatedAt));
-
-  renderSummary(state.report);
-  renderCalendar(state.report.calendar);
-  renderSignals(state.report.signals);
-  renderNews(state.report.news);
-  renderSteps(state.report.nextSteps);
 }
 
 function renderHistory(manifest) {
-  const root = el("historyList");
+  const root = el("history");
   root.innerHTML = "";
-  manifest.reports.forEach((report) => {
+  manifest.reports.forEach((entry) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = report.title;
-    button.addEventListener("click", () => loadReport(report.path));
+    button.textContent = `${entry.date} - ${entry.title}`;
+    button.addEventListener("click", async () => {
+      const report = await loadJson(entry.path);
+      renderReport(report);
+    });
     root.appendChild(button);
   });
 }
 
+function renderReport(report) {
+  state.active = report;
+  document.title = `${report.title} | GUMA OS`;
+  el("generatedAt").textContent = report.generatedAtLabel;
+  el("reportTitle").textContent = report.title;
+  el("reportSummary").textContent = report.summary;
+  renderFacts(report);
+  setList("priorities", report.priorities);
+  renderCalendar(report);
+  renderNews(report);
+  setList("risks", report.risks);
+}
+
 async function init() {
   try {
-    state.manifest = await fetchJson("data/manifest.json");
-    const latest = await fetchJson("data/latest.json");
-    renderHistory(state.manifest);
-    await loadReport(latest.latestReportPath);
+    const [manifest, latest] = await Promise.all([
+      loadJson("./data/manifest.json"),
+      loadJson("./data/latest.json"),
+    ]);
+    state.manifest = manifest;
+    renderReport(latest);
+    renderHistory(manifest);
   } catch (error) {
-    el("reportTitle").textContent = "Dashboard se nepodařilo načíst";
-    el("summary").appendChild(itemList([error.message], "error-list"));
+    el("reportTitle").textContent = "Report se nepodarilo nacist";
+    el("reportSummary").textContent = error.message;
   }
 }
 

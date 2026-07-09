@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="cs">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GUMA OS</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GUMA OS Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="topbar">
@@ -12,38 +12,47 @@
         <p class="eyebrow">GUMA OS</p>
         <h1>Denní dashboard</h1>
       </div>
-      <time id="generatedAt"></time>
+      <time id="generatedAt">Načítám...</time>
     </header>
+
     <main class="layout">
       <section class="panel primary">
-        <div class="section-head">
-          <h2 id="reportTitle">Načítám dashboard...</h2>
-          <span id="reportDate" class="pill"></span>
-        </div>
-        <div id="summary" class="summary-grid"></div>
+        <div class="section-label">Dnes</div>
+        <h2 id="reportTitle">Načítám report</h2>
+        <p id="reportSummary" class="lead"></p>
+        <div id="quickFacts" class="fact-grid"></div>
       </section>
+
       <section class="panel">
-        <h2>Dnešní kalendář</h2>
-        <div id="calendar"></div>
+        <div class="section-label">Priority</div>
+        <ul id="priorities" class="clean-list"></ul>
       </section>
+
       <section class="panel">
-        <h2>Akční signály</h2>
-        <div id="signals"></div>
+        <div class="section-label">Kalendář</div>
+        <div id="calendar" class="stack"></div>
       </section>
+
       <section class="panel">
-        <h2>Novinky</h2>
-        <div id="news"></div>
+        <div class="section-label">Novinky</div>
+        <div id="news" class="stack"></div>
       </section>
+
       <section class="panel">
-        <h2>Další kroky</h2>
-        <ol id="nextSteps"></ol>
+        <div class="section-label">Rizika</div>
+        <ul id="risks" class="clean-list"></ul>
       </section>
-      <aside class="panel history">
-        <h2>Historie</h2>
-        <div id="historyList"></div>
-        <p class="muted">Historie načítá JSON snapshoty z <code>data/reports/</code>.</p>
-      </aside>
+
+      <section class="panel">
+        <div class="section-label">Historie</div>
+        <div id="history" class="history-list"></div>
+      </section>
     </main>
-    <script src="app.js"></script>
+
+    <footer>
+      <span>Veřejná verze obsahuje jen bezpečná shrnutí a akční indikátory.</span>
+    </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>

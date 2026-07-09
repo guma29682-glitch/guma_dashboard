@@ -1,18 +1,12 @@
 {
-  "schemaVersion": "1.0",
-  "updatedAt": "2026-07-08T11:09:38+02:00",
+  "schemaVersion": 1,
+  "latestDate": "2026-07-09",
+  "updatedAt": "2026-07-09T11:06:08+02:00",
   "reports": [
     {
-      "date": "2026-07-08",
-      "title": "GUMA dashboard - 8. 7. 2026",
-      "path": "data/reports/2026-07-08.json",
-      "publicSafe": true
-    },
-    {
-      "date": "2026-07-07",
-      "title": "GUMA dashboard - 7. 7. 2026",
-      "path": "data/reports/2026-07-07.json",
-      "publicSafe": true
+      "date": "2026-07-09",
+      "title": "GUMA dashboard - 9. 7. 2026",
+      "path": "./data/reports/2026-07-09.json"
     }
   ]
 }
