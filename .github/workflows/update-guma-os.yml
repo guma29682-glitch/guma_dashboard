@@ -2,8 +2,8 @@ name: Update GUMA OS v16
 
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "45 9 * * *"
+ # schedule:
+ #   - cron: "45 9 * * *"
 
 permissions:
   contents: write
