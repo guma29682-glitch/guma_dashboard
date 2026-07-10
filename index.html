@@ -1,58 +1,54 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GUMA OS Dashboard</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <header class="topbar">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GUMA OS Dashboard</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="topbar" aria-label="GUMA OS header">
       <div>
         <p class="eyebrow">GUMA OS</p>
-        <h1>Denní dashboard</h1>
+        <h1 id="report-title">Denní dashboard</h1>
       </div>
-      <time id="generatedAt">Načítám...</time>
-    </header>
+      <div class="status" id="report-date">Načítám...</div>
+    </section>
 
-    <main class="layout">
-      <section class="panel primary">
-        <div class="section-label">Dnes</div>
-        <h2 id="reportTitle">Načítám report</h2>
-        <p id="reportSummary" class="lead"></p>
-        <div id="quickFacts" class="fact-grid"></div>
-      </section>
+    <section class="grid" aria-live="polite">
+      <article class="panel span-2">
+        <h2>Priorita dne</h2>
+        <ul id="summary-list"></ul>
+      </article>
 
-      <section class="panel">
-        <div class="section-label">Priority</div>
-        <ul id="priorities" class="clean-list"></ul>
-      </section>
+      <article class="panel">
+        <h2>Kalendář</h2>
+        <div id="calendar"></div>
+      </article>
 
-      <section class="panel">
-        <div class="section-label">Kalendář</div>
-        <div id="calendar" class="stack"></div>
-      </section>
+      <article class="panel">
+        <h2>Další kroky</h2>
+        <ul id="actions-list"></ul>
+      </article>
 
-      <section class="panel">
-        <div class="section-label">Novinky</div>
-        <div id="news" class="stack"></div>
-      </section>
+      <article class="panel span-2">
+        <h2>Novinky</h2>
+        <div id="news-list" class="news-list"></div>
+      </article>
 
-      <section class="panel">
-        <div class="section-label">Rizika</div>
-        <ul id="risks" class="clean-list"></ul>
-      </section>
+      <article class="panel">
+        <h2>Rizika</h2>
+        <ul id="risks-list"></ul>
+      </article>
 
-      <section class="panel">
-        <div class="section-label">Historie</div>
-        <div id="history" class="history-list"></div>
-      </section>
-    </main>
+      <article class="panel">
+        <h2>Historie</h2>
+        <div id="history-list" class="history-list"></div>
+      </article>
+    </section>
+  </main>
 
-    <footer>
-      <span>Veřejná verze obsahuje jen bezpečná shrnutí a akční indikátory.</span>
-    </footer>
-
-    <script src="./app.js"></script>
-  </body>
+  <script src="assets/app.js"></script>
+</body>
 </html>
