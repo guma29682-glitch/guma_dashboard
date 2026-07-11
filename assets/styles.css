@@ -127,6 +127,27 @@ a {
   color: var(--accent);
 }
 
+.history-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+}
+
+.history-button:hover,
+.history-button:focus-visible {
+  text-decoration: underline;
+}
+
+.history-button.active {
+  color: var(--ink);
+}
+
 @media (max-width: 720px) {
   .shell {
     width: min(100% - 24px, 1120px);
@@ -149,4 +170,25 @@ a {
   .span-2 {
     grid-column: auto;
   }
+}
+
+.history-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+}
+
+.history-button:hover,
+.history-button:focus-visible {
+  text-decoration: underline;
+}
+
+.history-button.active {
+  color: var(--ink);
 }
