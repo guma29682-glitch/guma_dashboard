@@ -269,7 +269,7 @@
   "privacy": {
     "publicSafe": true,
     "excluded": [
-      "tokens",
+      "access credentials",
       "full emails",
       "sensitive health details",
       "private raw message content"
