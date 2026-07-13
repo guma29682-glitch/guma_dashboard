@@ -1,54 +1,49 @@
 <!doctype html>
 <html lang="cs">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GUMA OS Dashboard</title>
-  <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body>
-  <main class="shell">
-    <section class="topbar" aria-label="GUMA OS header">
-      <div>
-        <p class="eyebrow">GUMA OS</p>
-        <h1 id="report-title">Denní dashboard</h1>
-      </div>
-      <div class="status" id="report-date">Načítám...</div>
-    </section>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GUMA OS</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">GUMA OS</p>
+          <h1 id="report-title">Nacitani dashboardu</h1>
+          <p id="report-meta" class="muted"></p>
+        </div>
+        <select id="history" aria-label="Historie reportu"></select>
+      </header>
 
-    <section class="grid" aria-live="polite">
-      <article class="panel span-2">
-        <h2>Priorita dne</h2>
-        <ul id="summary-list"></ul>
-      </article>
+      <section class="grid">
+        <article>
+          <h2>Rychly prehled</h2>
+          <ul id="summary"></ul>
+        </article>
+        <article>
+          <h2>Kalendar</h2>
+          <div id="calendar"></div>
+        </article>
+      </section>
 
-      <article class="panel">
-        <h2>Kalendář</h2>
-        <div id="calendar"></div>
-      </article>
-
-      <article class="panel">
-        <h2>Další kroky</h2>
-        <ul id="actions-list"></ul>
-      </article>
-
-      <article class="panel span-2">
+      <section>
         <h2>Novinky</h2>
-        <div id="news-list" class="news-list"></div>
-      </article>
+        <div id="news" class="news"></div>
+      </section>
 
-      <article class="panel">
-        <h2>Rizika</h2>
-        <ul id="risks-list"></ul>
-      </article>
-
-      <article class="panel">
-        <h2>Historie</h2>
-        <div id="history-list" class="history-list"></div>
-      </article>
-    </section>
-  </main>
-
-  <script src="assets/app.js"></script>
-</body>
+      <section class="grid">
+        <article>
+          <h2>Rizika a nejasnosti</h2>
+          <ul id="risks"></ul>
+        </article>
+        <article>
+          <h2>Dalsi kroky</h2>
+          <ul id="next-steps"></ul>
+        </article>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
 </html>
