@@ -1,7 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-13T11:06:01+02:00",
+  "updatedAt": "2026-07-14T11:06:01+02:00",
   "reports": [
+    {
+      "id": "2026-07-14",
+      "date": "2026-07-14",
+      "title": "GUMA dashboard - 14. 7. 2026",
+      "path": "data/reports/2026-07-14.json"
+    },
     {
       "id": "2026-07-13",
       "date": "2026-07-13",

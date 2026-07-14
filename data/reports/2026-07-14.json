@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-14",
+  "title": "GUMA dashboard - 14. 7. 2026",
+  "date": "2026-07-14",
+  "generatedAt": "2026-07-14T11:06:01+02:00",
+  "timezone": "Europe/Prague",
+  "sourceSafety": {
+    "publicSafe": true,
+    "excluded": [
+      "tokens",
+      "full_emails",
+      "sensitive_private_details",
+      "slack"
+    ],
+    "notes": "Soukrome zdroje jsou zverejnene jen jako bezpecne akcni indikatory. Slack nebyl pouzit."
+  },
+  "summary": [
+    "Dnesni kalendar nema zadnou blokujici schuzku ani viditelnou kolizi; den je vhodny na soustredenou praci nebo administrativu.",
+    "V kalendari jsou hlavne transparentni brnenske tipy: Mendel Festival, Festival UPROSTRED, Sochy mezi kvety, rozdavani knih a Vinokral.cz sleva.",
+    "Gmail prinesl jen nizkoprioritni Notion promo a Slack invite reminder; Notion nenasel konkretni dnesni podklady.",
+    "Novinky jsou kuratorovane od 13. 7. 2026 08:00 do 14. 7. 2026 11:06, bez sportu, krimi a valky na Ukrajine."
+  ],
+  "calendar": {
+    "window": "2026-07-14",
+    "conflicts": [],
+    "freeWindows": [
+      "Prakticky cely pracovni den je volny, protoze dnesni polozky jsou transparentni kontext.",
+      "Pokud je potreba neco vyridit mimo domov, nejmensi treni dava okno pred 13:00 nebo po 18:00."
+    ],
+    "upcoming": [
+      {
+        "time": "13:00-18:00",
+        "title": "Akce zdarma: Rozdavani knih v centru Brna",
+        "type": "transparent_context",
+        "whyItMatters": "Volitelny tip v centru Brna, neblokuje den."
+      },
+      {
+        "time": "prubezne do 20. 7.",
+        "title": "Akce zdarma: Mendel Festival",
+        "type": "transparent_context",
+        "whyItMatters": "Volitelny vedecko-kulturni program v Brne."
+      },
+      {
+        "time": "prubezne",
+        "title": "Festival UPROSTRED a Sochy mezi kvety",
+        "type": "transparent_context",
+        "whyItMatters": "Dlouhodobe letni tipy zdarma v Brne."
+      },
+      {
+        "time": "do 28. 8.",
+        "title": "Vinokral.cz: 10% sleva",
+        "type": "transparent_context",
+        "whyItMatters": "Platny nakupni indikator; kod zustava pouze v puvodnim e-mailu."
+      }
+    ]
+  },
+  "privateContext": {
+    "gmail": [
+      "Notion Team poslal promo k meeting notes; nizka priorita, bez nutne akce.",
+      "Slack poslal pending invites reminder; Slack nebyl pouzit jako zdroj podle zadani."
+    ],
+    "notion": [
+      "Vyhledavani nenaslo konkretni dnesni meeting notes ani ukoly; jen obecnou Welcome to Notion stranku."
+    ],
+    "drive": [
+      "Nebyl nalezen ani vyzadan konkretni Drive podklad ke dnesni schuzce."
+    ]
+  },
+  "newsWindow": {
+    "from": "2026-07-13T08:00:00+02:00",
+    "to": "2026-07-14T11:06:01+02:00",
+    "filters": [
+      "no_sport",
+      "no_crime",
+      "no_ukraine_war",
+      "no_sensitive_private_details"
+    ],
+    "primarySource": "Novinky.cz"
+  },
+  "news": [
+    {
+      "category": "Domaci / politika",
+      "title": "Pellegrini popsal odlisne rozruch kolem ceske delegace na summitu",
+      "url": "https://www.novinky.cz/clanek/domaci-pellegrini-rekl-jak-to-bylo-na-summitu-babisovi-nepomohl-40587967",
+      "summary": "Dalsi signal napeti v koordinaci zahranicni reprezentace."
+    },
+    {
+      "category": "Bezpecnost / politika",
+      "title": "Babis vyzval ke spolecne evropske protivzdusne obrane bez Britanie",
+      "url": "https://www.novinky.cz/clanek/zahranicni-evropa-babis-vyzval-ke-spolecne-evropske-protivzdusne-obrane-britanii-v-ni-nechce-40587953",
+      "summary": "Tema se muze promitat do debaty o evropske bezpecnosti a vydajich."
+    },
+    {
+      "category": "Domaci / verejne finance",
+      "title": "Evropsti zalobci spustili trestni rizeni kolem dotaci pro Agrofert",
+      "url": "https://www.novinky.cz/clanek/domaci-urednikum-a-politikum-hrozi-vysetrovani-kvuli-vyplaceni-dotaci-agrofertu-40587951",
+      "summary": "Rizikove tema pro domaci politiku, uredni odpovednost a verejne penize."
+    },
+    {
+      "category": "Digitalni politika",
+      "title": "Cesko podporilo Chat Control uz behem hlasovani Rady EU",
+      "url": "https://www.novinky.cz/clanek/domaci-cesko-podporilo-chat-control-uz-behem-hlasovani-rady-eu-40587811",
+      "summary": "Prakticky dulezite pro soukromi, sifrovani a digitalni regulaci."
+    },
+    {
+      "category": "Pocasi",
+      "title": "Uterni bourky mohou prinest privalove deste a supercely",
+      "url": "https://www.novinky.cz/clanek/pocasi-uterni-bourky-budou-provazet-privalove-deste-hrozi-i-supercely-40587955",
+      "summary": "Pro Brno a cesty venku je rozumne pocitat s rezervou."
+    },
+    {
+      "category": "Jizni Morava / zivotni prostredi",
+      "title": "V Dyji uhynuly tuny ryb kvuli nedostatku kysliku",
+      "url": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-obavy-se-naplnuji-v-rece-dyji-uhynuly-v-noci-tuny-ryb-40587959",
+      "summary": "Lokalni environmentalni problem na jizni Morave."
+    },
+    {
+      "category": "Brno-okoli / sucho",
+      "title": "K zviratum z Kurimske hory museli hasici dovezt vodu",
+      "url": "https://www.novinky.cz/clanek/koktejl-voda-dosla-zviratum-z-kurimske-hory-prispechali-na-pomoc-hasici-40587887",
+      "summary": "Prakticky signal, ze vedro a sucho uz se projevuji i lokalne."
+    },
+    {
+      "category": "Brno / prumysl",
+      "title": "Zetor se pripomina 80letou historii znacky",
+      "url": "https://www.novinky.cz/clanek/ekonomika-foto-takto-se-menil-zetor-v-prubehu-osmdesati-let-40587893",
+      "summary": "Navazuje na zpravy o presunu vyroby z Brna."
+    },
+    {
+      "category": "Ekonomika / AI infrastruktura",
+      "title": "Datacentra nejvetsich firem maji uhlikovou stopu jako velka ekonomika",
+      "url": "https://www.novinky.cz/clanek/ekonomika-datacentra-nejvetsich-firem-tvori-emise-uhliku-jako-tretina-francie-40587825",
+      "summary": "Dulezite pro AI, energetiku a udrzitelnost digitalni infrastruktury."
+    },
+    {
+      "category": "Energetika",
+      "title": "Evropa dal vyznamne odebira rusky plyn z Jamalu",
+      "url": "https://www.novinky.cz/clanek/ekonomika-evropa-dal-odebira-rusky-plyn-ve-velkem-vysala-temer-celou-produkci-jamalu-40587810",
+      "summary": "Energeticka zavislost zustava strategicke tema."
+    },
+    {
+      "category": "Doprava / naklady",
+      "title": "Stropy cen pohonnych hmot budou v utery znovu vyssi",
+      "url": "https://www.novinky.cz/clanek/ekonomika-stropy-cen-pohonnych-hmot-budou-v-utery-opet-vyssi-40587818",
+      "summary": "Prakticky dopad pro dopravu a naklady."
+    },
+    {
+      "category": "Doprava / infrastruktura",
+      "title": "Moderni zeleznici brzdi i zastarala pravidla",
+      "url": "https://www.novinky.cz/clanek/podcasty-hlas-na-pousti-prekazkou-moderni-zeleznice-nejsou-jen-penize-jsou-to-i-zastarala-pravidla-40587565",
+      "summary": "Dobre sledovat kvuli dopravni infrastrukture a modernizaci."
+    },
+    {
+      "category": "Kyberbezpecnost",
+      "title": "EU uvalila sankce za ruske kyberneticke utoky",
+      "url": "https://www.novinky.cz/clanek/internet-a-pc-bezpecnost-staty-eu-uvalily-nove-sankce-kvuli-ruskym-kybernetickym-utokum-40587958",
+      "summary": "Kyberbezpecnost zustava prakticke riziko pro verejnou spravu i firmy."
+    },
+    {
+      "category": "Internet / infrastruktura",
+      "title": "14 000 domacnosti z odlehlych mist ma dosahnout na rychly internet",
+      "url": "https://www.novinky.cz/clanek/internet-a-pc-14-000-domacnosti-z-odlehlych-mist-dosahne-na-rychly-internet-diky-miliardove-dotaci-40587777",
+      "summary": "Miliardova dotace mirena na konektivitu mimo centra."
+    },
+    {
+      "category": "Vzdelavani / veda",
+      "title": "Cesti stredoskolaci ovladli mezinarodni Turnaj mladych fyziku",
+      "url": "https://www.novinky.cz/clanek/veda-skoly-cesti-stredoskolaci-ovladli-mezinarodni-turnaj-mladych-fyziku-40587937",
+      "summary": "Dobra zprava pro ceske vzdelavani a talent pipeline."
+    },
+    {
+      "category": "Brno / veda",
+      "title": "Sinice z Brna poleti v prvni misi raketoplanu Space Rider",
+      "url": "https://www.novinky.cz/clanek/veda-skoly-sinice-z-brna-pomohou-dobyvat-vesmir-poleti-v-prvni-misi-raketoplanu-space-rider-40587795",
+      "summary": "Brnenska veda ma viditelnou evropskou stopu."
+    },
+    {
+      "category": "Veda",
+      "title": "Vedci popsali vyuzivani ohne uz pred 1,8 milionu let",
+      "url": "https://www.novinky.cz/clanek/veda-skoly-pralide-vyuzivali-ohen-uz-pred-18-milionu-let-40587837",
+      "summary": "Spis zajimavost, ale pekny vedecky kontext."
+    },
+    {
+      "category": "Evropa / kultura",
+      "title": "V Parizi se kona velka prehlidka k padu Bastily",
+      "url": "https://www.novinky.cz/clanek/zahranicni-v-parizi-se-kona-historicky-nejvetsi-vojenska-prehlidka-k-padu-bastily-40587816",
+      "summary": "Evropsky kontext dne mimo sport a ukrajinske valecne zpravodajstvi."
+    },
+    {
+      "category": "Kultura",
+      "title": "Filmove Vary doznivaji pohledem lidi v zazemi festivalu",
+      "url": "https://www.novinky.cz/clanek/kultura-mff-kv-filmove-vary-poznala-z-obou-stran-na-historku-s-gyllenhaalovou-nikdy-nezapomenu-rika-brigadnice-40587872",
+      "summary": "Lehky kulturni kontext po skonceni rocniku."
+    },
+    {
+      "category": "Kultura / film",
+      "title": "Ali G se ma vratit v novem filmu Sachy Barona Cohena",
+      "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-ali-g-je-zpet-sacha-baron-cohen-oznamil-dalsi-snimek-se-svym-raperskym-alter-egem-40585971",
+      "summary": "Kulturni pop zprava bez nutne akce."
+    },
+    {
+      "category": "Cestovani",
+      "title": "Spanelsko a Gibraltar ukonci hranicni kontroly",
+      "url": "https://www.novinky.cz/clanek/cestovani-spanelsko-a-gibraltar-ukonci-hranicni-kontroly-pro-brity-naopak-zacnou-40587965",
+      "summary": "Prakticke pro cestovani, hlavne pro Brity a rezim na hranici."
+    }
+  ],
+  "nameDay": {
+    "today": "Karolina",
+    "tomorrow": "Jindrich",
+    "publicHolidayNext7Days": "V pristich 7 dnech neni v CR statni svatek."
+  },
+  "risks": [
+    "Kalendar obsahuje hlavne transparentni akce, takze nemusi zachytit neformalne domluvene plany mimo Google Calendar.",
+    "Webove novinky jsou primarne z Novinky.cz a slouzi jako rychly ranni prehled, ne hluboky monitoring vsech medii.",
+    "Soukrome zdroje jsou zamerne zredukovane na akcni indikatory bez celych e-mailu, kodu a tokenu."
+  ],
+  "nextSteps": [
+    "Vyuzit volny kalendar na jeden hlavni hluboky blok a jeden mensi uklidovy blok.",
+    "Pokud pujdes ven, sledovat bourky a nechat si rezervu na presuny.",
+    "Jako prvni projit Chat Control, datacentra/AI emise, brnenske sinice ve vesmirne misi a lokalni pocasi/sucho.",
+    "Vinokral.cz resit jen z puvodniho e-mailu, pokud existuje realny nakupni zamer."
+  ]
+}
