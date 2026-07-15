@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestReport": "2026-07-14",
-  "path": "data/reports/2026-07-14.json",
-  "title": "GUMA dashboard - 14. 7. 2026",
-  "generatedAt": "2026-07-14T11:06:01+02:00"
+  "latestReport": "data/reports/2026-07-15.json",
+  "date": "2026-07-15",
+  "generatedAt": "2026-07-15T11:06:01+02:00",
+  "title": "GUMA dashboard - 15. 7. 2026",
+  "googleDocUrl": "https://docs.google.com/document/d/1LINaEBHjBz0eUgiI91Nx5VctV-yDBErLmJx-ksArk-s",
+  "publicSafe": true,
+  "summary": [
+    "Kalendář dnes nemá žádnou blokující schůzku ani viditelnou kolizi.",
+    "Prakticky celý pracovní den je volný.",
+    "Soukromé zdroje nepřinesly nový konkrétní meeting podklad.",
+    "Hlavní čtení: EET/dálniční známky, Zetor, baterie/EV a Čína."
+  ]
 }

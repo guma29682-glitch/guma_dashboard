@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "guma-dashboard-2026-07-15",
+  "date": "2026-07-15",
+  "generatedAt": "2026-07-15T11:06:01+02:00",
+  "timezone": "Europe/Prague",
+  "title": "GUMA dashboard - 15. 7. 2026",
+  "googleDoc": {
+    "title": "GUMA dashboard - 15. 7. 2026",
+    "url": "https://docs.google.com/document/d/1LINaEBHjBz0eUgiI91Nx5VctV-yDBErLmJx-ksArk-s"
+  },
+  "safety": {
+    "publicSafe": true,
+    "excluded": [
+      "tokens",
+      "full emails",
+      "private conversations",
+      "discount codes",
+      "sensitive health details"
+    ],
+    "slackUsed": false
+  },
+  "summary": [
+    "Kalendář dnes nemá žádnou blokující schůzku ani viditelnou kolizi.",
+    "Prakticky celý pracovní den je volný; nejvhodnější je jeden hlubší blok plus krátký administrativní úklid.",
+    "Gmail, Drive a Notion nepřinesly nový konkrétní podklad ke dnešní přípravě.",
+    "Hlavní čtení dne: EET/dálniční známky, Zetor v Brně, baterie/EV a zpomalení Číny."
+  ],
+  "calendar": {
+    "busyBlocks": [],
+    "conflicts": [],
+    "freeWindows": [
+      {
+        "label": "prakticky celý pracovní den",
+        "start": "2026-07-15T00:00:00+02:00",
+        "end": "2026-07-16T00:00:00+02:00",
+        "note": "Google Calendar free/busy nevrátil žádné busy okno."
+      }
+    ],
+    "upcoming": [
+      {
+        "time": "průběžně do 20. 7.",
+        "title": "Akce zdarma: Mendel Festival",
+        "importance": "Volitelný vědecko-kulturní program v Brně.",
+        "blocking": false
+      },
+      {
+        "time": "15. 7. 18:00-21:00",
+        "title": "Festival UPROSTŘED - Vem ukulele do sadu",
+        "importance": "Večerní volnočasový tip, ne pracovní závazek.",
+        "blocking": false
+      },
+      {
+        "time": "průběžně do 29. 8.",
+        "title": "Sochy mezi květy",
+        "importance": "Klidný venkovní tip v Botanické zahradě PřF MU.",
+        "blocking": false
+      }
+    ]
+  },
+  "prep": [
+    "Ke schůzkám není potřeba žádná příprava.",
+    "Zablokovat 90-120 minut na jednu hlavní věc.",
+    "Před venkovním programem ověřit počasí a aktuální program.",
+    "Vinokral.cz řešit pouze z původního e-mailu, protože kód není ukládán do dashboardu."
+  ],
+  "privateContext": [
+    {
+      "source": "Gmail",
+      "signal": "Nízkoprioritní promo od Notionu k meeting notes; bez nutné akce."
+    },
+    {
+      "source": "Google Drive",
+      "signal": "Poslední dashboard z 14. 7. použit jako strukturální vzor; nový pracovní podklad nenalezen."
+    },
+    {
+      "source": "Notion",
+      "signal": "Nové relevantní meeting notes nebo priority nebyly nalezeny."
+    }
+  ],
+  "newsWindow": {
+    "from": "2026-07-14T08:00:00+02:00",
+    "to": "2026-07-15T11:06:01+02:00",
+    "filters": [
+      "bez sportu",
+      "bez zpráv primárně o válce na Ukrajině"
+    ],
+    "items": [
+      {
+        "category": "Domácí provoz a politika",
+        "title": "Návrh na obnovu EET znovu čelil ve Sněmovně opozičním výtkám.",
+        "whyItMatters": "Sledovat hlavně dopad na malé podnikání a administrativu.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Domácí provoz a politika",
+        "title": "Sněmovna podpořila zmrazení cen dálničních známek.",
+        "whyItMatters": "Dopad na řidiče i financování dopravní infrastruktury.",
+        "source": "e15",
+        "url": "https://www.e15.cz/"
+      },
+      {
+        "category": "Ekonomika",
+        "title": "Čínská ekonomika zpomalila na 4,3 %, nejslabší tempo za 3,5 roku.",
+        "whyItMatters": "Globální signál pro export, dodavatelské řetězce a tržní sentiment.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Ekonomika",
+        "title": "Mattoni 1873 chce dál expandovat ve střední a západní Evropě.",
+        "whyItMatters": "Český nápojářský byznys míří k dalším akvizicím.",
+        "source": "České noviny / ČTK, e15",
+        "url": "https://www.e15.cz/"
+      },
+      {
+        "category": "Technologie a doprava",
+        "title": "Švédové zkoumali stav baterií po 100 000 kilometrech.",
+        "whyItMatters": "Užitečný signál pro životnost elektromobilů a second-hand EV trh.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Technologie a doprava",
+        "title": "Volkswagen uvažuje o převodu výroby elektromobilů z Číny do Německa.",
+        "whyItMatters": "Relevantní pro evropské automotive a české dodavatele.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Brno a region",
+        "title": "Zetor přesouvá veškerou výrobu z Brna do Asie.",
+        "whyItMatters": "Lokální průmyslový signál a změna symbolické brněnské značky.",
+        "source": "iROZHLAS",
+        "url": "https://www.irozhlas.cz/ekonomika"
+      }
+    ]
+  },
+  "risks": [
+    "Kalendář nemusí zachycovat neformální plány mimo Google Calendar.",
+    "Novinky jsou rychlý kurátorovaný průřez, ne kompletní monitoring médií.",
+    "Notion dnes nedodal relevantní podklady."
+  ],
+  "recommendedNextSteps": [
+    "Zablokovat jeden hlubší pracovní blok.",
+    "Před venkovním programem ověřit počasí a aktuální program.",
+    "Číst nejdřív EET/dálniční známky, Zetor, baterie/EV a Čínu.",
+    "Po deployi ověřit, že historie načítá data/reports/2026-07-15.json."
+  ],
+  "sources": [
+    "Google Calendar primary guma",
+    "Gmail guma",
+    "Google Drive",
+    "Notion workspace search",
+    "https://www.ceskenoviny.cz/ekonomika/",
+    "https://www.e15.cz/",
+    "https://www.irozhlas.cz/ekonomika",
+    "https://www.novinky.cz/sekce/ekonomika-10"
+  ]
+}

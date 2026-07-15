@@ -1,49 +1,50 @@
 <!doctype html>
 <html lang="cs">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>GUMA OS</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <main class="shell">
-      <header class="topbar">
+    <main class="app">
+      <section class="topbar">
         <div>
           <p class="eyebrow">GUMA OS</p>
-          <h1 id="report-title">Nacitani dashboardu</h1>
-          <p id="report-meta" class="muted"></p>
+          <h1 id="report-title">Načítám dashboard…</h1>
         </div>
-        <select id="history" aria-label="Historie reportu"></select>
-      </header>
+        <a id="doc-link" class="doc-link" href="#" target="_blank" rel="noreferrer">Google Doc</a>
+      </section>
 
       <section class="grid">
-        <article>
-          <h2>Rychly prehled</h2>
+        <article class="panel">
+          <h2>Stručně</h2>
           <ul id="summary"></ul>
         </article>
-        <article>
-          <h2>Kalendar</h2>
+        <article class="panel">
+          <h2>Kalendář</h2>
           <div id="calendar"></div>
         </article>
-      </section>
-
-      <section>
-        <h2>Novinky</h2>
-        <div id="news" class="news"></div>
-      </section>
-
-      <section class="grid">
-        <article>
-          <h2>Rizika a nejasnosti</h2>
+        <article class="panel">
+          <h2>Co připravit</h2>
+          <ul id="prep"></ul>
+        </article>
+        <article class="panel">
+          <h2>Rizika</h2>
           <ul id="risks"></ul>
         </article>
-        <article>
-          <h2>Dalsi kroky</h2>
-          <ul id="next-steps"></ul>
-        </article>
+      </section>
+
+      <section class="panel wide">
+        <h2>Novinky</h2>
+        <div id="news"></div>
+      </section>
+
+      <section class="panel wide">
+        <h2>Historie</h2>
+        <div id="history" class="history"></div>
       </section>
     </main>
-    <script src="app.js"></script>
+    <script src="assets/app.js"></script>
   </body>
 </html>
