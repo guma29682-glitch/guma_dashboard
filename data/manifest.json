@@ -1,7 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-07-15T11:06:01+02:00",
   "latest": "data/latest.json",
+  "templateId": "guma-dashboard-approved-2026-07-13",
+  "newsMinimumItems": 20,
   "reports": [
     {
       "date": "2026-07-15",

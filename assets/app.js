@@ -4,6 +4,10 @@ function list(items) {
   return (items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
 }
 
+function orderedList(items) {
+  return (items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -25,6 +29,16 @@ function renderReport(report) {
   $("#summary").innerHTML = list(report.summary);
   $("#prep").innerHTML = list(report.prep);
   $("#risks").innerHTML = list(report.risks);
+  $("#next-steps").innerHTML = orderedList(report.recommendedNextSteps);
+  $("#name-days").innerHTML = list(report.nameDaysAndHolidays?.displayLines);
+  $("#related").innerHTML = (report.relatedContext || report.privateContext || [])
+    .map((item) => `
+      <div class="context-row">
+        <strong>${escapeHtml(item.source)}</strong>
+        <span>${escapeHtml(item.signal)}</span>
+      </div>
+    `)
+    .join("");
 
   const upcoming = (report.calendar?.upcoming || [])
     .map((event) => `
@@ -41,7 +55,8 @@ function renderReport(report) {
     <div class="events">${upcoming}</div>
   `;
 
-  $("#news").innerHTML = (report.newsWindow?.items || [])
+  const newsItems = report.newsWindow?.items || [];
+  $("#news").innerHTML = newsItems
     .map((item) => `
       <article class="news-item">
         <p class="category">${escapeHtml(item.category)}</p>
@@ -51,6 +66,14 @@ function renderReport(report) {
       </article>
     `)
     .join("");
+
+  const minimum = report.newsWindow?.minimumItems || report.template?.newsMinimumItems;
+  if (minimum && newsItems.length < minimum) {
+    $("#news").insertAdjacentHTML(
+      "beforeend",
+      `<p class="warning">Pozor: dnešní snapshot má ${newsItems.length} novinek, minimum šablony je ${minimum}.</p>`
+    );
+  }
 }
 
 async function boot() {

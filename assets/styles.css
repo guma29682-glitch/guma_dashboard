@@ -114,6 +114,17 @@ li + li {
   border-top: 1px solid var(--line);
 }
 
+.context-row {
+  display: grid;
+  gap: 3px;
+  padding: 9px 0;
+  border-top: 1px solid var(--line);
+}
+
+.context-row span {
+  color: var(--muted);
+}
+
 .event small,
 .category {
   color: var(--muted);
@@ -131,6 +142,15 @@ li + li {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
+}
+
+.warning {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid #f6c343;
+  border-radius: 8px;
+  background: #fff8e1;
 }
 
 .category {

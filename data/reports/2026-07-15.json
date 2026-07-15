@@ -1,5 +1,21 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "template": {
+    "id": "guma-dashboard-approved-2026-07-13",
+    "approvedFrom": "2026-07-13",
+    "newsMinimumItems": 20,
+    "stableSectionOrder": [
+      "summary",
+      "meetings",
+      "prep",
+      "relatedContext",
+      "news",
+      "nameDaysAndHolidays",
+      "risks",
+      "nextSteps",
+      "sources"
+    ]
+  },
   "id": "guma-dashboard-2026-07-15",
   "date": "2026-07-15",
   "generatedAt": "2026-07-15T11:06:01+02:00",
@@ -24,7 +40,7 @@
     "Kalendář dnes nemá žádnou blokující schůzku ani viditelnou kolizi.",
     "Prakticky celý pracovní den je volný; nejvhodnější je jeden hlubší blok plus krátký administrativní úklid.",
     "Gmail, Drive a Notion nepřinesly nový konkrétní podklad ke dnešní přípravě.",
-    "Hlavní čtení dne: EET/dálniční známky, Zetor v Brně, baterie/EV a zpomalení Číny."
+    "Hlavní čtení dne: EET/dálniční známky, Zetor v Brně, baterie/EV, Čína a lokální počasí/sucho."
   ],
   "calendar": {
     "busyBlocks": [],
@@ -55,6 +71,12 @@
         "title": "Sochy mezi květy",
         "importance": "Klidný venkovní tip v Botanické zahradě PřF MU.",
         "blocking": false
+      },
+      {
+        "time": "do 28. 8.",
+        "title": "Vinokral.cz sleva",
+        "importance": "Bezpečný indikátor nabídky; kód zůstává jen v původním e-mailu.",
+        "blocking": false
       }
     ]
   },
@@ -64,10 +86,14 @@
     "Před venkovním programem ověřit počasí a aktuální program.",
     "Vinokral.cz řešit pouze z původního e-mailu, protože kód není ukládán do dashboardu."
   ],
-  "privateContext": [
+  "relatedContext": [
     {
       "source": "Gmail",
       "signal": "Nízkoprioritní promo od Notionu k meeting notes; bez nutné akce."
+    },
+    {
+      "source": "Gmail",
+      "signal": "Cílené hledání k Mendel Festivalu, Festivalu UPROSTŘED, Brnu a Vinokralu od 14. 7. nenašlo nový relevantní mail."
     },
     {
       "source": "Google Drive",
@@ -81,8 +107,10 @@
   "newsWindow": {
     "from": "2026-07-14T08:00:00+02:00",
     "to": "2026-07-15T11:06:01+02:00",
+    "minimumItems": 20,
     "filters": [
       "bez sportu",
+      "bez krimi",
       "bez zpráv primárně o válce na Ukrajině"
     ],
     "items": [
@@ -101,6 +129,27 @@
         "url": "https://www.e15.cz/"
       },
       {
+        "category": "Domácí provoz a politika",
+        "title": "Dálniční známky asi nebudou pravidelně zdražovat, novelu podpořila Sněmovna.",
+        "whyItMatters": "Potvrzuje stejný legislativní směr z agenturního zdroje.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Domácí provoz a politika",
+        "title": "Evropští žalobci spustili trestní řízení kolem dotací pro Agrofert.",
+        "whyItMatters": "Rizikové téma pro domácí politiku, dotace a veřejné finance.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/"
+      },
+      {
+        "category": "Domácí provoz a politika",
+        "title": "Česko podpořilo Chat Control už během hlasování Rady EU.",
+        "whyItMatters": "Prakticky důležité pro soukromí, šifrování a digitální politiku.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/"
+      },
+      {
         "category": "Ekonomika",
         "title": "Čínská ekonomika zpomalila na 4,3 %, nejslabší tempo za 3,5 roku.",
         "whyItMatters": "Globální signál pro export, dodavatelské řetězce a tržní sentiment.",
@@ -113,6 +162,27 @@
         "whyItMatters": "Český nápojářský byznys míří k dalším akvizicím.",
         "source": "České noviny / ČTK, e15",
         "url": "https://www.e15.cz/"
+      },
+      {
+        "category": "Ekonomika",
+        "title": "Pražská burza posílila, dařilo se ČEZ a VIG a koruna zpevnila.",
+        "whyItMatters": "Pozitivní krátkodobý tržní signál.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Ekonomika",
+        "title": "Státem určované maximální ceny pohonných hmot ve středu dál rostou.",
+        "whyItMatters": "Krátkodobý dopad na dopravu a provozní náklady.",
+        "source": "České noviny / ČTK",
+        "url": "https://www.ceskenoviny.cz/ekonomika/"
+      },
+      {
+        "category": "Ekonomika",
+        "title": "Datacentra největších firem mají výraznou uhlíkovou stopu.",
+        "whyItMatters": "Důležité pro AI infrastrukturu, energetiku a ESG debatu.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/ekonomika-10"
       },
       {
         "category": "Technologie a doprava",
@@ -129,17 +199,91 @@
         "url": "https://www.ceskenoviny.cz/ekonomika/"
       },
       {
+        "category": "Technologie a doprava",
+        "title": "Balíkovna chtěla spolupracovat s Temu, Česká pošta to zastavila jako rizikové.",
+        "whyItMatters": "E-commerce logistika a riziko smluvních závazků.",
+        "source": "e15",
+        "url": "https://www.e15.cz/"
+      },
+      {
+        "category": "Technologie a doprava",
+        "title": "Komerční banka přidává v KB+ detailnější správu platebních karet včetně zákazu DCC.",
+        "whyItMatters": "Užitečné hlavně pro cestování a zahraniční platby.",
+        "source": "e15",
+        "url": "https://www.e15.cz/"
+      },
+      {
+        "category": "Technologie a věda",
+        "title": "14 000 domácností z odlehlých míst má dosáhnout na rychlý internet díky dotaci.",
+        "whyItMatters": "Praktický signál k digitální infrastruktuře mimo velká města.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/internet-a-pc-25"
+      },
+      {
+        "category": "Technologie a věda",
+        "title": "Čeští středoškoláci uspěli v mezinárodním Turnaji mladých fyziků.",
+        "whyItMatters": "Dobrá zpráva pro české vzdělávání a talent pipeline.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/veda-skoly-20"
+      },
+      {
         "category": "Brno a region",
         "title": "Zetor přesouvá veškerou výrobu z Brna do Asie.",
         "whyItMatters": "Lokální průmyslový signál a změna symbolické brněnské značky.",
         "source": "iROZHLAS",
         "url": "https://www.irozhlas.cz/ekonomika"
+      },
+      {
+        "category": "Brno a region",
+        "title": "Sinice z Brna poletí v první misi raketoplánu Space Rider.",
+        "whyItMatters": "Brněnská věda má viditelnou evropskou stopu.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/veda-skoly-20"
+      },
+      {
+        "category": "Počasí a region",
+        "title": "Bouřky mohou přinést přívalové deště a lokálně silný průběh.",
+        "whyItMatters": "Pro venkovní plány v Brně je lepší mít rezervu a ověřit aktuální předpověď.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/pocasi-10"
+      },
+      {
+        "category": "Počasí a region",
+        "title": "Sucho se lokálně projevuje i na jižní Moravě.",
+        "whyItMatters": "Důležitý kontext pro přírodu, zahrady a venkovní aktivity.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/"
+      },
+      {
+        "category": "Kultura a cestování",
+        "title": "Filmové Vary doznívají kulturními rozhovory a zákulisními pohledy.",
+        "whyItMatters": "Lehký kulturní kontext po skončení ročníku.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/kultura-15"
+      },
+      {
+        "category": "Kultura a cestování",
+        "title": "Španělsko a Gibraltar ukončí hraniční kontroly, pro Brity začnou nové režimy.",
+        "whyItMatters": "Praktické pro cestování a orientaci v evropských režimech.",
+        "source": "Novinky.cz",
+        "url": "https://www.novinky.cz/sekce/cestovani-20"
       }
     ]
   },
+  "nameDaysAndHolidays": {
+    "today": "Jindřich",
+    "tomorrow": "Luboš",
+    "publicHolidayNext7Days": "NA",
+    "displayLines": [
+      "Svátek dnes: Jindřich",
+      "Svátek zítra: Luboš",
+      "Státní svátek: NA"
+    ]
+  },
   "risks": [
-    "Kalendář nemusí zachycovat neformální plány mimo Google Calendar.",
-    "Novinky jsou rychlý kurátorovaný průřez, ne kompletní monitoring médií.",
+    "Kalendář obsahuje hlavně transparentní akce, takže nemusí zachycovat neformální plány mimo Google Calendar.",
+    "Novinky jsou kurátorovaný průřez, ne kompletní monitoring médií.",
+    "Soukromé zdroje jsou záměrně redukované na akční indikátory.",
     "Notion dnes nedodal relevantní podklady."
   ],
   "recommendedNextSteps": [
@@ -156,6 +300,6 @@
     "https://www.ceskenoviny.cz/ekonomika/",
     "https://www.e15.cz/",
     "https://www.irozhlas.cz/ekonomika",
-    "https://www.novinky.cz/sekce/ekonomika-10"
+    "https://www.novinky.cz/"
   ]
 }
