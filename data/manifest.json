@@ -1,16 +1,15 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-07-15T11:06:01+02:00",
   "latest": "data/latest.json",
-  "templateId": "guma-dashboard-approved-2026-07-13",
-  "newsMinimumItems": 20,
   "reports": [
     {
-      "date": "2026-07-15",
-      "title": "GUMA dashboard - 15. 7. 2026",
-      "path": "data/reports/2026-07-15.json",
-      "generatedAt": "2026-07-15T11:06:01+02:00",
-      "publicSafe": true
+      "date": "2026-07-16",
+      "path": "data/reports/2026-07-16.json",
+      "title": "GUMA dashboard - 16. 7. 2026",
+      "templateId": "guma-dashboard-approved-2026-07-13",
+      "generatedAt": "2026-07-16T05:45:01+02:00"
     }
-  ]
+  ],
+  "historyMode": "json-snapshots",
+  "updatedAt": "2026-07-16T05:45:01+02:00"
 }
