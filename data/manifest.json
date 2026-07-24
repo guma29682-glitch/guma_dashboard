@@ -3,6 +3,13 @@
   "latest": "data/latest.json",
   "reports": [
     {
+      "date": "2026-07-24",
+      "path": "data/reports/2026-07-24.json",
+      "title": "GUMA dashboard - 24. 7. 2026",
+      "templateId": "guma-dashboard-approved-2026-07-23",
+      "generatedAt": "2026-07-24T05:45:01+02:00"
+    },
+    {
       "date": "2026-07-23",
       "path": "data/reports/2026-07-23.json",
       "title": "GUMA dashboard - 23. 7. 2026",
@@ -18,5 +25,5 @@
     }
   ],
   "historyMode": "json-snapshots",
-  "updatedAt": "2026-07-23T05:45:01+02:00"
+  "updatedAt": "2026-07-24T05:45:01+02:00"
 }

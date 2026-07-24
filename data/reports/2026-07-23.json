@@ -123,7 +123,7 @@
         "title": "Evropská komise schválila převzetí Warner Bros Paramountem",
         "category": "Ekonomika / média",
         "summary": "Evropská komise dala zelenou velké mediální transakci kolem Warner Bros. a Paramountu.",
-        "url": "https://www.ceskenoviny.cz/ekonomika/"
+        "url": "https://www.ceskenoviny.cz/zpravy/2853948"
       },
       {
         "title": "Koruna o několik haléřů zpevnila vůči euru i dolaru, burza rostla",
@@ -171,19 +171,19 @@
         "title": "EU může mít v zimě málo plynu, varuje expert",
         "category": "Energie",
         "summary": "Energetická debata se vrací k zimním zásobám plynu a riziku napjaté bilance v EU.",
-        "url": "https://www.novinky.cz/sekce/denni-tisk-ekonomika-denni-tisk-92"
+        "url": "https://www.novinky.cz/clanek/ekonomika-eu-muze-mit-v-zime-malo-plynu-varuje-expert-40589306"
       },
       {
         "title": "Stát vybral za pololetí na mýtném 10,07 mld. korun, meziročně o 5,7 % více",
         "category": "Doprava / veřejné finance",
         "summary": "Výběr mýta za první pololetí meziročně vzrostl; signál intenzity nákladní dopravy i příjmů dopravní infrastruktury.",
-        "url": "https://www.ceskenoviny.cz/ekonomika/"
+        "url": "https://www.ceskenoviny.cz/zpravy/2853682"
       },
       {
         "title": "Čínská vláda kritizuje pokutu, kterou v EU dostal obchod AliExpress",
         "category": "Regulace / e-commerce",
         "summary": "Čína kritizuje evropský zásah vůči AliExpressu; téma dál ukazuje napětí kolem digitálních platforem a ochrany spotřebitele.",
-        "url": "https://www.ceskenoviny.cz/ekonomika/"
+        "url": "https://www.ceskenoviny.cz/zpravy/2852916"
       },
       {
         "title": "Hasiči téměř po dvou týdnech vyhlásili likvidaci požáru výškové budovy ve Zlíně",
@@ -195,25 +195,25 @@
         "title": "Bezpečnostní složky evakuovaly kvůli požáru několik obcí v okolí Madridu",
         "category": "Evropa / počasí",
         "summary": "Lesní požár u Madridu si vyžádal evakuace několika obcí; praktický signál pokračujících letních rizik v Evropě.",
-        "url": "https://www.ceskenoviny.cz/svet/"
+        "url": "https://www.ceskenoviny.cz/zpravy/2853994"
       },
       {
         "title": "Ebola si v Kongu vyžádala již téměř 1000 obětí",
         "category": "Svět / zdraví",
         "summary": "Epidemie eboly v Kongu dál roste; jde o veřejnozdravotní riziko s mezinárodním přesahem.",
-        "url": "https://www.ceskenoviny.cz/svet/"
+        "url": "https://www.ceskenoviny.cz/zpravy/ebola-si-v-kongu-vyzadala-jiz-temer-1000-obeti/2841657"
       },
       {
         "title": "Novým předsedou frakce CDU/CSU ve Spolkovém sněmu bude Frei",
         "category": "Evropa / Německo",
         "summary": "V německé politice se mění vedení poslanecké frakce CDU/CSU, důležité pro další parlamentní vyjednávání.",
-        "url": "https://www.ceskenoviny.cz/svet/"
+        "url": "https://www.ceskenoviny.cz/zpravy/media-novym-predsedou-frakce-cducsu-ve-spolkovem-snemu-bude-frei/2853749"
       },
       {
         "title": "RECENZE: Bardotky měly být komedií, je z nich trapný kýč",
         "category": "Kultura",
         "summary": "Novinky kriticky hodnotí letní českou komedii Bardotky; kulturní signál pro aktuální kino program.",
-        "url": "https://www.novinky.cz/tag/film-bardotky-123846"
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-recenze-bardotky-mely-byt-komedii-je-z-nich-trapny-kyc-40589154"
       },
       {
         "title": "Velké stěhování začalo. Ostravská katedrála dostane špičkové varhany",
@@ -226,8 +226,8 @@
   "risks": [
     "Žádné kalendářové kolize ani tvrdé deadliny nejsou vidět.",
     "Novinky používají veřejně bezpečná shrnutí a linky; žádné celé e-maily, tokeny, kódy ani soukromé detaily nejsou v JSONu ani ZIPu.",
-    "U části agenturních položek ČeskéNoviny.cz používá rubrikový odkaz, protože veřejný specifický odkaz nebyl při generování spolehlivě dostupný; položka je ale ověřená z rubrikového výpisu v časovém okně.",
-    "Automatické přidávání nových kalendářových položek jsem dnes neprováděl, protože zadání dashboardu dovoluje kalendář číst, ne upravovat."
+    "Automatické přidávání nových kalendářových položek jsem dnes neprováděl, protože zadání dashboardu dovoluje kalendář číst, ne upravovat.",
+    "Zprávy z Českých novin v tomto snapshotu odkazují na konkrétní články, ne na obecné rubriky."
   ],
   "nextSteps": [
     "Jako první využít volný kalendář: vybrat jeden hlavní blok dne a chránit ho před drobnými úkoly.",
