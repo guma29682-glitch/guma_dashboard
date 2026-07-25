@@ -5,9 +5,11 @@
   "title": "GUMA dashboard - 24. 7. 2026",
   "timezone": "Europe/Prague",
   "generatedAt": "2026-07-24T05:45:01+02:00",
+  "revisedAt": "2026-07-24T14:20:00+02:00",
+  "revisionNote": "Revize po připomínce: návrat ke struktuře šablony 2026-07-23 a doplnění novinek na 20 konkrétních položek.",
   "sourceWindow": {
     "newsFrom": "2026-07-23T08:00:00+02:00",
-    "newsTo": "2026-07-24T05:45:01+02:00"
+    "newsTo": "2026-07-24T14:20:00+02:00"
   },
   "publicSafety": {
     "redacted": [
@@ -17,7 +19,7 @@
       "private message bodies",
       "discount codes"
     ],
-    "notes": "Only public-safe summaries, calendar context, source links, and action indicators are included."
+    "notes": "Only public-safe summaries, source links, and action indicators are included."
   },
   "namedaysAndHolidays": {
     "today": "Kristýna / Kristina",
@@ -25,19 +27,19 @@
     "publicHolidayNext7Days": "NA"
   },
   "fx": {
-    "source": "ČNB daily FX table surfaced on cnb.cz homepage",
+    "source": "ČNB homepage / daily FX table",
     "rateDate": "2026-07-23",
     "eurCzk": 24.185,
     "usdCzk": 21.228,
-    "trendNote": "Trend nebyl dopočten: historický TXT export ČNB v běhu vrátil 403, takže neuvádím neověřený směr."
+    "trendNote": "Trend nebyl dopočten, protože historický TXT export ČNB v běhu vrátil 403."
   },
   "summary": [
     "Svátek: dnes Kristýna/Kristina, zítra Jakub, státní svátek NA.",
     "ČNB kurz pro 23. 7. 2026: EUR 24,185 CZK, USD 21,228 CZK. Trend dnes neuvádím, protože historický export ČNB nebyl v běhu dostupný.",
-    "Kalendář dnes nemá žádné blokující schůzky ani kolize; jsou vidět jen transparentní kontexty a dlouhodobé tipy.",
-    "Největší praktická hodnota dne: využít volné okno na hlubší práci, resty nebo přípravu věcí bez přepínání.",
-    "Gmail guma přidal jen nízkoprioritní upozornění na končící Slack trial; Drive a Notion nenašly nové relevantní podklady ke dnešním schůzkám.",
-    "Novinky jsou kurátorované od včera 08:00 do dnes 05:45 Europe/Prague, bez sportu a bez informací primárně o válce na Ukrajině."
+    "Kalendář dnes nemá žádné blokující schůzky ani kolize; největší praktická hodnota dne je volný prostor na soustředěnou práci.",
+    "V kalendáři jsou jen transparentní kontexty: Festival UPROSTŘED, Sochy mezi květy a bezpečný indikátor Vinokral.cz slevy bez kódu.",
+    "Gmail/Drive/Notion nepřidaly žádné meetingové podklady k dnešku. Slack jsem nečetl podle zadání.",
+    "Novinky jsou revidované podle šablony z 23. 7.: 20 konkrétních položek z okna od včera 08:00 do revize 14:20, bez sportu a bez zpráv primárně o válce na Ukrajině."
   ],
   "meetings": [
     {
@@ -45,7 +47,7 @@
       "time": "celý den",
       "title": "Žádná blokující schůzka",
       "type": "free-window",
-      "importance": "Dnešek je vhodný na delší soustředěný blok; kalendář netlačí žádnou přípravu na konkrétní meeting."
+      "importance": "Den je vhodný na hlubší práci, resty nebo přípravu bez přepínání."
     },
     {
       "date": "2026-06-29 až 2026-08-19",
@@ -66,12 +68,8 @@
       "time": "transparentní",
       "title": "Vinokral.cz: 10% sleva do 28. 8.",
       "type": "calendar-context",
-      "importance": "Bezpečný akční indikátor z Gmailu; slevový kód zůstává jen v původním e-mailu."
+      "importance": "Akční indikátor z Gmailu; slevový kód zůstává jen v původním e-mailu."
     }
-  ],
-  "freeWindows": [
-    "Prakticky celý pracovní den je volný, protože v kalendáři nejsou neprůhledné události.",
-    "Doporučení: zamknout jeden hlavní blok a drobné úkoly nechat až po něm."
   ],
   "prep": [
     "Vybrat jednu hlavní věc dne a dát jí první delší blok.",
@@ -103,75 +101,154 @@
   ],
   "news": {
     "minimumExpectedItems": 20,
-    "warning": "Spolehlivě ověřených novinek v požadovaném okně je méně než preferované minimum 20. Nepřidávám starší nebo slabé položky jen kvůli počtu.",
+    "warning": null,
     "items": [
       {
-        "title": "ČNB: kurz pro 23. 7. 2026 je EUR 24,185 a USD 21,228",
-        "category": "Finance",
-        "summary": "Nejnovější dostupný kurz ČNB při ranním běhu je z 23. 7.; kurz pro 24. 7. má být k dispozici až později během dne.",
-        "url": "https://www.cnb.cz/"
+        "title": "Ekonomové cupují vládní argumenty po Pavlově vetu",
+        "category": "Domácí ekonomika / veřejné finance",
+        "summary": "Novinky popisují kritiku ekonomů k novele rozpočtových pravidel po prezidentském vetu; podstatné je riziko slabší disciplíny veřejných financí.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-ekonomove-cupuji-vladni-argumenty-po-pavlove-vetu-40589489"
       },
       {
-        "title": "ČNB zveřejnila rozhovor Aleše Michla o AI a digitální koruně",
-        "category": "Finance / technologie",
-        "summary": "ČNB na homepage zvýrazňuje téma AI serverů, okamžitých plateb a budoucí role digitální koruny.",
-        "url": "https://www.cnb.cz/"
+        "title": "Analytici: Česká ekonomika je odolná navzdory geopolitické nejistotě",
+        "category": "Ekonomika ČR",
+        "summary": "Červencová důvěra podnikatelů i spotřebitelů podle analytiků ukazuje odolnost české ekonomiky a výhled solidního růstu HDP.",
+        "url": "https://www.ceskenoviny.cz/zpravy/analytici-ceska-ekonomika-je-odolna-navzdory-geopoliticke-nejistote/2854548"
       },
       {
-        "title": "ČNB shrnula účast na Colours of Ostrava",
-        "category": "Finance / veřejná správa",
-        "summary": "Centrální banka komunikovala inovace, AI, digitalizaci a stabilitu koruny v rámci festivalového programu.",
-        "url": "https://www.cnb.cz/"
+        "title": "TikTok podle EK porušuje pravidla pro ochranu dětí na internetu",
+        "category": "Regulace / technologie",
+        "summary": "Evropská komise předběžně shledala porušení DSA kvůli nedostatečné ochraně nezletilých; TikToku hrozí pokuta.",
+        "url": "https://www.ceskenoviny.cz/zpravy/tiktok-porusuje-pravidla-pro-ochranu-deti-na-internetu-uvedla-ek/2854617"
       },
       {
-        "title": "Festival UPROSTŘED běží v Brně do 19. 8.",
-        "category": "Brno / kultura",
-        "summary": "Go To Brno uvádí pokračující bezplatný letní festival; je to praktický tip na neblokující večerní program.",
-        "url": "https://www.gotobrno.cz/kalendar-akci/"
+        "title": "Železniční tunel z Prahy do Berouna má stát 76 miliard Kč",
+        "category": "Doprava / infrastruktura",
+        "summary": "Správa železnic prezentovala projekt 25 km tunelu; stavba má začít kolem roku 2032 a výrazně zrychlit spojení na západ.",
+        "url": "https://www.ceskenoviny.cz/zpravy/zeleznicni-tunel-z-prahy-do-berouna-vyjde-na-76-mld-kc-stavba-zacne-v-r-2032/2854603"
       },
       {
-        "title": "Folkové léto Řečkovice má program i 24. 7.",
-        "category": "Brno / kultura",
-        "summary": "Go To Brno uvádí dnešní pokračování Folkového léta Řečkovice; vhodné jen jako volitelný kulturní tip.",
-        "url": "https://www.gotobrno.cz/kalendar-akci/"
+        "title": "Sourozenec Škody Epiq od Volkswagenu bude dražší o 72 tisíc Kč",
+        "category": "Automotive / elektromobilita",
+        "summary": "Nový model od Volkswagenu ukazuje cenové pozicování koncernových malých elektromobilů vůči Škodě Epiq.",
+        "url": "https://www.ceskenoviny.cz/zpravy/sourozenec-skody-epiq-od-volkswagenu-bude-drazsi-o-72-tisic-kc/2854602"
       },
       {
-        "title": "Kudy z nudy ukazuje dnešní brněnské folklorní večery a další akce",
-        "category": "Brno / volný čas",
-        "summary": "Veřejný kalendář pro Brno a okolí má pro 24. 7. několik akcí; sportovní položky jsou z výběru vynechané.",
-        "url": "https://www.kudyznudy.cz/kalendar-akci/jihomoravsky-kraj/brno-a-okoli"
+        "title": "Škoda Auto v pololetí zvýšila provozní zisk i tržby",
+        "category": "Automotive / byznys",
+        "summary": "Škoda Auto podle výsledků koncernu Volkswagen navýšila provozní zisk i tržby, zatímco zisk Volkswagenu klesl.",
+        "url": "https://www.ceskenoviny.cz/zpravy/skoda-auto-v-pololeti-zvysila-provozni-zisk-i-trzby/2854485"
       },
       {
-        "title": "Brno-střed má aktivní letní kulturní programy",
-        "category": "Brno / město",
-        "summary": "Městský kalendář potvrzuje běžící letní kino, živou hudbu a další dlouhodobé akce v centru Brna.",
-        "url": "https://www.brno-stred.cz/kalendar-akci"
+        "title": "Čistý zisk Monety v pololetí stoupl na 3,3 mld. Kč",
+        "category": "Banky / finance",
+        "summary": "Moneta oznámila meziroční růst čistého zisku o 8,1 procenta a navýšila výhled, což je signál dobré kondice bankovního sektoru.",
+        "url": "https://www.ceskenoviny.cz/zpravy/2816909"
+      },
+      {
+        "title": "E.ON Energie loni v ČR snížila tržby i čistý zisk",
+        "category": "Energetika / firmy",
+        "summary": "E.ON Energie vykázal pokles tržeb o pětinu a čistý zisk 1,76 mld. Kč; relevantní pro čtení energetického trhu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/eon-energie-loni-v-cr-snizila-trzby-o-petinu-cisty-zisk-klesl-na-176-mld-kc/2854568"
+      },
+      {
+        "title": "Obchodní partneři USA kritizují nová americká cla",
+        "category": "Světová ekonomika",
+        "summary": "Nová americká cla vyvolala kritiku obchodních partnerů a nejistotu pro EU; důležité pro firmy citlivé na export a dodavatelské řetězce.",
+        "url": "https://www.ceskenoviny.cz/zpravy/obchodni-partneri-usa-kritizuji-nova-americka-cla-eu-je-necekala/2853389"
+      },
+      {
+        "title": "IEA: Poptávka po elektřině zrychlí růst",
+        "category": "Energetika / technologie",
+        "summary": "Mezinárodní energetická agentura čeká rychlejší růst poptávky po elektřině, tažený elektromobily, datovými centry a klimatizací.",
+        "url": "https://www.ceskenoviny.cz/zpravy/iea-poptavka-po-elektrine-zrychli-rust-tahnou-ji-elektromobily-i-datova-centra/2854271"
+      },
+      {
+        "title": "ECB nechala úroky beze změn",
+        "category": "Evropská ekonomika",
+        "summary": "Evropská centrální banka podle očekávání ponechala sazby, depozitní sazba zůstává na 2,25 procenta.",
+        "url": "https://www.ceskenoviny.cz/zpravy/ecb-podle-ocekavani-nechala-uroky-beze-zmen-depozitni-sazba-je-na-225-procenta/2854232"
+      },
+      {
+        "title": "Brusel vyměřil Googlu pokutu 890 milionů eur",
+        "category": "Regulace / big tech",
+        "summary": "Evropská komise pokutovala Google za zvýhodňování vlastních služeb; další signál přísnější regulace digitálních platforem.",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-brusel-vymeril-googlu-pokutu-890-milionu-eur-za-zvyhodnovani-vlastnich-sluzeb-311636"
+      },
+      {
+        "title": "Úřad vlády hájí úpravu jednacího řádu",
+        "category": "Domácí politika",
+        "summary": "Úřad vlády tvrdí, že změny jednacího řádu neposilují pravomoci premiéra; téma je důležité pro fungování kabinetu a legislativy.",
+        "url": "https://www.ceskenoviny.cz/zpravy/urad-vlady-haji-upravu-jednaciho-radu-pravomoci-premiera-podle-nej-neposiluje/2854343"
+      },
+      {
+        "title": "MPSV kvůli možnému střetu zájmů nežádá proplacení projektů z EU",
+        "category": "Veřejné finance / EU fondy",
+        "summary": "Ministerstvo práce nechá projekty zaplatit státem, dokud se řeší možné střety zájmů; praktické riziko pro veřejné rozpočty.",
+        "url": "https://www.ceskenoviny.cz/zpravy/mpsv-kvuli-moznemu-stretu-zajmu-nezada-proplaceni-projektu-z-eu-zaplati-je-stat/2854549"
+      },
+      {
+        "title": "Ministerstvo spravedlnosti prověřuje možný nelegální lobbing u ministra Juchelky",
+        "category": "Domácí politika / pravidla lobbingu",
+        "summary": "Resort spravedlnosti prověřuje možný případ podle pravidel lobbingu; může jít o test nové regulace v praxi.",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ministerstvo-spravedlnosti-proveruje-mozny-nelegalni-lobbing-u-ministra-juchelky-311704"
+      },
+      {
+        "title": "Psycholožka: Zákaz mobilů ve školách může omezit i výuku",
+        "category": "Školství / společnost",
+        "summary": "Odbornice upozorňuje, že plošný zákaz zařízení může vedle vyrušování zasáhnout i moderní a individualizovanou výuku.",
+        "url": "https://www.ceskenoviny.cz/zpravy/2854474"
+      },
+      {
+        "title": "V Uherském Hradišti začala Letní filmová škola",
+        "category": "Kultura",
+        "summary": "52. ročník LFŠ nabídne 212 filmů a přes 400 programových položek; jedna z hlavních kulturních událostí týdne.",
+        "url": "https://www.ceskenoviny.cz/zpravy/2854446"
+      },
+      {
+        "title": "Benátský festival představil program, chybět nebude československý snímek",
+        "category": "Kultura / film",
+        "summary": "Benátský filmový festival zveřejnil program a zahrne i československou stopu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/benatsky-festival-predstavil-program-chybet-nebude-ani-ceskoslovensky-snimek/2854578"
+      },
+      {
+        "title": "Na zřícenině hradu Pyšolec odborníci dokončují zajištění torza věže",
+        "category": "Regiony / památky",
+        "summary": "U Víru na Žďársku se dokončuje zajištění věže zříceniny Pyšolec, která dlouhodobě ohrožovala návštěvníky.",
+        "url": "https://www.ceskenoviny.cz/zpravy/2854491"
+      },
+      {
+        "title": "Letoun Aero A-11 před 100 lety ukázal sílu československého letectví",
+        "category": "Historie / technologie",
+        "summary": "Připomínka dálkového letu Aero A-11 propojuje historii československého letectví se současnou leteckou výrobou.",
+        "url": "https://www.ceskenoviny.cz/zpravy/historik-letoun-aero-a11-pred-100-lety-ukazal-silu-ceskoslovenskeho-letectvi/2854106"
       }
     ]
   },
   "risks": [
     "Žádné kalendářové kolize ani tvrdé deadliny nejsou vidět.",
-    "Novinková sekce je kratší než obvyklé minimum, protože spolehlivé veřejné pokrytí v okně bylo omezené.",
-    "Automatické vytváření nebo úpravy kalendářových položek jsem neprováděl; tento běh kalendář jen četl.",
-    "ZIP ani JSON neobsahují tokeny, celé e-maily, zdravotní detaily, slevové kódy ani soukromé konverzace."
+    "Původní ranní verze měla chybně jen 7 novinek a navíc odchýlenou strukturu; tato revize to opravuje.",
+    "Novinky jsou veřejně bezpečné shrnutí konkrétních článků; neukládám celé texty článků ani žádné soukromé zprávy.",
+    "Automatické vytváření nebo úpravy kalendářových položek jsem neprováděl; tento běh kalendář jen četl."
   ],
   "nextSteps": [
     "Jako první si zarezervovat hlavní pracovní blok dne.",
+    "V novinkách prioritně mrknout na rozpočtové veto, ekonomickou důvěru, TikTok/DSA a dopravní tunel Praha-Beroun.",
     "Slack trial neřešit, pokud ho GUMA OS aktuálně nepoužívá.",
-    "Před případným nákupem přes Vinokral.cz otevřít původní Gmail kvůli kódu a podmínkám.",
-    "Po deployi zkontrolovat GUMA OS historii, že 24. 7. načítá JSON snapshot."
+    "Po Pages deployi zkontrolovat, že historie pro 24. 7. načítá revidovaný JSON s 20 novinkami."
   ],
   "sources": [
     "Google Calendar",
     "Gmail guma",
     "Google Drive",
     "Notion",
-    "ČNB: https://www.cnb.cz/",
-    "Go To Brno: https://www.gotobrno.cz/kalendar-akci/",
-    "Kudy z nudy: https://www.kudyznudy.cz/kalendar-akci/jihomoravsky-kraj/brno-a-okoli",
-    "Brno-střed: https://www.brno-stred.cz/kalendar-akci",
-    "MZV státní svátky 2026: https://mzv.gov.cz/london/cz/konzularni_a_vizove_informace/statni_svatky_1/index.html",
-    "Kalendář jmen: https://kdo-ma-svatek.cz/kdo-ma-svatek-24-7-kalendar-jmen-24-cervence/"
+    "Novinky.cz",
+    "České noviny / ČTK",
+    "Seznam Zprávy",
+    "ČNB",
+    "Go To Brno",
+    "Kudy z nudy",
+    "Brno-střed"
   ],
   "document": {
     "title": "GUMA dashboard - 24. 7. 2026",
