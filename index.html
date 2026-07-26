@@ -1,4 +1,31 @@
 <!doctype html>
 <html lang="cs">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GUMA OS</title><link rel="stylesheet" href="styles.css"></head>
-<body><main class="shell"><header><p class="eyebrow">GUMA OS</p><h1 id="title">Dashboard</h1><p id="meta"></p></header><nav><label for="history">Historie</label><select id="history"></select></nav><section id="summary"></section><section id="meetings"></section><section id="prep"></section><section id="related"></section><section id="news"></section><section id="risks"></section><section id="next"></section><section id="sources"></section></main><script src="app.js"></script></body></html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GUMA OS Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">GUMA OS</p>
+          <h1 id="title">Dashboard</h1>
+          <p id="meta" class="meta"></p>
+        </div>
+        <select id="history" aria-label="Historie dashboardu"></select>
+      </header>
+
+      <section class="section" id="summary"></section>
+      <section class="section" id="meetings"></section>
+      <section class="section" id="prep"></section>
+      <section class="section" id="related"></section>
+      <section class="section" id="news"></section>
+      <section class="section" id="risks"></section>
+      <section class="section" id="nextSteps"></section>
+      <section class="section muted" id="sources"></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

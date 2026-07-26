@@ -1,8 +1,17 @@
-async function json(path) {
-  const response = await fetch(path, { cache: "no-store" });
-  if (!response.ok) throw new Error(path);
-  return response.json();
-}
+const manifestUrl = "data/manifest.json";
+
+const sections = {
+  summary: document.querySelector("#summary"),
+  meetings: document.querySelector("#meetings"),
+  prep: document.querySelector("#prep"),
+  related: document.querySelector("#related"),
+  news: document.querySelector("#news"),
+  risks: document.querySelector("#risks"),
+  nextSteps: document.querySelector("#nextSteps"),
+  sources: document.querySelector("#sources")
+};
+
+const historySelect = document.querySelector("#history");
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -12,79 +21,67 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-function list(items) {
-  return `<ul>${(items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+function list(title, items) {
+  const rows = (items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  return `<h2>${escapeHtml(title)}</h2><ul class="list">${rows}</ul>`;
 }
 
-function section(id, title, html) {
-  document.getElementById(id).innerHTML = `<h2>${escapeHtml(title)}</h2>${html}`;
+function cards(title, items, renderItem) {
+  const rows = (items || []).map((item) => `<article class="item">${renderItem(item)}</article>`).join("");
+  return `<h2>${escapeHtml(title)}</h2><div class="cards">${rows}</div>`;
 }
 
-function render(report) {
-  document.getElementById("title").textContent = report.title;
-  document.getElementById("meta").textContent = `${report.generatedAt} | ${report.timezone}`;
+function renderReport(report) {
+  document.querySelector("#title").textContent = report.title;
+  document.querySelector("#meta").textContent = `${report.generatedAt} | ${report.timezone}`;
 
-  section("summary", "Shrnutí", list(report.summary));
-  section(
-    "meetings",
-    "Schůzky",
-    `<ul>${(report.meetings || [])
-      .map(
-        (meeting) =>
-          `<li><strong>${escapeHtml(meeting.date)} ${escapeHtml(meeting.time)} - ${escapeHtml(meeting.title)}</strong><br><span class="item-meta">${escapeHtml(meeting.importance)}</span></li>`,
-      )
-      .join("")}</ul>`,
-  );
-  section("prep", "Co připravit", list(report.prep));
-  section(
-    "related",
-    "Zprávy / dokumenty",
-    `<ul>${(report.related || [])
-      .map((item) => `<li><strong>${escapeHtml(item.source)}</strong>: ${escapeHtml(item.summary)}</li>`)
-      .join("")}</ul>`,
-  );
+  sections.summary.innerHTML = list("Kratke shrnuti dne", report.summary);
+  sections.meetings.innerHTML = cards("Nadchazejici schuzky a proc jsou dulezite", report.calendar?.meetings, (meeting) => `
+    <h3>${escapeHtml(meeting.title)}</h3>
+    <p class="meta">${escapeHtml(meeting.start)} -> ${escapeHtml(meeting.end)} | ${escapeHtml(meeting.transparency)}</p>
+    <p>${escapeHtml(meeting.whyItMatters)}</p>
+  `);
+  sections.prep.innerHTML = list("Co si k nim pripravit", report.prep);
+  sections.related.innerHTML = cards("Dulezite souvisejici zpravy, e-maily nebo dokumenty", report.relatedContext, (item) => `
+    <h3>${escapeHtml(item.source)} <span class="tag">${escapeHtml(item.label)}</span></h3>
+    <p>${escapeHtml(item.summary)}</p>
+  `);
 
-  const expected = report.news?.minimumExpectedItems ?? report.news?.newsMinimumItems ?? 0;
-  const newsItems = report.news?.items || [];
-  const lowCountWarning =
-    expected && newsItems.length < expected
-      ? `<p class="warn">Novinek je ${newsItems.length}, očekávané minimum je ${expected}. Nepřidávám starší nebo slabé položky jen kvůli počtu.</p>`
-      : "";
-  const explicitWarning = report.news?.warning ? `<p class="warn">${escapeHtml(report.news.warning)}</p>` : "";
-  section(
-    "news",
-    "Novinky",
-    explicitWarning +
-      lowCountWarning +
-      `<ul>${newsItems
-        .map(
-          (item) =>
-            `<li><a href="${escapeHtml(item.url)}" rel="noopener">${escapeHtml(item.title)}</a><br><span class="item-meta">${escapeHtml(item.category)}</span><br>${escapeHtml(item.summary)}</li>`,
-        )
-        .join("")}</ul>`,
-  );
-  section("risks", "Rizika", list(report.risks));
-  section("next", "Další kroky", list(report.nextSteps));
-  section(
-    "sources",
-    "Zdroje a historie",
-    list((report.sources || []).concat([`Google Doc: ${report.document?.url || "pending"}`])),
-  );
+  const news = report.news || {};
+  const warning = news.warning ? `<p class="meta">${escapeHtml(news.warning)}</p>` : "";
+  sections.news.innerHTML = `<h2>Novinky</h2>${warning}<div class="cards">${(news.items || []).map((item, index) => `
+    <article class="item">
+      <span class="tag">${index + 1}. ${escapeHtml(item.category)}</span>
+      <h3><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></h3>
+      <p>${escapeHtml(item.summary)}</p>
+    </article>
+  `).join("")}</div>`;
+
+  sections.risks.innerHTML = list("Rizika, kolize nebo nejasnosti", report.risks);
+  sections.nextSteps.innerHTML = list("Doporucene dalsi kroky", report.nextSteps);
+  sections.sources.innerHTML = list("Zdroje", report.sources);
+}
+
+async function loadReport(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Nepodarilo se nacist ${url}`);
+  renderReport(await response.json());
 }
 
 async function init() {
-  const manifest = await json("data/manifest.json");
-  const select = document.getElementById("history");
-  (manifest.reports || []).forEach((report) => {
-    const option = document.createElement("option");
-    option.value = report.path;
-    option.textContent = `${report.date} - ${report.title}`;
-    select.appendChild(option);
-  });
-  select.onchange = async () => render(await json(select.value));
-  render(await json("data/latest.json"));
+  const manifestResponse = await fetch(manifestUrl);
+  const manifest = await manifestResponse.json();
+  const reports = manifest.reports || [];
+
+  historySelect.innerHTML = reports
+    .map((report) => `<option value="${escapeHtml(report.url)}">${escapeHtml(report.title)}</option>`)
+    .join("");
+  historySelect.addEventListener("change", () => loadReport(historySelect.value));
+
+  await loadReport(manifest.latest || reports[0]?.url);
 }
 
 init().catch((error) => {
-  document.body.innerHTML = `<pre>GUMA OS load error: ${escapeHtml(error.message)}</pre>`;
+  document.querySelector("#title").textContent = "Dashboard se nepodarilo nacist";
+  document.querySelector("#meta").textContent = error.message;
 });
