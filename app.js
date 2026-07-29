@@ -2,6 +2,7 @@ const manifestUrl = "data/manifest.json";
 
 const sections = {
   summary: document.querySelector("#summary"),
+  products: document.querySelector("#products"),
   meetings: document.querySelector("#meetings"),
   prep: document.querySelector("#prep"),
   related: document.querySelector("#related"),
@@ -31,11 +32,33 @@ function cards(title, items, renderItem) {
   return `<h2>${escapeHtml(title)}</h2><div class="cards">${rows}</div>`;
 }
 
+function productTable(items) {
+  if (!items || items.length === 0) return "";
+  const rows = items.map((item) => `
+    <tr>
+      <td>${escapeHtml(item.id)}</td>
+      <td>${escapeHtml(item.name)}</td>
+      <td>${escapeHtml(item.store)}</td>
+      <td>${escapeHtml(item.priceToday)}</td>
+      <td>${escapeHtml(item.priceYesterday)}</td>
+      <td>${escapeHtml(item.sale)}</td>
+    </tr>
+  `).join("");
+  return `<h2>Ceny sledovanych produktu</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Nazev</th><th>Obchod</th><th>Cena dnes</th><th>Cena vcera</th><th>Akce</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
 function renderReport(report) {
   document.querySelector("#title").textContent = report.title;
   document.querySelector("#meta").textContent = `${report.generatedAt} | ${report.timezone}`;
 
   sections.summary.innerHTML = list("Kratke shrnuti dne", report.summary);
+  sections.products.innerHTML = productTable(report.productPrices);
   sections.meetings.innerHTML = cards("Nadchazejici schuzky a proc jsou dulezite", report.calendar?.meetings, (meeting) => `
     <h3>${escapeHtml(meeting.title)}</h3>
     <p class="meta">${escapeHtml(meeting.start)} -> ${escapeHtml(meeting.end)} | ${escapeHtml(meeting.transparency)}</p>
