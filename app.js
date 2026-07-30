@@ -8,8 +8,7 @@ const sections = {
   related: document.querySelector("#related"),
   news: document.querySelector("#news"),
   risks: document.querySelector("#risks"),
-  nextSteps: document.querySelector("#nextSteps"),
-  sources: document.querySelector("#sources")
+  nextSteps: document.querySelector("#nextSteps")
 };
 
 const historySelect = document.querySelector("#history");
@@ -22,32 +21,41 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function safeUrl(value) {
+  const url = String(value || "");
+  return /^https?:\/\//.test(url) ? url : "";
+}
+
 function list(title, items) {
   const rows = (items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  if (!rows) return "";
   return `<h2>${escapeHtml(title)}</h2><ul class="list">${rows}</ul>`;
 }
 
 function cards(title, items, renderItem) {
   const rows = (items || []).map((item) => `<article class="item">${renderItem(item)}</article>`).join("");
+  if (!rows) return "";
   return `<h2>${escapeHtml(title)}</h2><div class="cards">${rows}</div>`;
 }
 
-function productTable(items) {
+function productTable(items, summaryText) {
   if (!items || items.length === 0) return "";
+  const summary = summaryText ? `<p class="meta">${escapeHtml(summaryText)}</p>` : "";
   const rows = items.map((item) => `
     <tr>
-      <td>${escapeHtml(item.id)}</td>
-      <td>${escapeHtml(item.name)}</td>
+      <td>${escapeHtml(item.status ?? item.id ?? "")}</td>
+      <td>${safeUrl(item.productUrl) ? `<a href="${escapeHtml(safeUrl(item.productUrl))}">${escapeHtml(item.product ?? item.name)}</a>` : escapeHtml(item.product ?? item.name)}</td>
       <td>${escapeHtml(item.store)}</td>
       <td>${escapeHtml(item.priceToday)}</td>
       <td>${escapeHtml(item.priceYesterday)}</td>
-      <td>${escapeHtml(item.sale)}</td>
+      <td>${escapeHtml(item.change ?? item.sale ?? "")}</td>
+      <td>${escapeHtml(item.note ?? "")}</td>
     </tr>
   `).join("");
-  return `<h2>Ceny sledovanych produktu</h2>
+  return `<h2>COST HUNTER - sledovane ceny</h2>${summary}
     <div class="table-wrap">
       <table>
-        <thead><tr><th>#</th><th>Nazev</th><th>Obchod</th><th>Cena dnes</th><th>Cena vcera</th><th>Akce</th></tr></thead>
+        <thead><tr><th>Status</th><th>Produkt</th><th>Obchod</th><th>Cena dnes</th><th>Cena vcera</th><th>Zmena</th><th>Poznamka jen pri &gt;=10 %</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
     </div>`;
@@ -58,7 +66,7 @@ function renderReport(report) {
   document.querySelector("#meta").textContent = `${report.generatedAt} | ${report.timezone}`;
 
   sections.summary.innerHTML = list("Kratke shrnuti dne", report.summary);
-  sections.products.innerHTML = productTable(report.productPrices);
+  sections.products.innerHTML = productTable(report.productPrices, report.productPriceSummary);
   sections.meetings.innerHTML = cards("Nadchazejici schuzky a proc jsou dulezite", report.calendar?.meetings, (meeting) => `
     <h3>${escapeHtml(meeting.title)}</h3>
     <p class="meta">${escapeHtml(meeting.start)} -> ${escapeHtml(meeting.end)} | ${escapeHtml(meeting.transparency)}</p>
@@ -82,7 +90,6 @@ function renderReport(report) {
 
   sections.risks.innerHTML = list("Rizika, kolize nebo nejasnosti", report.risks);
   sections.nextSteps.innerHTML = list("Doporucene dalsi kroky", report.nextSteps);
-  sections.sources.innerHTML = list("Zdroje", report.sources);
 }
 
 async function loadReport(url) {
