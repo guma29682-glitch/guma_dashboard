@@ -1,31 +1,28 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GUMA OS Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <main class="shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">GUMA OS</p>
-          <h1 id="title">Dashboard</h1>
-          <p id="meta" class="meta"></p>
-        </div>
-        <select id="history" aria-label="Historie dashboardu"></select>
-      </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Veřejně bezpečný denní přehled GUMA OS.">
+  <title>GUMA OS</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="GUMA OS domů">GUMA <span>OS</span></a>
+    <label class="history-control">
+      <span>Historie</span>
+      <select id="report-select" aria-label="Vybrat denní report"></select>
+    </label>
+  </header>
 
-      <section class="section" id="summary"></section>
-      <section class="section" id="products"></section>
-      <section class="section" id="meetings"></section>
-      <section class="section" id="prep"></section>
-      <section class="section" id="related"></section>
-      <section class="section" id="news"></section>
-      <section class="section" id="risks"></section>
-      <section class="section" id="nextSteps"></section>
-    </main>
-    <script src="app.js"></script>
-  </body>
+  <main id="app" aria-live="polite">
+    <section class="loading">Načítám dnešní update…</section>
+  </main>
+
+  <footer>
+    Veřejná verze · bez e-mailů, tokenů a soukromých detailů
+  </footer>
+  <script src="assets/app.js" defer></script>
+</body>
 </html>
