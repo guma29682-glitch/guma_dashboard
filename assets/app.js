@@ -7,16 +7,35 @@ const esc = (value = "") => String(value)
   .replaceAll(">", "&gt;")
   .replaceAll('"', "&quot;");
 
-const list = (items = []) => items.map((item) =>
-  `<li><strong>${esc(item.title || item)}</strong>${item.detail ? `<span class="meta">${esc(item.detail)}</span>` : ""}</li>`
-).join("");
+const safeHref = (value = "") => {
+  try {
+    const url = new URL(String(value), window.location.href);
+    return ["http:", "https:"].includes(url.protocol) ? esc(url.href) : "";
+  } catch {
+    return "";
+  }
+};
+
+const list = (items = []) => items.map((item) => {
+  const title = esc(item.title || item);
+  const href = item.url ? safeHref(item.url) : "";
+  const heading = href
+    ? `<a href="${href}" rel="noopener noreferrer"><strong>${title}</strong></a>`
+    : `<strong>${title}</strong>`;
+  return `<li>${heading}${item.detail ? `<span class="meta">${esc(item.detail)}</span>` : ""}</li>`;
+}).join("");
 
 function render(report) {
   const costs = report.costHunter;
+  const newsItems = report.news?.items || [];
+  const expectedNews = Number(report.newsMinimumItems || 0);
+  const newsWarning = expectedNews && newsItems.length < expectedNews
+    ? `<p class="status-note">Ověřených novinek je ${newsItems.length}; očekávané minimum je ${expectedNews}. ${esc(report.news.note || "")}</p>`
+    : `<p class="status-note">${esc(report.news?.note || "")}</p>`;
   const rows = costs.products.map((item) => `
     <tr>
       <td><span class="status">${esc(item.status)}</span></td>
-      <td><a href="${esc(item.productUrl)}" rel="noopener noreferrer">${esc(item.product)}</a></td>
+      <td><a href="${safeHref(item.productUrl)}" rel="noopener noreferrer">${esc(item.product)}</a></td>
       <td>${esc(item.store)}</td>
       <td>${esc(item.priceToday)}</td>
       <td>${esc(item.priceYesterday)}</td>
@@ -46,6 +65,7 @@ function render(report) {
         <section class="section-block">
           <h2>Dnes</h2>
           <p class="lead">${esc(report.daySummary)}</p>
+          <ul class="clean-list">${list(report.summaryItems)}</ul>
           <ul class="clean-list">${list(report.calendar.context)}</ul>
         </section>
 
@@ -65,13 +85,21 @@ function render(report) {
 
       <aside>
         <section class="section-block">
+          <h2>Co připravit</h2>
+          <ul class="clean-list">${list(report.prep)}</ul>
+        </section>
+        <section class="section-block">
           <h2>Podklady</h2>
           <ul class="clean-list">${list(report.context)}</ul>
         </section>
         <section class="section-block">
           <h2>Novinky</h2>
-          <p class="status-note">${esc(report.news.note)}</p>
-          <ul class="clean-list">${list(report.news.items)}</ul>
+          ${newsWarning}
+          <ul class="clean-list">${list(newsItems)}</ul>
+        </section>
+        <section class="section-block">
+          <h2>Rizika</h2>
+          <ul class="clean-list">${list(report.risks)}</ul>
         </section>
         <section class="section-block">
           <h2>Další kroky</h2>
