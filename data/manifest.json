@@ -1,27 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T05:45:01+02:00",
+  "generatedAt": "2026-08-05T05:45:01+02:00",
   "latest": "data/latest.json",
   "reports": [
-    {
-      "date": "2026-08-04",
-      "label": "4. 8. 2026",
-      "path": "data/reports/2026-08-04.json"
-    },
-    {
-      "date": "2026-08-03",
-      "label": "3. 8. 2026",
-      "path": "data/reports/2026-08-03.json"
-    },
-    {
-      "date": "2026-08-02",
-      "label": "2. 8. 2026",
-      "path": "data/reports/2026-08-02.json"
-    },
-    {
-      "date": "2026-08-01",
-      "label": "1. 8. 2026",
-      "path": "data/reports/2026-08-01.json"
-    }
+    {"date": "2026-08-05", "label": "5. 8. 2026", "path": "data/reports/2026-08-05.json"},
+    {"date": "2026-08-04", "label": "4. 8. 2026", "path": "data/reports/2026-08-04.json"},
+    {"date": "2026-08-03", "label": "3. 8. 2026", "path": "data/reports/2026-08-03.json"},
+    {"date": "2026-08-02", "label": "2. 8. 2026", "path": "data/reports/2026-08-02.json"},
+    {"date": "2026-08-01", "label": "1. 8. 2026", "path": "data/reports/2026-08-01.json"}
   ]
 }
