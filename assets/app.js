@@ -92,6 +92,12 @@ function render(report) {
           <h2>Podklady</h2>
           <ul class="clean-list">${list(report.context)}</ul>
         </section>
+        ${report.tedRecommendations?.items?.length ? `
+        <section class="section-block">
+          <h2>TED doporučení</h2>
+          <p class="status-note">${esc(report.tedRecommendations.note || "")}</p>
+          <ul class="clean-list">${list(report.tedRecommendations.items)}</ul>
+        </section>` : ""}
         <section class="section-block">
           <h2>Novinky</h2>
           ${newsWarning}

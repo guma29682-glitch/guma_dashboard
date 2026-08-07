@@ -4,8 +4,8 @@
   "newsMinimumItems": 20,
   "date": "2026-08-07",
   "title": "GUMA dashboard · 7. 8. 2026",
-  "updatedAt": "2026-08-07T15:13:50+02:00",
-  "updatedLabel": "Opraveno v 15:13 CEST",
+  "updatedAt": "2026-08-07T15:34:22+02:00",
+  "updatedLabel": "Doplněno v 15:34 CEST",
   "publicSafety": "Veřejně bezpečný výstup",
   "signals": {
     "meetings": "0",
@@ -74,7 +74,7 @@
   "context": [
     {
       "title": "Gmail guma",
-      "detail": "Od 5. 8. nebyl nalezen nový relevantní e-mail navázaný na dnešní kalendář."
+      "detail": "Nalezen nejnovější přeposlaný newsletter TED Recommends z 5. 8.; odkazy jsou převedené na přímé TED adresy."
     },
     {
       "title": "Google Drive",
@@ -85,6 +85,47 @@
       "detail": "Nebyl nalezen aktuální pracovní kontext; rozšířené meeting notes nejsou v připojeném tarifu dostupné."
     }
   ],
+  "tedRecommendations": {
+    "issueDate": "2026-08-05",
+    "note": "Nejnovější vydání TED Recommends z 5. 8. 2026; přímé odkazy bez e-mailového trackingu.",
+    "items": [
+      {
+        "title": "The \"dead zone\" of the Gulf of Mexico · Nancy Rabalais",
+        "detail": "Proč v Mexickém zálivu vzniká oblast bez dostatku kyslíku, jak ničí mořský život a co může situaci zvrátit.",
+        "url": "https://www.ted.com/talks/nancy_rabalais_the_dead_zone_of_the_gulf_of_mexico"
+      },
+      {
+        "title": "Yup, I built a nuclear fusion reactor · Taylor Wilson",
+        "detail": "Příběh mladého vynálezce, který ve čtrnácti letech postavil funkční fúzní reaktor.",
+        "url": "https://www.ted.com/talks/taylor_wilson_yup_i_built_a_nuclear_fusion_reactor"
+      },
+      {
+        "title": "The boiling river of the Amazon · Andrés Ruzo",
+        "detail": "Geovědec pátrá po legendární vroucí řece v Amazonii a odhaluje neobvyklý geotermální jev.",
+        "url": "https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon"
+      },
+      {
+        "title": "The toxic baby · Tyrone Hayes a Penelope Jagessar Chaffer",
+        "detail": "Jak mohou chemické látky z prostředí ovlivňovat vývoj dítěte, na příkladu herbicidu atrazin.",
+        "url": "https://www.ted.com/talks/tyrone_hayes_penelope_jagessar_chaffer_the_toxic_baby"
+      },
+      {
+        "title": "4 ways we can avoid a catastrophic drought · David Sedlak",
+        "detail": "Čtyři praktické cesty, jak mohou města získávat vodu z místních zdrojů a lépe zvládat sucho.",
+        "url": "https://www.ted.com/talks/david_sedlak_4_ways_we_can_avoid_a_catastrophic_drought"
+      },
+      {
+        "title": "How we can make crops survive without water · Jill Farrant",
+        "detail": "Výzkum odolných resurrection plants a jejich možného využití pro plodiny v sušším klimatu.",
+        "url": "https://www.ted.com/talks/jill_farrant_how_we_can_make_crops_survive_without_water"
+      },
+      {
+        "title": "Glow-in-the-dark sharks and other stunning sea creatures · David Gruber",
+        "detail": "Výprava za biofluorescenčními žraloky, želvami a dalšími mořskými tvory.",
+        "url": "https://www.ted.com/talks/david_gruber_glow_in_the_dark_sharks_and_other_stunning_sea_creatures"
+      }
+    ]
+  },
   "news": {
     "windowStart": "2026-08-06T08:00:00+02:00",
     "windowEnd": "2026-08-07T05:45:01+02:00",
