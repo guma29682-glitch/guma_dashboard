@@ -99,6 +99,8 @@ h1 {
   letter-spacing: 0;
 }
 
+.report-date { display: block; }
+
 .freshness {
   max-width: 240px;
   color: var(--muted);
@@ -142,6 +144,8 @@ h1 {
   gap: 54px;
   padding-top: 42px;
 }
+
+.full-flow { padding-top: 42px; }
 
 section { min-width: 0; }
 

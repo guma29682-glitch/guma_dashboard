@@ -16,6 +16,13 @@ const safeHref = (value = "") => {
   }
 };
 
+const reportTitle = (value = "") => {
+  const [name, date] = String(value).split(" · ");
+  return date
+    ? `${esc(name)}<span class="report-date">${esc(date)}</span>`
+    : esc(value);
+};
+
 const list = (items = []) => items.map((item) => {
   const title = esc(item.title || item);
   const href = item.url ? safeHref(item.url) : "";
@@ -48,7 +55,7 @@ function render(report) {
     <section class="masthead">
       <div>
         <p class="eyebrow">Denní systémový update</p>
-        <h1>${esc(report.title)}</h1>
+        <h1>${reportTitle(report.title)}</h1>
       </div>
       <div class="freshness">${esc(report.updatedLabel)}<br>${esc(report.publicSafety)}</div>
     </section>
@@ -68,19 +75,6 @@ function render(report) {
           <ul class="clean-list">${list(report.summaryItems)}</ul>
           <ul class="clean-list">${list(report.calendar.context)}</ul>
         </section>
-
-        <section class="section-block">
-          <h2>COST HUNTER</h2>
-          <p class="lead">${esc(costs.summary)}</p>
-          <p class="status-note">${esc(costs.freshnessNote)}</p>
-          <div class="price-wrap">
-            <table>
-              <thead><tr><th>Status</th><th>Produkt</th><th>Obchod</th><th>Cena dnes</th><th>Cena včera</th><th>Změna</th><th>Poznámka jen při ≥10 %</th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
-          <p class="smallprint">${esc(costs.linkNote)}</p>
-        </section>
       </div>
 
       <aside>
@@ -92,6 +86,22 @@ function render(report) {
           <h2>Podklady</h2>
           <ul class="clean-list">${list(report.context)}</ul>
         </section>
+      </aside>
+    </div>
+
+    <div class="full-flow">
+      <section class="section-block">
+        <h2>Ceny sledovaných produktů (COST HUNTER)</h2>
+        <p class="lead">${esc(costs.summary)}</p>
+        <p class="status-note">${esc(costs.freshnessNote)}</p>
+        <div class="price-wrap">
+          <table>
+            <thead><tr><th>Status</th><th>Produkt</th><th>Obchod</th><th>Cena dnes</th><th>Cena včera</th><th>Změna</th><th>Poznámka jen při ≥10 %</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+        <p class="smallprint">${esc(costs.linkNote)}</p>
+      </section>
         ${report.tedRecommendations?.items?.length ? `
         <section class="section-block">
           <h2>TED doporučení</h2>
@@ -111,7 +121,6 @@ function render(report) {
           <h2>Další kroky</h2>
           <ul class="clean-list">${list(report.nextSteps)}</ul>
         </section>
-      </aside>
     </div>`;
 }
 
