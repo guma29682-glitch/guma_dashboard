@@ -4,8 +4,8 @@
   "newsMinimumItems": 20,
   "date": "2026-08-07",
   "title": "GUMA dashboard · 7. 8. 2026",
-  "updatedAt": "2026-08-07T05:45:01+02:00",
-  "updatedLabel": "Aktualizováno v 05:45 CEST",
+  "updatedAt": "2026-08-07T15:13:50+02:00",
+  "updatedLabel": "Opraveno v 15:13 CEST",
   "publicSafety": "Veřejně bezpečný výstup",
   "signals": {
     "meetings": "0",
@@ -13,7 +13,7 @@
     "newMail": "0",
     "unknownPrices": "1"
   },
-  "daySummary": "Primární kalendář je dnes bez blokujících schůzek, změn a kolizí. Celý pátek je volný pro souvislou práci; v kalendáři zůstávají jen transparentní kulturní a promo kontexty.",
+  "daySummary": "Primární kalendář je dnes bez blokujících schůzek, změn a kolizí. Celý pátek je volný pro souvislou práci; v kalendáři zůstávají jen transparentní kulturní kontexty.",
   "summaryItems": [
     {
       "title": "Svátek",
@@ -54,10 +54,6 @@
       {
         "title": "Festival UPROSTŘED · do 19. 8.",
         "detail": "Volitelný bezplatný kulturní tip v centru Brna."
-      },
-      {
-        "title": "Vinokral.cz · 10% sleva do 28. 8.",
-        "detail": "Aktivní transparentní připomínka; slevový kód zůstává jen v původním e-mailu."
       }
     ]
   },
