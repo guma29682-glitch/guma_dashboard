@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "template": "guma-dashboard-approved-2026-08-07",
+  "newsMinimumItems": 0,
+  "date": "2026-08-10",
+  "title": "GUMA dashboard · 10. 8. 2026",
+  "updatedAt": "2026-08-10T16:49:00+02:00",
+  "updatedLabel": "Aktualizace 16:49 CEST · novinky do 05:45",
+  "publicSafety": "Veřejně bezpečný výstup",
+  "signals": {
+    "meetings": "0",
+    "freeWindow": "celý den",
+    "newMail": "2",
+    "unknownPrices": "0"
+  },
+  "daySummary": "Primární kalendář je dnes bez blokujících schůzek, změn a kolizí. Celý den je volný pro souvislou práci; dlouhodobé kulturní položky jsou transparentní a čas neblokují.",
+  "summaryItems": [
+    {
+      "title": "Kalendář",
+      "detail": "Žádné pevné meetingy dnes ani v nejbližším výhledu do 13. 8.; souvislé volné okno je celý den."
+    },
+    {
+      "title": "Gmail",
+      "detail": "Doručení PPL bylo naplánováno na 11:00–13:00 a je už po termínu; přišla také faktura k objednávce."
+    },
+    {
+      "title": "Gmail nabídky",
+      "detail": "Synchronizace proběhla před načtením kalendáře. Nebyla nalezena aktivní nabídka s jasnou platností ani starší synchronizovaná položka."
+    },
+    {
+      "title": "COST HUNTER",
+      "detail": "Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum je 10. 8. 2026."
+    }
+  ],
+  "calendar": {
+    "meetingCount": 0,
+    "conflictCount": 0,
+    "freeWindows": [
+      {
+        "start": "2026-08-10T00:00:00+02:00",
+        "end": "2026-08-11T00:00:00+02:00",
+        "label": "celý den"
+      }
+    ],
+    "context": [
+      {
+        "title": "Žádná blokující schůzka",
+        "detail": "Dnes ani do 13. 8. nejsou pevné meetingy, přesuny nebo kolize."
+      },
+      {
+        "title": "Festival UPROSTŘED · do 19. 8.",
+        "detail": "Neblokující bezplatný kulturní kontext v centru Brna."
+      },
+      {
+        "title": "Další dlouhodobé tipy",
+        "detail": "Rozdávání knih, Brno Art Open, Umění do kapsy a Brno a jeho chrámy jsou transparentní kontexty, ne rezervace času."
+      }
+    ]
+  },
+  "prep": [
+    {
+      "title": "Bez meeting prep",
+      "detail": "Kalendář dnes neobsahuje účastníky, agendu ani dokumenty ke schůzce."
+    },
+    {
+      "title": "Jeden hlavní výsledek",
+      "detail": "Využij souvislý den na jednu dokončitelnou prioritu."
+    },
+    {
+      "title": "Zásilka",
+      "detail": "Pokud PPL balík mezi 11:00–13:00 nedorazil, zkontroluj tracking; k objednávce je v Gmailu nová faktura."
+    }
+  ],
+  "context": [
+    {
+      "title": "Gmail guma",
+      "detail": "Synchronizace nabídek proběhla před kalendářem; ověřené dnešní zprávy se týkají zásilky a faktury."
+    },
+    {
+      "title": "Google Drive",
+      "detail": "Použit dnešní list GUMA report; všech pět cen je hotových, proto se ceny znovu nedohledávaly."
+    },
+    {
+      "title": "Notion",
+      "detail": "Nebyl nalezen aktuální pracovní kontext; rozšířené meeting notes nejsou na připojeném tarifu dostupné."
+    }
+  ],
+  "costHunter": {
+    "sourceWorkbook": "COST HUNTER - sledovane ceny",
+    "sourceSheet": "GUMA report",
+    "sourceCheckedLabel": "Kontrola: 10. 8. 2026",
+    "summary": "Zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
+    "freshnessNote": "Kontrolní datum odpovídá dnešku a všech pět produktů je přítomno. Přesný čas aktualizace list neuvádí a sešit má nastavené pásmo America/Los_Angeles.",
+    "counts": {
+      "cheaper": 0,
+      "moreExpensive": 0,
+      "unchanged": 5,
+      "unknown": 0
+    },
+    "linkNote": "Ceny jsou převzaté z dnešního GUMA reportu a nebyly znovu dohledávány. Přímé produktové odkazy jsou zachované z dříve ověřené publikační historie.",
+    "products": [
+      {
+        "status": "Beze změny",
+        "product": "La Baume Saint Paul Cabernet-Syrah nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1456406-la-baume-saint-paul-cabernet-syrah-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "169,90 Kč",
+        "priceYesterday": "169,90 Kč",
+        "change": "0,00 Kč",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "Kylie Minogue Sparkling nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1471462-kylie-minogue-sparkling-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "169,90 Kč",
+        "priceYesterday": "169,90 Kč",
+        "change": "0,00 Kč",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "ORGANIS Mandle jádra 1000 g",
+        "productUrl": "https://www.lekarna.cz/organis-mandle-jadra-1000-g/",
+        "store": "Lekarna.cz",
+        "priceToday": "355,00 Kč",
+        "priceYesterday": "355,00 Kč",
+        "change": "0,00 Kč",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "RITTER SPORT Mléčná čokoláda celé mandle 100 g",
+        "productUrl": "https://www.lekarna.cz/ritter-sport-mlecna-cokolada-cele-mandle-100-g/",
+        "store": "Lekarna.cz",
+        "priceToday": "64,00 Kč",
+        "priceYesterday": "64,00 Kč",
+        "change": "0,00 Kč",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "Wrigley's Orbit Žvýkačky bez cukru s melounovou příchutí",
+        "productUrl": "https://www.rohlik.cz/1290599-wrigley-s-orbit-zvykacky-bez-cukru-s-melounovou-prichuti",
+        "store": "Rohlik.cz",
+        "priceToday": "21,90 Kč",
+        "priceYesterday": "21,90 Kč",
+        "change": "0,00 Kč",
+        "note": ""
+      }
+    ]
+  },
+  "tedRecommendations": {
+    "issueDate": "2026-08-05",
+    "note": "Nejnovější aktivní TED Recommends z 5. 8. 2026; pořadí odpovídá newsletteru a odkazy neobsahují e-mailový tracking.",
+    "items": [
+      {
+        "title": "The \"dead zone\" of the Gulf of Mexico · Nancy Rabalais",
+        "detail": "Jak nedostatek kyslíku vytváří mrtvou zónu v Mexickém zálivu a co může pomoci obnovit její ekosystém.",
+        "url": "https://www.ted.com/talks/nancy_rabalais_the_dead_zone_of_the_gulf_of_mexico"
+      },
+      {
+        "title": "Yup, I built a nuclear fusion reactor · Taylor Wilson",
+        "detail": "Příběh studenta, který ve čtrnácti postavil funkční fúzní reaktor a vidí ve fúzi budoucí zdroj energie.",
+        "url": "https://www.ted.com/talks/taylor_wilson_yup_i_built_a_nuclear_fusion_reactor"
+      },
+      {
+        "title": "The boiling river of the Amazon · Andrés Ruzo",
+        "detail": "Geovědec hledá skutečnou vroucí řeku hluboko v Amazonii a připomíná, kolik přírodních divů stále neznáme.",
+        "url": "https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon"
+      },
+      {
+        "title": "The toxic baby · Tyrone Hayes a Penelope Jagessar Chaffer",
+        "detail": "Vědec a filmařka propojují těhotenskou expozici chemikáliím s výzkumem účinků herbicidu atrazinu.",
+        "url": "https://www.ted.com/talks/tyrone_hayes_penelope_jagessar_chaffer_the_toxic_baby"
+      },
+      {
+        "title": "4 ways we can avoid a catastrophic drought · David Sedlak",
+        "detail": "Čtyři praktické cesty, jak města mohou získat odolnější místní zdroje vody.",
+        "url": "https://www.ted.com/talks/david_sedlak_4_ways_we_can_avoid_a_catastrophic_drought"
+      },
+      {
+        "title": "How we can make crops survive without water · Jill Farrant",
+        "detail": "Výzkum mimořádně odolných oživujících rostlin může pomoci pěstovat potraviny v teplejším a sušším světě.",
+        "url": "https://www.ted.com/talks/jill_farrant_how_we_can_make_crops_survive_without_water"
+      },
+      {
+        "title": "Glow-in-the-dark sharks and other stunning sea creatures · David Gruber",
+        "detail": "Výprava za biofluorescenčními žraloky a dalšími mořskými tvory ukazuje skrytý svět barev pod hladinou.",
+        "url": "https://www.ted.com/talks/david_gruber_glow_in_the_dark_sharks_and_other_stunning_sea_creatures"
+      }
+    ]
+  },
+  "news": {
+    "windowStart": "2026-08-09T08:00:00+02:00",
+    "windowEnd": "2026-08-10T05:45:00+02:00",
+    "note": "Přesné ranní okno se nepodařilo spolehlivě pokrýt. Starší ani pozdější zprávy nejsou doplněné; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vyloučené.",
+    "items": []
+  },
+  "risks": [
+    {
+      "title": "Zpravodajské pokrytí chybí",
+      "detail": "Přesné ranní okno nebylo spolehlivě pokryto, proto je sekce bez jednotlivých zpráv."
+    },
+    {
+      "title": "COST HUNTER nemá odkazy v názvech",
+      "detail": "Přímé adresy jsou převzaté z dříve ověřené publikační historie, nikoli z dnešního listu."
+    },
+    {
+      "title": "Čas aktualizace cen není uveden",
+      "detail": "Kontrolní datum je dnešní, ale sešit používá pásmo America/Los_Angeles."
+    },
+    {
+      "title": "Notion meeting notes jsou omezené tarifem",
+      "detail": "Běžné hledání nic aktuálního nenašlo a rozšířený dotaz není dostupný."
+    }
+  ],
+  "nextSteps": [
+    {
+      "title": "Vyber jeden konkrétní výsledek dne",
+      "detail": "Kalendář nabízí celý souvislý den bez meetingů."
+    },
+    {
+      "title": "Ověř zásilku",
+      "detail": "Pokud PPL nedoručilo mezi 11:00–13:00, otevři tracking z dnešního e-mailu."
+    },
+    {
+      "title": "Neřeš ceny ručně",
+      "detail": "Všech pět položek je dnes hotových a beze změny."
+    }
+  ]
+}
