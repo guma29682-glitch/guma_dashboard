@@ -1,8 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T05:45:00+02:00",
+  "generatedAt": "2026-08-18T05:45:00+02:00",
   "latest": "data/latest.json",
   "reports": [
+    {
+      "date": "2026-08-18",
+      "label": "18. 8. 2026",
+      "path": "data/reports/2026-08-18.json"
+    },
     {
       "date": "2026-08-17",
       "label": "17. 8. 2026",
