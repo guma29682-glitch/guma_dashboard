@@ -111,7 +111,7 @@ function render(report) {
         <section class="section-block">
           <h2>Novinky</h2>
           ${newsWarning}
-          <ul class="clean-list">${list(newsItems)}</ul>
+          <ol class="clean-list numbered-list">${list(newsItems)}</ol>
         </section>
         <section class="section-block">
           <h2>Rizika</h2>
