@@ -103,16 +103,20 @@ function render(report) {
         <p class="smallprint">${esc(costs.linkNote)}</p>
       </section>
         ${report.tedRecommendations?.items?.length ? `
-        <section class="section-block">
-          <h2>TED doporučení</h2>
-          <p class="status-note">${esc(report.tedRecommendations.note || "")}</p>
-          <ul class="clean-list">${list(report.tedRecommendations.items)}</ul>
-        </section>` : ""}
-        <section class="section-block">
-          <h2>Novinky</h2>
-          ${newsWarning}
-          <ol class="clean-list numbered-list">${list(newsItems)}</ol>
-        </section>
+        <details class="section-block collapsible-section">
+          <summary><h2>TED doporučení</h2></summary>
+          <div class="collapsible-content">
+            <p class="status-note">${esc(report.tedRecommendations.note || "")}</p>
+            <ul class="clean-list">${list(report.tedRecommendations.items)}</ul>
+          </div>
+        </details>` : ""}
+        <details class="section-block collapsible-section">
+          <summary><h2>Novinky</h2></summary>
+          <div class="collapsible-content">
+            ${newsWarning}
+            <ol class="clean-list numbered-list">${list(newsItems)}</ol>
+          </div>
+        </details>
         <section class="section-block">
           <h2>Rizika</h2>
           <ul class="clean-list">${list(report.risks)}</ul>

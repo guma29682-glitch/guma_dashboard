@@ -157,6 +157,61 @@ section { min-width: 0; }
 
 .section-block + .section-block { padding-top: 34px; }
 
+.collapsible-section {
+  padding-bottom: 0;
+}
+
+.collapsible-section + .collapsible-section {
+  padding-top: 0;
+}
+
+.collapsible-section > summary {
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.collapsible-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible-section > summary::before {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
+  border-right: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  content: "";
+  transform: rotate(-45deg);
+  transition: transform 160ms ease;
+}
+
+.collapsible-section[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.collapsible-section > summary:hover h2 {
+  color: var(--accent);
+}
+
+.collapsible-section > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.collapsible-section > summary h2 {
+  margin: 0;
+}
+
+.collapsible-content {
+  padding-bottom: 36px;
+}
+
 h2 {
   margin: 0 0 15px;
   font-size: 1.25rem;
