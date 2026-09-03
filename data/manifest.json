@@ -4,6 +4,11 @@
   "latest": "data/latest.json",
   "reports": [
     {
+      "date": "2026-09-03",
+      "label": "3. 9. 2026",
+      "path": "data/reports/2026-09-03.json"
+    },
+    {
       "date": "2026-09-02",
       "label": "2. 9. 2026",
       "path": "data/reports/2026-09-02.json"
