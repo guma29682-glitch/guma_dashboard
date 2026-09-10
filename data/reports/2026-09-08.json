@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-09",
-  "updatedAt": "2026-09-09T03:45:00Z",
-  "title": "GUMA dashboard · 9. 9. 2026",
+  "date": "2026-09-08",
+  "updatedAt": "2026-09-08T03:45:00Z",
+  "title": "GUMA dashboard · 8. 9. 2026",
   "template": "guma-dashboard-approved-2026-08-07",
-  "updatedLabel": "Aktualizováno 9. 9. 2026 v 05:45 CEST",
+  "updatedLabel": "Aktualizováno 8. 9. 2026 v 05:45 CEST",
   "publicSafety": "Veřejně bezpečné shrnutí bez slevových kódů a citlivého obsahu",
   "signals": {
     "meetings": "0",
@@ -12,19 +12,19 @@
     "newMail": "0 aktivních nabídek",
     "unknownPrices": "2 / 5"
   },
-  "daySummary": "Středa je bez blokujících schůzek, změn a kolizí. Celý den zůstává volný pro souvislou práci; v kalendáři jsou jen transparentní kulturní tipy.",
+  "daySummary": "Úterý je bez blokujících schůzek, změn a kolizí. Celý den je volný pro souvislou práci; v kalendáři zůstávají jen dlouhodobé transparentní kulturní tipy.",
   "summaryItems": [
     {
       "title": "Svátek",
-      "detail": "dnes Daniela, zítra Irma; státní svátek není."
+      "detail": "dnes Mariana, zítra Daniela; státní svátek není."
     },
     {
       "title": "Kurzy ČNB",
-      "detail": "Oficiální denní lístek z 8. 9. 2026: EUR/CZK 24,195 (koruna zhruba beze změny) a USD/CZK 20,834 (koruna posiluje); trend vychází z několika předchozích fixingů 2.–8. 9."
+      "detail": "Oficiální denní lístek z 7. 9. 2026: EUR/CZK 24,200 (koruna zhruba beze změny) a USD/CZK 20,823 (koruna posiluje); trend vychází z fixingů 2., 4. a 7. 9."
     },
     {
       "title": "Ariana směnárna prodej",
-      "detail": "EUR 24,50 CZK a USD 21,30 CZK (veřejný hotovostní kurzovní lístek z 2. 9. 2026; starší o sedm dní)."
+      "detail": "EUR 24,50 CZK a USD 21,30 CZK (veřejný hotovostní kurzovní lístek z 2. 9. 2026; starší o šest dní)."
     },
     {
       "title": "Kalendář",
@@ -32,11 +32,11 @@
     },
     {
       "title": "COST HUNTER",
-      "detail": "Zlevnilo 0, zdražilo 0, beze změny 3, nezjištěno 2. Kontrolní datum je 9. 9. 2026."
+      "detail": "Zlevnilo 0, zdražilo 0, beze změny 3, nezjištěno 2. Kontrolní datum je 8. 9. 2026."
     },
     {
       "title": "TED a Novinky",
-      "detail": "35 jedinečných TED Talks z celého inboxu a 21 ověřených zpráv z pevného ranního okna."
+      "detail": "35 jedinečných TED Talks z celého inboxu a 20 ověřených zpráv z pevného ranního okna."
     }
   ],
   "calendar": {
@@ -58,9 +58,9 @@
         "url": "https://www.objevbrno.cz/cs/event/burza-mineralu"
       },
       {
-        "title": "Opravené termíny",
-        "detail": "Rozdávání knih a Umění do kapsy byly podle aktuálních zdrojů prodlouženy do 31. 12. 2026; kalendářní položky jsou aktualizované.",
-        "url": "https://www.brno-stred.cz/kalendar-akci"
+        "title": "Nově: volný vstup do Technického muzea",
+        "detail": "Do kalendáře byly po kontrole duplicity přidány transparentní termíny 4. 10., 1. 11. a 4. 12. vždy od 10:00.",
+        "url": "https://www.objevbrno.cz/cs/event/volny-vstup-do-technickeho-muzea-v-brne"
       }
     ]
   },
@@ -81,11 +81,11 @@
   "context": [
     {
       "title": "Gmail slevy",
-      "detail": "Kontrola aktivní i archivované pošty mimo koš a spam nepotvrdila žádnou dnes platnou nabídku s jasnou platností. Kalendářní nabídka Vínokrál byla odstraněna, protože zdrojová zpráva je v koši; kódy nejsou zveřejněné."
+      "detail": "Kontrola aktivní i archivované pošty mimo koš a spam nepotvrdila žádnou dnes platnou nabídku s jasnou platností; kódy nejsou zveřejněné."
     },
     {
       "title": "Gmail TED",
-      "detail": "Celý inbox obsahuje pět přeposlaných vydání TED Recommends a 35 jedinečných Talks; promo, duplicity a transcript/watch kopie jsou vynechané."
+      "detail": "Celý inbox obsahuje pět přeposlaných vydání TED Recommends a 35 jedinečných Talks; novější vhodná zpráva nepřibyla."
     },
     {
       "title": "Google Drive",
@@ -93,15 +93,15 @@
     },
     {
       "title": "Akce zdarma / do 100 Kč",
-      "detail": "Kudy z nudy, Objev Brno a Brno-střed byly zkontrolovány. Dvě již uložené akce dostaly opravený konec 31. 12. 2026; nové duplicity nevznikly."
+      "detail": "Kudy z nudy, Objev Brno a Brno-střed byly zkontrolovány; přibyly tři termíny volného vstupu do Technického muzea."
     },
     {
       "title": "Notion",
-      "detail": "Meeting notes nebylo možné načíst, protože připojený workspace vyžaduje Business plán."
+      "detail": "Meeting notes nebylo možné načíst, protože připojený workspace vyžaduje vyšší plán."
     }
   ],
   "costHunter": {
-    "summary": "Kontrola 9. 9. 2026: zlevnilo 0 · zdražilo 0 · beze změny 3 · nezjištěno 2",
+    "summary": "Kontrola 8. 9. 2026: zlevnilo 0 · zdražilo 0 · beze změny 3 · nezjištěno 2",
     "freshnessNote": "Kontrolní datum je dnešní a všech pět produktů je přítomno. Srovnání navazuje na poslední kontrolu 5. 9., protože data za 6. 9. chybí; dvě ceny z Lekarna.cz se nepodařilo ověřit.",
     "linkNote": "Přímé odkazy jsou v názvech produktů; nic nebylo odhadnuto.",
     "products": [
@@ -113,7 +113,7 @@
         "priceToday": "189,90 Kč",
         "priceYesterday": "189,90 Kč",
         "change": "0,00 Kč",
-        "note": ""
+        "note": "Porovnání vůči poslední kontrole 5. 9.; data za 6. 9. chybí."
       },
       {
         "status": "Beze změny",
@@ -123,7 +123,7 @@
         "priceToday": "169,90 Kč",
         "priceYesterday": "169,90 Kč",
         "change": "0,00 Kč",
-        "note": ""
+        "note": "Porovnání vůči poslední kontrole 5. 9.; data za 6. 9. chybí."
       },
       {
         "status": "Beze změny",
@@ -133,7 +133,7 @@
         "priceToday": "21,90 Kč",
         "priceYesterday": "21,90 Kč",
         "change": "0,00 Kč",
-        "note": ""
+        "note": "Porovnání vůči poslední kontrole 5. 9.; data za 6. 9. chybí."
       },
       {
         "status": "Nezjištěno",
@@ -159,112 +159,107 @@
   },
   "newsMinimumItems": 20,
   "news": {
-    "note": "21 ověřených zpráv od 8. 9. 08:00 do 9. 9. 05:45 Europe/Prague; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
+    "note": "20 ověřených zpráv od 7. 9. 08:00 do 8. 9. 05:45 Europe/Prague; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
     "items": [
       {
-        "title": "Televizory LG přistiženy při odposlouchávání uživatelů i ve standby",
-        "detail": "Výzkumníci popsali napadené televizory LG schopné zachytit zvuk i v pohotovostním režimu; výrobce interpretaci zjištění rozporuje.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-bezpecnost-televizory-lg-pristizeny-pri-odposlouchavani-uzivatelu-i-kdyz-nebyly-zapnute-40596734"
+        "title": "Soukromé a církevní školy mohou přijít o dotace",
+        "detail": "Vláda zvažuje snížení zákonných dotací neveřejným školám; nynější výdaje dosahují přibližně 21 miliard Kč ročně.",
+        "url": "https://www.novinky.cz/clanek/domaci-soukrome-a-cirkevni-skoly-mohou-prijit-o-dotace-40596509"
       },
       {
-        "title": "Napětí v Praze zvedají volební průzkumy, úplně se rozcházejí",
-        "detail": "Modely Ipsosu a Medianu dávají v pražských volbách výrazně odlišné pořadí: jeden vede SPOLU, druhý ANO.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-napeti-v-praze-zvedaji-volebni-pruzkumy-uplne-se-rozchazeji-40596601"
+        "title": "Průzkum: Volby v Praze by vyhrálo ANO",
+        "detail": "Median naměřil ANO 23,3 procenta a STAN 22,6 procenta; pětina dotázaných zůstává nerozhodnutá.",
+        "url": "https://www.novinky.cz/clanek/volby-komunalni-pruzkum-volby-v-praze-by-vyhralo-ano-40596493"
       },
       {
-        "title": "Vedení New Yorku po 11. září lhalo o toxickém ovzduší, prohlásil starosta",
-        "detail": "Starosta Zohran Mamdani tvrdí, že tehdejší vedení vědělo o zdravotních rizicích ovzduší po útocích, ale veřejnost uklidňovalo.",
-        "url": "https://www.novinky.cz/clanek/zahranicni-amerika-vedeni-new-yorku-po-11-zari-lhalo-o-toxickem-ovzdusi-prohlasil-starosta-mamdani-40596745"
+        "title": "IFA 2026: AI gril pozná jídlo a sám ho připraví",
+        "detail": "Novinka Lumo automaticky rozpozná pokrm a řídí přípravu bez kouře a ručního nastavování.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ifa-2026-bez-koure-a-nastavovani-ai-gril-pozna-jidlo-a-sam-ho-pripravi-40596496"
       },
       {
-        "title": "Banky znovu zdražily hypotéky",
-        "detail": "Průměrná nabídková sazba vzrostla na 5,51 procenta a roste už šestý měsíc v řadě.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-banky-znovu-zdrazily-hypoteky-40596646"
+        "title": "Trump hrozí kanadskému Bombardieru zákazem prodeje v USA",
+        "detail": "Americký prezident podmiňuje další prodej letadel tím, že výrobce přesune část výroby do Spojených států.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-amerika-trump-hrozi-kanadskemu-bombardieru-ze-nebude-smet-prodavat-v-usa-40596527"
       },
       {
-        "title": "Stovky odletů z britských letišť narušily problémy s řízením provozu",
-        "detail": "Technické potíže britského řízení letového provozu zasáhly stovky spojů a vytvořily zpoždění napříč letišti.",
-        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-stovky-odletu-z-britskych-letist-narusily-problemy-s-rizenim-provozu-40596746"
+        "title": "PŘEHLEDNĚ: AI asistenti a roboti na veletrhu IFA 2026",
+        "detail": "Čtvrtý den veletrhu ukázal, jak výrobci zabudovávají AI asistenty a robotiku do běžné spotřební elektroniky.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-prehledne-ai-asistenti-a-roboti-ctvrty-den-veletrhu-ifa-2026-40596526"
       },
       {
-        "title": "Sněmovna schválila omezení pravomoci prezidenta k vedoucím stálých misí",
-        "detail": "Poslanci přehlasovali Senát; předloha míří k prezidentovi a odpůrci zvažují ústavní přezkum.",
-        "url": "https://www.ceskenoviny.cz/zpravy/snemovna-schvalila-omezeni-pravomoci-prezidenta-k-vedoucim-stalych-misi/2870725"
+        "title": "Triumf AfD v zemských volbách: reakce českých politiků",
+        "detail": "Výrazný výsledek AfD v Sasku-Anhaltsku vyvolal rozdílné reakce českých vládních politiků.",
+        "url": "https://www.novinky.cz/clanek/domaci-pro-cesko-bude-dulezite-jak-na-vysledek-afd-zareaguje-berlin-40596492"
       },
       {
-        "title": "Ministerstvo se bude zabývat podněty k návrhu nové státní kulturní politiky",
-        "detail": "Resort kultury doplní připomínky profesních organizací, vláda se k materiálu vrátí 14. září.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ministerstvo-se-bude-zabyvat-podnety-k-navrhu-nove-statni-kulturni-politiky/2871950"
+        "title": "Evropská komise pozastavila část dotací pro firmy Agrofertu",
+        "detail": "Komise dočasně zadržela proplacení části evropských podpor, dokud se nevyjasní podmínky a možné střety zájmů.",
+        "url": "https://www.novinky.cz/clanek/domaci-evropska-komise-pozastavila-cast-dotaci-pro-firmy-agrofertu-40596508"
       },
       {
-        "title": "Skiareál Špindlerův Mlýn spustí propojení areálů v prosinci, zatím jednosměrně",
-        "detail": "Propojení Medvědína a Svatého Petra má začít 12. prosince, v první sezoně bude fungovat jen jedním směrem.",
-        "url": "https://www.ceskenoviny.cz/zpravy/skiareal-spindleruv-mlyn-spusti-propojeni-arealu-v-prosinci-zatim-jednosmerne/2871912"
+        "title": "Čína chce podpořit zpomalující ekonomiku kapitálem pro banky",
+        "detail": "Peking plánuje posílit bankovní sektor rozsáhlou kapitálovou injekcí, aby povzbudil úvěrování a růst.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-cina-nalije-do-svych-bank-bilion-40596339"
       },
       {
-        "title": "Teplotní rekordy padly na třech čtvrtinách stanic",
-        "detail": "Rekord padl na 127 ze 171 dlouhodobých stanic; maximum 33,5 °C naměřili i na jižní Moravě.",
-        "url": "https://www.ceskenoviny.cz/zpravy/rekordy-dnes-padly-na-trech-ctvrtinach-stanic-maximum-bylo-335-stupne/2871906"
+        "title": "IFA 2026: Televize dostala robotické tělo",
+        "detail": "Koncept mobilní obrazovky kombinuje televizor s robotickým podvozkem, který může následovat uživatele po domácnosti.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-ifa-2026-tv-dostala-roboticke-telo-aby-nas-mohla-vsude-nasledovat-40596456"
       },
       {
-        "title": "Průzkum na Šumavě nezjistil látky používané jako chemické zbraně",
-        "detail": "Historické bojové látky se nepotvrdily, lokalita ale dál představuje významnou ekologickou zátěž.",
-        "url": "https://www.ceskenoviny.cz/zpravy/pruzkum-na-sumave-nezjistil-zadne-latky-pouzivane-jako-chemicke-zbrane/2871245"
+        "title": "Německá raketa Spectrum dosáhla vesmíru",
+        "detail": "Úspěch soukromé rakety posiluje evropské ambice v komerčním vynášení družic.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-nemecka-raketa-spectrum-dosahla-vesmiru-evropa-se-zapojuje-do-zavodu-o-vynaseni-druzic-40596351"
       },
       {
-        "title": "Babiš se Schillerovou vysvětlovali detaily rozpočtu poslancům SPD",
-        "detail": "Vláda představila parametry rozpočtu na rok 2027 a strukturálních změn; jednání má pokračovat ve středu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/babis-se-schillerovou-vysvetlovali-detaily-rozpoctu-poslancum-spd/2871780"
+        "title": "Sněmovna znovu posoudí stavební novelu a změny pro úředníky",
+        "detail": "Poslanci se vracejí k předlohám vetovaným Senátem; koalice má dost hlasů k přehlasování.",
+        "url": "https://www.ceskenoviny.cz/zpravy/snemovna-znovu-posoudi-spornou-stavebni-novelu-ci-zmeny-v-zamestnavani-uredniku/2870725"
       },
       {
-        "title": "Okamura: řešením nižší valorizace penzí by mohl být jednorázový příspěvek",
-        "detail": "Koalice jedná o kompenzaci nad zákonné zvýšení důchodů o 300 Kč, konkrétní dohoda zatím není.",
-        "url": "https://www.ceskenoviny.cz/zpravy/okamura-resenim-nizsi-valorizace-penzi-by-mohl-byt-jednorazovy-prispevek/2871751"
+        "title": "Kraje stále neznají metodiku ke zdanění veřejné dopravy",
+        "detail": "Jihomoravský hejtman varuje, že nejasná DPH z kompenzací může zdražit jízdné a omezit investice do silnic.",
+        "url": "https://www.ceskenoviny.cz/zpravy/grolich-kraje-stale-neznaji-metodiku-k-chystanemu-zdaneni-verejne-dopravy/2871478"
       },
       {
-        "title": "Mluvit o přírodní katastrofě na Šumavě není namístě, míní odborník",
-        "detail": "Nejde podle něj o přírodní katastrofu, přibližně tisíc tun kontaminované zeminy a stovky sudů ale vyžadují rychlou a opatrnou sanaci.",
-        "url": "https://www.ceskenoviny.cz/zpravy/mluvit-o-prirodni-katastrofe-na-sumave-neni-namiste-mini-odbornik/2871718"
+        "title": "Předseda asociace krajů bude jednat o státním příspěvku na silnice",
+        "detail": "Jednání s premiérem je naplánované na 17. září a má řešit financování regionální dopravní infrastruktury.",
+        "url": "https://www.ceskenoviny.cz/zpravy/predseda-asociace-kraju-ma-179-jednat-s-babisem-o-statnim-prispevku-na-silnice/2871461"
       },
       {
-        "title": "Plaga se debatě o placení soukromých škol nebrání, na penězích pro rok 2027 trvá",
-        "detail": "Ministr školství připouští debatu o systému, současný zákon ale podle něj vyžaduje financování soukromých a církevních škol.",
-        "url": "https://www.ceskenoviny.cz/zpravy/plaga-se-debate-o-placeni-soukromych-skol-nebrani-na-penezich-na-rok-2027-trva/2871669"
+        "title": "Koalice směřuje ke snížení schodku a dalším úsporám",
+        "detail": "Vládní strany pokračují v debatě o rozpočtových škrtech; přesný rozsah úspor zatím není uzavřený.",
+        "url": "https://www.ceskenoviny.cz/zpravy/koalice-smeruje-podle-stastneho-ke-snizeni-schodku-i-dalsim-usporam/2870804"
       },
       {
-        "title": "Návrh rozpočtu dopravního fondu počítá se 183 miliardami",
-        "detail": "SFDI má mít v roce 2027 výdaje 183,1 miliardy Kč, meziročně o 13,8 miliardy více; návrh ještě čeká schvalování.",
-        "url": "https://www.ceskenoviny.cz/zpravy/navrh-rozpoctu-dopravniho-fondu-pocita-se-183-miliardami/2871941"
+        "title": "V Česku zůstává sucho a stres rostlin dál roste",
+        "detail": "Odborníci upozorňují na pokračující deficit vláhy a kumulující se dopady na vegetaci.",
+        "url": "https://www.ceskenoviny.cz/zpravy/v-cesku-zustava-sucho-kumulovany-stres-rostlin-podle-odborniku-dal-roste/2871278"
       },
       {
-        "title": "Dacia odtajnila nový Spring",
-        "detail": "Nová generace malého elektromobilu je větší a nabídne 337litrový kufr i další úložný prostor vpředu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/dacia-odtajnila-novy-spring/2871749"
+        "title": "Vláda schválila termíny změny času pro dalších pět let",
+        "detail": "Česko bude i nadále střídat letní a zimní čas podle evropského harmonogramu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/-vlada-schvalila-terminy-zmeny-letniho-a-zimniho-casu-pro-pristich-pet-let/2870736"
       },
       {
-        "title": "Analýza: V Polsku vzniká oproti ČR na počet obyvatel výrazně více bytů",
-        "detail": "Polsko dokončuje 5,6 nového bytu na tisíc obyvatel, Česko 3,1; podobný rozdíl je i u zahajované výstavby.",
-        "url": "https://www.ceskenoviny.cz/zpravy/analyza-v-polsku-vznika-oproti-cr-na-pocet-obyvatel-vyrazne-vice-bytu/2871656"
+        "title": "Vláda marže prodejců paliv nezastropuje",
+        "detail": "Kabinet po projednání cen pohonných hmot dospěl k závěru, že obchodní marže jsou nízké.",
+        "url": "https://www.ceskenoviny.cz/zpravy/vlada-marze-prodejcu-paliv-nezastropuje-jsou-nizke-rekl-babis/2870770"
       },
       {
-        "title": "Čtvrtina lidí ze sešívaných rodin vnímá nerovnost v přístupu k dětem",
-        "detail": "Průzkum ukazuje, že téměř čtvrtina respondentů ve složených rodinách vnímá rozdílné zacházení s dětmi.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ctvrtina-lidi-ze-sesivanych-rodin-vnima-nerovnost-v-pristupu-k-detem/2871611"
+        "title": "Minimální mzda vzroste na 24 900 Kč",
+        "detail": "Nová částka má odpovídat 44,6 procenta průměrné mzdy a ovlivní i navázané zaručené platy.",
+        "url": "https://www.ceskenoviny.cz/zpravy/-minimalni-mzda-vzroste-na-24900-kc-bude-446-pct-prumerne-mzdy/2870436"
       },
       {
-        "title": "Nezaměstnanost v srpnu zůstala na pěti procentech",
-        "detail": "Podíl nezaměstnaných se meziměsíčně nezměnil, meziročně je o půl bodu výš; analytici zdůrazňují regionální a kvalifikační nesoulad.",
-        "url": "https://www.ceskenoviny.cz/zpravy/nezamestnanost-v-srpnu-zustala-5-analytici-vidi-nesoulady-na-trhu-prace/2871499"
+        "title": "Nová sezona Divadla Járy Cimrmana bude pro Petra Bruknera poslední",
+        "detail": "Dlouholetý člen souboru oznámil odchod po nadcházející sezoně.",
+        "url": "https://www.ceskenoviny.cz/zpravy/nova-sezona-divadla-jary-cimrmana-bude-pro-petra-bruknera-posledni/2871158"
       },
       {
-        "title": "Německu v případě chladné zimy hrozí nedostatek plynu, varuje svaz INES",
-        "detail": "Zásobníky byly na začátku září plné z 53 procent, nejméně za patnáct let, což při silné zimě zvyšuje riziko nedostatku.",
-        "url": "https://www.ceskenoviny.cz/zpravy/nemecku-v-pripade-chladne-zimy-hrozi-nedostatek-plynu-varuje-svaz-ines/2871596"
-      },
-      {
-        "title": "Povodí Vltavy očekává na Slapech další pokles hladiny",
-        "detail": "Hladina může klesat asi o 20 centimetrů denně a během týdne se dostat pod obvyklou zimní úroveň.",
-        "url": "https://www.ceskenoviny.cz/zpravy/povodi-vltavy-ocekava-na-slapech-dalsi-pokles-hladiny-priblizne-o-20-cm-denne/2871580"
+        "title": "Příměstské vlaky ve Středočeském kraji budou provozovat České dráhy",
+        "detail": "Krajští zastupitelé schválili pokračování provozu vybraných linek národním dopravcem.",
+        "url": "https://www.ceskenoviny.cz/zpravy/primestske-vlaky-budou-provozovat-cd-souhlasili-stredocesti-zastupitele/2871119"
       }
     ]
   },
@@ -275,17 +270,25 @@
     },
     {
       "title": "Ariana má starší lístek",
-      "detail": "Poslední veřejně ověřený hotovostní kurzovní lístek je z 2. 9., tedy o sedm dní starší než dashboard."
+      "detail": "Poslední veřejně ověřený hotovostní kurzovní lístek je z 2. 9., tedy o šest dní starší než dashboard."
     },
     {
-      "title": "Notion meeting notes nejsou dostupné",
-      "detail": "Připojený workspace vyžaduje Business plán, dnešní kontext z Notionu proto chybí."
+      "title": "Stará nabídka v kalendáři",
+      "detail": "E-mail potvrzuje, že Vínokrál nabídka byla jen do půlnoci 4. 9. Odstranění kalendářní položky systém zamítl, takže ji nepovažuj za aktivní."
+    },
+    {
+      "title": "Notion nebyl dostupný",
+      "detail": "Načtení meeting notes vyžaduje vyšší plán Notion workspace; dnešní kontext z Notionu proto chybí."
     }
   ],
   "nextSteps": [
     {
       "title": "Vyber jeden hlavní výsledek dne",
       "detail": "Kalendář nabízí celý souvislý den bez pracovních schůzek."
+    },
+    {
+      "title": "Vínokrál ignoruj",
+      "detail": "Nabídka skončila 4. 9.; stará transparentní položka v kalendáři není spolehlivý údaj o platnosti."
     },
     {
       "title": "U dvou cen vyčkej na další kontrolu",

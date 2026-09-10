@@ -1,66 +1,71 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-09",
-  "updatedAt": "2026-09-09T03:45:00Z",
-  "title": "GUMA dashboard · 9. 9. 2026",
-  "template": "guma-dashboard-approved-2026-08-07",
-  "updatedLabel": "Aktualizováno 9. 9. 2026 v 05:45 CEST",
+  "date": "2026-09-07",
+  "updatedAt": "2026-09-07T03:45:00Z",
+  "title": "GUMA dashboard · 7. 9. 2026",
+  "template": "guma-os-template-v1",
+  "updatedLabel": "Aktualizováno 7. 9. 2026 v 05:45 CEST",
   "publicSafety": "Veřejně bezpečné shrnutí bez slevových kódů a citlivého obsahu",
   "signals": {
     "meetings": "0",
     "freeWindow": "celý den",
-    "newMail": "0 aktivních nabídek",
+    "newMail": "1 aktivní nabídka",
     "unknownPrices": "2 / 5"
   },
-  "daySummary": "Středa je bez blokujících schůzek, změn a kolizí. Celý den zůstává volný pro souvislou práci; v kalendáři jsou jen transparentní kulturní tipy.",
+  "daySummary": "Neděle je bez blokujících schůzek, změn a kolizí. Jediným konkrétním dnešním bodem je volitelná předpremiéra seriálu ČT Brno v MZK od 18:00; jinak je celý den volný.",
   "summaryItems": [
     {
       "title": "Svátek",
-      "detail": "dnes Daniela, zítra Irma; státní svátek není."
+      "detail": "dnes Regína, zítra Mariana; státní svátek není."
     },
     {
       "title": "Kurzy ČNB",
-      "detail": "Oficiální denní lístek z 8. 9. 2026: EUR/CZK 24,195 (koruna zhruba beze změny) a USD/CZK 20,834 (koruna posiluje); trend vychází z několika předchozích fixingů 2.–8. 9."
+      "detail": "Oficiální denní lístek z 4. 9. 2026: EUR/CZK 24,190 (koruna oslabuje) a USD/CZK 20,814 (koruna zhruba beze změny); trend vychází z fixingů 31. 8.–4. 9."
     },
     {
       "title": "Ariana směnárna prodej",
-      "detail": "EUR 24,50 CZK a USD 21,30 CZK (veřejný hotovostní kurzovní lístek z 2. 9. 2026; starší o sedm dní)."
+      "detail": "EUR 24,50 CZK a USD 21,30 CZK (veřejný hotovostní kurzovní lístek z 2. 9. 2026; starší o pět dní)."
     },
     {
       "title": "Kalendář",
-      "detail": "Bez blokujících schůzek a kolizí; celý den je volný."
+      "detail": "Bez blokujících schůzek; volitelně Literární místopis v MZK dnes 18:00–19:00."
     },
     {
       "title": "COST HUNTER",
-      "detail": "Zlevnilo 0, zdražilo 0, beze změny 3, nezjištěno 2. Kontrolní datum je 9. 9. 2026."
+      "detail": "Zlevnilo 0, zdražilo 0, beze změny 3, nezjištěno 2. Kontrolní datum je 7. 9. 2026."
     },
     {
       "title": "TED a Novinky",
-      "detail": "35 jedinečných TED Talks z celého inboxu a 21 ověřených zpráv z pevného ranního okna."
+      "detail": "35 jedinečných TED Talks z celého inboxu a 20 ověřených zpráv z pevného ranního okna."
     }
   ],
   "calendar": {
-    "summary": "Bez blokujících schůzek, změn a kolizí. Celý den je volný; kulturní tipy jsou transparentní.",
+    "summary": "Bez blokujících schůzek, změn a kolizí. Celý den je volný; nabídky a kulturní tipy jsou transparentní.",
     "context": [
       {
-        "title": "Dlouhodobé tipy zdarma",
-        "detail": "Brno Art Open, Brno a jeho chrámy, Umění do kapsy a rozdávání knih probíhají i dnes a neblokují čas.",
-        "url": "https://www.kudyznudy.cz/akce/brno-a-jeho-chramy"
+        "title": "Literární místopis – předpremiéra seriálu ČT Brno",
+        "detail": "Dnes 18:00–19:00 v Moravské zemské knihovně, Kounicova 65; zdarma a neblokující.",
+        "url": "https://www.google.com/calendar/event?eid=MHJiczg0ZDhnZWY5bGV1M201bWUyMzgwYzAgZ3VtYTI5NjgyQG0"
+      },
+      {
+        "title": "Vínokrál – letní výprodej a doprava zdarma",
+        "detail": "Ověřená Gmail nabídka platí do 9. 9.; položka je transparentní a neobsahuje slevový kód.",
+        "url": null
       },
       {
         "title": "Neslýchaná akce",
-        "detail": "Ve čtvrtek 10. 9. od 10:00 do 18:00 na Moravském náměstí; zdarma a transparentní.",
-        "url": "https://www.brno-stred.cz/kalendar-akci/neslychana-akce~cal30635"
+        "detail": "Ve čtvrtek 10. 9. od 10:00 do 18:00; transparentní tip, který neblokuje kalendář.",
+        "url": null
       },
       {
         "title": "Burza minerálů",
         "detail": "V sobotu 12. 9. od 10:00 do 16:00; vstupné 70 Kč, zlevněné 50 Kč.",
-        "url": "https://www.objevbrno.cz/cs/event/burza-mineralu"
+        "url": null
       },
       {
-        "title": "Opravené termíny",
-        "detail": "Rozdávání knih a Umění do kapsy byly podle aktuálních zdrojů prodlouženy do 31. 12. 2026; kalendářní položky jsou aktualizované.",
-        "url": "https://www.brno-stred.cz/kalendar-akci"
+        "title": "Nejbližší ověřené akce zdarma",
+        "detail": "Dny otevřených ateliérů 19.–20. 9., Noc vědy 25. 9. a Anthropos Open Air 26. 9. jsou už v kalendáři jako transparentní položky.",
+        "url": "https://www.d-o-a.cz/"
       }
     ]
   },
@@ -70,38 +75,38 @@
       "detail": "Kalendář neobsahuje pracovní schůzku ani pevnou rezervaci času."
     },
     {
-      "title": "Jeden hlavní výsledek dne",
-      "detail": "Využij souvislé volno na jednu dokončitelnou prioritu."
+      "title": "Literární místopis",
+      "detail": "Pokud půjdeš, počítej s příchodem do MZK před 18:00; Gmail, Drive ani Notion neposkytly další podklady nebo registraci."
     },
     {
-      "title": "Čtvrteční tip",
-      "detail": "Neslýchaná akce začíná 10. 9. v 10:00; další registrace ani podklady se neukázaly."
+      "title": "Jeden hlavní výsledek dne",
+      "detail": "Využij volný den na jednu dokončitelnou prioritu a teprve potom zvaž večerní program."
     }
   ],
   "context": [
     {
       "title": "Gmail slevy",
-      "detail": "Kontrola aktivní i archivované pošty mimo koš a spam nepotvrdila žádnou dnes platnou nabídku s jasnou platností. Kalendářní nabídka Vínokrál byla odstraněna, protože zdrojová zpráva je v koši; kódy nejsou zveřejněné."
+      "detail": "Obousměrná synchronizace před kalendářem potvrdila jednu aktivní nabídku Vínokrále do 9. 9.; existující transparentní událost i její GUMA značky jsou aktuální."
     },
     {
       "title": "Gmail TED",
-      "detail": "Celý inbox obsahuje pět přeposlaných vydání TED Recommends a 35 jedinečných Talks; promo, duplicity a transcript/watch kopie jsou vynechané."
+      "detail": "Celý inbox obsahuje pět přeposlaných vydání TED Recommends a 35 jedinečných Talks; novější vhodná zpráva od posledního dashboardu nepřibyla."
     },
     {
       "title": "Google Drive",
-      "detail": "List GUMA report má dnešní kontrolní datum; tři ceny jsou beze změny a dvě zůstaly nezjištěné."
+      "detail": "List GUMA report byl dnes aktualizován po ověření pěti produktů; tři ceny jsou potvrzené a dvě zůstaly nezjištěné."
     },
     {
       "title": "Akce zdarma / do 100 Kč",
-      "detail": "Kudy z nudy, Objev Brno a Brno-střed byly zkontrolovány. Dvě již uložené akce dostaly opravený konec 31. 12. 2026; nové duplicity nevznikly."
+      "detail": "Kudy z nudy, Objev Brno, Brno-střed a širší Jihomoravský kraj byly zkontrolovány; jistá nová neduplicitní položka proti kalendáři se nepotvrdila."
     },
     {
       "title": "Notion",
-      "detail": "Meeting notes nebylo možné načíst, protože připojený workspace vyžaduje Business plán."
+      "detail": "Cílené hledání nevrátilo poznámky ani úkoly k dnešní nebo nejbližší agendě."
     }
   ],
   "costHunter": {
-    "summary": "Kontrola 9. 9. 2026: zlevnilo 0 · zdražilo 0 · beze změny 3 · nezjištěno 2",
+    "summary": "Kontrola 7. 9. 2026: zlevnilo 0 · zdražilo 0 · beze změny 3 · nezjištěno 2",
     "freshnessNote": "Kontrolní datum je dnešní a všech pět produktů je přítomno. Srovnání navazuje na poslední kontrolu 5. 9., protože data za 6. 9. chybí; dvě ceny z Lekarna.cz se nepodařilo ověřit.",
     "linkNote": "Přímé odkazy jsou v názvech produktů; nic nebylo odhadnuto.",
     "products": [
@@ -113,7 +118,7 @@
         "priceToday": "189,90 Kč",
         "priceYesterday": "189,90 Kč",
         "change": "0,00 Kč",
-        "note": ""
+        "note": "Porovnání vůči poslední kontrole 5. 9.; data za 6. 9. chybí."
       },
       {
         "status": "Beze změny",
@@ -123,7 +128,7 @@
         "priceToday": "169,90 Kč",
         "priceYesterday": "169,90 Kč",
         "change": "0,00 Kč",
-        "note": ""
+        "note": "Porovnání vůči poslední kontrole 5. 9.; data za 6. 9. chybí."
       },
       {
         "status": "Beze změny",
@@ -133,7 +138,7 @@
         "priceToday": "21,90 Kč",
         "priceYesterday": "21,90 Kč",
         "change": "0,00 Kč",
-        "note": ""
+        "note": "Porovnání vůči poslední kontrole 5. 9.; data za 6. 9. chybí."
       },
       {
         "status": "Nezjištěno",
@@ -159,112 +164,107 @@
   },
   "newsMinimumItems": 20,
   "news": {
-    "note": "21 ověřených zpráv od 8. 9. 08:00 do 9. 9. 05:45 Europe/Prague; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
+    "note": "20 ověřených zpráv od 6. 9. 08:00 do 7. 9. 05:45 Europe/Prague; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
     "items": [
       {
-        "title": "Televizory LG přistiženy při odposlouchávání uživatelů i ve standby",
-        "detail": "Výzkumníci popsali napadené televizory LG schopné zachytit zvuk i v pohotovostním režimu; výrobce interpretaci zjištění rozporuje.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-bezpecnost-televizory-lg-pristizeny-pri-odposlouchavani-uzivatelu-i-kdyz-nebyly-zapnute-40596734"
+        "title": "Volby v Sasku-Anhaltsku drtivě vyhrála AfD",
+        "detail": "AfD získala podle předběžných výsledků 43,8 procenta hlasů a 39 z 83 mandátů; na samostatnou většinu nedosáhla.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-drtive-vitezstvi-afd-40596315"
       },
       {
-        "title": "Napětí v Praze zvedají volební průzkumy, úplně se rozcházejí",
-        "detail": "Modely Ipsosu a Medianu dávají v pražských volbách výrazně odlišné pořadí: jeden vede SPOLU, druhý ANO.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-napeti-v-praze-zvedaji-volebni-pruzkumy-uplne-se-rozchazeji-40596601"
+        "title": "Zemřel Richard Tesařík",
+        "detail": "Spoluzakladatel Yo Yo Bandu a výrazný český zpěvák zemřel ve věku 80 let.",
+        "url": "https://www.novinky.cz/clanek/kultura-hudba-zemrel-richard-tesarik-40596324"
       },
       {
-        "title": "Vedení New Yorku po 11. září lhalo o toxickém ovzduší, prohlásil starosta",
-        "detail": "Starosta Zohran Mamdani tvrdí, že tehdejší vedení vědělo o zdravotních rizicích ovzduší po útocích, ale veřejnost uklidňovalo.",
-        "url": "https://www.novinky.cz/clanek/zahranicni-amerika-vedeni-new-yorku-po-11-zari-lhalo-o-toxickem-ovzdusi-prohlasil-starosta-mamdani-40596745"
+        "title": "PŘEHLEDNĚ: Kamery, televizory i český úspěch – třetí den veletrhu IFA 2026",
+        "detail": "Třetí den berlínského veletrhu přinesl nové kamery a televizory; česká firma ERPower získala dvě ocenění.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-prehledne-kamery-televizory-i-cesky-uspech-treti-den-veletrhu-ifa-2026-40596321"
       },
       {
-        "title": "Banky znovu zdražily hypotéky",
-        "detail": "Průměrná nabídková sazba vzrostla na 5,51 procenta a roste už šestý měsíc v řadě.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-banky-znovu-zdrazily-hypoteky-40596646"
+        "title": "Zemřel Filip Sternberg",
+        "detail": "Majitel hradu Český Šternberk zemřel po nemoci ve věku 69 let.",
+        "url": "https://www.novinky.cz/clanek/domaci-zemrel-filip-sternberg-40596319"
       },
       {
-        "title": "Stovky odletů z britských letišť narušily problémy s řízením provozu",
-        "detail": "Technické potíže britského řízení letového provozu zasáhly stovky spojů a vytvořily zpoždění napříč letišti.",
-        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-stovky-odletu-z-britskych-letist-narusily-problemy-s-rizenim-provozu-40596746"
+        "title": "Česká města se kvůli klimatické krizi pomalu mění. Chybí jim ale ucelený plán",
+        "detail": "Dopady změny klimatu vnímá většina obcí, adaptační strategii má podle citovaných dat jen zhruba čtvrtina.",
+        "url": "https://www.novinky.cz/clanek/domaci-ceska-mesta-se-diky-klimaticke-krizi-pomalu-meni-chybi-jim-ale-uceleny-plan-40595884"
       },
       {
-        "title": "Sněmovna schválila omezení pravomoci prezidenta k vedoucím stálých misí",
-        "detail": "Poslanci přehlasovali Senát; předloha míří k prezidentovi a odpůrci zvažují ústavní přezkum.",
-        "url": "https://www.ceskenoviny.cz/zpravy/snemovna-schvalila-omezeni-pravomoci-prezidenta-k-vedoucim-stalych-misi/2870725"
+        "title": "Vláda bude v pondělí řešit ceny pohonných hmot",
+        "detail": "Kabinet má projednat vývoj cen i marží; podle premiéra není ve hře snížení spotřební daně.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-vlada-bude-v-pondeli-resit-ceny-pohonnych-hmot-40596322"
       },
       {
-        "title": "Ministerstvo se bude zabývat podněty k návrhu nové státní kulturní politiky",
-        "detail": "Resort kultury doplní připomínky profesních organizací, vláda se k materiálu vrátí 14. září.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ministerstvo-se-bude-zabyvat-podnety-k-navrhu-nove-statni-kulturni-politiky/2871950"
+        "title": "Premiér Babiš by byl pro zrušení státní organizace Cermat",
+        "detail": "Premiér zpochybnil fungování Cermatu a upozornil na náklady rodin na přípravné kurzy k přijímacím zkouškám.",
+        "url": "https://www.ceskenoviny.cz/zpravy/premier-babis-by-byl-pro-zruseni-statni-organizace-cermat/2870980"
       },
       {
-        "title": "Skiareál Špindlerův Mlýn spustí propojení areálů v prosinci, zatím jednosměrně",
-        "detail": "Propojení Medvědína a Svatého Petra má začít 12. prosince, v první sezoně bude fungovat jen jedním směrem.",
-        "url": "https://www.ceskenoviny.cz/zpravy/skiareal-spindleruv-mlyn-spusti-propojeni-arealu-v-prosinci-zatim-jednosmerne/2871912"
+        "title": "Experti: Výsledek AfD ukazuje na hlubokou krizi německého politického systému",
+        "detail": "Politologové spojují výsledek AfD v Sasku-Anhaltsku s dlouhodobou nespokojeností voličů a oslabením tradičních stran.",
+        "url": "https://www.ceskenoviny.cz/zpravy/experti-vysledek-afd-ukazuje-na-hlubokou-krizi-nemeckeho-politickeho-systemu/2870975"
       },
       {
-        "title": "Teplotní rekordy padly na třech čtvrtinách stanic",
-        "detail": "Rekord padl na 127 ze 171 dlouhodobých stanic; maximum 33,5 °C naměřili i na jižní Moravě.",
-        "url": "https://www.ceskenoviny.cz/zpravy/rekordy-dnes-padly-na-trech-ctvrtinach-stanic-maximum-bylo-335-stupne/2871906"
+        "title": "Přibyl kvůli církevním kauzám vyzval věřící k účasti na kající pouti",
+        "detail": "Generální sekretář České biskupské konference reaguje na církevní kauzy výzvou k veřejné kající pouti.",
+        "url": "https://www.ceskenoviny.cz/zpravy/pribyl-kvuli-cirkevnim-kauzam-vyzval-verici-k-ucasti-na-kajici-pouti/2870813"
       },
       {
-        "title": "Průzkum na Šumavě nezjistil látky používané jako chemické zbraně",
-        "detail": "Historické bojové látky se nepotvrdily, lokalita ale dál představuje významnou ekologickou zátěž.",
-        "url": "https://www.ceskenoviny.cz/zpravy/pruzkum-na-sumave-nezjistil-zadne-latky-pouzivane-jako-chemicke-zbrane/2871245"
+        "title": "SPD půjde na jednání se Schillerovou s návrhy na snížení nemandatorních výdajů",
+        "detail": "Hnutí chce při debatě o rozpočtu předložit úspory v provozních a dalších nemandatorních výdajích státu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/spd-pujde-na-jednani-s-schillerovou-s-navrhy-na-snizeni-nemandatornich-vydaju/2870804"
       },
       {
-        "title": "Babiš se Schillerovou vysvětlovali detaily rozpočtu poslancům SPD",
-        "detail": "Vláda představila parametry rozpočtu na rok 2027 a strukturálních změn; jednání má pokračovat ve středu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/babis-se-schillerovou-vysvetlovali-detaily-rozpoctu-poslancum-spd/2871780"
+        "title": "Babiš připustil možnost částečného snížení navrženého schodku rozpočtu",
+        "detail": "Premiér připustil úpravu plánovaného deficitu, konkrétní rozsah ale spojil s dalším jednáním koalice.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-pripustil-moznost-castecneho-snizeni-navrzeneho-schodku-rozpoctu/2870784"
       },
       {
-        "title": "Okamura: řešením nižší valorizace penzí by mohl být jednorázový příspěvek",
-        "detail": "Koalice jedná o kompenzaci nad zákonné zvýšení důchodů o 300 Kč, konkrétní dohoda zatím není.",
-        "url": "https://www.ceskenoviny.cz/zpravy/okamura-resenim-nizsi-valorizace-penzi-by-mohl-byt-jednorazovy-prispevek/2871751"
+        "title": "Babiš opět kritizoval soud kvůli odsouzení Nagyové v kauze Čapí hnízdo",
+        "detail": "Premiér znovu zpochybnil rozsudek nad Janou Nagyovou; případ zůstává předmětem soudního a politického sporu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-opet-kritizoval-soud-kvuli-odsouzeni-nagyove-v-kauze-capi-hnizdo/2870780"
       },
       {
-        "title": "Mluvit o přírodní katastrofě na Šumavě není namístě, míní odborník",
-        "detail": "Nejde podle něj o přírodní katastrofu, přibližně tisíc tun kontaminované zeminy a stovky sudů ale vyžadují rychlou a opatrnou sanaci.",
-        "url": "https://www.ceskenoviny.cz/zpravy/mluvit-o-prirodni-katastrofe-na-sumave-neni-namiste-mini-odbornik/2871718"
+        "title": "Babiš: Ve vzájemné koordinaci tajných služeb jsou rezervy",
+        "detail": "Premiér chce lepší sdílení informací a koordinaci českých zpravodajských služeb.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-ve-vzajemne-koordinaci-tajnych-sluzeb-jsou-rezervy/2870762"
       },
       {
-        "title": "Plaga se debatě o placení soukromých škol nebrání, na penězích pro rok 2027 trvá",
-        "detail": "Ministr školství připouští debatu o systému, současný zákon ale podle něj vyžaduje financování soukromých a církevních škol.",
-        "url": "https://www.ceskenoviny.cz/zpravy/plaga-se-debate-o-placeni-soukromych-skol-nebrani-na-penezich-na-rok-2027-trva/2871669"
+        "title": "Babiš: Při omezení pohybu ruských diplomatů chceme postupovat se spojenci",
+        "detail": "Česko podle premiéra nechce případná omezení prosazovat izolovaně a bude hledat společný evropský postup.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-pri-omezeni-pohybu-ruskych-diplomatu-chceme-postupovat-se-spojenci/2870759"
       },
       {
-        "title": "Návrh rozpočtu dopravního fondu počítá se 183 miliardami",
-        "detail": "SFDI má mít v roce 2027 výdaje 183,1 miliardy Kč, meziročně o 13,8 miliardy více; návrh ještě čeká schvalování.",
-        "url": "https://www.ceskenoviny.cz/zpravy/navrh-rozpoctu-dopravniho-fondu-pocita-se-183-miliardami/2871941"
+        "title": "Sněmovna znovu posoudí spornou stavební novelu či změny v zaměstnávání úředníků",
+        "detail": "Poslanci se mají vrátit k předlohám vráceným Senátem, včetně stavební novely a pravidel pro úředníky.",
+        "url": "https://www.ceskenoviny.cz/zpravy/snemovna-znovu-posoudi-spornou-stavebni-novelu-ci-zmeny-v-zamestnavani-uredniku/2870725"
       },
       {
-        "title": "Dacia odtajnila nový Spring",
-        "detail": "Nová generace malého elektromobilu je větší a nabídne 337litrový kufr i další úložný prostor vpředu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/dacia-odtajnila-novy-spring/2871749"
+        "title": "Muzeum Depo Moto Art v Plzni zahájilo výstavu popartového umělce Josefa Rataje",
+        "detail": "Výstava představuje zhruba padesát autorových děl a potrvá do 3. listopadu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/muzeum-depo-moto-art-v-plzni-zahajilo-vystavu-popartoveho-umelce-josefa-rataje/2870794"
       },
       {
-        "title": "Analýza: V Polsku vzniká oproti ČR na počet obyvatel výrazně více bytů",
-        "detail": "Polsko dokončuje 5,6 nového bytu na tisíc obyvatel, Česko 3,1; podobný rozdíl je i u zahajované výstavby.",
-        "url": "https://www.ceskenoviny.cz/zpravy/analyza-v-polsku-vznika-oproti-cr-na-pocet-obyvatel-vyrazne-vice-bytu/2871656"
+        "title": "ČSÚ zveřejní červencová data z průmyslu, stavebnictví a obchodu",
+        "detail": "Nová čísla ukážou letní vývoj klíčových částí české ekonomiky a zahraničního obchodu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/csu-zverejni-cervencova-data-z-prumyslu-stavebnictvi-a-obchodu/2871008"
       },
       {
-        "title": "Čtvrtina lidí ze sešívaných rodin vnímá nerovnost v přístupu k dětem",
-        "detail": "Průzkum ukazuje, že téměř čtvrtina respondentů ve složených rodinách vnímá rozdílné zacházení s dětmi.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ctvrtina-lidi-ze-sesivanych-rodin-vnima-nerovnost-v-pristupu-k-detem/2871611"
+        "title": "Na dálnici D1 začala auta jezdit po opravené polovině mostu Šmejkalka",
+        "detail": "Provoz se přesunul na dokončenou polovinu mostu; práce na druhé části mají pokračovat do příštího léta.",
+        "url": "https://www.ceskenoviny.cz/zpravy/na-dalnici-d1-dnes-zacala-auta-jezdit-po-opravene-polovine-mostu-smejkalka/2870757"
       },
       {
-        "title": "Nezaměstnanost v srpnu zůstala na pěti procentech",
-        "detail": "Podíl nezaměstnaných se meziměsíčně nezměnil, meziročně je o půl bodu výš; analytici zdůrazňují regionální a kvalifikační nesoulad.",
-        "url": "https://www.ceskenoviny.cz/zpravy/nezamestnanost-v-srpnu-zustala-5-analytici-vidi-nesoulady-na-trhu-prace/2871499"
+        "title": "Tusk: V Polsku se z vítězství AfD mohou radovat jen idioti nebo zrádci",
+        "detail": "Polský premiér ostře odmítl domácí politické oslavy výsledku AfD v sousedním Německu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/tusk-v-polsku-se-z-vitezstvi-afd-mohou-radovat-jen-idioti-nebo-zradci/2870985"
       },
       {
-        "title": "Německu v případě chladné zimy hrozí nedostatek plynu, varuje svaz INES",
-        "detail": "Zásobníky byly na začátku září plné z 53 procent, nejméně za patnáct let, což při silné zimě zvyšuje riziko nedostatku.",
-        "url": "https://www.ceskenoviny.cz/zpravy/nemecku-v-pripade-chladne-zimy-hrozi-nedostatek-plynu-varuje-svaz-ines/2871596"
-      },
-      {
-        "title": "Povodí Vltavy očekává na Slapech další pokles hladiny",
-        "detail": "Hladina může klesat asi o 20 centimetrů denně a během týdne se dostat pod obvyklou zimní úroveň.",
-        "url": "https://www.ceskenoviny.cz/zpravy/povodi-vltavy-ocekava-na-slapech-dalsi-pokles-hladiny-priblizne-o-20-cm-denne/2871580"
+        "title": "Reuters: Netanjahu nařídil vyklidit nelegální židovské osady na Západním břehu",
+        "detail": "Izraelský premiér podle Reuters nařídil odstranit osady vybudované bez povolení izraelských úřadů.",
+        "url": "https://www.ceskenoviny.cz/zpravy/reuters-netanjahu-naridil-vyklidit-nelegalni-zidovske-osady-na-zapadnim-brehu/2870936"
       }
     ]
   },
@@ -275,11 +275,15 @@
     },
     {
       "title": "Ariana má starší lístek",
-      "detail": "Poslední veřejně ověřený hotovostní kurzovní lístek je z 2. 9., tedy o sedm dní starší než dashboard."
+      "detail": "Poslední veřejně ověřený hotovostní kurzovní lístek je z 2. 9., tedy o pět dní starší než dashboard."
     },
     {
-      "title": "Notion meeting notes nejsou dostupné",
-      "detail": "Připojený workspace vyžaduje Business plán, dnešní kontext z Notionu proto chybí."
+      "title": "Podklady k dnešní akci chybí",
+      "detail": "Gmail, Drive ani Notion nevrátily registraci, program nebo další přípravu k Literárnímu místopisu."
+    },
+    {
+      "title": "Kudy z nudy bylo řídké",
+      "detail": "Regionální výsledky nebyly dostatečně úplné; nejisté nebo duplicitní akce nebyly přidány."
     }
   ],
   "nextSteps": [
@@ -288,12 +292,16 @@
       "detail": "Kalendář nabízí celý souvislý den bez pracovních schůzek."
     },
     {
+      "title": "Večer zvaž Literární místopis",
+      "detail": "Předpremiéra začíná v MZK v 18:00 a je vedená jako neblokující tip."
+    },
+    {
       "title": "U dvou cen vyčkej na další kontrolu",
       "detail": "Bez ověřitelného údaje změnu nevyhodnocuj."
     },
     {
-      "title": "Zvaž čtvrteční Neslýchanou akci",
-      "detail": "Program zdarma proběhne 10. 9. na Moravském náměstí od 10:00."
+      "title": "Vínokrál řeš nejpozději do středy",
+      "detail": "Ověřená nabídka končí 9. 9.; slevový kód se do dashboardu nekopíruje."
     }
   ],
   "sources": null,
