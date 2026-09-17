@@ -23,13 +23,28 @@ const reportTitle = (value = "") => {
     : esc(value);
 };
 
+const fxTrendArrow = (direction) => {
+  const strengthening = direction === "up";
+  const label = strengthening ? "Koruna posiluje" : "Koruna oslabuje";
+  return `<span class="fx-trend fx-trend--${direction}" role="img" aria-label="${label}" title="${label}">${strengthening ? "▲" : "▼"}</span>`;
+};
+
+const itemDetail = (item = {}) => {
+  const detail = esc(item.detail || "");
+  if (item.title !== "Kurzy ČNB") return detail;
+
+  return detail
+    .replace(/\((?:trend:\s*)?koruna posiluje\)/giu, fxTrendArrow("up"))
+    .replace(/\((?:trend:\s*)?koruna oslabuje\)/giu, fxTrendArrow("down"));
+};
+
 const list = (items = []) => items.map((item) => {
   const title = esc(item.title || item);
   const href = item.url ? safeHref(item.url) : "";
   const heading = href
     ? `<a href="${href}" rel="noopener noreferrer"><strong>${title}</strong></a>`
     : `<strong>${title}</strong>`;
-  return `<li>${heading}${item.detail ? `<span class="meta">${esc(item.detail)}</span>` : ""}</li>`;
+  return `<li>${heading}${item.detail ? `<span class="meta">${itemDetail(item)}</span>` : ""}</li>`;
 }).join("");
 
 function render(report) {

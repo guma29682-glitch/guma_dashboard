@@ -246,6 +246,18 @@ h2 {
   font-size: 0.82rem;
 }
 
+.fx-trend {
+  display: inline-block;
+  margin-left: 0.08em;
+  font-size: 0.9em;
+  font-weight: 900;
+  line-height: 1;
+  vertical-align: 0.04em;
+}
+
+.fx-trend--up { color: var(--ok); }
+.fx-trend--down { color: var(--accent); }
+
 .status-note {
   padding-left: 14px;
   border-left: 3px solid var(--warn);
