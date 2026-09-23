@@ -291,10 +291,6 @@
     {
       "title": "Ariana má starší lístek",
       "detail": "Poslední veřejně ověřený hotovostní prodejní lístek je z 20. 9. 2026, tedy o dva dny starší než dashboard."
-    },
-    {
-      "title": "Kalendář obsahuje starší neplatnou nabídku",
-      "detail": "Událost o zářijovém supervýprodeji vychází z e-mailu, který je nyní v koši. K odstranění by byl potřeba dostupný nástroj pro mazání kalendářových událostí; do dashboardu ani JSONu zařazena není."
     }
   ],
   "nextSteps": [
