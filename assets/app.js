@@ -38,8 +38,9 @@ const itemDetail = (item = {}) => {
     .replace(/\((?:trend:\s*)?koruna oslabuje\)/giu, fxTrendArrow("down"));
 };
 
-const list = (items = []) => items.map((item) => {
-  const title = esc(item.title || item);
+const list = (items = [], options = {}) => items.map((item) => {
+  const rawTitle = String(item.title || item);
+  const title = esc(options.stripOrdinal ? rawTitle.replace(/^\d+\.\s*/, "") : rawTitle);
   const href = item.url ? safeHref(item.url) : "";
   const heading = href
     ? `<a href="${href}" rel="noopener noreferrer"><strong>${title}</strong></a>`
@@ -129,7 +130,7 @@ function render(report) {
           <summary><h2>Novinky</h2></summary>
           <div class="collapsible-content">
             ${newsWarning}
-            <ol class="clean-list numbered-list">${list(newsItems)}</ol>
+            <ol class="clean-list numbered-list">${list(newsItems, { stripOrdinal: true })}</ol>
           </div>
         </details>
         <section class="section-block">
