@@ -1,59 +1,55 @@
 {
   "schemaVersion": 1,
-  "title": "GUMA dashboard · 12. 10. 2026",
-  "date": "2026-10-12",
-  "updatedAt": "2026-10-12T05:45:00+02:00",
-  "updatedLabel": "Aktualizováno 12. 10. 2026 v 05:45 CEST",
+  "title": "GUMA dashboard · 13. 10. 2026",
+  "date": "2026-10-13",
+  "updatedAt": "2026-10-13T05:45:01+02:00",
+  "updatedLabel": "Aktualizováno 13. 10. 2026 v 05:45 CEST",
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "daySummary": "Pondělí je bez blokujících schůzek a kolizí. Celý den je volný; dnes končí ověřená nabídka Vínokrál a nejbližší kalendářní body začínají ve středu.",
+  "daySummary": "Úterý je bez blokujících schůzek a kolizí. Celý den je volný pro souvislou práci; nejbližší program začíná ve středu a dvě středeční akce se prakticky překrývají kvůli přesunu mezi Mikulovem a Brnem.",
   "summaryItems": [
     {
       "title": "Svátek",
-      "detail": "Dnes Marcel, zítra Renáta; státní svátek není."
+      "detail": "Renáta; zítra Agáta. Dnes není státní svátek."
     },
     {
       "title": "Kurzy ČNB",
-      "detail": "Lístek 9. 10. 2026: EUR/CZK 24,365 – koruna posiluje; USD/CZK 21,745 – koruna posiluje.",
+      "detail": "Oficiální denní lístek z 12. 10. 2026: EUR/CZK 24,390 (koruna zhruba beze změny) a USD/CZK 21,809 (koruna zhruba beze změny); trend podle několika předchozích fixingů.",
       "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/"
     },
     {
       "title": "Ariana směnárna prodej",
-      "detail": "Starší plně čitelný lístek 7. 10. 2026: EUR 24,55 Kč; USD 21,90 Kč. Aktuálnější stránka z 10. 10. vrací u USD nečitelnou hodnotu, proto ji nepřebírám.",
+      "detail": "STARŠÍ plně čitelný lístek z 7. 10. 2026: EUR 24,55 Kč a USD 21,90 Kč; novější lístek z 10. 10. má u USD nečitelnou hodnotu, proto ji neodhaduji.",
       "url": "https://www.ariana-sro.cz/"
     },
     {
       "title": "Kalendář",
-      "detail": "0 blokujících schůzek, 0 kolizí; dnešek je volný a všechny evidované položky jsou transparentní."
+      "detail": "0 blokujících schůzek, 0 kolizí a volné okno 00:00–24:00; všechny dnešní položky jsou transparentní."
     },
     {
       "title": "Gmail nabídky",
-      "detail": "1 ověřená aktivní nabídka po obousměrné synchronizaci: Vínokrál platí do dneška; kód není zveřejněn."
-    },
-    {
-      "title": "COST HUNTER",
-      "detail": "Zlevnilo 0, zdražilo 1, beze změny 3, nezjištěno 1. Kontrolní datum je 12. 10. 2026."
+      "detail": "0 ověřených aktivních nabídek. Vínokrál skončil 12. 10.; synchronizovaná událost zůstala v kalendáři jako historie."
     }
   ],
   "calendar": {
     "meetingCount": 0,
     "conflictCount": 0,
-    "summary": "Bez blokujících schůzek a kolizí; pondělí je volné pro souvislou práci.",
+    "summary": "Bez blokujících schůzek a kolizí; úterý je volné pro souvislou práci.",
     "freeWindows": [
       {
-        "start": "2026-10-12T00:00:00+02:00",
-        "end": "2026-10-13T00:00:00+02:00",
+        "start": "2026-10-13T00:00:00+02:00",
+        "end": "2026-10-14T00:00:00+02:00",
         "label": "00:00–24:00 (všechny dnešní položky jsou transparentní)"
       }
     ],
     "context": [
       {
-        "title": "Vínokrál · nabídka končí dnes",
-        "detail": "Ověřený bonus 375 Kč při nákupu od 2 500 Kč; kód není v dashboardu ani kalendáři."
+        "title": "Dnes: tři dlouhodobé bezplatné tipy",
+        "detail": "Rozdávání knih v centru Brna, Umění do kapsy v Moravské galerii a Mendelova stezka; všechny jsou neblokující."
       },
       {
         "title": "100 let muzejní archeologie v Mikulově · 14. 10. v 17:00",
-        "detail": "Nově ověřená bezplatná přednáška na zámku v Mikulově; konec pořadatel neuvádí.",
+        "detail": "Bezplatná přednáška na zámku v Mikulově; pořadatel neuvádí jistý čas konce.",
         "url": "https://www.zamek-mikulov.cz/aktualni-akce/165-prednaska-100-let-muzejni-archeologie-v-mikulove"
       },
       {
@@ -74,8 +70,8 @@
   },
   "prep": [
     {
-      "title": "Bez meeting prep",
-      "detail": "Kalendář dnes neobsahuje účastníky, agendu ani podklady ke schůzce."
+      "title": "Dnes bez meeting prep",
+      "detail": "Kalendář neobsahuje účastníky, agendu ani podklady ke schůzce."
     },
     {
       "title": "Středa: vyber Mikulov, nebo Brno",
@@ -83,35 +79,36 @@
     },
     {
       "title": "Pátek: Hodonín",
-      "detail": "Pokud tě zajímá historie Masaryka a Beneše, rezervuj si dopravu na 16:00."
+      "detail": "Pokud tě zajímá historie Masaryka a Beneše, počítej s dopravou na začátek v 16:00."
     }
   ],
   "context": [
     {
       "title": "Gmail guma",
-      "detail": "Aktivní i archivovaná pošta mimo koš a spam byla zkontrolována; nabídka Vínokrál je synchronizovaná do kalendáře bez zveřejnění kódu."
+      "detail": "Aktivní i archivovaná pošta mimo koš a spam byla obousměrně porovnána s kalendářem. Žádná ověřená aktivní nabídka nezůstala; slevové kódy se nezveřejňují."
     },
     {
       "title": "Google Drive",
-      "detail": "List GUMA report obsahuje dnešní kontrolu pěti produktů; ceny se proto znovu nedohledávaly.",
+      "detail": "List GUMA report má dnešní kontrolní datum a všech pět produktů; ceny se proto znovu nedohledávaly.",
       "url": "https://docs.google.com/spreadsheets/d/1mPEywWDwOwaUbZHzwa6_FyBQfZ_1dCFFmWgXMvucNSw/edit"
     },
     {
       "title": "Notion",
-      "detail": "Cílené hledání nevrátilo aktuální poznámky ani úkoly."
+      "detail": "Cílené hledání k dnešku i nejbližším akcím nevrátilo poznámky ani úkoly."
     },
     {
       "title": "Akce zdarma/do 100 Kč",
-      "detail": "Prověřeny byly Kudy z nudy, Objev Brno, Brno-střed a další zdroje v Jihomoravském kraji; do kalendáře přibyly čtyři ověřené neblokující akce."
+      "detail": "Prověřeny byly zdroje pro Brno a Jihomoravský kraj. Událost Vánoce Brno 2026 byla podle oficiálního zdroje aktualizována na 13. 11.–31. 12.; ostatní ověřené položky zůstaly beze změny.",
+      "url": "https://www.vanocebrno.cz/"
     }
   ],
   "signals": {
     "meetings": "0 / 0",
     "freeWindow": "24 h",
-    "newMail": "1 aktivní nabídka",
+    "newMail": "0 nabídek",
     "unknownPrices": "1"
   },
-  "publicSafety": "Veřejně bezpečné shrnutí",
+  "publicSafety": "Bez tokenů, celých e-mailů, slevových kódů a soukromých konverzací.",
   "costHunter": {
     "counts": {
       "cheaper": 0,
@@ -119,10 +116,10 @@
       "unchanged": 3,
       "unknown": 1
     },
-    "summary": "Kontrola 12. 10. 2026: zlevnilo 0 · zdražilo 1 · beze změny 3 · nezjištěno 1.",
-    "freshnessNote": "Dnešní sada obsahuje všech pět produktů, ale list nemá očekávaný samostatný sloupec Změna; změny jsou proto dopočtené z cen.",
-    "linkNote": "Přímé odkazy jsou v názvech produktů; poznámky pod hranicí 10 % nejsou zobrazené.",
-    "sourceCheckedLabel": "Kontrola: 12. 10. 2026",
+    "summary": "Kontrola 13. 10. 2026: zlevnilo 0 · zdražilo 1 · beze změny 3 · nezjištěno 1.",
+    "freshnessNote": "Dnešní sada obsahuje všech pět produktů. List nemá samostatný sloupec Změna; změny jsou dopočtené z cen.",
+    "linkNote": "Přímé odkazy jsou v názvech produktů; poznámky jsou uvedené jen při absolutní změně nejméně 10 % nebo při nejistotě.",
+    "sourceCheckedLabel": "Kontrola: 13. 10. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
@@ -131,9 +128,9 @@
         "product": "ORGANIS Mandle jádra 1000 g",
         "productUrl": "https://www.lekarna.cz/organis-mandle-jadra-1000-g/",
         "store": "Lekarna.cz",
-        "priceToday": "389,00 Kč",
-        "priceYesterday": "355,00 Kč",
-        "change": "+34,00 Kč (+9,58 %)",
+        "priceToday": "399,00 Kč",
+        "priceYesterday": "389,00 Kč",
+        "change": "+10,00 Kč (+2,57 %)",
         "note": ""
       },
       {
@@ -171,10 +168,10 @@
         "product": "Wrigley's Orbit Žvýkačky bez cukru s melounovou příchutí",
         "productUrl": "https://www.rohlik.cz/1290599-wrigley-s-orbit-zvykacky-bez-cukru-s-melounovou-prichuti",
         "store": "Rohlik.cz",
-        "priceToday": "Nezjištěno",
-        "priceYesterday": "23,90 Kč",
+        "priceToday": "21,90 Kč",
+        "priceYesterday": "Nezjištěno",
         "change": "Nezjištěno",
-        "note": "Stránka neukazuje cenu sledované 14g varianty; hodnotu neodhaduji."
+        "note": "Včerejší cena není v listu k dispozici; změnu neodhaduji."
       }
     ]
   },
@@ -324,125 +321,121 @@
     ]
   },
   "news": {
-    "windowStart": "2026-10-11T08:00:00+02:00",
-    "windowEnd": "2026-10-12T05:45:00+02:00",
+    "windowStart": "2026-10-12T08:00:00+02:00",
+    "windowEnd": "2026-10-13T05:45:01+02:00",
     "note": "20 ověřených relevantních zpráv z Novinky.cz a ČTK / Českých novin v požadovaném okně; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
     "items": [
       {
-        "title": "1. Blíží se oteplení, bude až 18 stupňů",
-        "detail": "Po chladných a mlhavých ránech má během týdne přijít oteplení až k 18 °C; víkend bude znovu deštivější a chladnější.",
-        "url": "https://www.novinky.cz/clanek/pocasi-blizi-se-otepleni-bude-az-18-stupnu-40602188"
+        "title": "1. Dánští učitelé budou moci neukázněné žáky zklidnit silou",
+        "detail": "Dánsko chystá jasně omezenou možnost fyzického zásahu učitele při nebezpečném chování; tělesné tresty zůstávají zakázané.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-kdyz-domluva-nestaci-dansti-ucitele-budou-moci-neukaznene-zaky-zklidnit-silou-40602315"
       },
       {
-        "title": "2. Jak bude vypadat Senát: dominovat bude opozice, Vystrčil si zřejmě udrží post šéfa",
-        "detail": "Opoziční většina v horní komoře zůstane a Miloš Vystrčil má dobrou pozici pro pokračování v čele Senátu.",
-        "url": "https://www.novinky.cz/clanek/volby-do-senatu-jak-bude-vypadat-senat-dominovat-bude-opozice-vystrcil-si-zrejme-udrzi-post-sefa-40602183"
+        "title": "2. Potomek českých emigrantů v USA prodává jitrnice a buřty",
+        "detail": "Rodinné lahůdkářství v USA udržuje české recepty a vysvětluje místním i tradici knedlíků.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-potomek-ceskych-emigrantu-v-usa-prodava-jitrnice-a-burty-knedlikum-rika-zaludecni-bomby-40599892"
       },
       {
-        "title": "3. Unie chce urychlit vývoj inovativní bojové technologie",
-        "detail": "Program EU s rozpočtem 115 milionů eur má zrychlit vývoj technologií a otevírá příležitosti i českým firmám.",
-        "url": "https://www.novinky.cz/clanek/domaci-unie-chce-urychlit-vyvoj-inovacni-bojove-technologie-jde-o-prilezitost-i-pro-ceske-firmy-40601585"
+        "title": "3. V Praze začalo povolební oťukávání rodící se koalice",
+        "detail": "Pražské strany otevírají jednání o nové koalici; klíčové budou programové podmínky a rozdělení odpovědností.",
+        "url": "https://www.novinky.cz/clanek/volby-komunalni-otukavani-rodici-se-prazske-koalice-v-praze-zacalo-portlik-by-si-vystacil-jen-se-stan-40602382"
       },
       {
-        "title": "4. Jan Birke opět zvítězil v Náchodě, starostou bude už popáté",
-        "detail": "Jan Birke obhájil vedení Náchoda a míří k pátému funkčnímu období.",
-        "url": "https://www.novinky.cz/clanek/domaci-zpravy-kralovehradecky-kraj-jan-birke-opet-zvitezil-v-nachode-starostou-bude-uz-popate-40602200"
+        "title": "4. Tání sibiřského permafrostu může být děsivější než mor",
+        "detail": "Vědci upozorňují, že rozmrazování půdy může uvolnit staré mikroorganismy a další dosud obtížně odhadnutelná rizika.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-tani-sibirskeho-permafrostu-muze-byt-jeste-desivejsi-nez-mor-varuji-vedci-40602260"
       },
       {
-        "title": "5. Praha 1 Sobě je vítězem v centru metropole",
-        "detail": "Praha 1 Sobě získala sedm mandátů a výrazně proměnila povolební poměry v městské části.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-praha-1-sobe-je-vitezem-v-centru-metropole-kontroverzni-filip-dvorak-pohorel-40602178"
+        "title": "5. ANO v Pardubicích po 12 letech končí",
+        "detail": "Město má vést nová koalice pěti stran, která odstaví dosavadní vedení ANO.",
+        "url": "https://www.novinky.cz/clanek/volby-ano-v-pardubicich-po-12-letech-konci-povladne-nova-koalice-peti-stran-40602419"
       },
       {
-        "title": "6. Plzeň povede ANO společně se STAN a uskupením PRO Plzeň",
-        "detail": "Vítězné ANO se dohodlo na městské koalici se STAN a uskupením PRO Plzeň.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-plzen-povede-ano-spolecne-se-stan-a-uskupenim-pro-plzen-40602203"
+        "title": "6. Motoristé chtějí dát ředitelům právo odmítat postižené děti",
+        "detail": "Návrh otevírá spor o spádovost škol a podmínky inkluze žáků se speciálními potřebami.",
+        "url": "https://www.novinky.cz/clanek/domaci-konec-naroku-na-spadovou-skolu-motoriste-chteji-dat-reditelum-pravo-odmitat-postizene-deti-40602404"
       },
       {
-        "title": "7. Vyrovnané počty v Praze: STAN má stejně mandátů jako Spolu",
-        "detail": "STAN i Spolu získaly po 17 zastupitelích; o vedení Prahy rozhodnou koaliční rozhovory.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-vyrovnane-pocty-v-praze-i-pres-vitezstvi-ma-stan-stejne-mandatu-jako-spolu-40602105"
+        "title": "7. Soud zablokoval podíly ČEZ ve firmách, přes které vlastní GasNet",
+        "detail": "Lucemburské rozhodnutí v kauze Diag Human zasáhlo struktury spojené s podílem ČEZ v plynárenské síti GasNet.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-kauza-diag-human-soud-zablokoval-podily-cez-ve-firmach-pres-ktere-vlastni-gasnet-40602423"
       },
       {
-        "title": "8. ČSSD a KSČ jsou v Praze minulostí",
-        "detail": "Někdejší tradiční levice prakticky zmizela z pražských zastupitelstev.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-cssd-a-ksc-jsou-v-praze-minulosti-nekdejsi-tradicni-levice-prakticky-zmizela-40602190"
+        "title": "8. Marius Pedersen prodává české a slovenské aktivity Francouzům",
+        "detail": "Odpadová skupina mění vlastníka svých aktivit v Česku a na Slovensku; transakce ještě podléhá schválení.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-marius-pedersen-prodava-sve-ceske-a-slovenske-aktivity-francouzum-40602426"
       },
       {
-        "title": "9. Řehka a Řehková: generál slaví volební úspěch, poslankyně skončila jako starostka",
-        "detail": "Karel Řehka uspěl v komunálních volbách, zatímco Michaela Řehková po letech opouští starostenský post.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-rehka-a-rehkova-general-slavi-volebni-uspech-poslankyne-po-letech-skoncila-jako-starostka-40602185"
+        "title": "9. Evropská komise vyšetřuje převzetí prodejen Asko",
+        "detail": "Brusel prověřuje, zda akvizice řetězcem XXXLutz nenaruší hospodářskou soutěž na trhu s nábytkem.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-evropska-komise-vysetruje-prevzeti-prodejen-nabytku-asko-40602414"
       },
       {
-        "title": "10. Vznik opozičního bloku je nevyhnutelný, hodnotí odborníci propad ODS",
-        "detail": "Politologové čekají po volebním oslabení ODS pevnější spolupráci opozičních stran.",
-        "url": "https://www.novinky.cz/clanek/volby-komunalni-vznik-opozicniho-bloku-je-nevyhnutelny-odbornici-komentuji-volebni-propadak-ods-40602170"
+        "title": "10. Xandr dostal pokutu za sdílení citlivých dat uživatelů Grindru",
+        "detail": "Regulátor postihl reklamní firmu za předávání citlivých údajů tisícům inzerentů.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-citliva-data-uzivatelu-seznamky-sdilela-s-tisici-inzerentu-firma-xandr-dostala-obri-pokutu-40602378"
       },
       {
-        "title": "11. Soukromníci chtějí využít přetlak na kolejích",
-        "detail": "Developeři plánují tisíce nových studentských lůžek, protože kapacita veřejných kolejí dlouhodobě nestačí.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-soukromnici-chteji-vyuzit-pretlak-na-kolejich-chystaji-tisice-bytu-pro-studenty-40601582"
+        "title": "11. Šéf Microsoftu volá po přísnější regulaci AI",
+        "detail": "Brad Smith upozorňuje, že běžné spotřební zboží podléhá přísnějším kontrolám než systémy umělé inteligence.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-i-mleko-podleha-prisnejsim-kontrolam-nez-ai-burcoval-sef-microsoftu-40602388"
       },
       {
-        "title": "12. Pozor na zprávy a telefonáty od Rohlík.cz, firma oznámila únik dat",
-        "detail": "Únik zasáhl část osobních údajů a komunikace zákazníků; firma varuje před navazujícími podvody.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-pozor-na-zpravy-a-telefonaty-od-rohlik-cz-firma-oznamila-unik-osobnich-dat-zakazniku-40602172"
+        "title": "12. Apple má ukázat další novinky ještě před iPhonem Duo",
+        "detail": "Očekává se nová várka zařízení včetně domácího centra; firma zatím podrobnosti oficiálně nepotvrdila.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-hardware-apple-ukaze-dalsi-varku-novinek-jeste-pred-prichodem-iphonu-duo-40602385"
       },
       {
-        "title": "13. Vláda projedná novelu občanského zákoníku či rozšíření dohledu ČIŽP",
-        "detail": "Kabinet má řešit změny rodinného práva, domácí násilí i pravomoc inspekce okamžitě zastavit rizikový provoz.",
-        "url": "https://www.ceskenoviny.cz/zpravy/vlada-projedna-novelu-obcanskeho-zakoniku-ci-rozsireni-dohledu-cizp-/2886509"
+        "title": "13. Poslední rozloučení s Jiřím Štěpničkou bude v Národním divadle",
+        "detail": "Veřejnost se s hercem rozloučí 20. října v historické budově Národního divadla.",
+        "url": "https://www.novinky.cz/clanek/kultura-divadlo-posledni-rozlouceni-s-jirim-stepnickou-probehne-v-narodnim-divadle-40602406"
       },
       {
-        "title": "14. Zasedne národní koalice pro boj se suchem",
-        "detail": "Koalice vyhodnotí další kroky po mimořádně suchém období; zásoby pitné vody v nádržích jsou zatím dostatečné.",
-        "url": "https://www.ceskenoviny.cz/zpravy/zasedne-narodni-koalice-pro-boj-se-suchem-a-vyhodnoti-dalsi-kroky/2884015"
+        "title": "14. Nová expedice chce rozluštit záhadu zmizení Amelie Earhartové",
+        "detail": "Badatelé prověří objekt na snímcích odlehlého ostrova, který může být částí letadla, ale také vyvráceným stromem.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-vrak-letadla-nebo-jen-vyvraceny-strom-nova-expedice-chce-rozlustit-zahadu-zmizeni-amelie-earhartove-40602362"
       },
       {
-        "title": "15. Státní volební komise projedná výsledky víkendových voleb",
-        "detail": "Komise zkontroluje komunální a senátní výsledky; pět senátorů uspělo už v prvním kole a ve 22 obvodech bude druhé.",
-        "url": "https://www.ceskenoviny.cz/zpravy/statni-volebni-komise-projedna-vysledky-vikendovych-voleb/2886510"
+        "title": "15. Brněnské silikonové modely pomohou lékařům nacvičit operace rozštěpu",
+        "detail": "Realistické modely umožní chirurgům bezpečněji trénovat složité zákroky před operací pacientů.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-unikatni-silikonove-modely-pomohou-lekarum-nacvicit-si-operace-rozstepu-40601288"
       },
       {
-        "title": "16. Šéfem klubu STAN v Praze je Biskup, jednání o koalici začne v pondělí",
-        "detail": "Pražský klub STAN zvolil vedení a zahájí povolební vyjednávání o nové koalici.",
-        "url": "https://www.ceskenoviny.cz/zpravy/sefem-klubu-stan-v-praze-je-biskup-jednani-o-koalici-zacne-v-pondeli/2886410"
+        "title": "16. Víkend v Česku ozdobila nezvykle výrazná polární záře",
+        "detail": "Silná geomagnetická aktivita umožnila pozorování polární záře i z řady míst v Česku.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-vikend-v-cesku-ozdobila-nezvykle-vyrazna-polarni-zare-40602244"
       },
       {
-        "title": "17. STEM: Sněmovní volby by vyhrálo ANO, druhou pozici drží posilující STAN",
-        "detail": "Model ponechává ANO v čele a ukazuje růst STAN na druhé místo.",
-        "url": "https://www.ceskenoviny.cz/zpravy/stem-snemovni-volby-by-vyhralo-ano-druhou-pozici-drzi-posilujici-stan/2886270"
+        "title": "17. Muzeum Zdeňka Buriana ve Štramberku se letos už neotevře",
+        "detail": "Rekonstrukce muzea se protahuje a vyvolává spor o další podobu expozice.",
+        "url": "https://www.novinky.cz/clanek/cestovani-muzeum-zdenka-buriana-ve-stramberku-se-letos-uz-neotevre-rekonstrukce-vyvolava-neshody-40602270"
       },
       {
-        "title": "18. Zemřel herec Jiří Štěpnička, bylo mu 79 let",
-        "detail": "Český herec Jiří Štěpnička zemřel ve věku 79 let; působil dlouhá léta v Národním divadle.",
-        "url": "https://www.ceskenoviny.cz/zpravy/zemrel-herec-jiri-stepnicka-bylo-mu-79-let/2886234"
+        "title": "18. ČSÚ zveřejní konečnou hodnotu zářijové inflace",
+        "detail": "Statistici doplní finální údaje o vývoji spotřebitelských cen a struktuře meziroční inflace.",
+        "url": "https://www.ceskenoviny.cz/zpravy/csu-zverejni-konecnou-hodnotu-zarijove-inflace/2883404"
       },
       {
-        "title": "19. Hlaváček chce mít dohodu o pražské koalici v listopadu",
-        "detail": "STAN chce uzavřít pražská koaliční jednání během listopadu a jednat napříč demokratickými stranami.",
-        "url": "https://www.ceskenoviny.cz/zpravy/hlavacek-stan-chce-mit-dohodu-o-prazske-koalici-v-listopadu-/2885958"
+        "title": "19. Nobelovu cenu za ekonomii získali Hall a Woodford",
+        "detail": "Ocenění získali za modely, které propojily mikroekonomické rozhodování s účinnější stabilizační politikou.",
+        "url": "https://www.ceskenoviny.cz/zpravy/nobelovu-cenu-za-ekonomii-ziskali-ekonomove-hall-a-woodford/2886516"
       },
       {
-        "title": "20. ANO zvítězilo v šesti krajských městech, v Praze vyhrál STAN",
-        "detail": "Souhrn výsledků ukazuje převahu ANO v šesti krajských městech a pražské prvenství STAN.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ano-zvitezilo-v-sesti-krajskych-mestech-v-praze-vyhral-stan-/2885315"
+        "title": "20. Boj se suchem má stát na zadržování vody i čistírnách",
+        "detail": "Národní koalice označila za priority zadržování vody v krajině, propojování soustav a investice do čistíren.",
+        "url": "https://www.ceskenoviny.cz/zpravy/prioritami-v-boji-se-suchem-jsou-zadrzovani-vody-v-krajine-i-cisticky-rekl-sebestyan/2884015"
       }
     ]
   },
   "risks": [
     {
       "title": "Ariana: použit je starší plně čitelný lístek",
-      "detail": "Aktuálnější veřejná stránka z 10. 10. zobrazuje USD nečitelně; proto uvádím poslední kompletně ověřitelné hodnoty ze 7. 10. a jasně je označuji jako starší.",
+      "detail": "Novější veřejná stránka z 10. 10. zobrazuje USD nečitelně; proto uvádím poslední kompletně ověřitelné hodnoty ze 7. 10. a nic neodhaduji.",
       "url": "https://www.ariana-sro.cz/"
     },
     {
-      "title": "COST HUNTER: dnešní list má odlišnou strukturu",
-      "detail": "Kontrolní datum i pět produktů sedí, ale chybí samostatný sloupec Změna a přímé odkazy v názvech; změny jsem dopočítal a odkazy převzal z ověřené historie."
-    },
-    {
-      "title": "Jedna cena nebyla zjištěna",
-      "detail": "Rohlík nezobrazuje cenu sledované 14g varianty žvýkaček Orbit; hodnotu neodhaduji."
+      "title": "COST HUNTER: chybí včerejší cena Orbit",
+      "detail": "Dnešní cena 21,90 Kč je uvedená, ale bez včerejší hodnoty nelze spolehlivě určit změnu."
     },
     {
       "title": "Praktická kolize ve středu",
@@ -451,20 +444,25 @@
     {
       "title": "Notion bez aktuálního kontextu",
       "detail": "Cílené hledání nevrátilo dnešní poznámky ani úkoly."
+    },
+    {
+      "title": "Dnešní program nemá meetingové podklady",
+      "detail": "Kalendář neobsahuje účastníky, agendu ani přílohy; není tedy co připravovat ke konkrétní schůzce."
     }
   ],
   "nextSteps": [
-    {
-      "title": "Rozhodni o dnešní nabídce Vínokrál",
-      "detail": "Platnost končí dnes; ověřené minimum nákupu je 2 500 Kč."
-    },
     {
       "title": "Vyber středeční akci",
       "detail": "Kvůli přesunu mezi Mikulovem a Brnem počítej spíš s volbou jedné z nich."
     },
     {
-      "title": "Počítej s nejistou cenou Orbit",
-      "detail": "Dokud se neobjeví cena sledované 14g varianty, nevytvářej cenový závěr."
+      "title": "Využij volný blok",
+      "detail": "Dnes máš 24hodinové okno bez blokující schůzky; vhodný den na souvislou práci."
+    },
+    {
+      "title": "U Orbitu nedělej cenový závěr",
+      "detail": "Počkej na úplnou dvojici dnešní a včerejší ceny."
     }
   ]
 }
+
