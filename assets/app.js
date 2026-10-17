@@ -48,6 +48,25 @@ const list = (items = [], options = {}) => items.map((item) => {
   return `<li>${heading}${item.detail ? `<span class="meta">${itemDetail(item)}</span>` : ""}</li>`;
 }).join("");
 
+const urcMonitorContent = (monitor = {}) => {
+  monitor = monitor || {};
+  const lead = monitor.summary || monitor.overallStatus || "";
+  const note = monitor.note || monitor.sourceCheckTime || "";
+  const items = monitor.items || [
+    monitor.incidents,
+    monitor.availability,
+    monitor.risks,
+    monitor.nextSteps,
+  ].flat().filter(Boolean);
+
+  if (!lead && !note && !items.length) return "";
+
+  return `
+    ${lead ? `<p class="lead">${esc(lead)}</p>` : ""}
+    ${note ? `<p class="status-note">${esc(note)}</p>` : ""}
+    ${items.length ? `<ul class="clean-list">${list(items)}</ul>` : ""}`;
+};
+
 function render(report) {
   const costs = report.costHunter;
   const newsItems = report.news?.items || [];
@@ -132,6 +151,10 @@ function render(report) {
             ${newsWarning}
             <ol class="clean-list numbered-list">${list(newsItems, { stripOrdinal: true })}</ol>
           </div>
+        </details>
+        <details class="section-block collapsible-section">
+          <summary><h2>URC Systems monitor</h2></summary>
+          <div class="collapsible-content">${urcMonitorContent(report.urcSystemsMonitor)}</div>
         </details>
         <section class="section-block">
           <h2>Rizika</h2>
