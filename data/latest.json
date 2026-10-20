@@ -1,92 +1,102 @@
 {
   "schemaVersion": 1,
-  "title": "GUMA dashboard · 19. 10. 2026",
-  "date": "2026-10-19",
-  "updatedAt": "2026-10-19T05:45:01+02:00",
-  "updatedLabel": "Aktualizováno 19. 10. 2026 v 05:45",
+  "title": "GUMA dashboard · 20. 10. 2026",
+  "date": "2026-10-20",
+  "updatedAt": "2026-10-20T05:45:01+02:00",
+  "updatedLabel": "Aktualizováno 20. 10. 2026 v 05:45",
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "daySummary": "Pondělí bez blokující schůzky. Do 18:00 je souvislé volné okno; v 18:00 začíná dobrovolná bezplatná přednáška v Brně.",
+  "daySummary": "Úterý bez blokující schůzky a bez kolize. Celý den je volný; v 08:00 začíná pouze dobrovolná transparentní akce v Boskovicích.",
   "summaryItems": [
     {
       "title": "Svátek",
-      "detail": "dnes Michaela, zítra Vendelín, státní svátek NA."
+      "detail": "dnes Vendelín, zítra Brigita, státní svátek NA."
     },
     {
       "title": "Kurzy ČNB",
-      "detail": "EUR/CZK 24,325 (koruna posiluje), USD/CZK 21,622 (koruna posiluje); poslední dostupný oficiální lístek 16. 10. 2026.",
-      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=16.10.2026"
+      "detail": "EUR/CZK 24,340 (koruna posiluje), USD/CZK 21,690 (koruna posiluje); poslední dostupný oficiální lístek 19. 10. 2026.",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=19.10.2026"
     },
     {
       "title": "Ariana směnárna prodej",
-      "detail": "EUR 24,50 Kč; USD nezjištěno (web zobrazuje nejednoznačné „220“). Lístek 17. 10. 2026 – starší.",
+      "detail": "EUR 24,50 Kč; USD nezjištěno (web zobrazuje nejednoznačné „220“). Lístek 19. 10. 2026 – starší.",
       "url": "https://www.ariana-sro.cz/"
     },
     {
       "title": "Kalendář",
-      "detail": "0 blokujících schůzek a 0 kolizí; volno 00:00–18:00 a po 19:00. V 18:00 je transparentní tip Brno v pohybu."
+      "detail": "0 blokujících schůzek a 0 kolizí; celý den je volný. V 08:00 začíná pouze transparentní tip Tak Kam?! v Boskovicích."
     },
     {
       "title": "COST HUNTER",
-      "detail": "Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum 19. 10. 2026."
+      "detail": "Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum 20. 10. 2026."
     }
   ],
   "calendar": {
     "meetingCount": 0,
     "conflictCount": 0,
-    "summary": "Bez blokujících schůzek a kolizí; jedinou časovanou položkou je dobrovolná transparentní akce v 18:00.",
+    "summary": "Bez blokujících schůzek a kolizí; dnešek je celý volný. Tak Kam?! v Boskovicích je transparentní, neblokující tip.",
     "freeWindows": [
       {
-        "start": "2026-10-19T00:00:00+02:00",
-        "end": "2026-10-19T18:00:00+02:00",
-        "label": "00:00–18:00"
-      },
-      {
-        "start": "2026-10-19T19:00:00+02:00",
-        "end": "2026-10-20T00:00:00+02:00",
-        "label": "19:00–24:00"
+        "start": "2026-10-20T00:00:00+02:00",
+        "end": "2026-10-21T00:00:00+02:00",
+        "label": "00:00–24:00"
       }
     ],
     "context": [
       {
-        "title": "Brno v pohybu: Od rekreace po výkon · 18:00–19:00",
-        "detail": "Bezplatná přednáška v Brně; transparentní, neblokující tip.",
-        "url": "https://www.objevbrno.cz/cs/event/brno-v-pohybu-od-rekreace-po-vykon"
+        "title": "Tak Kam?! Boskovice · 08:00–17:00",
+        "detail": "Veletrh středních a vysokých škol v sokolovně; zdarma, transparentní a neblokující.",
+        "url": "https://www.smartee.cz/veletrhy-strednich-a-vysokych-skol-brno-2022/tpost/srn5i3s74e-jihomoravsk-kraj-jen-listopad-2026"
       },
       {
         "title": "Career Expo Brno 2026 · 21.–22. 10.",
-        "detail": "Zdarma po registraci, BVV pavilon A2; přidáno jako transparentní vícedenní položka.",
+        "detail": "Zdarma po registraci, BVV pavilon A2; v kalendáři jako transparentní vícedenní položka.",
         "url": "https://www.objevbrno.cz/cs/event/career-expo-brno-2026"
       },
       {
-        "title": "Vzdělávání bez hranic · 7.–8. 11.",
-        "detail": "Festival s MUNI zdarma po registraci; přidán po kontrole duplicity.",
-        "url": "https://www.objevbrno.cz/cs/event/vzdelavani-bez-hranic-festival-radosti-z-poznani-s-masarykovou-univerzitou"
+        "title": "Novokřtěnci pod Pálavou · 21. 10. 17:00",
+        "detail": "Nejbližší časovaná kulturní položka po dnešku; ověř si místo v detailu kalendáře."
+      },
+      {
+        "title": "Czech Space Pavilion · 22.–23. 10.",
+        "detail": "Veřejný program v Brně; transparentní vícedenní tip.",
+        "url": "https://www.objevbrno.cz/cs/event/czech-space-pavilon"
+      },
+      {
+        "title": "Tak Kam?! Vyškov · 22. 10. 09:30–17:00",
+        "detail": "Veletrh vzdělávání zdarma; přidán po kontrole duplicity.",
+        "url": "https://www.smartee.cz/veletrhy-strednich-a-vysokych-skol-brno-2022/tpost/srn5i3s74e-jihomoravsk-kraj-jen-listopad-2026"
       }
     ]
   },
   "prep": [
     {
-      "title": "Rezervuj první souvislý blok",
-      "detail": "Dopoledne ani odpoledne neobsahuje schůzku; je vhodné na jednu hlavní dokončitelnou prioritu."
+      "title": "Rezervuj souvislý pracovní blok",
+      "detail": "Kalendář je celý den bez blokujících schůzek; vyber jeden dokončitelný výsledek a začni jím."
     },
     {
-      "title": "Brno v pohybu",
-      "detail": "Rozhodni nejpozději odpoledne, zda na dobrovolnou přednášku v 18:00 půjdeš; podklady nejsou potřeba."
+      "title": "Ověř přihlášení k Apple účtu",
+      "detail": "Pokud iPhone 15 Pro není tvoje zařízení, neodkládej změnu hesla a kontrolu přihlášených zařízení.",
+      "url": "https://account.apple.com/"
     },
     {
-      "title": "Faktura Vínokrál",
-      "detail": "V Gmailu je nepřečtená faktura k objednávce C1241400; zkontroluj částku a splatnost v příloze."
+      "title": "Rozhodni o Boskovicích",
+      "detail": "Tak Kam?! je dobrovolný neblokující tip od 08:00; pro pracovní den nejsou potřeba žádné podklady."
     }
   ],
   "context": [
     {
       "title": "Gmail guma",
-      "detail": "Aktivní i archivovaná pošta mimo koš a spam byla porovnána s kalendářem. Dříve synchronizovaná nabídka inSPORTline byla v koši, proto byla z kalendáře odstraněna; žádná nová nabídka nemá jednoznačnou platnost."
+      "detail": "Aktivní i archivovaná pošta mimo koš a spam byla porovnána s kalendářem. Nebyla nalezena žádná ověřená aktivní nabídka s jasnou platností; synchronizované změny nebyly potřeba."
+    },
+    {
+      "title": "Bezpečnost Apple účtu",
+      "detail": "Gmail obsahuje oznámení o přihlášení k iCloudu z iPhonu 15 Pro dne 19. 10. ve 14:50 CEST. Pokud zařízení není tvoje, změň heslo účtu Apple.",
+      "url": "https://account.apple.com/"
     },
     {
       "title": "Google Drive",
-      "detail": "List GUMA report má kontrolu 19. 10. 2026 a pět cenových řádků; dnešní ceny se znovu nedohledávaly.",
+      "detail": "List GUMA report má kontrolu 20. 10. 2026 a všech pět produktů; ceny se znovu nedohledávaly.",
       "url": "https://docs.google.com/spreadsheets/d/1mPEywWDwOwaUbZHzwa6_FyBQfZ_1dCFFmWgXMvucNSw/edit"
     },
     {
@@ -95,12 +105,12 @@
     },
     {
       "title": "Akce zdarma / do 100 Kč",
-      "detail": "Brno a Jihomoravský kraj byly prověřeny do konce ledna 2027; přidány tři nové neblokující akce a dva existující listopadové vstupy zůstaly zachované."
+      "detail": "Brno a Jihomoravský kraj byly prověřeny do konce ledna 2027. Přibyly Boskovice, Vyškov, Blansko, Znojmo a Vítání sv. Martina v Blansku; minulé položky zůstaly zachované."
     }
   ],
   "signals": {
     "meetings": "0 / 0",
-    "freeWindow": "18 h + 5 h",
+    "freeWindow": "24 h",
     "newMail": "1 důležitý",
     "unknownPrices": "0"
   },
@@ -112,10 +122,10 @@
       "unchanged": 5,
       "unknown": 0
     },
-    "summary": "Kontrola 19. 10. 2026: zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
+    "summary": "Kontrola 20. 10. 2026: zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
     "freshnessNote": "Dnešní sada obsahuje všech pět produktů. Zdrojový list nemá samostatný sloupec Změna a jeho hlavička neodpovídá přesně požadovanému sedmisloupcovému formátu.",
     "linkNote": "Přímé odkazy jsou doplněné v názvech produktů; poznámky zůstávají prázdné, protože není změna ≥10 % ani cenová nejistota.",
-    "sourceCheckedLabel": "Kontrola: 19. 10. 2026",
+    "sourceCheckedLabel": "Kontrola: 20. 10. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
@@ -317,111 +327,107 @@
     ]
   },
   "news": {
-    "window": {
-      "from": "2026-10-18T08:00:00+02:00",
-      "to": "2026-10-19T05:45:01+02:00"
-    },
-    "note": "20 ověřených relevantních zpráv z Novinky.cz a ČTK / Českých novin v okně 18. 10. 08:00 až 19. 10. 05:45; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
+    "note": "20 ověřených relevantních zpráv z Novinky.cz a ČTK / Českých novin v okně 19. 10. 08:00 až 20. 10. 05:45; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
     "items": [
       {
-        "title": "1. Od 300 do 1000 korun. U očkování na chřipku se liší nejen výše příspěvku",
-        "detail": "Zdravotní pojišťovny se výrazně liší výší i podmínkami příspěvku na očkování proti chřipce; VZP chystá změny benefitů.",
-        "url": "https://www.novinky.cz/clanek/domaci-od-300-do-1000-korun-u-ockovani-na-chripku-se-lisi-nejen-vyse-prispevku-40602394"
+        "title": "1. Lidem pracujícím ve veřejné sféře se zvýší základní plat o tisíce korun",
+        "detail": "Zástupci vlády, odborů a zaměstnavatelů se shodli na úpravě tarifů; změna se týká zhruba 581 tisíc lidí, u části z nich se ale může promítnout do osobního ohodnocení.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-lidem-pracujicim-ve-verejne-sfere-se-zvysi-zakladni-plat-o-tisice-korun-40603663"
       },
       {
-        "title": "2. Co dělat, když Česko zhasne. Samotná příručka podle expertů nestačí",
-        "detail": "Příprava na rozsáhlý blackout podle expertů vyžaduje kromě informační příručky také praktická cvičení a funkční krizovou koordinaci.",
-        "url": "https://www.novinky.cz/clanek/domaci-co-delat-kdyz-cesko-zhasne-samotna-prirucka-podle-expertu-nestaci-40601348"
+        "title": "2. Poslanci by mohli projednat růst pokut za týrání zvířat a zákaz lovu norováním",
+        "detail": "Sněmovna má pokračovat v projednávání vyšších sankcí za týrání, povinností obcí u opuštěných zvířat a zákazu lovu norováním.",
+        "url": "https://www.ceskenoviny.cz/zpravy/poslanci-by-mohli-projednat-rust-pokut-za-tyrani-zvirat-a-zakaz-lovu-norovanim/2890208"
       },
       {
-        "title": "3. Aby neohrožovali lidi, vědci pohyby robotů hlídají matematikou",
-        "detail": "Výzkumníci používají matematické bezpečnostní mantinely, které mají humanoidním robotům zabránit v nebezpečných pohybech kolem lidí.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-aby-neohrozovali-lidi-vedci-pohyby-robotu-hlidaji-matematikou-40600890"
+        "title": "3. Vláda schválila nové dotace pro velké zemědělce, i když chybějí peníze pro jiné",
+        "detail": "Nový dotační titul otevírá podporu velkým zemědělským podnikům; článek upozorňuje na napjaté financování dalších zemědělských programů.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-vlada-schvalila-nove-dotace-pro-velke-zemedelce-i-kdyz-chybeji-penize-pro-jine-40603620"
       },
       {
-        "title": "4. Zemřel herec Otakar Jirák",
-        "detail": "Ve věku 77 let zemřel herec a dabér Otakar Jirák, známý z divadla, televize i řady výrazných dabingových rolí.",
-        "url": "https://www.novinky.cz/clanek/kultura-tv-streaming-zemrel-herec-otakar-jirak-40603507"
+        "title": "4. Vláda schválila změny u asistentů pedagoga v ZŠ",
+        "detail": "Schválená úprava mění pravidla pro asistenty pedagoga na základních školách a bude důležitá pro plánování personálu i rozpočtů škol.",
+        "url": "https://www.ceskenoviny.cz/zpravy/vlada-schvalila-zmeny-u-asistentu-pedagoga-v-zs/2889749"
       },
       {
-        "title": "5. Držitelce Thálie Herfortové aplaudoval plný sál domovského divadla",
-        "detail": "Brněnské Městské divadlo uspořádalo benefiční večer pro dlouholetou herečku Zdenu Herfortovou.",
-        "url": "https://www.ceskenoviny.cz/zpravy/drzitelce-thalie-herfortove-aplaudoval-plny-sal-domovskeho-divadla/2889711"
+        "title": "5. Opozice chce vrátit rozpočet vládě a snížit schodek na nejvýše 290 miliard",
+        "detail": "Opoziční strany žádají přepracování návrhu státního rozpočtu a nižší deficit; spor se soustředí na výdajové priority a tempo zadlužování.",
+        "url": "https://www.ceskenoviny.cz/zpravy/opozice-chce-vratit-rozpocet-vlade-a-snizit-schodek-na-nejvyse-290-miliard/2889999"
       },
       {
-        "title": "6. Platy ve veřejném sektoru porostou. Většina zaměstnanců však stále neví o kolik",
-        "detail": "Růst platů ve veřejném sektoru je potvrzený, konkrétní dopad na většinu zaměstnanců ale zůstává nejasný.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-platy-ve-verejnem-sektoru-porostou-vetsina-zamestnancu-vsak-stale-nevi-o-kolik-40603260"
+        "title": "6. Prezident se v úterý zúčastní jednání Bezpečnostní rady státu",
+        "detail": "Petr Pavel má dorazit na jednání Bezpečnostní rady státu; Hrad oznámil účast bez zveřejnění podrobného programu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/prezident-se-v-utery-zucastni-jednani-bezpecnostni-rady-statu-oznamil-hrad/2889964"
       },
       {
-        "title": "7. Jazz po pětadvacáté, letos i s elektroswingem",
-        "detail": "Lanškrounský jazzový festival slaví 25. ročník a program rozšiřuje o elektroswing.",
-        "url": "https://www.novinky.cz/clanek/kultura-hudba-jazz-po-petadvacate-letos-i-s-elektroswingem-40603497"
+        "title": "7. Pražská koalice se rýsuje, vítězné STAN rozdává nabídky",
+        "detail": "Povolební jednání v Praze pokračují nabídkami vítězného STAN; podoba většiny a rozdělení odpovědností zatím nejsou uzavřené.",
+        "url": "https://www.novinky.cz/clanek/volby-komunalni-prazska-koalice-se-rysuje-vitezne-stan-rozdava-nabidky-40603616"
       },
       {
-        "title": "8. Louka plná zvonovců. V Českém středohoří vysadili desítky velmi vzácných rostlin",
-        "detail": "Ochranáři vysadili v Českém středohoří 84 exemplářů vzácného zvonovce liliolistého, aby posílili jeho ohroženou populaci.",
-        "url": "https://www.novinky.cz/clanek/veda-skoly-louka-plna-zvonovcu-v-ceskem-stredohori-bylo-vysazeno-na-osm-desitek-velmi-vzacnych-rostlin-40603097"
+        "title": "8. Čínská ekonomika je při síle, našla nový motor růstu",
+        "detail": "Čínský růst drží nové průmyslové obory a export, zatímco slabší domácí poptávka a reality zůstávají protiváhou.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-cinska-ekonomika-je-pri-sile-nasla-novy-motor-rustu-40603593"
       },
       {
-        "title": "9. Pražská záchranka nově bere do sanitek lékaře z urgentu na Bulovce",
-        "detail": "Spolupráce pražské záchranky s urgentním příjmem Bulovky má zlepšit personální pokrytí výjezdů i návaznost akutní péče.",
-        "url": "https://www.novinky.cz/clanek/domaci-zpravy-hlavni-mesto-praha-prazska-zachranka-nove-bere-do-sanitek-lekare-z-urgentu-na-bulovce-40603491"
+        "title": "9. Výroba osobních aut v Česku za tři čtvrtletí vzrostla",
+        "detail": "Domácí výroba osobních vozů meziročně rostla; údaj je užitečný jako signál kondice klíčového českého průmyslového odvětví.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-vyroba-osobnich-aut-v-cesku-za-tri-ctvrtleti-vzrostla-40603619"
       },
       {
-        "title": "10. Oni nevěděli, že je i druhé kolo. Kandidátce ANO v Karviné nedorazily tři tisíce voličů",
-        "detail": "Výsledek druhého kola senátních voleb v Karviné ovlivnil výrazný propad účasti voličů úspěšné kandidátky z prvního kola.",
-        "url": "https://www.novinky.cz/clanek/volby-do-senatu-oni-nevedeli-ze-je-i-druhe-kolo-nejnadejnejsi-kandidatce-ano-v-karvine-nedorazily-tri-tisice-volicu-40603488"
+        "title": "10. O2 začal zákazníkům nabízet služby vlastního cloudového úložiště",
+        "detail": "Operátor spustil zálohování mobilních dat ve variantách 300 GB za 59 Kč a 2 TB za 99 Kč měsíčně.",
+        "url": "https://www.ceskenoviny.cz/zpravy/o2-zacal-zakaznikum-nabizet-sluzby-vlastniho-cloudoveho-uloziste/2889815"
       },
       {
-        "title": "11. Tempo doby je ničí, klid hledají třeba u koček. Asijská vlna léčivé literatury učí odpočívat i Čechy",
-        "detail": "Takzvaná léčivá literatura z Asie získává české čtenáře jednoduchými příběhy zaměřenými na zpomalení a psychickou úlevu.",
-        "url": "https://www.novinky.cz/clanek/kultura-knihy-tempo-doby-je-nici-klid-hledaji-treba-u-kocek-asijska-vlna-lecive-literatury-uci-odpocivat-i-cechy-40602353"
+        "title": "11. Microsoft představil nástroj pro strojové učení, který má zlepšit předpovědi počasí",
+        "detail": "Nový nástroj využívá strojové učení pro rychlejší a přesnější meteorologické modely; praktický dopad se bude odvíjet od nasazení a validace.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-microsoft-predstavil-novy-nastroj-pro-strojove-uceni-ktery-ma-zlepsit-predpovedi-pocasi-40603077"
       },
       {
-        "title": "12. Zničení radnice v Limoges některým připomnělo požár Notre-Dame",
-        "detail": "Požár historické radnice v Limoges během protestů vyvolal silné reakce kvůli ztrátě významné městské památky.",
-        "url": "https://www.ceskenoviny.cz/zpravy/zniceni-radnice-v-limoges-nekterym-pripomnelo-pozar-notre-dame/2889562"
+        "title": "12. První český ombudsman dál pomáhá lidem, stal se inspirací pro AI chatbota Otakara",
+        "detail": "Projekt převádí zkušenosti ombudsmana do chatbota, který má lidem zpřístupnit základní orientaci v jejich právech.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-prvni-cesky-ombudsman-dal-pomaha-lidem-stal-se-inspiraci-pro-ai-chatbota-otakara-40603543"
       },
       {
-        "title": "13. Šlachta zvažuje odchod ze senátorského klubu ANO",
-        "detail": "Senátor Robert Šlachta zvažuje odchod z klubu ANO, což by změnilo jeho povolební fungování v horní komoře.",
-        "url": "https://www.ceskenoviny.cz/zpravy/slachta-zvazuje-odchod-ze-senatorskeho-klubu-ano/2889552"
+        "title": "13. Nově vyvinutý enzym pomůže pacientům po mozkových infarktech",
+        "detail": "Brněnský výzkum popisuje enzym s potenciálem zlepšit léčbu po cévní mozkové příhodě; další význam určí klinické ověření.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-brnoteplaza-nove-vyvinuty-enzym-pomuze-pacientum-po-mozkovych-infarktech-40603679"
       },
       {
-        "title": "14. Radek Vondráček: Změny ve vládě teď na stole nejsou",
-        "detail": "Předseda Sněmovny uvedl, že personální změny ve vládě se nyní neřeší.",
-        "url": "https://www.novinky.cz/clanek/domaci-radek-vondracek-zmeny-ve-vlade-ted-na-stole-nejsou-40603479"
+        "title": "14. Zdravotní sestry často nevydrží ani pár týdnů",
+        "detail": "Odchody sester podle článku urychlují přetížení, náplň práce i vztahy na pracovišti; problém dopadá na stabilitu nemocničních týmů.",
+        "url": "https://www.novinky.cz/clanek/zdravi-zdravotni-sestry-casto-nevydrzi-ani-par-tydnu-muze-za-to-podradna-prace-kolektiv-i-pretizeni-40602202"
       },
       {
-        "title": "15. Ubývá cizinců s nově získaným českým oprávněním pro řízení kamionů či autobusů",
-        "detail": "Počet nově kvalifikovaných řidičů z neunijních zemí klesl o 37 procent, zatímco dopravcům chybí asi 25 tisíc profesionálů.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ubyva-cizincu-s-nove-ziskanym-ceskym-opravnenim-pro-rizeni-kamionu-ci-autobusu/2889531"
+        "title": "15. Prach z Halleyovy komety přinese meteory z roje Orionid",
+        "detail": "Aktivita Orionid vrcholí v říjnu; pozorování bude záviset hlavně na oblačnosti a světelných podmínkách.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-rijnovy-prach-z-halleyovy-komety-muzeme-se-tesit-na-nekolik-meteoru-z-roje-orionid-40603630"
       },
       {
-        "title": "16. Ujasněte si, co je pazourek, říká archeoložka. Výstava nabídne i akční hodiny dějepisu",
-        "detail": "Nová archeologická výstava propojuje pravěké nálezy s praktickými vzdělávacími programy pro školy.",
-        "url": "https://www.novinky.cz/clanek/veda-skoly-ujasnete-si-co-je-pazourek-rika-archeolozka-vystava-nabidne-i-akcni-hodiny-dejepisu-40603244"
+        "title": "16. Mars mohl být kdysi mnohem modřejší, záznamy roveru Spirit odhalily stopy vody",
+        "detail": "Nové vyhodnocení starších měření roveru ukazuje na rozsáhlejší působení kapalné vody v minulosti Marsu.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-mars-mohl-byt-kdysi-mnohem-modrejsi-stare-zaznamy-roveru-spirit-odhalily-skryte-stopy-vody-40603586"
       },
       {
-        "title": "17. Vondráček chce jednat o změně senátních voleb na jednokolové",
-        "detail": "Předseda Sněmovny chce otevřít debatu o nahrazení dvoukolového systému senátních voleb jedním kolem.",
-        "url": "https://www.ceskenoviny.cz/zpravy/vondracek-chce-jednat-o-zmene-senatnich-voleb-na-jednokolove/2889529"
+        "title": "17. Do muzea tatrovek v Kopřivnici zatéká, oprava je v nedohlednu",
+        "detail": "Technické muzeum řeší zatékání do budovy; termín a financování potřebné opravy zatím nejsou jisté.",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-moravskoslezsky-kraj-do-muzea-tatrovek-v-koprivnici-zateka-oprava-je-v-nedohlednu-40603638"
       },
       {
-        "title": "18. AI jako výbušné i hravé téma. Londýn uvedl film Artificial",
-        "detail": "Film Artificial otevírá otázky vývoje a společenských dopadů umělé inteligence formou hraného dramatu.",
-        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-ai-jako-vybusne-i-hrave-tema-byla-jsem-na-londynske-premiere-filmu-artificial-40603037"
+        "title": "18. Armáda staví cestu do kontaminované oblasti na Klatovsku",
+        "detail": "Přístupová komunikace má usnadnit zásah v kontaminovaném území; práce jsou součástí praktického zabezpečení lokality.",
+        "url": "https://www.novinky.cz/clanek/domaci-armada-stavi-cestu-do-kontaminovane-oblasti-na-klatovsku-40603712"
       },
       {
-        "title": "19. Zemřel herec Michael Forest",
-        "detail": "Americký herec Michael Forest, známý mimo jiné ze Star Treku a z dabingu, zemřel ve věku 97 let.",
-        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-zemrel-herec-michael-forest-40603458"
+        "title": "19. Festival Prix Bohemia Radio ocenil rozhlasové osobnosti",
+        "detail": "Festival v Olomouci předal Rozhlasovou Thálii Magdaléně Borové, ocenil Miroslava Krobota a uvedl dvě osobnosti do Síně slávy Českého rozhlasu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/festival-prix-bohemia-radio-ocenil-rozhlasove-osobnosti/2890182"
       },
       {
-        "title": "20. Po útoku na Albert: Jak se bránit, když hackerům uniknou vaše data",
-        "detail": "Bezpečnostní přehled radí po úniku dat měnit hesla, zapnout vícefaktorové ověření a hlídat podvodné zprávy.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-po-utoku-na-albert-jak-se-branit-kdyz-hackerum-uniknou-vase-data-40603278"
+        "title": "20. Čech jezdí pomáhat do Afghánistánu, nejvíc ho tíží osudy tamních žen",
+        "detail": "Reportáž sleduje českou humanitární pomoc a konkrétní dopady omezení, kterým v Afghánistánu čelí ženy.",
+        "url": "https://www.novinky.cz/clanek/cestovani-cech-jezdi-pomahat-do-afghanistanu-nejvic-ho-tizi-osudy-tamnich-zen-40602708"
       }
     ]
   },
@@ -434,8 +440,13 @@
   "risks": [
     {
       "title": "Ariana: starší a nejednoznačný USD kurz",
-      "detail": "Lístek je z 17. 10.; EUR prodej je čitelný, ale USD prodej web zobrazuje jako „220“, proto nebyl odhadnut.",
+      "detail": "Lístek je z 19. 10.; EUR prodej je čitelný, ale USD prodej web zobrazuje jako „220“, proto nebyl odhadnut.",
       "url": "https://www.ariana-sro.cz/"
+    },
+    {
+      "title": "Bezpečnost Apple účtu",
+      "detail": "Oznámení o přihlášení nelze bez potvrzení uživatele vyhodnotit jako běžné nebo cizí. Pokud zařízení nepoznáváš, změň heslo.",
+      "url": "https://account.apple.com/"
     },
     {
       "title": "COST HUNTER: odchylka formátu",
@@ -443,11 +454,15 @@
     },
     {
       "title": "Nejasné Gmail nabídky",
-      "detail": "Dvě aktivní zprávy Vínokrál nemají jednoznačnou platnost; nebyly zveřejněny ani synchronizovány do kalendáře."
+      "detail": "Zprávy Vínokrál jsou po platnosti nebo nemají jednoznačnou platnost; nebyly zveřejněny ani synchronizovány do kalendáře."
     },
     {
       "title": "Notion bez aktuálního kontextu",
       "detail": "Cílené hledání nevrátilo dnešní poznámky ani úkoly."
+    },
+    {
+      "title": "Akce zdarma: neúplné veřejné detaily",
+      "detail": "Některé přehledy Brna a kraje neměly samostatný detail, přesný konec nebo jasnou cenu; takové položky nebyly přidány."
     },
     {
       "title": "URC Systems Monitor",
@@ -456,16 +471,17 @@
   ],
   "nextSteps": [
     {
+      "title": "Ověř přihlášení k Apple účtu",
+      "detail": "Poznej zařízení iPhone 15 Pro; při pochybnosti změň heslo a projdi přihlášená zařízení.",
+      "url": "https://account.apple.com/"
+    },
+    {
       "title": "Vyber jeden dokončitelný výsledek",
       "detail": "Začni s ním v prvním souvislém bloku bez schůzek."
     },
     {
-      "title": "Zkontroluj fakturu Vínokrál",
-      "detail": "Otevři nepřečtenou fakturu k objednávce C1241400 a ověř částku i splatnost."
-    },
-    {
-      "title": "Rozhodni o akci v 18:00",
-      "detail": "Brno v pohybu je dobrovolná a neblokující; kalendář po 19:00 zůstává volný."
+      "title": "Rozhodni o Tak Kam?!",
+      "detail": "Boskovice jsou dobrovolný tip 08:00–17:00; kalendář zůstává neblokovaný."
     },
     {
       "title": "USD v Arianě neodhaduj",
