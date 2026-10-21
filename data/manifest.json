@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T05:45:01+02:00",
+  "generatedAt": "2026-10-21T05:45:01+02:00",
   "latest": "data/latest.json",
   "reports": [
+    {
+      "date": "2026-10-21",
+      "title": "GUMA dashboard · 21. 10. 2026",
+      "label": "21. 10. 2026",
+      "path": "data/reports/2026-10-21.json",
+      "updatedAt": "2026-10-21T05:45:01+02:00"
+    },
     {
       "date": "2026-10-20",
       "title": "GUMA dashboard · 20. 10. 2026",
