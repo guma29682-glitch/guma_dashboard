@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "title": "GUMA dashboard · 23. 10. 2026",
+  "date": "2026-10-23",
+  "updatedAt": "2026-10-23T05:45:01+02:00",
+  "updatedLabel": "Aktualizováno 23. 10. 2026 v 05:45",
+  "template": "guma-dashboard-approved-2026-08-07",
+  "newsMinimumItems": 20,
+  "daySummary": "Pátek bez blokující schůzky a bez kolize. Celý den je volný; Czech Space Pavilon je dnes poslední den, další ověřený tip je ASD Career Fest v úterý.",
+  "summaryItems": [
+    {
+      "title": "Svátek",
+      "detail": "dnes Teodor, zítra Nina; státní svátek není."
+    },
+    {
+      "title": "Kurzy ČNB",
+      "detail": "EUR/CZK 24,265 – koruna posiluje; USD/CZK 21,651 – zhruba beze změny. Poslední dostupný oficiální denní lístek je z 22. 10. 2026.",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/"
+    },
+    {
+      "title": "Ariana směnárna prodej",
+      "detail": "EUR/CZK 24,40; USD/CZK neověřeno – veřejný lístek zobrazuje nečitelnou hodnotu „22220“, proto ji neodhaduji. Lístek je z 21. 10. 2026 – starší.",
+      "url": "https://www.ariana-sro.cz/"
+    },
+    {
+      "title": "Kalendář",
+      "detail": "0 blokujících schůzek a 0 kolizí; volné okno 00:00–24:00. Dnešní akce jsou transparentní, neblokující tipy."
+    },
+    {
+      "title": "COST HUNTER",
+      "detail": "Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum 23. 10. 2026."
+    }
+  ],
+  "calendar": {
+    "meetingCount": 0,
+    "conflictCount": 0,
+    "summary": "Bez blokujících schůzek a kolizí; celý den je volný. Dnešní položky jsou transparentní tipy.",
+    "freeWindows": [
+      {
+        "start": "2026-10-23T00:00:00+02:00",
+        "end": "2026-10-24T00:00:00+02:00",
+        "label": "00:00–24:00"
+      }
+    ],
+    "context": [
+      {
+        "title": "Czech Space Pavilon · poslední den",
+        "detail": "Bezplatný veřejný program v pavilonu G2 na brněnském výstavišti; přesný dnešní čas zdroj neuvedl.",
+        "url": "https://www.objevbrno.cz/cs/event/czech-space-pavilon"
+      },
+      {
+        "title": "ASD Career Fest · úterý 27. 10., 09:00–18:00",
+        "detail": "Bezplatný kariérní festival v pavilonu G1 na brněnském výstavišti; položka je transparentní a neblokující."
+      },
+      {
+        "title": "Výstavy a stezky · průběžně",
+        "detail": "Rozdávání knih, Umění do kapsy a Mendelova stezka pokračují jako neblokující celodenní položky."
+      },
+      {
+        "title": "Další listopadové tipy",
+        "detail": "V kalendáři už jsou volné vstupy 1. 11. a 6. 12., podzimní swap, technické muzeum a další ověřené nízkonákladové akce."
+      }
+    ]
+  },
+  "prep": [
+    {
+      "title": "Vyber jeden hlavní výsledek",
+      "detail": "Kalendář nabízí souvislý den bez blokujících schůzek; chraň první pracovní blok."
+    },
+    {
+      "title": "Rozhodni o Czech Space Pavilonu",
+      "detail": "Dnes je poslední den, ale veřejný zdroj neuvádí přesný denní čas; před cestou ověř provoz."
+    },
+    {
+      "title": "Na schůzky nic chystat nemusíš",
+      "detail": "Dnes není žádná blokující schůzka ani meetingový podklad."
+    }
+  ],
+  "context": [
+    {
+      "title": "Gmail nabídky",
+      "detail": "Obousměrná kontrola aktivní i archivované pošty mimo koš a spam proběhla před agendou. Dvě nabídky Vínokrál platily jen 22. 10. a dnes už nejsou aktivní; žádná kalendářová změna nebyla potřeba."
+    },
+    {
+      "title": "TED Recommends",
+      "detail": "Celý Guma inbox obsahuje čtyři relevantní přeposlané digesty a 28 unikátních Talků; promo a duplicity jsou vynechané."
+    },
+    {
+      "title": "Google Drive",
+      "detail": "List GUMA report má kontrolní datum 23. 10. 2026 a pět produktů; ceny se znovu nedohledávaly.",
+      "url": "https://docs.google.com/spreadsheets/d/1mPEywWDwOwaUbZHzwa6_FyBQfZ_1dCFFmWgXMvucNSw/edit"
+    },
+    {
+      "title": "Notion",
+      "detail": "Aktuální meetingové poznámky nejsou v připojeném tarifu Notion dostupné; dnešní závěry se proto o Notion neopírají."
+    },
+    {
+      "title": "Akce zdarma / do 100 Kč",
+      "detail": "Brno a Jihomoravský kraj byly zkontrolovány do konce ledna 2027; ověřené budoucí položky už v kalendáři jsou a žádná změna termínu, místa, ceny ani dostupnosti nevyžadovala zásah."
+    }
+  ],
+  "signals": {
+    "meetings": "0 / 0",
+    "freeWindow": "24 h",
+    "newMail": "0 aktivních nabídek",
+    "unknownPrices": "0"
+  },
+  "publicSafety": "Veřejná verze neobsahuje slevové kódy, celé e-maily, soukromé konverzace ani citlivé údaje.",
+  "costHunter": {
+    "counts": {
+      "cheaper": 0,
+      "moreExpensive": 0,
+      "unchanged": 5,
+      "unknown": 0,
+      "newlyKnown": 0
+    },
+    "summary": "Kontrola 23. 10. 2026: zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
+    "freshnessNote": "Kontrolní datum je dnešní a všech pět produktů je přítomno; ceny se proto znovu nedohledávaly.",
+    "linkNote": "Přímé odkazy jsou v názvech produktů; poznámka není potřeba, protože žádná změna nedosahuje 10 % a u cen není nejistota.",
+    "sourceCheckedLabel": "Kontrola: 23. 10. 2026",
+    "sourceSheet": "GUMA report",
+    "sourceWorkbook": "COST HUNTER - sledovane ceny",
+    "products": [
+      {
+        "status": "Beze změny",
+        "product": "La Baume Saint Paul Cabernet-Syrah nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1456406-la-baume-saint-paul-cabernet-syrah-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "179,90 Kč",
+        "priceYesterday": "179,90 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "Kylie Minogue Sparkling nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1471462-kylie-minogue-sparkling-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "199,90 Kč",
+        "priceYesterday": "199,90 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "ORGANIS Mandle jádra 1000 g",
+        "productUrl": "https://www.lekarna.cz/organis-mandle-jadra-1000-g/",
+        "store": "Lekarna.cz",
+        "priceToday": "399,00 Kč",
+        "priceYesterday": "399,00 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "RITTER SPORT Mléčná čokoláda celé mandle 100 g",
+        "productUrl": "https://www.lekarna.cz/ritter-sport-mlecna-cokolada-cele-mandle-100-g/",
+        "store": "Lekarna.cz",
+        "priceToday": "64,00 Kč",
+        "priceYesterday": "64,00 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "Wrigley's Orbit Žvýkačky bez cukru s melounovou příchutí",
+        "productUrl": "https://www.rohlik.cz/1290599-wrigley-s-orbit-zvykacky-bez-cukru-s-melounovou-prichuti",
+        "store": "Rohlik.cz",
+        "priceToday": "21,90 Kč",
+        "priceYesterday": "21,90 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      }
+    ]
+  },
+  "tedRecommendations": {
+    "note": "28 jedinečných Talks ze čtyř přeposlaných TED Recommends v celém Guma inboxu; zachované pořadí skutečných Talků, promo a duplicity vynechány.",
+    "items": [
+      {
+        "title": "A food system that fights climate change — instead of causing it · Gonzalo Muñoz",
+        "detail": "Jak omezit plýtvání a změnit potravinový systém z klimatické zátěže na součást řešení.",
+        "url": "https://www.ted.com/talks/gonzalo_munoz_a_food_system_that_fights_climate_change_instead_of_causing_it"
+      },
+      {
+        "title": "The wheat field that could change the world · Guntur V. Subbarao",
+        "detail": "Nový typ pšenice může omezit bakterie spotřebovávající hnojivo, zvýšit výnosy a snížit emise.",
+        "url": "https://www.ted.com/talks/guntur_v_subbarao_the_wheat_field_that_could_change_the_world"
+      },
+      {
+        "title": "The seeds of change helping African farmers grow out of poverty · Andrew Youn",
+        "detail": "Osivo, malé úvěry a školení pomáhají drobným farmářům zvyšovat výnosy i příjmy.",
+        "url": "https://www.ted.com/talks/andrew_youn_the_seeds_of_change_helping_african_farmers_grow_out_of_poverty"
+      },
+      {
+        "title": "How climate change could make our food less nutritious · Kristie Ebi",
+        "detail": "Vyšší koncentrace CO2 může snižovat obsah klíčových živin v plodinách a zhoršovat skrytou podvýživu.",
+        "url": "https://www.ted.com/talks/kristie_ebi_how_climate_change_could_make_our_food_less_nutritious"
+      },
+      {
+        "title": "How to disrupt philanthropy in response to crisis · Darren Walker, Chris Anderson",
+        "detail": "Rozhovor o filantropii, odpovědnosti firem a rychlejší reakci kapitálu na společenské krize.",
+        "url": "https://www.ted.com/talks/darren_walker_how_to_disrupt_philanthropy_in_response_to_crisis"
+      },
+      {
+        "title": "The real reason female entrepreneurs get less funding · Dana Kanze",
+        "detail": "Výzkum ukazuje, jak rozdílně položené investorské otázky znevýhodňují podnikatelky.",
+        "url": "https://www.ted.com/talks/dana_kanze_the_real_reason_female_entrepreneurs_get_less_funding"
+      },
+      {
+        "title": "How conscious investors can turn up the heat and make companies change · Vinay Shandal",
+        "detail": "Investoři mohou hlasovacími právy a kapitálem prosazovat ve firmách měřitelné změny.",
+        "url": "https://www.ted.com/talks/vinay_shandal_how_conscious_investors_can_turn_up_the_heat_and_make_companies_change"
+      },
+      {
+        "title": "How to pull the emergency brake on global warming · Mohamed A. Sultan",
+        "detail": "Omezení metanu ze skládek může rychle brzdit oteplování a zároveň zlepšit život ve městech.",
+        "url": "https://www.ted.com/talks/mohamed_a_sultan_how_to_pull_the_emergency_brake_on_global_warming"
+      },
+      {
+        "title": "How satellites are supporting farmers across Africa · Catherine Nakalembe",
+        "detail": "Satelitní snímky pomáhají drobným farmářům připravit se na sucho, povodně a výpadky úrody.",
+        "url": "https://www.ted.com/talks/catherine_nakalembe_how_satellites_are_supporting_farmers_across_africa"
+      },
+      {
+        "title": "A snack's journey from the farm to your mouth · Aruna Rangachar Pohl",
+        "detail": "Cesta sušenky od pole ke spotřebiteli odhaluje dopady průmyslového zemědělství i cestu k odolnějšímu systému.",
+        "url": "https://www.ted.com/talks/aruna_rangachar_pohl_a_snack_s_journey_from_the_farm_to_your_mouth"
+      },
+      {
+        "title": "A crash course in organic chemistry · Jakob Magolan",
+        "detail": "Přístupný úvod do organické chemie bourá představu, že je tento obor nutně nesrozumitelný.",
+        "url": "https://www.ted.com/talks/jakob_magolan_a_crash_course_in_organic_chemistry"
+      },
+      {
+        "title": "A creative solution for the water crisis in Flint, Michigan · LaToya Ruby Frazier",
+        "detail": "Umělecký a komunitní projekt přivedl čistou vodu přímo k rodinám zasaženým krizí ve Flintu.",
+        "url": "https://www.ted.com/talks/latoya_ruby_frazier_a_creative_solution_for_the_water_crisis_in_flint_michigan"
+      },
+      {
+        "title": "What's hidden under the Greenland ice sheet? · Kristin Poinar",
+        "detail": "Výzkum odhaluje rozsáhlý vodní systém pod grónským ledem a jeho vliv na růst hladiny moře.",
+        "url": "https://www.ted.com/talks/kristin_poinar_what_s_hidden_under_the_greenland_ice_sheet"
+      },
+      {
+        "title": "How women in Pakistan are creating political change · Shad Begum",
+        "detail": "Aktivistka ukazuje, jak si ženy v konzervativních komunitách budují politický hlas a prosazují změny.",
+        "url": "https://www.ted.com/talks/shad_begum_how_women_in_pakistan_are_creating_political_change"
+      },
+      {
+        "title": "The grassroots movement transforming public safety · Aqeela Sherrills",
+        "detail": "Komunitně vedené programy staví veřejnou bezpečnost na důvěře a místních vztazích.",
+        "url": "https://www.ted.com/talks/aqeela_sherrills_the_grassroots_movement_transforming_public_safety"
+      },
+      {
+        "title": "The sweet future of vertical farming · Hiroki Koga",
+        "detail": "Vertikální farmy spojují solární energii, AI, robotiku a opylování pro celoroční městskou produkci.",
+        "url": "https://www.ted.com/talks/hiroki_koga_the_sweet_future_of_vertical_farming"
+      },
+      {
+        "title": "How to finance the future of farming · Berry Marttin",
+        "detail": "Lepší trhy s uhlíkovými a biodiverzitními kredity mohou farmářům zaplatit přechod k šetrnějším postupům.",
+        "url": "https://www.ted.com/talks/berry_marttin_how_to_finance_the_future_of_farming"
+      },
+      {
+        "title": "The discoveries awaiting us in the ocean's twilight zone · Heidi M. Sosik",
+        "detail": "Málo prozkoumané oceánské šero může skrývat milion druhů a zásadní část rybí biomasy.",
+        "url": "https://www.ted.com/talks/heidi_m_sosik_the_discoveries_awaiting_us_in_the_ocean_s_twilight_zone"
+      },
+      {
+        "title": "Is climate change slowing down the ocean? · Susan Lozier",
+        "detail": "Data ukazují, jak může oteplování zpomalovat převratné proudění oceánu a měnit klima.",
+        "url": "https://www.ted.com/talks/susan_lozier_is_climate_change_slowing_down_the_ocean"
+      },
+      {
+        "title": "How octopuses battle each other · Greg Gage",
+        "detail": "Pozorování soubojů odhaluje, jak chobotnice používají držení těla, barvy a pohyb při agresi.",
+        "url": "https://www.ted.com/talks/greg_gage_how_octopuses_battle_each_other"
+      },
+      {
+        "title": "How to solve the world's biggest problems · Natalie Cargill",
+        "detail": "Promyšlené soustředění velkého kapitálu může cílit na globální problémy s měřitelným dopadem.",
+        "url": "https://www.ted.com/talks/natalie_cargill_how_to_solve_the_world_s_biggest_problems"
+      },
+      {
+        "title": "The \"dead zone\" of the Gulf of Mexico · Nancy Rabalais",
+        "detail": "Přebytek živin vytváří v Mexickém zálivu oblast bez kyslíku; řešení začíná už v povodí.",
+        "url": "https://www.ted.com/talks/nancy_rabalais_the_dead_zone_of_the_gulf_of_mexico"
+      },
+      {
+        "title": "Yup, I built a nuclear fusion reactor · Taylor Wilson",
+        "detail": "Příběh mladého vynálezce, který ve čtrnácti letech postavil funkční fúzní reaktor.",
+        "url": "https://www.ted.com/talks/taylor_wilson_yup_i_built_a_nuclear_fusion_reactor"
+      },
+      {
+        "title": "The boiling river of the Amazon · Andrés Ruzo",
+        "detail": "Geovědec pátrá po legendární vroucí řece v Amazonii a vysvětluje její neobvyklý geotermální původ.",
+        "url": "https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon"
+      },
+      {
+        "title": "The toxic baby · Tyrone Hayes, Penelope Jagessar Chaffer",
+        "detail": "Talk sleduje možné dopady chemických látek z prostředí na vývoj dítěte na příkladu atrazinu.",
+        "url": "https://www.ted.com/talks/tyrone_hayes_penelope_jagessar_chaffer_the_toxic_baby"
+      },
+      {
+        "title": "4 ways we can avoid a catastrophic drought · David Sedlak",
+        "detail": "Čtyři praktické cesty, jak města mohou získávat vodu z místních zdrojů a zvládat dlouhé sucho.",
+        "url": "https://www.ted.com/talks/david_sedlak_4_ways_we_can_avoid_a_catastrophic_drought"
+      },
+      {
+        "title": "How we can make crops survive without water · Jill Farrant",
+        "detail": "Výzkum rostlin schopných vyschnout a znovu ožít může vést k plodinám odolnějším vůči suchu.",
+        "url": "https://www.ted.com/talks/jill_farrant_how_we_can_make_crops_survive_without_water"
+      },
+      {
+        "title": "Glow-in-the-dark sharks and other stunning sea creatures · David Gruber",
+        "detail": "Biofluorescenční žraloci a další tvorové mohou přinést nové poznatky o komunikaci i nervové soustavě.",
+        "url": "https://www.ted.com/talks/david_gruber_glow_in_the_dark_sharks_and_other_stunning_sea_creatures"
+      }
+    ]
+  },
+  "news": {
+    "note": "20 ověřených relevantních zpráv z Novinky.cz a ČTK / Českých novin v okně 22. 10. 2026 08:00 až 23. 10. 2026 05:45 Europe/Prague; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
+    "items": [
+      {
+        "title": "1. Češi by se chtěli dožít 91 let. Na tak dlouhý život ale nemají úspory",
+        "detail": "Češi chtějí žít průměrně 91 let, ale jen 28 % věří, že budou mít dost peněz na život do stovky; jen 14 % lidí 45+ ví, kolik na pohodlnou penzi potřebuje.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-cesi-by-se-chteli-dozit-91-let-na-tak-dlouhy-zivot-ale-nemaji-uspory-40604288"
+      },
+      {
+        "title": "2. V Brně vznikne koalice bez ANO, její zástupci dnes podepíšou koaliční smlouvu",
+        "detail": "Široká koalice vedená Lidovci a STAN má mít 44 z 55 hlasů; primátorem má být Jakub Hruška a ANO zůstane jedinou opozicí.",
+        "url": "https://www.ceskenoviny.cz/zpravy/v-brne-vznikne-koalice-bez-ano-jeji-zastupci-dnes-podepisou-koalicni-smlouvu-/2887417"
+      },
+      {
+        "title": "3. Sněmovna bude schvalovat zvýšení plateb do zdravotnictví za státní pojištěnce",
+        "detail": "Platby státu mají růst o 13 miliard Kč; poslanci zároveň řeší digitální ekonomiku a vyváženější zastoupení ve vedení velkých firem.",
+        "url": "https://www.ceskenoviny.cz/zpravy/snemovna-bude-schvalovat-zvyseni-plateb-do-zdravotnictvi-za-statni-pojistence/2891827"
+      },
+      {
+        "title": "4. ANO chce postihovat vězením nelegální a zastřené zaměstnávání cizinců",
+        "detail": "Návrh zavádí až desetileté tresty za nelegální zaměstnávání a zastřené zprostředkování; Sněmovna ho poslala do závěrečného kola.",
+        "url": "https://www.ceskenoviny.cz/zpravy/ano-chce-postihovat-vezenim-nelegalni-a-zastrene-zamestnavani-cizincu/2891815"
+      },
+      {
+        "title": "5. Sněmovna schválila základní údaje rozpočtu. Dva koaliční poslanci se hlasování zdrželi",
+        "detail": "Základ rozpočtu prošel se schodkem 386 miliard Kč, o 76 miliard více než letos; návrhy opozice vrátit rozpočet vládě neuspěly.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-snemovna-schvalila-zaklad-rozpoctu-40604440"
+      },
+      {
+        "title": "6. Zemřel herec Tom Skerritt",
+        "detail": "Herec známý z M*A*S*H, Vetřelce a Top Gunu zemřel ve 93 letech; během kariéry účinkoval ve více než 150 projektech.",
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-zemrel-herec-tom-skerritt-40604437"
+      },
+      {
+        "title": "7. Obří protest studentů v Bělehradě. Před nedělními volbami byly v ulicích statisíce lidí",
+        "detail": "Studentské hnutí mobilizovalo statisíce lidí před předčasnými volbami, které mohou ukončit dvanáctiletou vládu Aleksandra Vučiće.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-obri-protest-studentu-v-belehrade-pred-nedelnimi-volbami-byly-v-ulicich-statisice-lidi-40604439"
+      },
+      {
+        "title": "8. Firmou roku v Praze se stala technologická společnost Born Digital",
+        "detail": "Pražské regionální kolo vyhrála firma vyvíjející AI agenty a digitální pracovníky; živnostnicí roku se stala kloboučnice Hana Škorpilová.",
+        "url": "https://www.ceskenoviny.cz/zpravy/firmou-roku-v-praze-se-stala-technologicka-spolecnost-born-digital/2891785"
+      },
+      {
+        "title": "9. Zaměřili se i na Česko. Pokus o zneužití PHP zranitelností hlásí každá osmá firma",
+        "detail": "Pokus o útok zaznamenalo 12 % sledovaných českých organizací; záplaty existují, ale část správců je ještě nenasadila.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-bezpecnost-zamerili-se-i-na-cesko-pokus-o-zneuziti-php-zranitelnosti-hlasi-kazda-osma-firma-40604432"
+      },
+      {
+        "title": "10. Meta chce čerpat obsah webů zdarma, čeští vydavatelé volají po zásahu Bruselu",
+        "detail": "Asociace vydavatelů tvrdí, že nové podmínky Mety umožní automatizované vytěžování webového obsahu bez licenční odměny; chtějí prověření EK a ÚOHS.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-meta-chce-cerpat-obsah-webu-zdarma-cesti-vydavatele-volaji-po-zasahu-bruselu-40604429"
+      },
+      {
+        "title": "11. Musk investoval 22 miliard do mediální skupiny Skydance",
+        "detail": "Elon Musk vložil asi miliardu dolarů do skupiny vzniklé spojením Paramount Skydance a Warner Bros. Discovery.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-musk-investoval-22-miliard-do-medialni-skupiny-skydance-40604427"
+      },
+      {
+        "title": "12. Klempíř chce seškrtat audiovizi o miliardu a vyměnit rady fondu. Producenti nesouhlasí",
+        "detail": "Ministr navrhuje snížit rámec české audiovize o miliardu a obměnit rady i představenstvo fondu; producenti rozsah změn odmítají.",
+        "url": "https://www.novinky.cz/clanek/domaci-klempir-chce-seskrtat-audiovizi-o-miliardu-a-vymenit-rady-fondu-producenti-nesouhlasi-40604305"
+      },
+      {
+        "title": "13. Vídeň paralyzoval masivní protest studentů",
+        "detail": "Asi 50 tisíc studentů protestovalo proti návrhu rozpočtu pro vysoké školy; demonstrace výrazně omezila dopravu ve městě.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-protesty-zachvatily-viden-40604420"
+      },
+      {
+        "title": "14. Klempířův resort nepřispěje. Lidé se mohutně skládají na oslavy 17. listopadu na Národní",
+        "detail": "Ve veřejné sbírce je přes 1,5 milionu Kč a Jihočeský kraj slíbil dalších 300 tisíc; ministerstvo kultury podporu odmítlo.",
+        "url": "https://www.novinky.cz/clanek/domaci-klempiruv-resort-neprispeje-lide-se-skladaji-na-oslavy-17-listopadu-na-narodni-tride-ve-sbirce-je-pres-15-milionu-40604389"
+      },
+      {
+        "title": "15. Provoz elektrických vlaků na Vysočině od roku 2031 zajistí České dráhy",
+        "detail": "Patnáctiletá zakázka má hodnotu asi 13,5 miliardy Kč; rozhodnutí ještě může napadnout konkurence.",
+        "url": "https://www.ceskenoviny.cz/zpravy/provoz-elektrickych-vlaku-na-vysocine-od-roku-2031-zajisti-ceske-drahy/2891577"
+      },
+      {
+        "title": "16. Hackeři zaútočili na ČVUT, univerzita odstavila část systémů",
+        "detail": "Útok spojený s kritickými chybami PHP se podařilo zastavit; část služeb zůstává při obnově vypnutá.",
+        "url": "https://www.ceskenoviny.cz/zpravy/hackeri-zautocili-na-cvut-univerzita-odstavila-cast-systemu/2891531"
+      },
+      {
+        "title": "17. Nafta se v Česku vrátila ke zdražování, benzin naopak výrazně zlevnil",
+        "detail": "Nafta zdražila o 19 haléřů na 47,63 Kč/l, Natural 95 zlevnil o 98 haléřů na 44,85 Kč/l.",
+        "url": "https://www.ceskenoviny.cz/zpravy/nafta-se-v-cesku-vratila-ke-zdrazovani-benzin-naopak-vyrazne-zlevnil/2889968"
+      },
+      {
+        "title": "18. NÚKIB hájí svůj postup při upozornění na zranitelnost v jazyce PHP",
+        "detail": "Úřad tvrdí, že nejprve prověřoval hrozbu a chránil klíčové subjekty; zároveň připouští potřebu dřívějšího veřejného informování.",
+        "url": "https://www.ceskenoviny.cz/zpravy/nukib-haji-svuj-postup-pri-upozorneni-na-zranitelnost-v-jazyce-php/2891176"
+      },
+      {
+        "title": "19. MF prodalo státní dluhopisy za 16,6 miliardy Kč, více než dvojnásobek plánu",
+        "detail": "Ministerstvo plánovalo emisi za 7 miliard Kč, poptávka investorů dosáhla 23,6 miliardy Kč.",
+        "url": "https://www.ceskenoviny.cz/zpravy/mf-prodalo-statni-dluhopisy-za-166-mld-kc-vice-nez-dvojnasobek-planu/2891521"
+      },
+      {
+        "title": "20. ÚOHS: Skupina Kaprain kupuje od Šimáněho Unimexu řetězec hobbymarketů Uni Hobby",
+        "detail": "Kaprain kupuje síť 11 prodejen i související nemovitosti; transakci ve zjednodušeném řízení posuzuje ÚOHS.",
+        "url": "https://www.ceskenoviny.cz/zpravy/uohs-skupina-kaprain-kupuje-od-simaneho-unimexu-retezec-hobbymarketu-uni-hobby/2891483"
+      }
+    ]
+  },
+  "urcSystemsMonitor": null,
+  "risks": [
+    {
+      "title": "Ariana: starší a nečitelný USD kurz",
+      "detail": "Veřejný lístek je z 21. 10.; EUR prodej je čitelný, ale USD prodej web zobrazuje jako „22220“, proto nebyl odhadnut.",
+      "url": "https://www.ariana-sro.cz/"
+    },
+    {
+      "title": "Czech Space Pavilon: chybí přesný dnešní čas",
+      "detail": "Termín, místo a bezplatný vstup jsou ověřené, ale veřejný zdroj neuvádí úplný denní čas."
+    },
+    {
+      "title": "Notion: aktuální kontext neověřen",
+      "detail": "Načtení meeting notes vyžaduje vyšší tarif Notion; dashboard proto nevyužívá žádné neověřené poznámky."
+    },
+    {
+      "title": "Regionální akce: řídké výsledky",
+      "detail": "Kudy z nudy neposkytlo dost spolehlivě ověřitelných nízkonákladových akcí; Brno bylo doplněno přes Objev Brno a Brno-střed."
+    }
+  ],
+  "nextSteps": [
+    {
+      "title": "Chraň první pracovní blok",
+      "detail": "Vyber jeden konkrétní výsledek a dokonči ho před případným odpoledním programem."
+    },
+    {
+      "title": "Před návštěvou Czech Space Pavilonu ověř čas",
+      "detail": "Dnes je poslední den, přesný čas ale není ve veřejném zdroji.",
+      "url": "https://www.objevbrno.cz/cs/event/czech-space-pavilon"
+    },
+    {
+      "title": "Kurz USD u Ariany neodhaduj",
+      "detail": "Počkej na opravený veřejný lístek nebo přímé potvrzení směnárny."
+    },
+    {
+      "title": "ASD Career Fest nech jako volitelný úterní tip",
+      "detail": "Akce 27. 10. 09:00–18:00 je v kalendáři transparentně a neblokuje čas."
+    }
+  ]
+}

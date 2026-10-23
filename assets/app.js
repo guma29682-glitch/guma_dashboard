@@ -69,6 +69,7 @@ const urcMonitorContent = (monitor = {}) => {
 
 function render(report) {
   const costs = report.costHunter;
+  const monitorContent = urcMonitorContent(report.urcSystemsMonitor);
   const newsItems = report.news?.items || [];
   const expectedNews = Number(report.newsMinimumItems || 0);
   const newsWarning = expectedNews && newsItems.length < expectedNews
@@ -152,10 +153,6 @@ function render(report) {
             <ol class="clean-list numbered-list">${list(newsItems, { stripOrdinal: true })}</ol>
           </div>
         </details>
-        <details class="section-block collapsible-section">
-          <summary><h2>URC Systems monitor</h2></summary>
-          <div class="collapsible-content">${urcMonitorContent(report.urcSystemsMonitor)}</div>
-        </details>
         <section class="section-block">
           <h2>Rizika</h2>
           <ul class="clean-list">${list(report.risks)}</ul>
@@ -164,6 +161,11 @@ function render(report) {
           <h2>Další kroky</h2>
           <ul class="clean-list">${list(report.nextSteps)}</ul>
         </section>
+        ${monitorContent ? `
+        <details class="section-block collapsible-section">
+          <summary><h2>URC Systems monitor</h2></summary>
+          <div class="collapsible-content">${monitorContent}</div>
+        </details>` : ""}
     </div>`;
 }
 
