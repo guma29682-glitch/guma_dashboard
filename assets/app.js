@@ -50,8 +50,8 @@ const list = (items = [], options = {}) => items.map((item) => {
 
 const urcMonitorContent = (monitor = {}) => {
   monitor = monitor || {};
-  const lead = monitor.summary || monitor.overallStatus || "";
-  const note = monitor.note || monitor.sourceCheckTime || "";
+  const lead = monitor.summary || monitor.detail || monitor.overallStatus || "";
+  const note = monitor.note || monitor.sourceCheckTime || monitor.status || "";
   const items = monitor.items || [
     monitor.incidents,
     monitor.availability,
@@ -153,6 +153,11 @@ function render(report) {
             <ol class="clean-list numbered-list">${list(newsItems, { stripOrdinal: true })}</ol>
           </div>
         </details>
+        ${monitorContent ? `
+        <details class="section-block collapsible-section">
+          <summary><h2>URC Systems monitor</h2></summary>
+          <div class="collapsible-content">${monitorContent}</div>
+        </details>` : ""}
         <section class="section-block">
           <h2>Rizika</h2>
           <ul class="clean-list">${list(report.risks)}</ul>
@@ -161,11 +166,6 @@ function render(report) {
           <h2>Další kroky</h2>
           <ul class="clean-list">${list(report.nextSteps)}</ul>
         </section>
-        ${monitorContent ? `
-        <details class="section-block collapsible-section">
-          <summary><h2>URC Systems monitor</h2></summary>
-          <div class="collapsible-content">${monitorContent}</div>
-        </details>` : ""}
     </div>`;
 }
 
