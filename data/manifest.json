@@ -4,6 +4,13 @@
   "latest": "data/latest.json",
   "reports": [
     {
+      "date": "2026-10-25",
+      "title": "GUMA dashboard · 25. 10. 2026",
+      "label": "25. 10. 2026",
+      "path": "data/reports/2026-10-25.json",
+      "updatedAt": "2026-10-25T05:45:00+01:00"
+    },
+    {
       "date": "2026-10-24",
       "title": "GUMA dashboard · 24. 10. 2026",
       "label": "24. 10. 2026",
@@ -395,5 +402,5 @@
       "path": "data/reports/2026-08-01.json"
     }
   ],
-  "updatedAt": "2026-10-20T05:45:01+02:00"
+  "updatedAt": "2026-10-25T05:45:00+01:00"
 }
