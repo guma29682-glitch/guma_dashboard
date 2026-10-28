@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "title": "GUMA dashboard · 27. 10. 2026",
-  "date": "2026-10-27",
-  "updatedAt": "2026-10-27T05:45:00+01:00",
-  "updatedLabel": "27. 10. 2026 · 05:45 CET",
+  "title": "GUMA dashboard · 28. 10. 2026",
+  "date": "2026-10-28",
+  "updatedAt": "2026-10-28T05:45:00+01:00",
+  "updatedLabel": "28. 10. 2026 · 05:45 CET",
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "daySummary": "Bez blokujících schůzek. Dvě transparentní akce se překrývají 15:30-17:00; zítra je státní svátek.",
+  "daySummary": "Státní svátek bez blokujících schůzek. Večer je v kalendáři jedna dobrovolná neblokující akce v Brně.",
   "summaryItems": [
     {
       "title": "Svátek",
-      "detail": "dnes Šarlota a Zoe; zítra Alfréd a Den vzniku samostatného československého státu."
+      "detail": "dnes Alfréd, zítra Silvie; státní svátek 28. 10. – Den vzniku samostatného československého státu."
     },
     {
       "title": "Kurzy ČNB",
-      "detail": "EUR/CZK 24,365 (koruna oslabuje) a USD/CZK 21,782 (koruna oslabuje); poslední dostupný oficiální denní lístek ČNB z 26. 10. 2026.",
-      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=26.10.2026"
+      "detail": "EUR/CZK 24,340 (koruna oslabuje) a USD/CZK 21,834 (koruna oslabuje); poslední dostupný oficiální denní lístek ČNB z 27. 10. 2026.",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=27.10.2026"
     },
     {
       "title": "Ariana směnárna prodej",
-      "detail": "EUR 24,50 Kč a USD 22,10 Kč. Veřejný hotovostní kurzovní lístek z 25. 10. 2026 je starší o dva dny.",
+      "detail": "EUR 24,50 Kč a USD 22,10 Kč (kurzovní lístek 27. 10. 2026; o den starší než dashboard).",
       "url": "https://www.ariana-sro.cz/"
     },
     {
       "title": "Kalendář",
-      "detail": "0 blokujících schůzek a 0 tvrdých kolizí; ASD Career Fest a terénní přednáška jsou neblokující, ale překrývají se."
+      "detail": "0 blokujících schůzek a 0 tvrdých kolizí; STÁTKY v 18:30 je transparentní dobrovolná akce."
     },
     {
       "title": "COST HUNTER",
-      "detail": "Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum 27. 10. 2026."
+      "detail": "Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum 28. 10. 2026."
     },
     {
       "title": "Gmail nabídky",
@@ -38,59 +38,54 @@
   "calendar": {
     "meetingCount": 0,
     "conflictCount": 0,
-    "summary": "Žádná blokující schůzka. Dvě dobrovolné akce se překrývají od 15:30 do 17:00.",
+    "summary": "Žádná blokující schůzka ani kolize. Večer je jedna dobrovolná neblokující akce.",
     "freeWindows": [
       {
-        "start": "2026-10-27T00:00:00+01:00",
-        "end": "2026-10-28T00:00:00+01:00",
+        "start": "2026-10-28T00:00:00+01:00",
+        "end": "2026-10-29T00:00:00+01:00",
         "label": "celý den bez blokující rezervace"
       }
     ],
     "context": [
       {
-        "title": "ASD Career Fest · 09:00-18:00",
-        "detail": "Bezplatná transparentní akce na Výstavišti Brno; může být nutná registrace.",
-        "url": "https://asdfest.cz/"
-      },
-      {
-        "title": "Terénní přednáška Společnosti Podané ruce · 15:30-17:00",
-        "detail": "Bezplatná transparentní přednáška na Tkalcovské 10; překrývá se s Career Festem.",
-        "url": "https://www.objevbrno.cz/cs/event/terenni-prednaska-spolecnosti-podane-ruce"
-      },
-      {
-        "title": "Vínokrál · nabídka do 29. 10.",
-        "detail": "15 % na sortiment; aktivní nabídka z Gmailu, kód se nezobrazuje."
-      },
-      {
-        "title": "STÁTKY · středa 28. 10., 18:30-20:00",
-        "detail": "Bezplatný program ke státnímu svátku.",
+        "title": "STÁTKY: Den vzniku samostatného Československého státu · 18:30–20:00",
+        "detail": "Bezplatný program v Klubu zastupitelů města Brna, Mečová 5; akce je transparentní a neblokující.",
         "url": "https://www.objevbrno.cz/cs/event/statky-den-vzniku-samostatneho-ceskoslovenskeho-statu"
       },
       {
-        "title": "Národní banka Československa · čtvrtek 29. 10., 18:00-19:30",
+        "title": "Vínokrál · nabídka do 29. 10.",
+        "detail": "15 % na sortiment; aktivní nabídka ověřená z nejnovějšího e-mailu, kód se nezobrazuje."
+      },
+      {
+        "title": "Národní banka Československá · čtvrtek 29. 10., 18:00–19:30",
         "detail": "Bezplatná přednáška v Institutu Paměti národa Brno.",
         "url": "https://www.objevbrno.cz/cs/event/narodni-banka-ceskoslovenska-prvni-nezavisly-strazce-ceskoslovenske-meny"
+      },
+      {
+        "title": "Yann Martel: Za hranice příběhu · pátek 30. 10., 18:00–19:30",
+        "detail": "Bezplatná neblokující akce v Moravské zemské knihovně.",
+        "url": "https://www.objevbrno.cz/cs/akce-zdarma"
       }
     ]
   },
   "prep": [
     {
-      "title": "Vyber si jednu odpolední akci",
-      "detail": "Od 15:30 do 17:00 se Career Fest a terénní přednáška překrývají; celé obě stihnout nejde."
+      "title": "Pracovní den je volný",
+      "detail": "Kalendář nemá žádnou blokující rezervaci; administrativu je praktické vyřídit až po svátku."
     },
     {
-      "title": "Počítej se státním svátkem",
-      "detail": "Ve středu 28. 10. mohou být úřady a obchody s prodejní plochou nad 200 m2 zavřené."
+      "title": "Na STÁTKY stačí dorazit před 18:30",
+      "detail": "Místem je Klub zastupitelů města Brna, Mečová 5; konec pořadatel neuvedl, blok je orientační."
     },
     {
-      "title": "Před koncem nabídky zkontroluj košík",
+      "title": "Nabídka končí zítra",
       "detail": "Vínokrál uvádí platnost do 29. 10.; sleva nejde kombinovat s dalšími poukazy a akcemi."
     }
   ],
   "context": [
     {
       "title": "Gmail guma",
-      "detail": "Obousměrná synchronizace aktivní i archivované pošty mimo koš a spam proběhla před agendou; vytvořena byla jedna aktivní neblokující nabídka."
+      "detail": "Obousměrná synchronizace aktivní i archivované pošty mimo koš a spam proběhla před agendou; existující nabídka byla přepojena na nejnovější zdrojový e-mail."
     },
     {
       "title": "Google Drive",
@@ -98,12 +93,16 @@
       "url": "https://docs.google.com/spreadsheets/d/1mPEywWDwOwaUbZHzwa6_FyBQfZ_1dCFFmWgXMvucNSw/edit"
     },
     {
+      "title": "Gmail a Drive ke konkrétním akcím",
+      "detail": "K dnešnímu programu STÁTKY ani nejbližším bezplatným akcím nebyly nalezeny další podklady."
+    },
+    {
       "title": "Notion",
-      "detail": "V tomto běhu nebyl dostupný připojený Notion zdroj; meeting notes a úkoly proto nejsou ověřené."
+      "detail": "Notion konektor není v tomto běhu dostupný; interní poznámky a úkoly proto nejsou ověřené."
     },
     {
       "title": "Akce zdarma / do 100 Kč",
-      "detail": "Ověřeny byly Objev Brno a kalendář Brno-střed; tři nové vhodné položky byly přidány transparentně. Krajský přehled Kudy z nudy byl řídký."
+      "detail": "Zkontrolovány byly Kudy z nudy pro Jihomoravský kraj, Objev Brno a kalendář Brno-střed; nové spolehlivě doložené položky nad již uložený soubor nebyly nalezeny."
     }
   ],
   "signals": {
@@ -112,7 +111,7 @@
     "newMail": "1 aktivní nabídka",
     "unknownPrices": "0"
   },
-  "publicSafety": "Veřejná verze bez kódu, soukromých e-mailu a citlivých údajů.",
+  "publicSafety": "Veřejná verze bez kódu, celých e-mailů, citlivých údajů a soukromých konverzací.",
   "costHunter": {
     "counts": {
       "cheaper": 0,
@@ -121,10 +120,10 @@
       "unknown": 0,
       "newlyKnown": 0
     },
-    "summary": "Kontrola 27. 10. 2026: zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
-    "freshnessNote": "Kontrolní datum je dnešní a všech pět produktů je přítomno; ceny se proto znovu nedohledávaly. Sešit má pasmo America/Los_Angeles.",
+    "summary": "Kontrola 28. 10. 2026: zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
+    "freshnessNote": "Kontrolní datum je dnešní a všech pět produktů je přítomno; ceny se proto znovu nedohledávaly.",
     "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámky jsou prázdné, protože není změna alespoň 10 % ani nejistota.",
-    "sourceCheckedLabel": "Kontrola: 27. 10. 2026",
+    "sourceCheckedLabel": "Kontrola: 28. 10. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
@@ -326,140 +325,145 @@
     ]
   },
   "news": {
-    "note": "Ověřeno 20 relevantních položek z Novinky.cz a ČTK / Českých novin v okně 26. 10. 2026 08:00 až 27. 10. 2026 05:45 CET; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
+    "note": "Ověřeno 20 relevantních položek z Novinky.cz a ČTK / Českých novin v okně 27. 10. 2026 08:00 až 28. 10. 2026 05:45 CET; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu jsou vynechány.",
     "items": [
       {
-        "title": "1. Evropa mediální poplatky opouští, ďábel je ale v detailu",
-        "detail": "Financování veřejnoprávních médií ze státní kasy je v EU častější než poplatky, nese ale vyšší riziko politického tlaku.",
-        "url": "https://www.novinky.cz/clanek/domaci-evropa-medialni-poplatky-opousti-dabel-je-ale-v-detailu-40605059"
+        "title": "1. Poslanec Pražák opouští hnutí ANO",
+        "detail": "David Pražák po jedenácti letech končí v ANO, ve Sněmovně chce pokračovat jako nezařazený poslanec.",
+        "url": "https://www.novinky.cz/clanek/domaci-poslanec-prazak-opousti-hnuti-ano-40605321"
       },
       {
-        "title": "2. Většinu Evropy čeká velmi suchý týden",
-        "detail": "Většina Evropy včetně Česka dostane jen minimum srážek; ve střední Evropě se čeká jen slabý déšť.",
-        "url": "https://www.novinky.cz/clanek/pocasi-vetsinu-evropy-ceka-velmi-suchy-tyden-40605088"
+        "title": "2. Herci Národního divadla vyhlásili stávkovou pohotovost",
+        "detail": "Odbory činohry protestují proti krokům vlády v kultuře a proti změně financování veřejnoprávních médií.",
+        "url": "https://www.novinky.cz/clanek/kultura-divadlo-oto-klempiri-okamzite-odstupte-herci-narodniho-divadla-vyhlasili-stavkovou-pohotovost-40605314"
       },
       {
-        "title": "3. Důchodci přijdou o výchovné. Vláda mění ocenění péče o děti",
-        "detail": "Návrh počítá pro nové penzisty se započtením péče podle průměrné mzdy místo 500 korun měsíčně za vychované dítě.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-duchodci-prijdou-o-vychovne-vlada-meni-oceneni-pece-o-deti-40605057"
+        "title": "3. V Izraeli skončily volby. Exit polly ukazují pat",
+        "detail": "První odhady po uzavření volebních místností naznačily těsný výsledek a složité povolební vyjednávání.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-blizky-a-stredni-vychod-izrael-ma-za-sebou-klicove-volby-40605312"
       },
       {
-        "title": "4. Babiš odmítl výzvu ředitele ČRo k veřejnému jednání",
-        "detail": "Spor o budoucnost financování veřejnoprávních médií pokračuje; premiér veřejnou debatu požadovanou ředitelem rozhlasu odmítl.",
-        "url": "https://www.novinky.cz/clanek/domaci-to-je-jedno-co-on-chce-podstatne-je-co-ja-chci-babis-odmitl-vyzvu-reditele-cro-k-verejnemu-jednani-40605120"
+        "title": "4. Tvůrci seriálu Harry Potter obsadili další role",
+        "detail": "Produkce HBO oznámila představitele Lily a Jamese Potterových i Charlieho Weasleyho.",
+        "url": "https://www.novinky.cz/clanek/kultura-tv-streaming-lily-a-james-potterovi-i-charlie-weasley-tvurci-serialu-harry-potter-obsadili-dalsi-role-40605324"
       },
       {
-        "title": "5. Po měsíci se nový tygr v brněnské zoo dočkal. Lidé ho uvidí ve výběhu",
-        "detail": "Brněnská zoo po aklimatizaci zpřístupní návštěvníkům nového tygra ve venkovním výběhu.",
-        "url": "https://www.novinky.cz/clanek/koktejl-po-mesici-se-novy-tygr-v-brnenske-zoo-dockal-lide-ho-uvidi-ve-vybehu-40604985"
+        "title": "5. AI agenti v testu podléhali nadřízeným i za hranicí pravidel",
+        "detail": "Nová studie ukázala, že jazykové modely v hierarchických rolích mohou upřednostnit poslušnost před stanovenými omezeními.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-poslusnost-az-za-hranice-pravidel-ai-agenti-v-testu-podlehali-nadrizenym-40592009"
       },
       {
-        "title": "6. Bolsonaro nepřímo uznal porážku",
-        "detail": "Flavio Bolsonaro po prohře v brazilských prezidentských volbách oznámil, že bude organizovat opozici proti zvolenému Lulovi.",
-        "url": "https://www.novinky.cz/clanek/zahranicni-bolsonaro-neprimo-uznal-porazku-40605130"
+        "title": "6. Státní vyznamenání obdrží 51 lidí",
+        "detail": "Prezident Petr Pavel má při oslavách 28. října ocenit o tři osobnosti více než loni.",
+        "url": "https://www.novinky.cz/clanek/domaci-statni-vyznamenani-obdrzi-51-lidi-o-tri-vic-nez-loni-40605319"
       },
       {
-        "title": "7. Seniorka vlastním tělem blokuje doručovací roboty",
-        "detail": "Obyvatelka Filadelfie protestuje proti autonomním doručovacím robotům, které podle ní berou práci lidem.",
-        "url": "https://www.novinky.cz/clanek/koktejl-seniorka-vlastnim-telem-blokuje-dorucovaci-roboty-tvrdi-ze-berou-lidem-praci-40604949"
+        "title": "7. První CV90 dorazí se zpožděním",
+        "detail": "První bojová vozidla CV90 Česko převezme až příští rok; obrana současně připravuje nákup dalších systémů Spyder.",
+        "url": "https://www.novinky.cz/clanek/domaci-prvni-cv90-dorazi-se-zpozdenim-obrana-chysta-nakup-dalsich-systemu-spyder-40605308"
       },
       {
-        "title": "8. Špilberk zve do temných kasemat na světelnou show s květinami",
-        "detail": "Brněnský Špilberk otevírá v kasematech světelnou instalaci, která propojuje historický prostor s květinovými motivy.",
-        "url": "https://www.novinky.cz/clanek/koktejl-spilberk-zve-do-temnych-kasemat-na-svetelnou-show-s-kvetinami-40605036"
+        "title": "8. Intel sází na kvantové počítače",
+        "detail": "Intel kupuje izraelskou softwarovou firmu Classiq za více než 50 miliard korun, aby posílil kvantové programování.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-hardware-intel-sazi-na-kvantove-pocitace-za-izraelskou-firmu-da-pres-50-miliard-40605287"
       },
       {
-        "title": "9. Monetův málo známý obraz se vydražil za více než miliardu",
-        "detail": "Méně známý obraz Clauda Moneta dosáhl v aukci ceny přesahující jednu miliardu korun.",
-        "url": "https://www.novinky.cz/clanek/koktejl-monetuv-malo-znamy-obraz-se-vydrazil-za-vice-nez-miliardu-40604990"
+        "title": "9. Apple odhalil nový MacBook Pro",
+        "detail": "Apple představil nový profesionální notebook ještě před chystanou tiskovou konferencí.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-hardware-apple-odhalil-macbook-pro-40605249"
       },
       {
-        "title": "10. Bývalé vydavatelství Jaromíra Soukupa Empresa Media je v insolvenci",
-        "detail": "Společnost Empresa Media vstoupila do insolvenčního řízení, což znovu otevřelo otázku jejího finančního stavu.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-byvale-vydavatelstvi-jaromira-soukupa-empresa-media-je-v-insolvenci-40605131"
+        "title": "10. Národní cenu za architekturu získala Horácká aréna",
+        "detail": "Aréna studia Chybík+Krištof zaujala mimo jiné běžeckou dráhou na střeše.",
+        "url": "https://www.novinky.cz/clanek/bydleni-narodni-cenu-za-architekturu-ma-horacka-arena-od-studia-chybik-kristof-s-bezeckou-drahou-na-strese-40604805"
       },
       {
-        "title": "11. Léky tíží důchodce více než ostatní",
-        "detail": "Čtvrtina seniorů považuje výdaje za léky za velkou finanční zátěž, výrazně častěji než zbytek populace.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-leky-tizi-duchodce-vice-nez-ostatni-velkou-zatez-v-nich-vidi-ctvrtina-40605010"
+        "title": "11. Cermat zjednodušil jednotnou přijímací zkoušku",
+        "detail": "Úpravy mají zpřehlednit zadání a snížit technické překážky pro uchazeče o střední školy.",
+        "url": "https://www.novinky.cz/clanek/domaci-cermat-zjednodusil-jednotnou-prijimaci-zkousku-40605232"
       },
       {
-        "title": "12. Do nájemních bytů míří miliardy od velkých firem",
-        "detail": "Velké firmy posilují investice do nájemního bydlení a rozšiřují institucionální část trhu.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-do-najemnich-bytu-miri-miliardy-od-velkych-firem-40604325"
+        "title": "12. Téměř všem korálovým útesům světa hrozí kolaps",
+        "detail": "Vědci varují, že kombinace oteplování oceánů a dalších tlaků ohrožuje většinu korálových ekosystémů.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-temer-vsem-koralovym-utesum-sveta-hrozi-kolaps-40605035"
       },
       {
-        "title": "13. Microsoft nabídl dobrovolný odchod 60 tisícům zaměstnanců",
-        "detail": "Technologická firma nabídla desítkám tisíc zaměstnanců dobrovolný odchod s odstupným.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-microsoft-nabizi-zamestnancum-dobrovolny-odchod-40605101"
+        "title": "13. Česko si připomíná 108. výročí vzniku Československa",
+        "detail": "Státní svátek doprovodí pietní akty, jmenování generálů a večerní předávání vyznamenání.",
+        "url": "https://www.ceskenoviny.cz/zpravy/cesko-si-dnes-pripomene-vyroci-vzniku-ceskoslovenska/2894032"
       },
       {
-        "title": "14. Ne vždy je potřeba u leukémie okamžitá léčba",
-        "detail": "U některých typů leukémie lze podle lékařů bezpečně zvolit sledování a léčbu zahájit až při změně stavu.",
-        "url": "https://www.novinky.cz/clanek/zdravi-ne-vzdy-je-potreba-u-leukemie-okamzita-lecba-pacienti-mohou-zit-roky-i-bez-lecby-40605027"
+        "title": "14. Úřadu ombudsmana a ÚOOÚ v návrhu rozpočtu chybí peníze na platy",
+        "detail": "Obě nezávislé instituce upozorňují na personální rizika kvůli nedostatečně krytým mzdovým výdajům.",
+        "url": "https://www.ceskenoviny.cz/zpravy/uradu-ombudsmana-a-uoou-v-navrhu-rozpoctu-chybi-miliony-na-platy/2893884"
       },
       {
-        "title": "15. Marc Almond ovládl festival Soundedit",
-        "detail": "Festival Soundedit nabídl vystoupení Marca Almonda a návrat kapely The Wolfgang Press v industriálním prostoru.",
-        "url": "https://www.novinky.cz/clanek/kultura-marc-almond-ovladl-festival-soundedit-kapela-the-wolfgang-press-vzkrisila-tezni-vez-z-karvinska-40604891"
+        "title": "15. Babiš s Ficem odhalili sochu česko-slovenského přátelství",
+        "detail": "Premiéři připomněli společnou historii obou zemí v předvečer výročí vzniku Československa.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-s-ficem-v-predvecer-28-rijna-odhalili-sochu-cesko-slovenskeho-pratelstvi/2891973"
       },
       {
-        "title": "16. Michal Horáček představil novou nahrávku Pozemský prach a Boží dech",
-        "detail": "Nová nahrávka Michala Horáčka rozšiřuje jeho autorskou tvorbu o další soubor písní.",
-        "url": "https://www.ceskenoviny.cz/zpravy/michal-horacek-predstavil-svoji-novou-nahravku-pozemsky-prach-a-bozi-dech/2893470"
+        "title": "16. Výdaje na výzkum a vývoj vzrostly na 158,8 miliardy Kč",
+        "detail": "ČSÚ uvádí meziroční růst o 12 miliard korun; údaj ukazuje pokračující posilování výzkumných investic.",
+        "url": "https://www.ceskenoviny.cz/zpravy/csu-vydaje-na-vyzkum-a-vyvoj-loni-vzrostly-o-12-miliard-na-1588-miliardy-kc/2893694"
       },
       {
-        "title": "17. Režisér Klusák v novém dokumentu přibližuje okolnosti dopravních nehod",
-        "detail": "Dokument Vít Klusáka se soustředí na příčiny a důsledky dopravních nehod a na rozhodování jejich účastníků.",
-        "url": "https://www.ceskenoviny.cz/zpravy/reziser-klusak-v-novem-dokumentu-priblizuje-okolnosti-dopravnich-nehod/2893350"
+        "title": "17. Studenti odmítli změny pro ČT a ČRo",
+        "detail": "Na několika školách vyhlásili stávkovou pohotovost kvůli obavám o nezávislost veřejnoprávních médií.",
+        "url": "https://www.ceskenoviny.cz/zpravy/studenti-odmitli-zmeny-pro-ct-a-cro-nekde-vyhlasili-stavkovou-pohotovost/2893639"
       },
       {
-        "title": "18. Odbory zahájily kampaň proti změně definice zaměstnání",
-        "detail": "Odborové svazy žádaly stažení návrhu, který mění vymezení zaměstnanecké práce.",
-        "url": "https://www.ceskenoviny.cz/zpravy/odbory-zahajily-kampan-proti-zmene-definice-zamestnani-zadaji-stazeni-navrhu/2893233"
+        "title": "18. Koncentrace CO2 v atmosféře dosáhla rekordní úrovně",
+        "detail": "Agentura OSN upozornila na další růst skleníkového plynu a zrychlující klimatické riziko.",
+        "url": "https://www.ceskenoviny.cz/zpravy/koncentrace-co2-v-atmosfere-dosahla-loni-rekordni-urovne-uvadi-agentura-osn/2893791"
       },
       {
-        "title": "19. Pokles důvěry v ekonomiku zrcadlí obavy z cen energií",
-        "detail": "Říjnová důvěra podnikatelů i spotřebitelů klesla; analytici ji spojují hlavně s obavami z cen energií a vstupu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/-analytici-pokles-duvery-v-ekonomiku-zrcadli-obavy-z-cen-v-energetice/2893128"
+        "title": "19. Evropská komise navrhuje větší roli Frontexu při návratech migrantů",
+        "detail": "Návrh má posílit koordinaci a kapacity evropské pohraniční agentury při návratové politice.",
+        "url": "https://www.ceskenoviny.cz/zpravy/frontex-ma-hrat-vetsi-roli-pri-navratech-migrantu-navrhuje-ek/2893712"
       },
       {
-        "title": "20. Objem levných zásilek z Číny a dalších zemí mimo EU klesl o 81 procent",
-        "detail": "Počet levných zásilek ze zemí mimo EU se meziročně propadl o 81 procent.",
-        "url": "https://www.ceskenoviny.cz/zpravy/objem-levnych-zasilek-z-ciny-a-dalsich-zemi-mimo-eu-klesl-o-81-pct/2893157"
+        "title": "20. Koruna je vůči polskému zlotému nejsilnější za tři roky",
+        "detail": "Vývoj kurzu zlevňuje část nákupů v Polsku, zároveň odráží rozdílný vývoj obou měn.",
+        "url": "https://www.ceskenoviny.cz/zpravy/ceska-mena-je-vuci-polskemu-zlotemu-nejsilnejsi-za-tri-roky/2893633"
       }
     ]
   },
+  "urcSystemsMonitor": {
+    "status": "STALE",
+    "summary": "Handoff není použitelný: poslední report má stav PARTIAL a platnost 26. 10. 2026 16:45 Europe/Prague.",
+    "note": "Aktuální stav systémů se z tohoto zdroje neinferuje."
+  },
   "risks": [
     {
-      "title": "Ariana má starší lístek",
-      "detail": "Poslední veřejně dostupný hotovostní lístek je z 25. 10. 2026, tedy starší o dva dny."
+      "title": "URC Systems monitor je zastaralý",
+      "detail": "Handoff není READY a není z dnešního data; stav systémů proto zůstává neověřený."
     },
     {
-      "title": "Notion nebyl dostupný",
-      "detail": "Dnešní poznámky a úkoly z Notionu nejsou ověřené."
+      "title": "Notion není dostupný",
+      "detail": "Interní poznámky, meeting notes a úkoly nebylo možné ověřit."
     },
     {
-      "title": "Krajský přehled akcí byl řídký",
-      "detail": "Brno je pokryto dobře, ale mimo Brno se nepodařilo potvrdit stejně bohatou nabídku."
+      "title": "Ariana má lístek z 27. 10.",
+      "detail": "Veřejný kurzovní lístek je o den starší než dashboard; dnešek je státní svátek."
     },
     {
-      "title": "COST HUNTER má jiné pasmo",
-      "detail": "Kontrolní datum je dnešní, ale sešit je nastaven na America/Los_Angeles a neuvádí přesný čas kontroly."
+      "title": "Akce STÁTKY má orientační konec",
+      "detail": "Pořadatel uvádí začátek 18:30, ale ne konec; kalendář používá blok do 20:00."
     }
   ],
   "nextSteps": [
     {
-      "title": "Rozhodni Career Fest versus terénní přednáška",
-      "detail": "Pokud chceš přednášku celou, opusť Career Fest nejpozději před 15:30."
+      "title": "1. Rozhodnout se, zda večer na STÁTKY",
+      "detail": "Je to jediná dnešní časovaná položka a kalendář jinak zůstává volný."
     },
     {
-      "title": "Vyřiď věci závislé na otevřeno dnes",
-      "detail": "Zítra je státní svátek a u části služeb i obchodu bude omezený provoz."
+      "title": "2. Nabídku Vínokrál řešit nejpozději zítra",
+      "detail": "Platnost končí 29. 10.; podmínky neumožňují kombinaci s dalšími akcemi."
     },
     {
-      "title": "U nabídky Vínokrál neodkládej rozhodnutí",
-      "detail": "Platnost končí 29. 10.; kód zůstává pouze v Gmailu."
+      "title": "3. Po svátku zkontrolovat administrativu",
+      "detail": "Dnes mohou být úřady a velké obchody zavřené; praktické úkoly přesunout na 29. 10."
     }
   ]
 }

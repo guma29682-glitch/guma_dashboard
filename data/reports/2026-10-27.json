@@ -430,7 +430,16 @@
       }
     ]
   },
+  "urcSystemsMonitor": {
+    "status": "STALE",
+    "title": "URC Systems monitor",
+    "detail": "Dnešní monitor není k dispozici. Poslední handoff je PARTIAL s platností k 26. 10. 2026 16:45 Europe/Prague; provozní stav proto nelze ověřeně uvést."
+  },
   "risks": [
+    {
+      "title": "URC Systems monitor není aktuální",
+      "detail": "Dnešní handoff chybí; poslední je PARTIAL a platí pouze k 26. 10. 2026 16:45 Europe/Prague."
+    },
     {
       "title": "Ariana má starší lístek",
       "detail": "Poslední veřejně dostupný hotovostní lístek je z 25. 10. 2026, tedy starší o dva dny."
