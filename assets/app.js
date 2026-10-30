@@ -52,6 +52,7 @@ const urcMonitorContent = (monitor = {}) => {
   monitor = monitor || {};
   const lead = monitor.summary || monitor.detail || monitor.overallStatus || "";
   const note = monitor.note || monitor.sourceCheckTime || monitor.status || "";
+  const rawContent = monitor.rawContent || monitor.handoffContent || "";
   const items = monitor.items || [
     monitor.incidents,
     monitor.availability,
@@ -59,11 +60,12 @@ const urcMonitorContent = (monitor = {}) => {
     monitor.nextSteps,
   ].flat().filter(Boolean);
 
-  if (!lead && !note && !items.length) return "";
+  if (!lead && !note && !rawContent && !items.length) return "";
 
   return `
     ${lead ? `<p class="lead">${esc(lead)}</p>` : ""}
     ${note ? `<p class="status-note">${esc(note)}</p>` : ""}
+    ${rawContent ? `<pre class="monitor-handoff">${esc(rawContent)}</pre>` : ""}
     ${items.length ? `<ul class="clean-list">${list(items)}</ul>` : ""}`;
 };
 
