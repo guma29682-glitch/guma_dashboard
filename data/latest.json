@@ -1,61 +1,62 @@
 {
   "schemaVersion": 1,
-  "title": "GUMA dashboard · 1. 11. 2026",
-  "date": "2026-11-01",
-  "updatedAt": "2026-11-01T05:45:00+01:00",
-  "updatedLabel": "1. 11. 2026 · 05:45 CET",
+  "title": "GUMA dashboard · 2. 11. 2026",
+  "date": "2026-11-02",
+  "updatedAt": "2026-11-02T05:45:01+01:00",
+  "updatedLabel": "2. 11. 2026 · 05:45 CET",
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "daySummary": "Dnes nejsou žádné blokující schůzky. Praktická volba je mezi třemi souběžnými bezplatnými vstupy v 10:00; další dobrovolné akce začínají v 11:00 a 16:00.",
+  "daySummary": "Dnes nejsou žádné blokující schůzky ani kolize. Celé pondělí je volné pro souvislou práci; v kalendáři jsou jen dlouhodobé transparentní tipy, hlavně Týden Akademie věd.",
   "summaryItems": [
     {
       "title": "Svátek",
-      "detail": "Dnes má svátek Felix a připadá svátek Všech svatých; státní svátek není."
+      "detail": "Dnes Tobiáš a Památka zesnulých (Dušičky), zítra Hubert; státní svátek není."
     },
     {
       "title": "Kurzy ČNB",
-      "detail": "Lístek 30. 10. 2026: EUR/CZK 24,360 – koruna zhruba beze změny; USD/CZK 21,814 – koruna zhruba beze změny.",
-      "text": "Kurzy ČNB: Lístek 30. 10. 2026: EUR/CZK 24,360 – koruna zhruba beze změny; USD/CZK 21,814 – koruna zhruba beze změny.",
+      "detail": "Oficiální denní lístek z 30. 10. 2026: EUR/CZK 24,360 (koruna zhruba beze změny) a USD/CZK 21,814 (koruna zhruba beze změny); trend vychází z fixingů 23.–30. 10.",
+      "text": "Kurzy ČNB: Oficiální denní lístek z 30. 10. 2026: EUR/CZK 24,360 (koruna zhruba beze změny) a USD/CZK 21,814 (koruna zhruba beze změny); trend vychází z fixingů 23.–30. 10.",
       "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=30.10.2026"
     },
     {
       "title": "Ariana směnárna prodej",
-      "detail": "Starší lístek z 30. 10. 2026: EUR 24,50 Kč; USD 22,10 Kč.",
-      "text": "Ariana směnárna prodej: Starší lístek z 30. 10. 2026: EUR 24,50 Kč; USD 22,10 Kč.",
+      "detail": "EUR 24,50 Kč a USD 22,10 Kč (veřejný hotovostní lístek z 30. 10. 2026; starší o tři kalendářní dny).",
+      "text": "Ariana směnárna prodej: EUR 24,50 Kč a USD 22,10 Kč (veřejný hotovostní lístek z 30. 10. 2026; starší o tři kalendářní dny).",
       "url": "https://www.ariana-sro.cz/"
     },
     {
       "title": "Priorita dne",
-      "detail": "V 10:00 vyber nejvýš jeden z trojice muzeí; zbytek dne zůstává bez blokujícího programu."
+      "detail": "Žádná blokující schůzka: využij celé pondělí na jeden souvislý výstup; Týden Akademie věd je jen dobrovolný neblokující tip."
     }
   ],
   "calendar": {
     "meetingCount": 0,
     "conflictCount": 0,
-    "summary": "Žádná blokující schůzka. Dobrovolná kolize tří transparentních tipů je v 10:00.",
+    "summary": "Žádná blokující schůzka ani dnešní kolize; celý den je volný.",
     "freeWindows": [
       {
-        "start": "2026-11-01T00:00:00+01:00",
-        "end": "2026-11-02T00:00:00+01:00",
+        "start": "2026-11-02T00:00:00+01:00",
+        "end": "2026-11-03T00:00:00+01:00",
         "label": "celý den bez blokující schůzky"
       }
     ],
     "context": [
       {
-        "title": "Tři bezplatné vstupy · dnes 10:00–11:00",
-        "detail": "Moravské zemské muzeum, Moravská galerie a Technické muzeum v Brně začínají současně; vyber nejvýš jeden."
-      },
-      {
-        "title": "Podzimní swap · dnes 11:00–12:00",
-        "detail": "Dobrovolná transparentní akce v Runway Hub café v Brně-Bystrci."
-      },
-      {
-        "title": "Halloween na Zaječí hoře · dnes 16:00–18:00",
-        "detail": "Dobrovolné vstupné; transparentní neblokující tip."
-      },
-      {
         "title": "Týden Akademie věd ČR · 2.–8. 11.",
-        "detail": "Bezplatný dlouhodobý tip; v úterý navazuje Tak Kam?! v Blansku a ve středu JobChallenge."
+        "detail": "Dneškem začíná bezplatný transparentní tip; konkrétní program a registraci ověř před návštěvou.",
+        "url": "https://www.objevbrno.cz/cs/event/tyden-akademie-ved-cr-v-brne"
+      },
+      {
+        "title": "Tak Kam?! Blansko · úterý 3. 11. 09:00–17:00",
+        "detail": "Následující dobrovolná neblokující akce v regionu."
+      },
+      {
+        "title": "JobChallenge · středa 4. 11. 09:30–17:00",
+        "detail": "Transparentní veletrh; stejný den večer navazují Mikulov a CLOUD, takže bude potřeba zvolit realistickou trasu."
+      },
+      {
+        "title": "K Madoně se rzí / Za tajemstvím mozku · čtvrtek 5. 11.",
+        "detail": "Akce se překrývají přibližně 19:00–19:30; vyber jednu."
       },
       {
         "title": "Soukromý blok · pátek 6. 11. 11:30–13:00",
@@ -65,16 +66,16 @@
   },
   "prep": [
     {
-      "title": "Dnešní volba",
-      "detail": "V 10:00 zvol jedno muzeum podle priority; přejezdy mezi souběžnými vstupy nedávají smysl."
+      "title": "Dnešní hluboká práce",
+      "detail": "Vyber jeden výstup, který do večera dokončíš; kalendář nabízí souvislé okno bez přerušení."
     },
     {
-      "title": "Čtvrtek 5. 11.",
-      "detail": "K Madoně se rzí a Za tajemstvím mozku se překrývají přibližně 19:00–19:30; vyber jednu akci."
+      "title": "Týden Akademie věd",
+      "detail": "Pokud chceš jít, vyber konkrétní přednášku a ověř registraci a kapacitu."
     },
     {
-      "title": "Pátek 6. 11.",
-      "detail": "Počítej s pevným soukromým blokem 11:30–13:00, bez zveřejnění citlivého detailu."
+      "title": "Středa a čtvrtek",
+      "detail": "Ve středu zvaž JobChallenge proti přejezdu do Mikulova a ve čtvrtek rozhodni mezi dvěma překrývajícími se večerními akcemi."
     }
   ],
   "context": [
@@ -97,7 +98,7 @@
     },
     {
       "title": "Akce zdarma / do 100 Kč",
-      "detail": "Po kontrole Brna a Jihomoravského kraje přibylo sedm budoucích transparentních akcí od 17. 11. do 5. 12.; duplicity byly před vytvořením prověřené."
+      "detail": "Budoucí a probíhající tipy v Brně a Jihomoravském kraji byly zkontrolované; pět relevantních uložených akcí je transparentních a neblokujících, duplicity se nevytvářely."
     }
   ],
   "signals": {
@@ -109,27 +110,37 @@
   "publicSafety": "Veřejná verze bez kódů, celých e-mailů, citlivých údajů a soukromých konverzací.",
   "costHunter": {
     "counts": {
-      "cheaper": 0,
-      "moreExpensive": 0,
-      "unchanged": 5,
+      "cheaper": 1,
+      "moreExpensive": 1,
+      "unchanged": 3,
       "unknown": 0,
       "newlyKnown": 0
     },
-    "summary": "Kontrola 1. 11. 2026: zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0.",
+    "summary": "Kontrola 2. 11. 2026: zlevnilo 1 · zdražilo 1 · beze změny 3 · nezjištěno 0.",
     "freshnessNote": "Kontrolní datum je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
-    "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámka je prázdná, protože není změna alespoň 10 % ani cenová nejistota.",
-    "sourceCheckedLabel": "Kontrola: 1. 11. 2026",
+    "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámka je jen u změny alespoň 10 %.",
+    "sourceCheckedLabel": "Kontrola: 2. 11. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
       {
-        "status": "Beze změny",
+        "status": "Zlevnilo",
+        "product": "Kylie Minogue Sparkling nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1471462-kylie-minogue-sparkling-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "169,90 Kč",
+        "priceYesterday": "199,90 Kč",
+        "change": "−30,00 Kč (−15,0 %)",
+        "note": "Pokles 15,0 %; výhodná cena."
+      },
+      {
+        "status": "Zdražilo",
         "product": "ORGANIS Mandle jádra 1000 g",
         "productUrl": "https://www.lekarna.cz/organis-mandle-jadra-1000-g/",
         "store": "Lekarna.cz",
-        "priceToday": "405,00 Kč",
+        "priceToday": "429,00 Kč",
         "priceYesterday": "405,00 Kč",
-        "change": "0,00 Kč (0,0 %)",
+        "change": "+24,00 Kč (+5,9 %)",
         "note": ""
       },
       {
@@ -139,16 +150,6 @@
         "store": "Rohlik.cz",
         "priceToday": "179,90 Kč",
         "priceYesterday": "179,90 Kč",
-        "change": "0,00 Kč (0,0 %)",
-        "note": ""
-      },
-      {
-        "status": "Beze změny",
-        "product": "Kylie Minogue Sparkling nealkoholické",
-        "productUrl": "https://www.rohlik.cz/1471462-kylie-minogue-sparkling-nealkoholicke",
-        "store": "Rohlik.cz",
-        "priceToday": "199,90 Kč",
-        "priceYesterday": "199,90 Kč",
         "change": "0,00 Kč (0,0 %)",
         "note": ""
       },
@@ -214,7 +215,7 @@
       },
       {
         "title": "How to pull the emergency brake on global warming · Mohamed A. Sultan",
-        "detail": "Omezení metanu že skládek může rychle brzdit oteplování a zároveň zlepšit život ve městech.",
+        "detail": "Omezení metanu ze skládek může rychle brzdit oteplování a zároveň zlepšit život ve městech.",
         "url": "https://www.ted.com/talks/mohamed_a_sultan_how_to_pull_the_emergency_brake_on_global_warming"
       },
       {
@@ -320,133 +321,127 @@
     ]
   },
   "news": {
-    "note": "21 ověřených položek v okně 31. 10. 2026 08:00 až 1. 11. 2026 05:45 (Europe/Prague); sport, kriminalita a zprávy primárně o válce na Ukrajině nebo v Íránu jsou vynechány.",
+    "note": "20 ověřených položek v okně 1. 11. 2026 08:00 až 2. 11. 2026 05:45 (Europe/Prague); zkontrolovány Novinky.cz a ČTK / České noviny napříč rubrikami, sport, kriminalita a zprávy primárně o válce na Ukrajině nebo v Íránu jsou vynechány.",
     "items": [
       {
         "number": 1,
-        "title": "Dokonalý příspěvek jako posedlost. Žena popsala svou závislost na Instagramu",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-dokonaly-prispevek-jako-posedlost-zena-popsala-svou-zavislost-na-instagramu-40603692",
-        "detail": "Britská novinářka popsala, jak se ladění příspěvků a sledování reakcí změnilo v posedlost; pomohlo jí až smazání aplikace."
+        "title": "Na Floridě se zřítilo do obytné čtvrti soukromé letadlo s devíti lidmi na palubě",
+        "url": "https://www.ceskenoviny.cz/zpravy/na-floride-se-zritilo-do-obytne-ctvrti-soukrome-letadlo-s-deviti-lidmi-na-palube/2895932",
+        "detail": "Learjet s devíti lidmi spadl do obytné oblasti; nikdo na palubě nepřežil a příčinu vyšetřují FAA a NTSB."
       },
       {
         "number": 2,
-        "title": "Protestů ve Francii se zúčastnilo na 320 000 lidí, méně než před týdnem",
-        "url": "https://www.ceskenoviny.cz/zpravy/protestu-ve-francii-se-zucastnilo-na-320000-lidi-mene-nez-pred-tydnem/2895302",
-        "detail": "Demonstrace proti životním nákladům a stavu škol byly slabší než před týdnem; na několika místech došlo ke střetům."
+        "title": "V prezidentských volbách v Bulharsku zvítězila Jotovová, vyplývá z průzkumu",
+        "url": "https://www.ceskenoviny.cz/zpravy/v-prezidentskych-volbach-v-bulharsku-zvitezila-jotovova-vyplyva-z-pruzkumu/2892977",
+        "detail": "Výstupní průzkum přisoudil vítězství Ilijaně Jotovové; může se stát první zvolenou prezidentkou Bulharska, účast byla nízká."
       },
       {
         "number": 3,
-        "title": "Kvůli stavbě lávky byla uzavřena D10 u Staré Boleslavi",
-        "url": "https://www.novinky.cz/clanek/domaci-kvuli-stavbe-lavky-byla-uzavrena-d10-u-stare-boleslavi-40605931",
-        "detail": "Noční uzavírka směrem na Turnov mezi exity 10 a 14 má kvůli stavbě lávky trvat do nedělních 08:00."
+        "title": "Němečtí politici odsoudili násilnosti při protestech ve Frankfurtu",
+        "url": "https://www.ceskenoviny.cz/zpravy/nemecti-politici-odsoudili-nasilnosti-pri-protestech-ve-frankfurtu/2895780",
+        "detail": "Politici odsoudili násilí při mládežnických protestech za vyšší investice do školství a nižší životní náklady."
       },
       {
         "number": 4,
-        "title": "Ze StarDance vypadli Tomáš Polák a Adriana Mašková",
-        "url": "https://www.novinky.cz/clanek/kultura-tv-streaming-ze-stardance-vypadli-tomas-polak-a-adriana-maskova-40605925",
-        "detail": "Ve čtvrtém večeru soutěže skončil pár Tomáš Polák a Adriana Mašková; pokračuje šest dvojic."
+        "title": "Ve volbách v USA by demokraté mohli opět získat většinu v Kongresu",
+        "url": "https://www.ceskenoviny.cz/zpravy/ve-volbach-v-usa-by-demokrate-mohli-opet-ziskat-vetsinu-v-kongresu/2895682",
+        "detail": "Průzkumy naznačují, že demokraté mají šanci znovu získat většinu v Kongresu; výsledek ovlivní další prostor vlády k prosazování programu."
       },
       {
         "number": 5,
-        "title": "Soud s konečnou platností zamítl Trumpovu žalobu, v níž žádal od WSJ miliardy",
-        "url": "https://www.ceskenoviny.cz/zpravy/soud-s-konecnou-platnosti-zamitl-trumpovu-zalobu-v-niz-zadal-od-wsj-miliardy/2895569",
-        "detail": "Americký soud definitivně odmítl žalobu na deset miliard dolarů kvůli článku Wall Street Journal o Jeffreym Epsteinovi."
+        "title": "Zlín povede koalice trojbloku, STAN a Zlín 21; primátor připadne STAN či Zlín 21",
+        "url": "https://www.ceskenoviny.cz/zpravy/zlin-povede-koalice-trojbloku-stan-a-zlin-21-primator-pripadne-stan-ci-zlin-21/2895863",
+        "detail": "Novou radniční většinu vytvoří trojblok, STAN a Zlín 21; post primátora má získat STAN nebo Zlín 21."
       },
       {
         "number": 6,
-        "title": "Tusk obvinil opozici ze snah zničit demokracii v kontextu krize ústavního soudu",
-        "url": "https://www.ceskenoviny.cz/zpravy/tusk-obvinil-opozici-ze-snah-znicit-demokracii-v-kontextu-krize-ustavniho-soudu/2895567",
-        "detail": "Polský premiér spojil spor o vedení ústavního soudu s širším střetem o podobu demokracie a roli národně konzervativní opozice."
+        "title": "U Rudolfina se sešli lidé kvůli nezvyklé podobě předávání cen za literaturu",
+        "url": "https://www.ceskenoviny.cz/zpravy/u-rudolfina-se-sesli-lide-kvuli-nezvykle-podobe-predavani-cen-za-literaturu/2895817",
+        "detail": "Veřejnost se sešla kvůli neobvyklé podobě předávání státních literárních cen a sporu kolem kulturní ceremonie."
       },
       {
         "number": 7,
-        "title": "Nejlepšími českými snímky na festivalu Jihlava jsou filmy Zářit a Land of Fire",
-        "url": "https://www.ceskenoviny.cz/zpravy/nejlepsimi-ceskymi-snimky-na-festivalu-jihlava-jsou-filmy-zarit-a-land-of-fire/2895564",
-        "detail": "Českou soutěž festivalu Ji.hlava ovládly filmy Zářit a Land of Fire; v mezinárodní sekci uspěl snímek Mohabat."
+        "title": "Mathé a Dvořák: Pro financování ČT a ČRo je nejlepší poplatkový model",
+        "url": "https://www.ceskenoviny.cz/zpravy/mathe-a-dvorak-pro-financovani-ct-a-cro-je-nejlepsi-poplatkovy-model/2895735",
+        "detail": "Bývalí šéfové veřejnoprávních médií považují poplatky za nejlepší způsob, jak chránit stabilitu a nezávislost ČT a ČRo."
       },
       {
         "number": 8,
-        "title": "Etiopský premiér členům vlády nařídil vojenský výcvik a zveřejnil fotky",
-        "url": "https://www.novinky.cz/clanek/zahranicni-svet-etiopsky-premier-clenum-vlady-naridil-vojensky-vycvik-a-zverejnil-fotky-40605922",
-        "detail": "Ministři včetně premiéra absolvují výcvik, který má podle vlády posílit disciplínu a vedení v době bezpečnostního napětí."
+        "title": "Nacher chce debatu o definici veřejné služby, opozice řeší podle Grolicha postup",
+        "url": "https://www.ceskenoviny.cz/zpravy/nacher-chce-debatu-o-definici-verejne-sluzby-opozice-resi-podle-grolicha-postup/2895722",
+        "detail": "Patrik Nacher chce znovu vymezit veřejnou službu médií; opozice podle Jana Grolicha zvažuje další společný postup."
       },
       {
         "number": 9,
-        "title": "Maďarsko začne od středy zveřejňovat spisy komunistické tajné policie",
-        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-madarsko-zacne-od-stredy-zverejnovat-spisy-komunisticke-tajne-policie-40605926",
-        "detail": "Od 4. listopadu má být postupně zveřejněno 60 až 80 tisíc jmen informátorů; část údajů zůstane chráněná kvůli bezpečnosti."
+        "title": "Zemřel textař, skladatel a rozhlasový režisér Pavel Žák, bylo mu 85 let",
+        "url": "https://www.ceskenoviny.cz/zpravy/zemrel-textar-skladatel-a-rozhlasovy-reziser-pavel-zak-bylo-mu-85-let/2895717",
+        "detail": "Ve věku 85 let zemřel Pavel Žák, autor textů, skladatel a dlouholetý rozhlasový režisér."
       },
       {
         "number": 10,
-        "title": "Českým firmám se u malých jaderných reaktorů rýsují lukrativní zakázky",
-        "url": "https://www.novinky.cz/clanek/ekonomika-ceskym-firmam-se-u-malych-jadernych-reaktoru-rysuji-lukrativni-zakazky-40605255",
-        "detail": "Program Rolls-Royce SMR může českým dodavatelům přinést desítky miliard; Škoda JS má exkluzivně dodat řídicí systémy."
+        "title": "Průzkum: Financování ČT a ČRo ostře dělí voliče vlády a opozice",
+        "url": "https://www.ceskenoviny.cz/zpravy/pruzkum-financovani-ct-a-cro-ostre-deli-volice-vlady-a-opozice/2895715",
+        "detail": "Průzkum ukázal výrazný politický příkop v názorech na financování veřejnoprávních médií."
       },
       {
         "number": 11,
-        "title": "Norsko na Trumpův vulgární útok zareagovalo humornou turistickou kampaní",
-        "url": "https://www.ceskenoviny.cz/zpravy/norsko-na-trumpuv-vulgarni-utok-zareagovalo-humornou-turistickou-kampani/2895433",
-        "detail": "Visit Norway obrátil urážku v kampaň propagující architektonicky pozoruhodné veřejné toalety a norskou krajinu."
+        "title": "Průzkum: Za rok vzrostly nájmy půlce lidí, čtvrtina si další růst nemůže dovolit",
+        "url": "https://www.ceskenoviny.cz/zpravy/pruzkum-za-rok-vzrostly-najmy-pulce-lidi-ctvrtina-si-dalsi-rust-nemuze-dovolit/2895652",
+        "detail": "Polovině dotázaných se za rok zvýšil nájem a čtvrtina uvádí, že další zdražení už finančně nezvládne."
       },
       {
         "number": 12,
-        "title": "Babiš letos nechystá výměny ve vládě, v dalších letech je nevyloučil",
-        "url": "https://www.ceskenoviny.cz/zpravy/babis-letos-nechysta-vymeny-ve-vlade-v-dalsich-letech-je-nevyloucil/2895413",
-        "detail": "Premiér letos změny neplánuje, práci ministrů chce znovu hodnotit v lednu; kritizoval některé výroky Motoristů."
+        "title": "Státní ceny v kultuře odmítli dva laureáti. Klempíř nepřišel",
+        "url": "https://www.novinky.cz/clanek/kultura-statni-ceny-v-kulture-odmitli-dva-laureati-klempir-neprisel-40605968",
+        "detail": "Dva laureáti státní ocenění odmítli a ministr na ceremonii nepřišel; předávání doprovázely protesty a spory."
       },
       {
         "number": 13,
-        "title": "Babiš: Diskusi o poplatcích nebudeme omezovat, peníze nepůjdou z rozpočtu",
-        "url": "https://www.ceskenoviny.cz/zpravy/babis-diskusi-o-poplatcich-nebudeme-omezovat-penize-nepujdou-z-rozpoctu/2895395",
-        "detail": "Debata ve druhém čtení nemá být časově omezena; zvažuje se dobrovolný poplatek s garantovanou částkou mimo přímé rozpočtové financování."
+        "title": "Češi za placený sex utrácejí miliardy",
+        "url": "https://www.novinky.cz/clanek/ekonomika-cesi-za-placeny-sex-utraceji-miliardy-40605565",
+        "detail": "Odhad výdajů českých domácností za rok 2024 činí 2,9 miliardy korun; debatu komplikuje anonymita trhu a daňová pravidla."
       },
       {
         "number": 14,
-        "title": "Brusel může brambůrky připravit o slaninu na obalu",
-        "url": "https://www.novinky.cz/clanek/ekonomika-brusel-muze-bramburky-pripravit-o-slaninu-na-obalu-40605774",
-        "detail": "Ochrana názvů masných výrobků by mohla zasáhnout označení příchutí chipsů; výrobci žádají výjimku pro snacky."
+        "title": "Zemřel Juan Atkins, průkopník hudebního stylu techno",
+        "url": "https://www.novinky.cz/clanek/kultura-hudba-zemrel-juan-atkins-prukopnik-hudebniho-stylu-techno-40605996",
+        "detail": "Průkopník detroitského techna Juan Atkins zemřel ve věku 64 let; příčina úmrtí nebyla oficiálně zveřejněna."
       },
       {
         "number": 15,
-        "title": "Babiš má v plánu jít ve svátek 17. listopadu na Národní třídu",
-        "url": "https://www.ceskenoviny.cz/zpravy/babis-ma-v-planu-jit-ve-svatek-17-listopadu-na-narodni-tridu/2895405",
-        "detail": "Premiér plánuje návštěvu Národní třídy, přesný čas zatím neurčil; pořadatelé Korza Národní chystají i sbírku."
+        "title": "Radniční koalici v Prostějově vytváří Na rovinu! s Prostějovskými demokraty",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-olomoucky-kraj-radnicni-koalici-v-prostejove-vytvori-na-rovinu-s-ods-je-podepsano-memorandum-40605991",
+        "detail": "Podepsané memorandum počítá s osmnáctičlennou většinou; personální rozdělení vedení města se ještě dojednává."
       },
       {
         "number": 16,
-        "title": "Studenti dostanou omluvenku na protesty. Klempíř nesmí na DAMU",
-        "url": "https://www.novinky.cz/clanek/domaci-studenti-dostanou-omluvenku-na-protesty-klempir-nesmi-na-damu-40605898",
-        "detail": "Vysoké školy omluví účast na protestech za veřejnoprávní média 3. listopadu; DAMU označila Otu Klempíře za nežádoucího."
+        "title": "Skupina OPEC+ ponechá limity pro těžbu ropy beze změny",
+        "url": "https://www.novinky.cz/clanek/ekonomika-skupina-opec-ponecha-limity-pro-tezbu-ropy-beze-zmeny-40605974",
+        "detail": "OPEC+ ponechá prosincové limity těžby beze změny; případné další úpravy se čekají až v příštím roce."
       },
       {
         "number": 17,
-        "title": "Volkswagenu se zadřel motor zisku. Škoda ho má skoro dvacetkrát vyšší než celý koncern",
-        "url": "https://www.novinky.cz/clanek/ekonomika-volkswagenu-se-zadrel-motor-zisku-skoda-ho-ma-skoro-dvacetkrat-vyssi-nez-cely-koncern-40605727",
-        "detail": "Provozní zisk VW srazily mimořádné náklady, slabší Čína a cla; Škoda Auto vykázala téměř devatenáctinásobek výsledku celé skupiny."
+        "title": "Korea s projektem rozšíření Dukovan nadále počítá, ujistil ministr",
+        "url": "https://www.novinky.cz/clanek/ekonomika-korea-s-projektem-rozsireni-dukovan-nadale-pocita-ujistil-ministr-40605978",
+        "detail": "Jižní Korea potvrdila závazek k projektu Dukovan navzdory neúspěšným jednáním o stavební smlouvě."
       },
       {
         "number": 18,
-        "title": "Finalisty ankety Car of the Year jsou již pouze elektromobily",
-        "url": "https://www.ceskenoviny.cz/zpravy/finalisty-ankety-car-of-the-year-jsou-jiz-pouze-elektromobily/2895375",
-        "detail": "Poprvé v historii tvoří všech sedm finalistů čisté elektromobily; vítěz bude vyhlášen 8. ledna."
+        "title": "Německo před zimou nesplnilo cíl pro zásoby plynu, v Česku jsou vyšší",
+        "url": "https://www.novinky.cz/clanek/ekonomika-nemecko-pred-zimou-nesplnilo-cil-pro-zasoby-plynu-v-cesku-jsou-vyssi-40605972",
+        "detail": "Německé zásobníky zůstaly pod cílem, zatímco česká naplněnost je vyšší; debata se soustředí na odolnost dodávek přes zimu."
       },
       {
         "number": 19,
-        "title": "Monkey Business, Anna K. a další hudebníci k novým nahrávkám připojují turné",
-        "url": "https://www.ceskenoviny.cz/zpravy/monkey-business-anna-k-a-dalsi-hudebnici-k-novym-nahravkam-pripojuji-turne/2895373",
-        "detail": "Nové desky a koncertní turné oznamují Monkey Business, Anna K., Turbo, Cocotte Minute a další interpreti."
+        "title": "Recenze: Janáčkova Šárka bojuje za práva žen",
+        "url": "https://www.novinky.cz/clanek/kultura-divadlo-recenze-janackova-sarka-bojuje-za-prava-zen-40605975",
+        "detail": "Festival Janáček Brno uvádí všech deset skladatelových oper; nová Šárka akcentuje ženskou emancipaci."
       },
       {
         "number": 20,
-        "title": "Bitcoin za posledních deset let zvýšil hodnotu o téměř 11 000 procent",
-        "url": "https://www.ceskenoviny.cz/zpravy/bitcoin-za-poslednich-deset-let-zvysil-hodnotu-o-temer-11000-procent/2895369",
-        "detail": "Osmnáct let od zveřejnění whitepaperu je bitcoin přibližně 110krát dražší než před deseti lety, zůstává ale výrazně volatilní."
-      },
-      {
-        "number": 21,
-        "title": "Údaje ČSÚ: Naděje dožití seniorů roste, jen část seniorského života je ve zdraví",
-        "url": "https://www.ceskenoviny.cz/zpravy/udaje-csu-nadeje-doziti-senioru-roste-jen-cast-seniorskeho-zivota-je-ve-zdravi/2895344",
-        "detail": "Naděje dožití v 65 letech za dvě desetiletí vzrostla téměř o tři roky, zdravá část seniorského života ale zůstává menšinová."
+        "title": "Rostliny, které nepotřebují sex, by jednou mohly lidstvu zajistit obživu",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-rostliny-ktere-nepotrebuji-sex-by-jednou-mohly-lidstvu-zajistit-obzivu-40605024",
+        "detail": "Výzkum CEITEC zkoumá apomixii, tedy klonální semena, která by mohla urychlit šlechtění a posílit potravinovou bezpečnost."
       }
     ]
   },
@@ -457,29 +452,29 @@
     },
     {
       "title": "Ariana má starší lístek",
-      "detail": "Poslední veřejný hotovostní lístek je z 30. 10. 2026, tedy o dva kalendářní dny starší než dashboard."
+      "detail": "Poslední veřejný hotovostní lístek je z 30. 10. 2026, tedy o tři kalendářní dny starší než dashboard."
     },
     {
-      "title": "Dobrovolné překryvy",
-      "detail": "Tři dnešní vstupy začínají současně v 10:00; dvě čtvrteční večerní akce se krátce překrývají."
+      "title": "Čtvrteční překryv",
+      "detail": "K Madoně se rzí a Za tajemstvím mozku se přibližně 19:00–19:30 překrývají."
     },
     {
       "title": "Akce z externích kalendářů",
-      "detail": "U zdrojů bez stabilních detailních karet nelze vyloučit pozdější změnu času, ceny nebo dostupnosti; před cestou otevři zdroj."
+      "detail": "Před cestou ověř aktuální čas, cenu, kapacitu a dostupnost na zdrojové stránce."
     }
   ],
   "nextSteps": [
     {
-      "title": "Dnes v 10:00",
-      "detail": "Vyber jedno muzeum, nebo si nech dopoledne úplně volné; všechny položky jsou neblokující."
+      "title": "Dnes ráno",
+      "detail": "Zvol jeden měřitelný výstup pro souvislou práci a rezervuj mu hlavní část dne."
     },
     {
-      "title": "Před čtvrtkem",
-      "detail": "Rozhodni mezi K Madoně se rzí a Za tajemstvím mozku kvůli překryvu 19:00–19:30."
+      "title": "Pokud půjdeš na Týden AV",
+      "detail": "Vyber konkrétní program a zkontroluj registraci ještě před cestou."
     },
     {
-      "title": "Před akcí",
-      "detail": "U bezplatných tipů ověř aktuální dostupnost na zdrojové stránce, zejména u nově přidaných listopadových akcí."
+      "title": "Do středy",
+      "detail": "Rozhodni, zda je priorita JobChallenge, Mikulov, nebo večerní CLOUD; ve čtvrtek vyber jednu z překrývajících se akcí."
     }
   ]
 }
