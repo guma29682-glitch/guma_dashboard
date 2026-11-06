@@ -1,12 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T05:45:00+01:00",
+  "generatedAt": "2026-11-06T05:45:00+01:00",
   "latest": "data/latest.json",
   "reports": [
     {
+      "date": "2026-11-06",
+      "title": "GUMA dashboard · 6. 11. 2026",
+      "label": "6. 11. 2026",
+      "path": "data/reports/2026-11-06.json",
+      "updatedAt": "2026-11-06T05:45:00+01:00"
+    },
+    {
       "date": "2026-11-05",
       "title": "GUMA dashboard · 5. 11. 2026",
-      "path": "data/reports/2026-11-05.json"
+      "path": "data/reports/2026-11-05.json",
+      "label": "5. 11. 2026"
     },
     {
       "date": "2026-11-04",
@@ -103,7 +111,8 @@
     {
       "date": "2026-10-20",
       "title": "GUMA dashboard · 20. 10. 2026",
-      "path": "data/reports/2026-10-20.json"
+      "path": "data/reports/2026-10-20.json",
+      "label": "20. 10. 2026"
     },
     {
       "date": "2026-10-19",
@@ -225,13 +234,15 @@
       "date": "2026-09-28",
       "title": "GUMA dashboard · 28. 9. 2026",
       "path": "data/reports/2026-09-28.json",
-      "updatedAt": "2026-09-28T05:45:00+02:00"
+      "updatedAt": "2026-09-28T05:45:00+02:00",
+      "label": "28. 9. 2026"
     },
     {
       "date": "2026-09-27",
       "title": "GUMA dashboard · 27. 9. 2026",
       "path": "data/reports/2026-09-27.json",
-      "updatedAt": "2026-09-27T05:45:00+02:00"
+      "updatedAt": "2026-09-27T05:45:00+02:00",
+      "label": "27. 9. 2026"
     },
     {
       "date": "2026-09-26",

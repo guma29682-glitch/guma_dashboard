@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "title": "GUMA dashboard · 6. 11. 2026",
+  "date": "2026-11-06",
+  "updatedAt": "2026-11-06T05:45:00+01:00",
+  "updatedLabel": "Aktualizováno 6. 11. 2026 v 05:45 CET",
+  "template": "guma-dashboard-approved-2026-08-07",
+  "newsMinimumItems": 20,
+  "daySummary": "Dnes je v kalendáři jeden soukromý blok 11:30–13:00. Dopoledne před ním a odpoledne po něm zůstávají volná pracovní okna; večer jsou tři bezplatné akce, z nichž první dvě se překrývají.",
+  "summaryItems": [
+    "Svátek: Liběna; nejde o státní svátek.",
+    "Kurzy ČNB: Oficiální denní lístek z 5. 11. 2026: EUR/CZK 24,290 (koruna posiluje) a USD/CZK 21,646 (zhruba beze změny); trend vychází z fixingů 2., 4. a 5. 11.",
+    "Ariana směnárna prodej: EUR 24,50 Kč a USD 22,10 Kč (veřejný hotovostní kurzovní lístek z 2. 11. 2026; starší o čtyři dny).",
+    "COST HUNTER: kontrola 6. 11. 2026 je kompletní; 0 produktů zlevnilo, 0 zdražilo, 5 je beze změny a 0 je nezjištěno."
+  ],
+  "calendar": {
+    "meetingCount": 1,
+    "conflictCount": 0,
+    "summary": "Jeden anonymizovaný soukromý blok 11:30–13:00; volitelné večerní akce jsou transparentní a neblokují čas.",
+    "freeWindows": [
+      "05:45–11:30: soustředěná práce.",
+      "13:00–17:00: volné okno bez blokující události."
+    ],
+    "context": [
+      "11:30–13:00 – Osobní blok; drž volný čas před i po něm.",
+      "17:00–18:00 – Příběhy z Paláce šlechtičen: móda biedermeieru, Palác šlechtičen, zdarma.",
+      "17:30–18:30 – Dva nálezy dukátů z 15. století, Dietrichsteinský palác, zdarma.",
+      "19:00–20:00 – Za tajemstvím mozku: mediátory, Moravská zemská knihovna, zdarma.",
+      "Víkend: festival Vzdělávání bez hranic s MUNI (7.–8. 11.); ověř registraci a konkrétní časy."
+    ]
+  },
+  "prep": [
+    "Nejdůležitější pracovní úkol dej do bloku před 11:30; další soustředěné okno je 13:00–17:00.",
+    "Mezi akcemi v 17:00 a 17:30 vyber nejvýše jednu, protože se překrývají.",
+    "Pro víkendový festival s MUNI ověř registraci a přesný program."
+  ],
+  "context": [
+    "Gmail nabídky: obousměrná kontrola aktivní i archivované pošty mimo koš a spam dokončena; žádná ověřená aktivní nabídka s jasnou platností nezůstala.",
+    "Akce zdarma / do 100 Kč: po kontrole veřejných zdrojů a duplicit byly do kalendáře přidány tři transparentní neblokující akce na dnešní večer.",
+    "TED: v celém Guma inboxu bylo ověřeno 28 jedinečných Talků ze čtyř přeposlaných TED Recommends; promo a duplicity jsou vynechány.",
+    "COST HUNTER: list GUMA report má kontrolní datum 6. 11. 2026 a všech pět produktů.",
+    "Notion nebyl v tomto běhu technicky dostupný; související kontext z něj není zahrnut."
+  ],
+  "signals": {
+    "meetings": "1 / 0",
+    "freeWindow": "05:45–11:30",
+    "newMail": "0 aktivních nabídek",
+    "unknownPrices": "0"
+  },
+  "publicSafety": "Veřejně bezpečné shrnutí bez kódů, celých e-mailů, citlivých zdravotních údajů a soukromých konverzací.",
+  "costHunter": {
+    "counts": {
+      "cheaper": 0,
+      "moreExpensive": 0,
+      "unchanged": 5,
+      "unknown": 0,
+      "newlyKnown": 0
+    },
+    "summary": "Zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0",
+    "freshnessNote": "Kontrolní datum 6. 11. 2026 je dnešní a všech pět produktů je přítomno; přesný čas list neuvádí a ceny se znovu nedohledávaly.",
+    "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámka se uvádí jen při absolutní změně alespoň 10 % nebo nejistotě.",
+    "sourceCheckedLabel": "Kontrola: 6. 11. 2026",
+    "sourceSheet": "GUMA report",
+    "sourceWorkbook": "COST HUNTER - sledovane ceny",
+    "products": [
+      {
+        "status": "Beze změny",
+        "product": "La Baume Saint Paul Cabernet-Syrah nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1456406-la-baume-saint-paul-cabernet-syrah-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "179,90 Kč",
+        "priceYesterday": "179,90 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "Kylie Minogue Sparkling nealkoholické",
+        "productUrl": "https://www.rohlik.cz/1471462-kylie-minogue-sparkling-nealkoholicke",
+        "store": "Rohlik.cz",
+        "priceToday": "169,90 Kč",
+        "priceYesterday": "169,90 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "ORGANIS Mandle jádra 1000 g",
+        "productUrl": "https://www.lekarna.cz/organis-mandle-jadra-1000-g/",
+        "store": "Lekarna.cz",
+        "priceToday": "415,00 Kč",
+        "priceYesterday": "415,00 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "RITTER SPORT Mléčná čokoláda celé mandle 100 g",
+        "productUrl": "https://www.lekarna.cz/ritter-sport-mlecna-cokolada-cele-mandle-100-g/",
+        "store": "Lekarna.cz",
+        "priceToday": "64,00 Kč",
+        "priceYesterday": "64,00 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      },
+      {
+        "status": "Beze změny",
+        "product": "Wrigley's Orbit Žvýkačky bez cukru s melounovou příchutí",
+        "productUrl": "https://www.rohlik.cz/1290599-wrigley-s-orbit-zvykacky-bez-cukru-s-melounovou-prichuti",
+        "store": "Rohlik.cz",
+        "priceToday": "21,90 Kč",
+        "priceYesterday": "21,90 Kč",
+        "change": "0,00 Kč (0,0 %)",
+        "note": ""
+      }
+    ]
+  },
+  "tedRecommendations": {
+    "note": "28 jedinečných Talků ze čtyř přeposlaných TED Recommends v celém Guma inboxu; zachované pořadí skutečných Talků, bez promo, konferencí, členství, her a transcript/watch duplicit.",
+    "items": [
+      {
+        "title": "A food system that fights climate change — instead of causing it · Gonzalo Muñoz",
+        "detail": "Jak omezit plýtvání a změnit potravinový systém z klimatické zátěže na součást řešení.",
+        "url": "https://www.ted.com/talks/gonzalo_munoz_a_food_system_that_fights_climate_change_instead_of_causing_it"
+      },
+      {
+        "title": "The wheat field that could change the world · Guntur V. Subbarao",
+        "detail": "Nový typ pšenice může omezit bakterie spotřebovávající hnojivo, zvýšit výnosy a snížit emise.",
+        "url": "https://www.ted.com/talks/guntur_v_subbarao_the_wheat_field_that_could_change_the_world"
+      },
+      {
+        "title": "The seeds of change helping African farmers grow out of poverty · Andrew Youn",
+        "detail": "Osivo, malé úvěry a školení pomáhají drobným farmářům zvyšovat výnosy i příjmy.",
+        "url": "https://www.ted.com/talks/andrew_youn_the_seeds_of_change_helping_african_farmers_grow_out_of_poverty"
+      },
+      {
+        "title": "How climate change could make our food less nutritious · Kristie Ebi",
+        "detail": "Vyšší koncentrace CO2 může snižovat obsah klíčových živin v plodinách a zhoršovat skrytou podvýživu.",
+        "url": "https://www.ted.com/talks/kristie_ebi_how_climate_change_could_make_our_food_less_nutritious"
+      },
+      {
+        "title": "How to disrupt philanthropy in response to crisis · Darren Walker, Chris Anderson",
+        "detail": "Rozhovor o filantropii, odpovědnosti firem a rychlejší reakci kapitálu na společenské krize.",
+        "url": "https://www.ted.com/talks/darren_walker_how_to_disrupt_philanthropy_in_response_to_crisis"
+      },
+      {
+        "title": "The real reason female entrepreneurs get less funding · Dana Kanze",
+        "detail": "Výzkum ukazuje, jak rozdílně položené investorské otázky znevýhodňují podnikatelky.",
+        "url": "https://www.ted.com/talks/dana_kanze_the_real_reason_female_entrepreneurs_get_less_funding"
+      },
+      {
+        "title": "How conscious investors can turn up the heat and make companies change · Vinay Shandal",
+        "detail": "Investoři mohou hlasovacími právy a kapitálem prosazovat ve firmách měřitelné změny.",
+        "url": "https://www.ted.com/talks/vinay_shandal_how_conscious_investors_can_turn_up_the_heat_and_make_companies_change"
+      },
+      {
+        "title": "How to pull the emergency brake on global warming · Mohamed A. Sultan",
+        "detail": "Omezení metanu ze skládek může rychle brzdit oteplování a zároveň zlepšit život ve městech.",
+        "url": "https://www.ted.com/talks/mohamed_a_sultan_how_to_pull_the_emergency_brake_on_global_warming"
+      },
+      {
+        "title": "How satellites are supporting farmers across Africa · Catherine Nakalembe",
+        "detail": "Satelitní snímky pomáhají drobným farmářům připravit se na sucho, povodně a výpadky úrody.",
+        "url": "https://www.ted.com/talks/catherine_nakalembe_how_satellites_are_supporting_farmers_across_africa"
+      },
+      {
+        "title": "A snack's journey from the farm to your mouth · Aruna Rangachar Pohl",
+        "detail": "Cesta sušenky od pole ke spotřebiteli odhaluje dopady průmyslového zemědělství i cestu k odolnějšímu systému.",
+        "url": "https://www.ted.com/talks/aruna_rangachar_pohl_a_snack_s_journey_from_the_farm_to_your_mouth"
+      },
+      {
+        "title": "A crash course in organic chemistry · Jakob Magolan",
+        "detail": "Přístupný úvod do organické chemie bourá představu, že je tento obor nutně nesrozumitelný.",
+        "url": "https://www.ted.com/talks/jakob_magolan_a_crash_course_in_organic_chemistry"
+      },
+      {
+        "title": "A creative solution for the water crisis in Flint, Michigan · LaToya Ruby Frazier",
+        "detail": "Umělecký a komunitní projekt přivedl čistou vodu přímo k rodinám zasaženým krizí ve Flintu.",
+        "url": "https://www.ted.com/talks/latoya_ruby_frazier_a_creative_solution_for_the_water_crisis_in_flint_michigan"
+      },
+      {
+        "title": "What's hidden under the Greenland ice sheet? · Kristin Poinar",
+        "detail": "Výzkum odhaluje rozsáhlý vodní systém pod grónským ledem a jeho vliv na růst hladiny moře.",
+        "url": "https://www.ted.com/talks/kristin_poinar_what_s_hidden_under_the_greenland_ice_sheet"
+      },
+      {
+        "title": "How women in Pakistan are creating political change · Shad Begum",
+        "detail": "Aktivistka ukazuje, jak si ženy v konzervativních komunitách budují politický hlas a prosazují změny.",
+        "url": "https://www.ted.com/talks/shad_begum_how_women_in_pakistan_are_creating_political_change"
+      },
+      {
+        "title": "The grassroots movement transforming public safety · Aqeela Sherrills",
+        "detail": "Komunitně vedené programy staví veřejnou bezpečnost na důvěře a místních vztazích.",
+        "url": "https://www.ted.com/talks/aqeela_sherrills_the_grassroots_movement_transforming_public_safety"
+      },
+      {
+        "title": "The sweet future of vertical farming · Hiroki Koga",
+        "detail": "Vertikální farmy spojují solární energií, AI, robotiku a opylování pro celoroční městskou produkci.",
+        "url": "https://www.ted.com/talks/hiroki_koga_the_sweet_future_of_vertical_farming"
+      },
+      {
+        "title": "How to finance the future of farming · Berry Marttin",
+        "detail": "Lepší trhy s uhlíkovými a biodiverzitními kredity mohou farmářům zaplatit přechod k šetrnějším postupům.",
+        "url": "https://www.ted.com/talks/berry_marttin_how_to_finance_the_future_of_farming"
+      },
+      {
+        "title": "The discoveries awaiting us in the ocean's twilight zone · Heidi M. Sosik",
+        "detail": "Málo prozkoumané oceánské šero může skrývat milion druhů a zásadní část rybí biomasy.",
+        "url": "https://www.ted.com/talks/heidi_m_sosik_the_discoveries_awaiting_us_in_the_ocean_s_twilight_zone"
+      },
+      {
+        "title": "Is climate change slowing down the ocean? · Susan Lozier",
+        "detail": "Data ukazují, jak může oteplování zpomalovat převratné proudění oceánu a měnit klima.",
+        "url": "https://www.ted.com/talks/susan_lozier_is_climate_change_slowing_down_the_ocean"
+      },
+      {
+        "title": "How octopuses battle each other · Greg Gage",
+        "detail": "Pozorování soubojů odhaluje, jak chobotnice používají držení těla, barvy a pohyb při agresi.",
+        "url": "https://www.ted.com/talks/greg_gage_how_octopuses_battle_each_other"
+      },
+      {
+        "title": "How to solve the world's biggest problems · Natalie Cargill",
+        "detail": "Promyšlené soustředění velkého kapitálu může cílit na globální problémy s měřitelným dopadem.",
+        "url": "https://www.ted.com/talks/natalie_cargill_how_to_solve_the_world_s_biggest_problems"
+      },
+      {
+        "title": "The \"dead zone\" of the Gulf of Mexico · Nancy Rabalais",
+        "detail": "Přebytek živin vytváří v Mexickém zálivu oblast bez kyslíku; řešení začíná už v povodí.",
+        "url": "https://www.ted.com/talks/nancy_rabalais_the_dead_zone_of_the_gulf_of_mexico"
+      },
+      {
+        "title": "Yup, I built a nuclear fusion reactor · Taylor Wilson",
+        "detail": "Příběh mladého vynálezce, který ve čtrnácti letech postavil funkční fúzní reaktor.",
+        "url": "https://www.ted.com/talks/taylor_wilson_yup_i_built_a_nuclear_fusion_reactor"
+      },
+      {
+        "title": "The boiling river of the Amazon · Andrés Ruzo",
+        "detail": "Geovědec pátrá po legendární vroucí řece v Amazonii a vysvětluje její neobvyklý geotermální původ.",
+        "url": "https://www.ted.com/talks/andres_ruzo_the_boiling_river_of_the_amazon"
+      },
+      {
+        "title": "The toxic baby · Tyrone Hayes, Penelope Jagessar Chaffer",
+        "detail": "Talk sleduje možné dopady chemických látek z prostředí na vývoj dítěte na příkladu atrazinu.",
+        "url": "https://www.ted.com/talks/tyrone_hayes_penelope_jagessar_chaffer_the_toxic_baby"
+      },
+      {
+        "title": "4 ways we can avoid a catastrophic drought · David Sedlak",
+        "detail": "Čtyři praktické cesty, jak města mohou získávat vodu z místních zdrojů a zvládat dlouhé sucho.",
+        "url": "https://www.ted.com/talks/david_sedlak_4_ways_we_can_avoid_a_catastrophic_drought"
+      },
+      {
+        "title": "How we can make crops survive without water · Jill Farrant",
+        "detail": "Výzkum rostlin schopných vyschnout a znovu ožít může vést k plodinám odolnějším vůči suchu.",
+        "url": "https://www.ted.com/talks/jill_farrant_how_we_can_make_crops_survive_without_water"
+      },
+      {
+        "title": "Glow-in-the-dark sharks and other stunning sea creatures · David Gruber",
+        "detail": "Biofluorescenční žraloci a další tvorové mohou přinést nové poznatky o komunikaci i nervové soustavě.",
+        "url": "https://www.ted.com/talks/david_gruber_glow_in_the_dark_sharks_and_other_stunning_sea_creatures"
+      }
+    ]
+  },
+  "news": {
+    "note": "20 ověřených relevantních zpráv v okně 5. 11. 2026 08:00 až 6. 11. 2026 05:45 CET; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo v Íránu jsou vynechány.",
+    "items": [
+      {
+        "title": "1. Rubio pod drobnohledem. Republikáni očekávají jeho odchod z Trumpovy vlády",
+        "detail": "Spekulace o odchodu ministra zahraničí sílí po republikánské volební prohře; ve hře může být i příprava na prezidentskou kandidaturu v roce 2028.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-amerika-rubio-pod-drobnohledem-republikani-ocekavaji-jeho-odchod-z-trumpovy-vlady-40607049"
+      },
+      {
+        "title": "2. Miliardy za poškozené klima. Die Linke chce, aby Německo platilo rozvojovému světu reparace",
+        "detail": "Německá levice žádá zákonné klimatické reparace rozvojovým zemím; návrh má malou parlamentní podporu, ale otevírá debatu o odpovědnosti bohatých států.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-miliardy-za-poskozene-klima-die-linke-chce-aby-nemecko-platilo-rozvojovemu-svetu-reparace-40607067"
+      },
+      {
+        "title": "3. Exkluzivní průzkum: ODS se propadá, lidovci si polepšili",
+        "detail": "Průzkum NMS ukazuje stabilizaci ANO, další pokles ODS a růst lidovců a Našeho Česka.",
+        "url": "https://www.novinky.cz/clanek/domaci-exkluzivni-pruzkum-ods-se-propada-lidovci-si-polepsili-40606786"
+      },
+      {
+        "title": "4. Kdo chyběl při hlasování ve Sněmovně nejčastěji? Vede Babiš",
+        "detail": "Roční přehled účasti poslanců ukazuje nejnižší podíl u premiéra Babiše; časté absence mají i další členové vlády a poslanci.",
+        "url": "https://www.novinky.cz/clanek/domaci-kdo-chybel-pri-hlasovani-ve-snemovne-nejcasteji-vede-babis-40606994"
+      },
+      {
+        "title": "5. Ve Francii demonstrovaly statisíce lidí. Stávka přinesla protesty, barikády i násilí",
+        "detail": "Generální stávka kvůli životním nákladům a mzdám přivedla do ulic podle různých odhadů stovky tisíc až 1,6 milionu lidí.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-stavka-ve-francii-protesty-barikady-i-nasili-v-rade-mest-40606986"
+      },
+      {
+        "title": "6. Rakousko končí s papírovými dálničními známkami",
+        "detail": "Od 1. prosince se budou prodávat už jen digitální známky; letošní roční papírové kupóny zůstávají platné do konce ledna 2027.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-rakousko-konci-s-papirovymi-dalnicnimi-znamkami-40606856"
+      },
+      {
+        "title": "7. Česko má nový superpočítač za 91 milionů. Pomůže s předpovědí povodní",
+        "detail": "Barbora NG v Ostravě má šestinásobný výkon proti předchůdci a poslouží mimo jiné k přesnějšímu modelování povodní.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-hardware-cesko-ma-novy-superpocitac-za-91-milionu-pomuze-s-predpovedi-povodni-40606993"
+      },
+      {
+        "title": "8. Umělá inteligence mění školy. Evropská komise chce certifikovat AI gramotnost",
+        "detail": "Evropská komise představila balíček pro AI gramotnost žáků a učitelů včetně pilotního certifikátu pro patnáctileté.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-ai-do-skol-40606970"
+      },
+      {
+        "title": "9. Recenze: Agenti Malkovich a Rockwell dobře střílí i filozofují",
+        "detail": "Recenze filmu Divoký kůň Devítka chválí filozofující černou komedii s Johnem Malkovichem a Samem Rockwellem.",
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-recenze-agenti-malkovich-a-rockwell-dobre-strili-i-filozofuji-a-vzdy-tnou-do-ziveho-40606524"
+      },
+      {
+        "title": "10. Ve věku 99 let zemřel dirigent Herbert Blomstedt",
+        "detail": "Zemřel švédsko-americký dirigent, někdejší šéf několika velkých orchestrů a pravidelný spolupracovník České filharmonie.",
+        "url": "https://www.novinky.cz/clanek/kultura-ve-veku-99-let-zemrel-dirigent-blomstedt-40607071"
+      },
+      {
+        "title": "11. Do Síně slávy Českého slavíka vstoupí bratři Nedvědové",
+        "detail": "Jan a František Nedvědovi budou uvedeni do Síně slávy při ceremoniálu 27. listopadu.",
+        "url": "https://www.novinky.cz/clanek/kultura-hudba-do-sine-slavy-ceskeho-slavika-vstoupi-bratri-nedvedove-40607030"
+      },
+      {
+        "title": "12. Ministerstvo financí zveřejní novou prognózu vývoje ekonomiky",
+        "detail": "Ranní výhled má ukázat, jak ministerstvo přehodnotilo růst, inflaci a veřejné finance po zpřísnění měnové politiky.",
+        "url": "https://www.ceskenoviny.cz/zpravy/ministerstvo-financi-zverejni-novou-prognozu-vyvoje-ekonomiky/2898132"
+      },
+      {
+        "title": "13. Babiš: ČT a ČRo budou mít stabilní a předvídatelné financování",
+        "detail": "Premiér hájí změnu financování médií veřejné služby a slibuje stabilitu, zatímco pokračuje spor o jejich nezávislost.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-ct-a-cro-budou-mit-stabilni-a-predvidatelne-financovani/2898039"
+      },
+      {
+        "title": "14. Plaga je pro zrušení limitu počtu dětí pro zachování samostatných školek",
+        "detail": "Ministr školství podporuje zrušení demografického limitu, který by mohl ohrozit samostatnost menších mateřských škol.",
+        "url": "https://www.ceskenoviny.cz/zpravy/plaga-je-pro-zruseni-limitu-poctu-deti-pro-zachovani-samostatnych-skolek/2898006"
+      },
+      {
+        "title": "15. Studenti pražských VŠ chystají protest na podporu ČT a ČRo",
+        "detail": "Studenti plánují další protest proti změně financování veřejnoprávních médií; čas 16:36 odkazuje na symboliku listopadových událostí.",
+        "url": "https://www.ceskenoviny.cz/zpravy/studenti-prazskych-vs-chystaji-protest-na-podporu-ct-a-cro-na-utery-v-1636/2897774"
+      },
+      {
+        "title": "16. Babiš: Česko prodalo Srbsku šest letounů L-39 Skyfox",
+        "detail": "Export šesti českých letounů posiluje zakázky Aero Vodochody i obrannou spolupráci se Srbskem.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-cesko-prodalo-srbsku-sest-letounu-l39-skyfox/2897733"
+      },
+      {
+        "title": "17. Babiš: Vláda plánuje obsadit pozici poradce pro národní bezpečnost",
+        "detail": "Kabinet chce doplnit klíčovou bezpečnostní roli; jméno kandidáta zatím nezveřejnil.",
+        "url": "https://www.ceskenoviny.cz/zpravy/babis-vlada-planuje-obsadit-pozici-poradce-pro-narodni-bezpecnost/2897649"
+      },
+      {
+        "title": "18. ČNB zvýšila základní úrokovou sazbu a zhoršila výhled ekonomiky",
+        "detail": "Bankovní rada zvýšila repo sazbu o čtvrt bodu na 4 procenta a čeká vyšší inflaci i slabší hospodářský růst.",
+        "url": "https://www.ceskenoviny.cz/zpravy/cnb-zvysila-zakladni-urokovou-sazbu-a-zhorsila-vyhled-ekonomiky/2895624"
+      },
+      {
+        "title": "19. Polovina farmářů hodnotí letošek jako jeden z nejhorších",
+        "detail": "Průzkum Agrární komory vyčísluje ztráty nejméně na 25,6 miliardy korun; většina podniků chce omezit investice.",
+        "url": "https://www.ceskenoviny.cz/zpravy/polovina-farmaru-hodnoti-letosek-jako-jeden-z-nejhorsich/2897845"
+      },
+      {
+        "title": "20. Studie: Systém ETS 2 zvýší výdaje na topení plynem či uhlím o tisíce korun",
+        "detail": "Model pro rok 2028 předpokládá citelný růst nákladů domácností s plynovým nebo uhelným vytápěním; nejmenší dopad vychází u dřeva.",
+        "url": "https://www.ceskenoviny.cz/zpravy/studie-system-ets-2-zvysi-vydaje-na-topeni-plynem-ci-uhlim-o-tisice-korun/2897684"
+      }
+    ]
+  },
+  "risks": [
+    "Ariana zveřejňuje lístek z 2. 11. 2026; k rannímu běhu je o čtyři dny starší.",
+    "Notion nebyl technicky dostupný, takže interní poznámky a dlouhodobější projektový kontext chybí.",
+    "U víkendového festivalu Vzdělávání bez hranic s MUNI nejsou v kalendáři přesné časy; před návštěvou je potřeba ověřit program a registraci."
+  ],
+  "nextSteps": [
+    "Zablokuj si nejdůležitější úkol do 11:30.",
+    "Po osobním bloku využij okno 13:00–17:00 na dokončení rozdělané práce.",
+    "Rozhodni se mezi dvěma překrývajícími se akcemi v 17:00 a 17:30; večerní přednáška v 19:00 je časově samostatná.",
+    "Před víkendem ověř program a registraci festivalu s MUNI."
+  ]
+}
