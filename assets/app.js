@@ -53,6 +53,8 @@ const urcMonitorContent = (monitor = {}) => {
   const lead = monitor.summary || monitor.detail || monitor.overallStatus || "";
   const note = monitor.note || monitor.sourceCheckTime || monitor.status || "";
   const rawContent = monitor.rawContent || monitor.handoffContent || "";
+  const columns = Array.isArray(monitor.columns) ? monitor.columns : [];
+  const rows = Array.isArray(monitor.rows) ? monitor.rows : [];
   const items = monitor.items || [
     monitor.incidents,
     monitor.availability,
@@ -60,12 +62,24 @@ const urcMonitorContent = (monitor = {}) => {
     monitor.nextSteps,
   ].flat().filter(Boolean);
 
-  if (!lead && !note && !rawContent && !items.length) return "";
+  if (!lead && !note && !rawContent && !items.length && !columns.length) return "";
+
+  const monitorTable = columns.length ? `
+    <div class="price-wrap">
+      <table>
+        <thead><tr>${columns.map((column) => `<th>${esc(column)}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map((row) => {
+          const cells = Array.isArray(row) ? row : columns.map((column) => row?.[column] || "");
+          return `<tr>${cells.map((cell) => `<td>${esc(cell)}</td>`).join("")}</tr>`;
+        }).join("")}</tbody>
+      </table>
+    </div>` : "";
 
   return `
     ${lead ? `<p class="lead">${esc(lead)}</p>` : ""}
     ${note ? `<p class="status-note">${esc(note)}</p>` : ""}
     ${rawContent ? `<pre class="monitor-handoff">${esc(rawContent)}</pre>` : ""}
+    ${monitorTable}
     ${items.length ? `<ul class="clean-list">${list(items)}</ul>` : ""}`;
 };
 
