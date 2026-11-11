@@ -39,21 +39,33 @@ const itemDetail = (item = {}) => {
 };
 
 const list = (items = [], options = {}) => items.map((item) => {
+  const isStructuredItem = item && typeof item === "object";
   const rawTitle = String(item.title || item);
   const title = esc(options.stripOrdinal ? rawTitle.replace(/^\d+\.\s*/, "") : rawTitle);
   const href = item.url ? safeHref(item.url) : "";
+  const label = isStructuredItem ? `<strong>${title}</strong>` : title;
   const heading = href
-    ? `<a href="${href}" rel="noopener noreferrer"><strong>${title}</strong></a>`
-    : `<strong>${title}</strong>`;
+    ? `<a href="${href}" rel="noopener noreferrer">${label}</a>`
+    : label;
   return `<li>${heading}${item.detail ? `<span class="meta">${itemDetail(item)}</span>` : ""}</li>`;
 }).join("");
 
-const urcMonitorContent = (monitor = {}) => {
+const URC_MONITOR_COLUMNS = [
+  "Navštívený server / stránka",
+  "Zmínka o URC",
+  "Stručný popis",
+  "Odkaz na stránku / zdroj",
+];
+
+const urcMonitorContent = (monitor, reportDate = "") => {
+  if (!monitor) return "";
   monitor = monitor || {};
   const lead = monitor.summary || monitor.detail || monitor.overallStatus || "";
   const note = monitor.note || monitor.sourceCheckTime || monitor.status || "";
   const rawContent = monitor.rawContent || monitor.handoffContent || "";
-  const columns = Array.isArray(monitor.columns) ? monitor.columns : [];
+  const columns = Array.isArray(monitor.columns) && monitor.columns.length
+    ? monitor.columns
+    : [];
   const rows = Array.isArray(monitor.rows) ? monitor.rows : [];
   const items = monitor.items || [
     monitor.incidents,
@@ -75,6 +87,8 @@ const urcMonitorContent = (monitor = {}) => {
       </table>
     </div>` : "";
 
+  if (columns.length) return monitorTable;
+
   return `
     ${lead ? `<p class="lead">${esc(lead)}</p>` : ""}
     ${note ? `<p class="status-note">${esc(note)}</p>` : ""}
@@ -85,7 +99,7 @@ const urcMonitorContent = (monitor = {}) => {
 
 function render(report) {
   const costs = report.costHunter;
-  const monitorContent = urcMonitorContent(report.urcSystemsMonitor);
+  const monitorContent = urcMonitorContent(report.urcSystemsMonitor, report.date);
   const newsItems = report.news?.items || [];
   const expectedNews = Number(report.newsMinimumItems || 0);
   const newsWarning = expectedNews && newsItems.length < expectedNews

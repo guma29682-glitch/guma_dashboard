@@ -375,5 +375,14 @@
         "url": "https://www.ted.com/talks/david_gruber_glow_in_the_dark_sharks_and_other_stunning_sea_creatures"
       }
     ]
+  },
+  "urcSystemsMonitor": {
+    "columns": [
+      "Navštívený server / stránka",
+      "Zmínka o URC",
+      "Stručný popis",
+      "Odkaz na stránku / zdroj"
+    ],
+    "rows": []
   }
 }

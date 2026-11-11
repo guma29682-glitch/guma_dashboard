@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T05:45:01+01:00",
+  "generatedAt": "2026-11-11T05:45:01+01:00",
   "latest": "data/latest.json",
   "reports": [
+    {
+      "date": "2026-11-11",
+      "title": "GUMA dashboard · 11. 11. 2026",
+      "label": "11. 11. 2026",
+      "path": "data/reports/2026-11-11.json",
+      "updatedAt": "2026-11-11T05:45:01+01:00"
+    },
     {
       "date": "2026-11-10",
       "title": "GUMA dashboard · 10. 11. 2026",
@@ -503,5 +510,5 @@
       "path": "data/reports/2026-08-01.json"
     }
   ],
-  "updatedAt": "2026-11-10T05:45:01+01:00"
+  "updatedAt": "2026-11-11T05:45:01+01:00"
 }

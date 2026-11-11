@@ -1,49 +1,49 @@
 {
   "schemaVersion": 1,
-  "title": "GUMA dashboard · 10. 11. 2026",
-  "date": "2026-11-10",
-  "updatedAt": "2026-11-10T05:45:01+01:00",
-  "updatedLabel": "Aktualizováno 10. 11. 2026 v 05:45 CET",
+  "title": "GUMA dashboard · 11. 11. 2026",
+  "date": "2026-11-11",
+  "updatedAt": "2026-11-11T05:45:01+01:00",
+  "updatedLabel": "Aktualizováno 11. 11. 2026 v 05:45 CET",
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "daySummary": "Dnešek je bez blokujících schůzek a kolizí. Kalendář obsahuje jen transparentní volitelné akce; celý den zůstává volný pro vlastní plán a soustředěnou práci.",
+  "daySummary": "Dnešek je bez blokujících schůzek a kolizí. Kalendář obsahuje tři transparentní volitelné akce; celý den zůstává použitelný pro soustředěnou práci.",
   "summaryItems": [
-    "Svátek: dnes Evžen, zítra Martin; státní svátek není.",
-    "Kurzy ČNB (lístek 9. 11. 2026): EUR/CZK 24,360 – koruna oslabuje; USD/CZK 21,762 – koruna oslabuje.",
-    "Ariana směnárna prodej (starší lístek 2. 11. 2026): EUR 24,50 Kč; USD 22,10 Kč.",
-    "COST HUNTER: zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0; kontrola 10. 11. 2026."
+    "Svátek: dnes Martin, zítra Benedikt; připomínáme si Den válečných veteránů, státní svátek není.",
+    "Kurzy ČNB (lístek 10. 11. 2026): EUR/CZK 24,335 – koruna zhruba beze změny; USD/CZK 21,702 – koruna oslabuje (poslední dva fixingy část ztráty stáhla).",
+    "Ariana směnárna prodej (lístek 2. 11. 2026 – starší): EUR 24,50 Kč; USD 22,10 Kč.",
+    "COST HUNTER: zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0; kontrola 11. 11. 2026."
   ],
   "calendar": {
     "meetingCount": 0,
     "conflictCount": 0,
     "summary": "Žádná blokující schůzka ani kolize; všechny dnešní položky jsou transparentní a neblokují čas.",
     "freeWindows": [
-      "05:45–17:00: hlavní soustředěné okno.",
-      "18:00–večer: bez blokující události."
+      "05:45–11:00: soustředěné okno.",
+      "12:00–16:00: další souvislé volno.",
+      "20:00–večer: bez blokující události."
     ],
     "context": [
-      "Průběžně – Výstava finálových projektů Dáme na vás; zdarma.",
-      "Průběžně – Výstava Jana Pražana: Třetí čas v Knihovně Jiřího Mahena; zdarma.",
-      "09:00–17:00 – Tak Kam?! Znojmo, Centrum Jízdárna; transparentní volitelná akce zdarma.",
-      "17:00–18:00 – Za bílým koněm, SVČ Lužánky; transparentní volitelná akce zdarma."
+      "11:11–12:00 – Den válečných veteránů, Moravské náměstí; zdarma, transparentní.",
+      "16:00–17:00 – Úbytek hmyzu, Zoo Brno; zdarma, transparentní.",
+      "18:00–20:00 – Drsně a něžně – ART BRUT, Kino Art; zdarma, transparentní."
     ]
   },
   "prep": [
-    "Využij souvislé okno 05:45–17:00 na hlavní úkol dne; kalendář tě ničím neblokuje.",
-    "Pokud chceš dnešní program, zvaž výstavu Třetí čas nebo akci Za bílým koněm; obě jsou volitelné a zdarma.",
-    "Na Křehkou svobodu 12. 11. je nutná předchozí rezervace; ověř kapacitu dřív, než si ji naplánuješ."
+    "Nejsou naplánované pracovní schůzky ani podklady k povinné přípravě.",
+    "Chceš-li stihnout polední pietu na Moravském náměstí, nech si rezervu na přesun před 11:11.",
+    "Na Křehkou svobodu 12. 11. je nutná rezervace; ověř kapacitu předem."
   ],
   "context": [
-    "Gmail nabídky: obousměrná kontrola aktivní i archivované pošty mimo koš a spam dokončena; dnes není ověřená aktivní nabídka. Neplatná položka přesunutá v Gmailu do koše byla z kalendáře odstraněna.",
-    "Akce zdarma / do 100 Kč: zkontrolovány Kudy z nudy, Objev Brno a Brno-střed; šest nových ověřených tipů bylo po kontrole duplicit přidáno jako transparentní události.",
+    "Gmail nabídky: kontrola aktivní i archivované pošty mimo koš a spam dokončena; nabídka Vínokrále 10.–17. 11. byla synchronizována jako transparentní událost, bez zveřejnění kódů.",
+    "Akce zdarma / do 100 Kč: zkontrolovány Kudy z nudy, Objev Brno a Brno-střed; po ověření duplicit byla přidána vernisáž Světy fantazie Jindry Čapka na 12. 11.",
     "TED: celý Guma inbox byl zkontrolován bez časového omezení; níže je 28 jedinečných Talků ze čtyř přeposlaných TED Recommends.",
     "COST HUNTER: dnešní list GUMA report obsahuje všech pět produktů a aktuální kontrolní datum.",
     "Notion nebyl v tomto běhu technicky dostupný; související interní kontext není zahrnut."
   ],
   "signals": {
     "meetings": "0 / 0",
-    "freeWindow": "05:45–17:00",
-    "newMail": "0 aktivních nabídek",
+    "freeWindow": "05:45–11:00",
+    "newMail": "1 aktivní nabídka",
     "unknownPrices": "0"
   },
   "publicSafety": "Veřejně bezpečné shrnutí bez kódů, celých e-mailů, citlivých zdravotních údajů a soukromých konverzací.",
@@ -56,9 +56,9 @@
       "newlyKnown": 0
     },
     "summary": "Zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0",
-    "freshnessNote": "Kontrolní datum 10. 11. 2026 je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
+    "freshnessNote": "Kontrolní datum 11. 11. 2026 je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
     "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámka se uvádí jen při absolutní změně alespoň 10 % nebo nejistotě.",
-    "sourceCheckedLabel": "Kontrola: 10. 11. 2026",
+    "sourceCheckedLabel": "Kontrola: 11. 11. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
@@ -115,119 +115,129 @@
     ]
   },
   "news": {
-    "note": "20 ověřených relevantních zpráv v okně 9. 11. 2026 08:00 až 10. 11. 2026 05:45 CET; zkontrolovány byly Novinky.cz i ČTK / České noviny napříč rubrikami, sport, kriminalita a zprávy primárně o válce na Ukrajině nebo v Íránu jsou vynechány.",
+    "note": "22 ověřených relevantních zpráv v okně 10. 11. 2026 08:00 až 11. 11. 2026 05:45 CET; zkontrolovány byly Novinky.cz i ČTK / České noviny napříč rubrikami, sport, kriminalita a zprávy primárně o válce na Ukrajině nebo v Íránu jsou vynechány.",
     "items": [
       {
-        "title": "1. Česká mise do Sýrie už pomáhá s vracením migrantů",
-        "detail": "Poznatky české mise ze Sýrie pomáhají úřadům posuzovat bezpečné oblasti a návraty; letos evidují 37 žádostí a ochranu přiznaly ve dvou případech.",
-        "url": "https://www.novinky.cz/clanek/domaci-ceska-mise-do-syrie-uz-pomaha-s-vracenim-migrantu-40607172"
+        "title": "1. Postavit garáž půjde od prosince bez stavebního povolení",
+        "detail": "Novela rozšiřuje okruh drobných staveb bez povolení; samostatná garáž do stanovených rozměrů bude mít jednodušší režim.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-postavit-garaz-pujde-od-prosince-bez-stavebniho-povoleni-40607881"
       },
       {
-        "title": "2. Nejočekávanější videohru dekády už můžete stahovat. GTA VI si ale ještě nezahrajete",
-        "detail": "Začal preload GTA VI; hra má vyjít 19. listopadu a instalace může zabrat až 212 GB.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-hry-a-herni-systemy-nejocekavanejsi-videohru-dekady-uz-muzete-stahovat-gta-vi-si-ale-jeste-nezahrajete-40607477"
+        "title": "2. Do Evropy pronikne polární vzduch",
+        "detail": "Výrazné ochlazení zvýší riziko ranního náledí; pro Česko je praktické sledovat lokální výstrahy a dopravu.",
+        "url": "https://www.novinky.cz/clanek/pocasi-do-evropy-pronikne-polarni-vzduch-40607924"
       },
       {
-        "title": "3. Úročení hypoték vzrostlo na šest procent. Splátky letos stouply o tisíce",
-        "detail": "Průměrná nabídková sazba dosáhla 5,96 procenta a rostla osmý měsíc; modelová splátka je od března vyšší o 2 224 Kč.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-uroceni-hypotek-vzrostlo-na-sest-procent-splatky-letos-stouply-o-tisice-40607537"
+        "title": "3. Počet potvrzených případů eboly v Kongu překročil hranici 11 tisíc",
+        "detail": "Epidemie dál roste a zatěžuje místní zdravotnictví; jde o podstatný mezinárodní zdravotní signál.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-pocet-potvrzenych-pripadu-eboly-v-kongu-prekrocil-hranici-11-tisic-40607959"
       },
       {
-        "title": "4. Juchelka se ke zmírnění snížení podpor v nezaměstnanosti ještě sejde s SPD",
-        "detail": "Koalice se na podobě změn zatím neshodla; ministr chce před jednáním výboru pokračovat v debatě s SPD.",
-        "url": "https://www.novinky.cz/clanek/domaci-juchelka-se-ke-zmirneni-snizeni-podpor-v-nezamestnanosti-jeste-sejde-s-spd-40607707"
+        "title": "4. Španělská vláda požaduje, aby TikTok v zemi pozastavil provoz",
+        "detail": "Madrid žádá dočasné vypnutí služby kvůli obavám o ochranu uživatelů a plnění regulatorních povinností.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-spanelska-vlada-pozaduje-aby-tiktok-v-zemi-pozastavil-provoz-40607956"
       },
       {
-        "title": "5. Ceny bytů a domů rostou rychleji než mzdy ve většině Evropy, situace v Česku patří k nejhorším",
-        "detail": "Česko má od roku 2015 čtvrtý nejvyšší růst poměru cen bydlení k příjmům v Evropě.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-ceny-bytu-a-domu-rostou-rychleji-nez-mzdy-ve-vetsine-evropy-situace-v-cesku-patri-k-nejhorsim-40607645"
+        "title": "5. Křetínského skupina EP Group získala kontrolní podíl ve francouzském řetězci Fnac Darty",
+        "detail": "EP Group posílila vliv ve velkém evropském prodejci elektroniky a kulturního zboží.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-kretinskeho-skupina-ep-group-ziskala-kontrolni-podil-ve-francouzskem-retezci-fnac-darty-40607957"
       },
       {
-        "title": "6. Šéf antimonopolního úřadu potvrdil pokutu pro brněnský magistrát za tendr na cesty na hřbitově",
-        "detail": "Brno má zaplatit 250 tisíc korun za nepřiměřenou a diskriminační kvalifikaci v tendru na opravu cest na Ústředním hřbitově.",
-        "url": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-sef-antimonopolniho-uradu-potvrdil-pokutu-pro-brnensky-magistrat-za-tendr-na-cesty-na-hrbitove-40607674"
+        "title": "6. Kalifornie odmítla průlomovou daň pro miliardáře",
+        "detail": "Voliči nepodpořili mimořádné majetkové zdanění; výsledek ovlivní další debatu o financování veřejných služeb.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-rozhodnuto-kalifornie-odmitla-prulomovou-dan-pro-miliardare-40607917"
       },
       {
-        "title": "7. Zákon o sestřelování dronů míří do Sněmovny",
-        "detail": "Návrh má usnadnit zásahy proti dronům u kritické infrastruktury a umožnit vyškolení vlastních pracovníků.",
-        "url": "https://www.novinky.cz/clanek/domaci-zakon-o-sestrelovani-dronu-miri-do-snemovny-40607686"
+        "title": "7. Firmy přicházejí o potenciál žen ve vedení, je jich stále méně než třetina",
+        "detail": "Zastoupení žen v řízení firem zůstává pod třetinou, což podle analýzy omezuje dostupný talent i výkon.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-firmy-prichazeji-o-potencial-zen-ve-vedeni-jich-je-stale-mene-nez-tretina-40606682"
       },
       {
-        "title": "8. Zůna odvolal velitele informačních a kybernetických sil i přes Hlaváčův odpor",
-        "detail": "Radek Haratek má od 1. prosince přejít z velení informačních a kybernetických sil do poradní role.",
-        "url": "https://www.novinky.cz/clanek/domaci-zuna-odvolal-velitele-informacnich-a-kybernetickych-sil-i-pres-hlavacuv-odpor-40607680"
+        "title": "8. Superdávky stihneme v listopadu přepočítat a vyplatit, slibuje Úřad práce",
+        "detail": "Úřad práce tvrdí, že nový výpočet sociální podpory zvládne bez zpoždění listopadových plateb.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-superdavky-stihneme-v-listopadu-prepocitat-a-vyplatit-slibuje-urad-prace-40607910"
       },
       {
-        "title": "9. Vláda schválila skoro čtyři miliardy zemědělských dotací. Velkým potravinářům nechává stamiliony",
-        "detail": "Balík 3,95 miliardy Kč snižuje podporu welfare zvířat o 138 milionů, ale zachovává kritizované dotace velkým zpracovatelům.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-vlada-schvalila-skoro-ctyri-miliardy-zemedelskych-dotaci-velkym-potravinarum-nechava-stamiliony-40607687"
+        "title": "9. Anthropic věří ve svůj obří burzovní debut za 64 miliard dolarů",
+        "detail": "Firma kolem modelu Claude připravuje vstup na burzu s mimořádně vysokým oceněním, které prověří chuť trhu po AI titulech.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-anthropic-veri-ve-svuj-obri-burzovni-debut-za-64-miliard-dolaru-40607878"
       },
       {
-        "title": "10. Ministři financí EU nenašli shodu na zdanění tabáku, proti byla Malta",
-        "detail": "Kompromis podpořilo 26 států, Malta však jednomyslnou dohodu zablokovala.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-ministri-financi-eu-nenasli-shodu-na-zdaneni-tabaku-proti-byla-malta-40607710"
+        "title": "10. Laboratorní diamanty zlevnily o 90 procent a tlačí dolů i ceny přírodních kamenů",
+        "detail": "Rychlý pokles cen syntetických diamantů mění maloobchod i vnímání hodnoty přírodních kamenů.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-laboratorni-diamanty-zlevnily-o-90-procent-a-tlaci-dolu-i-ceny-prirodnich-kamenu-40606790"
       },
       {
-        "title": "11. Boeing chce propustit pět procent zaměstnanců v divizi komerčních letadel",
-        "detail": "Firma propouštění spojuje s pomalejším navyšováním výroby; divize měla na konci roku 2025 zhruba 50 500 lidí.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-boeing-chce-propustit-pet-procent-zamestnancu-v-divizi-komercnich-letadel-40607706"
+        "title": "11. Svět nakupuje v Číně ve velkém, přebytek přesáhl bilion dolarů",
+        "detail": "Rekordní obchodní přebytek ukazuje sílu čínského exportu a zároveň zvyšuje tlak na obchodní partnery.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-svet-nakupuje-v-cine-ve-velkem-prebytek-presahl-bilion-dolaru-40607742"
       },
       {
-        "title": "12. Sněmovní imunitní výbor se bude zabývat podnětem vůči Ševčíkovi",
-        "detail": "Výbor posoudí možné disciplinární řízení a omluvu kvůli výroku o menopauze.",
-        "url": "https://www.ceskenoviny.cz/zpravy/snemovni-imunitni-vybor-se-bude-zabyvat-podnetem-vuci-sevcikovi/2899801"
+        "title": "12. Studenti v Praze vyšli do ulic za televizi a rozhlas",
+        "detail": "Demonstrace podpořila nezávislost veřejnoprávních médií v debatě o jejich financování.",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-hlavni-mesto-praha-foto-studenti-v-praze-vysli-do-ulic-za-televizi-a-rozhlas-40607934"
       },
       {
-        "title": "13. Živě: Studenti v Praze i dalších městech se sejdou na podporu ČT a ČRo",
-        "detail": "Protesty včetně Brna reagují na plán zrušit poplatky a financovat veřejnoprávní média ze státního rozpočtu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/zive-studenti-v-praze-i-dalsich-mestech-se-sejdou-na-podporu-ct-a-cro/2897774"
+        "title": "13. Nové Star Wars odhalují své postavy",
+        "detail": "Připravovaný film staví Rey do role mentorky nové dvojice a naznačuje další směr filmové série.",
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-rey-jako-mentorka-povedomeho-dua-nove-star-wars-odhaluji-sve-postavy-40605364"
       },
       {
-        "title": "14. V Česku bude dál platit druhý stupeň ohrožení terorismem",
-        "detail": "Vláda ponechala v platnosti zvýšený druhý stupeň protiteroristické pohotovosti.",
-        "url": "https://www.ceskenoviny.cz/zpravy/v-cesku-bude-dal-platit-druhy-stupen-ohrozeni-terorismem/2899649"
+        "title": "14. Trus tučňáků urychluje tání antarktického sněhu",
+        "detail": "Tmavé částice z kolonií snižují odrazivost sněhu a lokálně zrychlují jeho tání.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-trus-tucnaku-urychluje-tani-antarktickeho-snehu-40606919"
       },
       {
-        "title": "15. Vláda chce do roku 2034 investovat do nemocnic 68 mld., desetinu do psychiatrie",
-        "detail": "Investiční plán počítá s 68 miliardami korun, přibližně desetina má směřovat do psychiatrické péče.",
-        "url": "https://www.ceskenoviny.cz/zpravy/vlada-chce-do-roku-2034-investovat-do-nemocnic-68-mld-desetinu-do-psychiatrie/2899625"
+        "title": "15. Porsche tlačí na rychlejší reorganizaci Volkswagenu",
+        "detail": "Automobilová skupina čelí tlaku na svižnější úspory a změny řízení kvůli slabším výsledkům.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-porsche-tlaci-na-rychlejsi-reorganizaci-volkswagenu-40607885"
       },
       {
-        "title": "16. Vláda schválila úpravu pro regulaci cen elektřiny a zastropování příjmů výrobců",
-        "detail": "Schválená úprava mění rámec regulace cen elektřiny a pravidla pro strop příjmů výrobců.",
-        "url": "https://www.ceskenoviny.cz/zpravy/vlada-schvalila-upravu-pro-regulaci-cen-elektriny-a-zastropovani-prijmu-vyrobcu/2898989"
+        "title": "16. Pavel bude jednat s Babišem mimo jiné o jmenování předsedy ÚOHS",
+        "detail": "Prezident a premiér mají řešit výběr nového šéfa antimonopolního úřadu, bezpečnost a zahraniční cesty.",
+        "url": "https://www.ceskenoviny.cz/zpravy/pavel-bude-jednat-s-babisem-mimo-jine-o-jmenovani-predsedy-uohs/2900135"
       },
       {
-        "title": "17. SZÚ: Případy chřipky se objevují častěji, je to v sezoně neobvykle brzy",
-        "detail": "Státní zdravotní ústav upozorňuje na nezvykle časný nárůst výskytu chřipky.",
-        "url": "https://www.ceskenoviny.cz/zpravy/szu-pripady-chripky-se-objevuji-casteji-je-to-v-sezone-neobvykle-brzy/2899600"
+        "title": "17. Vyšetření k odhalení rakoviny plic bude dostupné kuřákům od 50 do 79 let",
+        "detail": "Od roku 2027 se rozšíří věkové rozmezí národního screeningu i okruh lékařů, kteří mohou pacienta odeslat.",
+        "url": "https://www.ceskenoviny.cz/zpravy/vysetreni-k-odhaleni-rakoviny-plic-bude-dostupne-kurakum-od-50-do-79-let/2900178"
       },
       {
-        "title": "18. Vláda posílá Sněmovně návrh ústavního zákona o celostátním referendu",
-        "detail": "Obecný rámec pro celostátní referendum míří po schválení vládou do Sněmovny.",
-        "url": "https://www.ceskenoviny.cz/zpravy/vlada-posila-snemovne-navrh-ustavniho-zakona-o-celostatnim-referendu/2897324"
+        "title": "18. V pátek se sejde předsednictvo ODS, sílí nespokojenost kvůli preferencím",
+        "detail": "Vedení ODS bude řešit pokles podpory a regionální požadavky na změnu politického kurzu.",
+        "url": "https://www.ceskenoviny.cz/zpravy/v-patek-se-sejde-predsednictvo-ods-sili-nespokojenost-kvuli-preferencim/2899978"
       },
       {
-        "title": "19. Podzimní Sbírka potravin se uskuteční 14. listopadu ve více než 3560 prodejnách",
-        "detail": "Celostátní sbírka proběhne 14. listopadu ve více než 3 560 obchodech.",
-        "url": "https://www.ceskenoviny.cz/zpravy/podzimni-sbirka-potravin-se-uskutecni-14-listopadu-ve-vice-nez-3560-prodejnach/2899375"
+        "title": "19. Stát by mohl na odvodech vybrat až 90 procent nadměrných příjmů výrobců elektřiny",
+        "detail": "Návrh nastavuje vysoký odvod z příjmů nad cenový strop a může výrazně ovlivnit energetické firmy i rozpočet.",
+        "url": "https://www.ceskenoviny.cz/zpravy/stat-by-mohl-na-odvodech-vybrat-az-90-pct-nadmernych-prijmu-vyrobcu-elektriny/2900064"
       },
       {
-        "title": "20. Nezaměstnanost v Česku v říjnu stagnovala na pěti procentech",
-        "detail": "Podíl nezaměstnaných zůstal v říjnu na pěti procentech.",
-        "url": "https://www.ceskenoviny.cz/zpravy/nezamestnanost-v-cesku-v-rijnu-stagnovala-na-peti-procentech/2899211"
+        "title": "20. Vodní elektrárna Orlík se chystá na rozsáhlou modernizaci",
+        "detail": "Modernizace má zvýšit účinnost a prodloužit životnost klíčové elektrárny vltavské kaskády.",
+        "url": "https://www.ceskenoviny.cz/zpravy/vodni-elektrarna-orlik-se-chysta-na-rozsahlou-modernizaci/2899985"
+      },
+      {
+        "title": "21. Agentura EU varovala před útoky na domácí spotřebiče",
+        "detail": "Evropská agentura upozornila na kybernetické útoky využívající chytré domácí přístroje jako vstup do sítí.",
+        "url": "https://www.ceskenoviny.cz/zpravy/agentura-eu-varovala-pred-utoky-na-domaci-spotrebice/2900212"
+      },
+      {
+        "title": "22. Národní technické muzeum ukazuje Františka Křižíka jako rytíře elektrotechniky",
+        "detail": "Nová výstava připomíná Křižíkovy technické inovace i širší dopad elektrifikace na českou společnost.",
+        "url": "https://www.ceskenoviny.cz/zpravy/narodni-technicke-muzeum-ukazuje-frantiska-krizika-jako-rytire-elektrotechniky/2899964"
       }
     ]
   },
   "risks": [
-    "Ariana zveřejňuje hotovostní lístek z 2. 11. 2026; k rannímu běhu je starý osm dní.",
+    "Ariana zveřejňuje hotovostní lístek z 2. 11. 2026; k rannímu běhu je starý devět dní.",
     "Notion nebyl technicky dostupný, takže interní poznámky a dlouhodobější projektový kontext chybí.",
-    "Dnes nejsou blokující schůzky; volitelné akce mohou mít změněnou kapacitu nebo registraci, proto před návštěvou ověř zdroj.",
-    "Zdrojový list COST HUNTER má dnešní hodnoty, ale chybí samostatný sloupec Změna; nulová změna je dopočítaná z dvojice shodných cen."
+    "Volitelné akce mohou mít změněnou kapacitu nebo registraci; před návštěvou ověř zdroj.",
+    "Zdrojový list COST HUNTER nemá samostatný sloupec Změna; nulová změna je dopočítaná z dvojice shodných cen."
   ],
   "nextSteps": [
-    "Zablokuj si 05:45–17:00 na nejdůležitější úkol dne.",
-    "Pokud chceš dnešní program, rozhodni se mezi výstavou Třetí čas a akcí Za bílým koněm.",
+    "Zablokuj si 05:45–11:00 na nejdůležitější úkol dne.",
+    "Rozhodni, zda chceš v 11:11 na pietu ke Dni válečných veteránů.",
     "Chceš-li 12. 11. na Křehkou svobodu, zkontroluj registraci a kapacitu.",
     "Před návštěvou bezplatné akce ověř aktuální čas, místo a dostupnost."
   ],
@@ -375,5 +385,6 @@
         "url": "https://www.ted.com/talks/david_gruber_glow_in_the_dark_sharks_and_other_stunning_sea_creatures"
       }
     ]
-  }
+  },
+  "urcSystemsMonitor": null
 }
