@@ -2,48 +2,47 @@
   "schemaVersion": 1,
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "date": "2026-11-13",
-  "title": "GUMA dashboard · 13. 11. 2026",
-  "updatedAt": "2026-11-13T05:45:01+01:00",
-  "updatedLabel": "Aktualizováno 13. 11. 2026 v 05:45 CET",
+  "date": "2026-11-14",
+  "title": "GUMA dashboard · 14. 11. 2026",
+  "updatedAt": "2026-11-14T05:45:00+01:00",
+  "updatedLabel": "Aktualizováno 14. 11. 2026 v 05:45 CET",
   "publicSafety": "Veřejně bezpečné shrnutí bez kódů, celých e-mailů, citlivých zdravotních údajů a soukromých konverzací.",
-  "daySummary": "Primární kalendář je bez blokujících schůzek a kolizí. Dnešek zůstává volný pro soustředěnou práci; odpolední a večerní položky jsou transparentní volitelné akce.",
+  "daySummary": "Primární kalendář je bez blokujících schůzek a kolizí. Dnešní položky jsou transparentní volitelné akce; nejpevnější bod je bezplatná šermířská ukázka 12:00–14:30 s povinnou registrací.",
   "summaryItems": [
-    "Svátek: Dnes Tibor, zítra Sáva, státní svátek není.",
-    "Kurzy ČNB: Oficiální denní lístek z 12. 11. 2026: EUR/CZK 24,385 (koruna oslabuje) a USD/CZK 22,014 (koruna oslabuje); trend vychází z fixingů 10.–12. 11.",
-    "Ariana směnárna prodej: EUR 24,40 Kč a USD 22,10 Kč (veřejný hotovostní kurzovní lístek 11. 11. 2026; starší o dva dny).",
-    "COST HUNTER: Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum je 13. 11. 2026."
+    "Svátek: Dnes Sáva, zítra Leopold, státní svátek není.",
+    "Kurzy ČNB: Oficiální denní lístek z 13. 11. 2026: EUR/CZK 24,425 (koruna oslabuje) a USD/CZK 22,101 (koruna oslabuje); trend vychází z fixingů 9.–13. 11.",
+    "Ariana směnárna prodej: EUR 24,40 Kč a USD 22,10 Kč (veřejný hotovostní kurzovní lístek 11. 11. 2026; starší o tři dny).",
+    "COST HUNTER: Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum je 14. 11. 2026."
   ],
   "signals": {
     "meetings": "0 / 0",
-    "freeWindow": "05:45–15:00",
+    "freeWindow": "celý den",
     "newMail": "0 aktivních nabídek",
     "unknownPrices": "0"
   },
   "calendar": {
     "meetingCount": 0,
     "conflictCount": 0,
-    "summary": "Žádná blokující schůzka ani kolize; dnešní položky jsou transparentní a neblokují čas.",
+    "summary": "Žádná blokující schůzka ani kolize; všechny dnešní položky jsou transparentní.",
     "freeWindows": [
-      "05:45–15:00: souvislé okno pro soustředěnou práci.",
-      "19:30–večer: bez blokující události."
+      "Celý den je bez blokujících událostí.",
+      "Prakticky nejklidnější okna: 05:45–08:00, 11:00–12:00 a od 14:30."
     ],
     "context": [
-      "15:00 – začíná program Vánoce Brno; volitelná transparentní akce.",
-      "17:00–18:30 – Sharing is Caring, CO.LABS; zdarma, transparentní.",
-      "17:30–18:30 – Just dance / gameofyolo, náměstí Svobody; zdarma, transparentní.",
-      "18:00–19:00 – Uvedení knihy Život by mohl být tak krásný, Vila Löw-Beer; zdarma, transparentní.",
-      "18:00–19:30 – Václav Bělohradský: Zaslepená společnost, MZK; zdarma, transparentní."
+      "08:00 – Líšeňské farmářské trhy, prostranství nad zastávkou Jírova; zdarma.",
+      "10:00–11:00 – Bleší trh v Alfa pasáži; nově přidaná transparentní položka, konec orientační.",
+      "12:00–14:30 – Úvod do Družiny Moravy, Orel Husovice; zdarma, ale vyžaduje registraci.",
+      "Průběžně – TIC BRNO výprodej skladů, Vánoce Brno a několik dlouhodobých výstav; vše neblokující."
     ]
   },
   "prep": [
-    "Nejsou naplánované pracovní schůzky ani podklady k povinné přípravě.",
-    "Na večer vyber nejvýše jednu z překrývajících se akcí; před odchodem ověř kapacitu a případnou registraci.",
-    "Zítřejší farmářský trh v Líšni začíná v 08:00; šermířská akce od 12:00 vyžaduje registraci."
+    "Nejsou naplánované pracovní schůzky ani povinné podklady k přípravě.",
+    "Pro šerm ve 12:00 ověř potvrzení registrace; bez něj s účastí nepočítej.",
+    "U blešího trhu a dlouhodobých venkovních akcí před odchodem ověř aktuální provoz a počasí."
   ],
   "context": [
-    "Gmail nabídky: aktivní i archivovaná pošta mimo koš a spam byla synchronizována; nabídka přesunutá do koše byla odstraněna z kalendáře. Žádná ověřená aktivní nabídka nezůstala.",
-    "Akce zdarma / do 100 Kč: zkontrolovány Kudy z nudy, Objev Brno a Brno-střed; po ověření duplicit byly přidány čtyři dnešní bezplatné akce jako transparentní položky.",
+    "Gmail nabídky: aktivní i archivovaná pošta mimo koš a spam byla zkontrolována; žádná jasně platná aktivní nabídka nezůstala a kalendář neobsahoval žádnou Gmail-sync položku k aktualizaci či smazání.",
+    "Akce zdarma / do 100 Kč: ověřeny Kudy z nudy, Objev Brno a Brno-střed; po kontrole duplicit byly přidány čtyři transparentní akce, z toho jedna dnešní.",
     "TED: celý Guma inbox byl zkontrolován bez omezení stáří, včetně přeposlaných TED Recommends; níže je 28 jedinečných Talků.",
     "COST HUNTER: list GUMA report má dnešní kontrolní datum a všech pět sledovaných produktů.",
     "Notion nebyl v tomto běhu technicky dostupný; interní poznámky a dlouhodobější kontext nejsou zahrnuty."
@@ -57,9 +56,9 @@
       "newlyKnown": 0
     },
     "summary": "Zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0",
-    "freshnessNote": "Kontrolní datum 13. 11. 2026 je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
+    "freshnessNote": "Kontrolní datum 14. 11. 2026 je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
     "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámka se uvádí jen při absolutní změně alespoň 10 % nebo nejistotě.",
-    "sourceCheckedLabel": "Kontrola: 13. 11. 2026",
+    "sourceCheckedLabel": "Kontrola: 14. 11. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
@@ -261,151 +260,152 @@
     ]
   },
   "news": {
-    "note": "Ověřeno 26 relevantních položek z Novinky.cz a ČTK / Českých novin v okně 12. 11. 2026 08:00 až 13. 11. 2026 05:45 CET; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu byly vynechány.",
+    "note": "Ověřeno 26 relevantních položek z Novinky.cz a ČTK / Českých novin v okně 13. 11. 2026 08:00 až 14. 11. 2026 05:45 CET; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu byly vynechány.",
     "items": [
       {
-        "title": "1. Servery Microsoftu kolabují. Pociťuje to celý svět",
-        "detail": "Rozsáhlý výpadek Microsoft 365 zasáhl Outlook, Teams i Copilot; problémy hlásili také uživatelé v Praze a Brně.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-kolaps-microsoftu-40608395"
+        "title": "1. Zákaz letů v USA byl odvolán, letadla mohou opět vzlétnout",
+        "detail": "FAA po více než čtyřech hodinách obnovil provoz; návrat k normálu bude pomalý a zpoždění se mohou přelévat i do dalších spojů.",
+        "url": "https://www.ceskenoviny.cz/zpravy/zakaz-letu-v-usa-byl-odvolan-letadla-mohou-opet-vzletnout-/2901912"
       },
       {
-        "title": "2. Stát chce peníze i za vodu z okapů a silnic",
-        "detail": "Ministerstvo zemědělství chce změnit výjimky u poplatků za odvádění dešťové vody do kanalizace.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-stat-chce-penize-i-za-vodu-z-okapu-a-silnic-40608305"
+        "title": "2. Všechny lety v USA byly na více než čtyři hodiny uzemněny. Na letištích uvázlo 1,5 milionu lidí",
+        "detail": "Výpadek komunikace řízení letového provozu zrušil tisíce letů; úřady zatím nenašly známky kybernetického útoku.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-amerika-vsechny-lety-v-usa-jsou-az-do-odvolani-uzemneny-40608616"
       },
       {
-        "title": "3. Děti budou dostávat ve školních jídelnách nevýživná jídla plná polotovarů, obává se šéfka SZÚ",
-        "detail": "Odbornice varuje, že oslabení závazných nutričních pravidel může zhoršit kvalitu školního stravování.",
-        "url": "https://www.novinky.cz/clanek/domaci-deti-budou-dostavat-ve-skolnich-jidelnach-nevyzivna-jidla-plna-polotovaru-obava-se-sefka-szu-40608370"
+        "title": "3. Lety z Evropy do USA jsou pozastaveny",
+        "detail": "Evropské odlety do USA byly během amerického uzemnění dočasně zastaveny, což zvýšilo riziko návazných zpoždění.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-lety-z-evropy-do-usa-pozastaveny-40608622"
       },
       {
-        "title": "4. Češi objevují nové propasti za polárním kruhem",
-        "detail": "Čeští jeskyňáři pokračují v průzkumu dosud neprobádaného podzemí v horách u norského Narviku.",
-        "url": "https://www.novinky.cz/clanek/veda-skoly-cesi-objevuji-nove-propasti-za-polarnim-kruhem-podivejte-se-na-zabery-z-expedice-40607745"
+        "title": "4. Problém na letištích v USA začal v Chicagu a kaskádovitě se šířil po celé zemi",
+        "detail": "Potíže s radary a rádiovými frekvencemi se podle prvních informací rozšířily z Chicaga do dalších středisek.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-amerika-nevedi-co-se-deje-letiste-v-usa-se-potykaji-s-vypadky-radaru-nefunguji-radiove-frekvence-40608621"
       },
       {
-        "title": "5. Šéfem Asociace krajů zůstává Holiš",
-        "detail": "Hejtman Zlínského kraje Radim Holiš obhájil vedení asociace; místopředsedy jsou Richard Brabec a Martin Netolický.",
-        "url": "https://www.novinky.cz/clanek/domaci-sefem-asociace-kraju-zustava-holis-40608382"
+        "title": "5. Microsoft obnovuje provoz po výpadku, termín plného obnovení zatím nezná",
+        "detail": "Outlook, Teams a Copilot se postupně vracejí; e-maily a nahromaděné zpracování dat mohou ještě kolísat.",
+        "url": "https://www.ceskenoviny.cz/zpravy/microsoft-obnovuje-provoz-po-vypadku-termin-plneho-obnoveni-zatim-nezna/2901469"
       },
       {
-        "title": "6. V Turecku se zřítil vojenský vrtulník, čtyři mrtví",
-        "detail": "Pád stroje u Ankary si vyžádal čtyři oběti; turecké úřady vyšetřují příčinu nehody.",
-        "url": "https://www.novinky.cz/clanek/zahranicni-blizky-a-stredni-vychod-v-turecku-se-zritil-vojensky-vrtulnik-ctyri-mrtvi-40608397"
+        "title": "6. Kolapsem Microsoftu to nekončí. Problémy má i AI od Anthropicu",
+        "detail": "Claude měl výpadky webu, aplikací i vývojářských nástrojů; hlavní incident firma označila za vyřešený.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-vypadky-ai-40608592"
       },
       {
-        "title": "7. Kalábrie láká nové obyvatele, poskytne jim bydlení na deset let zdarma",
-        "detail": "Italský region zkouší oživit vylidňující se obce dlouhodobým bezplatným bydlením pro nové rezidenty.",
-        "url": "https://www.novinky.cz/clanek/koktejl-kalabrie-laka-nove-obyvatele-poskytne-jim-bydleni-na-deset-let-zdarma-40608291"
+        "title": "7. Výkonnější a s ovladačem, který se ozve. Nová Apple TV je venku",
+        "detail": "Nová generace Apple TV přidává vyšší výkon a ovladač s funkcí pro snadnější nalezení.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-hardware-vykonnejsi-a-s-ovladacem-ktery-se-ozve-nova-apple-tv-je-venku-40608587"
       },
       {
-        "title": "8. Starostka ve Francii osobně fotí kamiony, které nerespektují zákaz průjezdu obcí",
-        "detail": "Místní samospráva dokumentuje porušování zákazu, aby snížila hluk a rizika těžké dopravy v obci.",
-        "url": "https://www.novinky.cz/clanek/koktejl-starostka-ve-francii-osobne-foti-kamiony-ktere-nerespektuji-zakaz-prujezdu-obci-40605157"
+        "title": "8. Zakázané čipy Nvidie skončily v Číně. Stopa vede k ženě spojené s pádem šéfa firmy",
+        "detail": "Vyšetřování sleduje cestu omezených AI čipů do Číny a vazby na nedávný skandál ve vedení firmy.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-zakazane-cipy-nvidie-skoncily-v-cine-stopa-vede-k-zene-spojene-s-padem-sefa-firmy-40608449"
       },
       {
-        "title": "9. Nejhodnotnější českou firmou je Křetínského EPH",
-        "detail": "Žebříček Česká elita staví EPH před PPF a CSG a ukazuje rostoucí váhu energetiky a průmyslu.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-nejhodnotnejsi-ceskou-firmou-je-kretinskeho-eph-40608319"
+        "title": "9. Dodavatel innogy zdraží elektřinu a plyn bez fixace",
+        "detail": "Od ledna se zvýší ceny nefixovaných produktů; praktický dopad závisí na konkrétním tarifu a spotřebě.",
+        "url": "https://www.ceskenoviny.cz/zpravy/dodavatel-innogy-zdrazi-elektrinu-a-plyn-bez-fixace/2901739"
       },
       {
-        "title": "10. Mercedes pozastaví investice v Německu, zvažuje i uzavření některých závodů",
-        "detail": "Automobilka reaguje na slabší poptávku a vysoké náklady úsporami a revizí výrobní sítě.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-mercedes-pozastavi-investice-v-nemecku-zvazuje-i-uzavreni-nekterych-zavodu-40608388"
+        "title": "10. Miliardář Šimáně koupil luxusní dům v Pařížské za rekordní sumu",
+        "detail": "Transakce v pražské Pařížské ulici nastavila nový cenový rekord v segmentu luxusních nemovitostí.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-miliardar-simane-koupil-luxusni-dum-v-parizske-za-rekordni-sumu-40608581"
       },
       {
-        "title": "11. Akcie Nvidie po rezignaci šéfa prudce padají",
-        "detail": "Odchod vedení po skandálu vyvolal ostrý výprodej a novou nejistotu kolem největšího výrobce AI čipů.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-akcie-nvidie-po-rezignaci-sefa-prudce-padaji-40608345"
+        "title": "11. Stovky lidí v Praze 9 protestovaly proti konferenci krajní pravice o remigraci",
+        "detail": "Demonstranti obklopili hotel ve Vysočanech; policie dohlížela na pokojný průběh a odjezd účastníků.",
+        "url": "https://www.ceskenoviny.cz/zpravy/stovky-lidi-v-praze-9-protestovaly-proti-konferenci-krajni-pravice-o-remigraci/2901833"
       },
       {
-        "title": "12. 400 milionů e-mailů za pár dní. Black Friday zaplavuje české schránky slevami",
-        "detail": "Předvánoční kampaně prudce zvedly objem marketingové pošty; roste tlak na filtry i pozornost uživatelů.",
-        "url": "https://www.novinky.cz/clanek/internet-a-pc-400-milionu-e-mailu-za-par-dni-black-friday-zaplavuje-ceske-schranky-slevami-40608313"
+        "title": "12. Lidé pohřbívali nesmyslné nápady a politiku ministerstva kultury",
+        "detail": "Symbolický pohřeb před ministerstvem kritizoval současné směřování kulturní politiky a sporné návrhy.",
+        "url": "https://www.novinky.cz/clanek/domaci-lide-pohrbivaji-nesmyslne-napady-a-politiku-ministerstva-kultury-pred-budovu-prisli-na-pohreb-40608570"
       },
       {
-        "title": "13. Roger Taylor odchází ze skupiny Duran Duran",
-        "detail": "Dlouholetý bubeník oznámil konec působení v britské kapele.",
-        "url": "https://www.novinky.cz/clanek/kultura-hudba-roger-taylor-odchazi-ze-skupiny-duran-duran-40608394"
+        "title": "13. Praha 8 jde kvůli závoře v Troji proti magistrátu",
+        "detail": "Městská část podala správní žalobu ve sporu o dopravní omezení a průjezd Trojou.",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-hlavni-mesto-praha-praha-8-jde-kvuli-zavore-v-troji-proti-magistratu-podala-spravni-zalobu-40608608"
       },
       {
-        "title": "14. Vědci z Univerzity Palackého objevili v Panamě šest nových druhů žab",
-        "detail": "Olomoučtí zoologové popsali nové druhy a rozšířili poznání biodiverzity středoamerických pralesů.",
-        "url": "https://www.novinky.cz/clanek/veda-skoly-vedci-z-univerzity-palackeho-objevili-v-paname-sest-novych-druhu-zab-40608240"
+        "title": "14. Krajský soud změnil výsledek komunálních voleb v Býkvi na Mělnicku",
+        "detail": "Soud prohlásil volbu jednoho kandidáta za neplatnou a určil jiného řádně zvoleného zastupitele.",
+        "url": "https://www.ceskenoviny.cz/zpravy/krajsky-soud-v-praze-zmenil-vysledek-komunalnich-voleb-v-bykvi-na-melnicku/2901824"
       },
       {
-        "title": "15. Přijímačky deváťáků čeká revoluce",
-        "detail": "Připravovaná změna má rozšířit počet přihlášek a upravit způsob rozdělování uchazečů na střední školy.",
-        "url": "https://www.novinky.cz/clanek/domaci-az-pet-prihlasek-prijimacky-devataku-ceka-revoluce-40608214"
+        "title": "15. Stalinova soška a čestná stráž. Velitel běloruských vnitřních sil slavnostně otevřel řeznictví",
+        "detail": "Bizarní státní ceremonie v Minsku spojila otevření prodejny s čestnou stráží a symbolikou Stalina.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-stalinova-soska-a-cestna-straz-velitel-beloruskych-vnitrnich-sil-slavnostne-otevrel-reznictvi-40608548"
       },
       {
-        "title": "16. V Anglii při přípravě stavby vodovodu objevili pět pradávných studní",
-        "detail": "Archeologický nález odkryl nečekaně zachované doklady dávného osídlení.",
-        "url": "https://www.novinky.cz/clanek/veda-skoly-v-anglii-pri-priprave-stavby-vodovodu-objevili-pet-pradavnych-studni-40608066"
+        "title": "16. Oční reakce může pomoci určit poslední hodiny života",
+        "detail": "Mezinárodní tým zkoumal rohovkový reflex jako jednoduchý podpůrný ukazatel v paliativní péči.",
+        "url": "https://www.novinky.cz/clanek/zdravi-ocni-reakce-jednoduchy-test-ktery-predpovi-ze-nemocny-clovek-do-24-hodin-zemre-40607951"
       },
       {
-        "title": "17. Největší postel v oblacích. Singapurské aerolinky ukázaly novou první třídu",
-        "detail": "Singapore Airlines představily mimořádně prostorné kabiny pro dálkové lety.",
-        "url": "https://www.novinky.cz/clanek/cestovani-nejvetsi-postel-v-oblacich-singapurske-aerolinky-ukazaly-novou-prvni-tridu-40607791"
+        "title": "17. Školky, které mohou vyrůst přes prázdniny. Rozhoduje ale včasná příprava",
+        "detail": "Modulární výstavba dokáže zrychlit vznik školek, pokud obce včas zvládnou povolení a přípravu místa.",
+        "url": "https://www.novinky.cz/clanek/bydleni-skolky-ktere-mohou-vyrust-pres-prazdniny-rozhoduje-ale-vcasna-priprava-40577221"
       },
       {
-        "title": "18. Poslanci se sejdou k návrhu na zavedení mimořádné daně na rafinerie",
-        "detail": "Sněmovna otevře návrh sektorové daně, který může ovlivnit rozpočet i ceny v energetice.",
-        "url": "https://www.ceskenoviny.cz/zpravy/poslanci-se-sejdou-k-navrhu-na-zavedeni-mimoradne-dane-na-rafinerie/2901415"
+        "title": "18. Hororová Týna: Christian Bale jako brutální „sigma“ v Americkém psychu předpověděl budoucnost",
+        "detail": "Komentář ke kultovnímu filmu čte Patricka Batemana jako předobraz dnešní internetové maskulinity.",
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-hororova-tyna-christian-bale-jako-brutalni-sigma-v-americkem-psychu-predpovedel-budoucnost-40608147"
       },
       {
-        "title": "19. Na Letné očekává Milion chvilek stovky tisíc lidí, oznámí další plány",
-        "detail": "Organizátoři očekávají vysokou účast na nedělní demonstraci a chtějí představit další kroky.",
-        "url": "https://www.ceskenoviny.cz/zpravy/na-letne-ocekava-milion-chvilek-stovky-tisic-lidi-oznami-dalsi-plany/2901226"
+        "title": "19. Balet s příchutí dezertu připomene taneční ikonu Annu Pavlovu",
+        "detail": "Plzeňské divadlo chystá světovou premiéru inspirovanou slavnou baletkou a dezertem nesoucím její jméno.",
+        "url": "https://www.novinky.cz/clanek/kultura-balet-s-prichuti-dezertu-plzenske-divadlo-pripomene-ve-svetove-premiere-tanecni-ikonu-annu-pavlovu-40608419"
       },
       {
-        "title": "20. Šéf Nvidie po skandálu s údajnou čínskou špionkou rezignoval",
-        "detail": "Rezignace prohlubuje nejistotu kolem vedení klíčové firmy v globálním AI řetězci.",
-        "url": "https://www.ceskenoviny.cz/zpravy/sef-nvidie-po-skandalu-s-udajnou-cinskou-spionkou-rezignoval/2901128"
+        "title": "20. Jak pozval François Mitterrand v roce 1988 disidenty na snídani a Husák musel čekat",
+        "detail": "Historický text připomíná setkání francouzského prezidenta s československými disidenty před oficiálním programem.",
+        "url": "https://www.novinky.cz/clanek/historie-jak-pozval-francois-mitterrand-v-roce-1988-disidenty-na-snidani-a-husak-musel-cekat-40608427"
       },
       {
-        "title": "21. Šéfové parlamentů zemí V4 podpořili odklad systému ETS2 a rozšiřování EU",
-        "detail": "Představitelé V4 se shodli na odkladu emisního systému pro dopravu a budovy a podpořili rozšíření Unie.",
-        "url": "https://www.ceskenoviny.cz/zpravy/sefove-parlamentu-zemi-v4-podporili-odklad-systemu-ets2-a-rozsirovani-eu/2901152"
+        "title": "21. Proč asteroid Chicxulub nevyhubil krokodýly?",
+        "detail": "Nový výzkum vysvětluje přežití krokodýlů schopností držet se v teplejších sladkovodních útočištích.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-proc-asteroid-chicxulub-nevyhubil-krokodyly-na-rozdil-od-dinosauru-se-drzeli-v-teple-40608529"
       },
       {
-        "title": "22. Průzkum: Návrat ke komunismu by uvítala pětina Čechů",
-        "detail": "Výsledek průzkumu ukazuje silnou nostalgii části veřejnosti a generační rozdíly v hodnocení režimu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/pruzkum-navrat-ke-komunismu-by-uvitala-petina-cechu/2901114"
+        "title": "22. Vědci vyvinuli roboty pro odstraňování mikroplastů z ženských pohlavních orgánů",
+        "detail": "Experimentální mikroroboti mají cíleně zachytávat částice mikroplastů; jde zatím o výzkumnou technologii.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-vedci-vyvinuli-specialni-roboty-maji-odstranovat-mikroplasty-z-zenskych-pohlavnich-organu-40608480"
       },
       {
-        "title": "23. Předsednictvo ODS bude hodnotit volby a řešit, co s klesajícími preferencemi",
-        "detail": "Vedení strany má projednat volební výsledek, propad podpory a další politický směr.",
-        "url": "https://www.ceskenoviny.cz/zpravy/predsednictvo-ods-bude-hodnotit-volby-a-resit-co-s-klesajicimi-preferencemi/2901416"
+        "title": "23. Univerzita Karlova řeší kybernetický útok, útočník získal i osobní údaje",
+        "detail": "Škola vyšetřuje průnik do systémů a únik osobních údajů; dotčeným uživatelům doporučuje zvýšenou opatrnost.",
+        "url": "https://www.ceskenoviny.cz/zpravy/univerzita-karlova-resi-kyberneticky-utok-utocnik-ziskal-i-osobni-udaje/2901579"
       },
       {
-        "title": "24. Nejhodnotnější soukromé firmy podle žebříčku Česká elita jsou EPH, PPF a CSG",
-        "detail": "Aktualizovaný přehled potvrzuje dominanci energetiky, financí a obranného průmyslu.",
-        "url": "https://www.ceskenoviny.cz/zpravy/nejhodnotnejsi-soukrome-firmy-podle-zebricku-ceska-elita-jsou-eph-ppf-a-csg/2901370"
+        "title": "24. Chomutovský zoopark má hlavní sezonu v zimě",
+        "detail": "Zoopark otočil tradiční sezonní model a od listopadu láká na aktivnější zvířata i zimní program.",
+        "url": "https://www.novinky.cz/clanek/cestovani-chomutovsky-zoopark-hlavni-sezonu-tu-maji-v-zime-zacala-pred-par-dny-40607973"
       },
       {
-        "title": "25. Maximální přípustné ceny pohonných hmot v pátek dál klesnou, výrazněji u nafty",
-        "detail": "Regulované cenové stropy se snižují, u nafty má pokles být citelnější.",
-        "url": "https://www.ceskenoviny.cz/zpravy/maximalni-pripustne-ceny-pohonnych-hmot-v-patek-dal-klesnou-vyrazneji-u-nafty/2899499"
+        "title": "25. Lázeň Marie se po desetiletích vrátila k životu",
+        "detail": "Obnovený podzemní lázeňský prostor se znovu otevřel jako technický a návštěvnický unikát.",
+        "url": "https://www.novinky.cz/clanek/cestovani-lazen-marie-se-po-desetiletich-vratila-k-zivotu-je-z-ni-podzemni-unikat-40608243"
       },
       {
-        "title": "26. U Královce na Trutnovsku se otevře první část dálnice D11",
-        "detail": "Nový úsek zlepší spojení severovýchodních Čech a posune stavbu směrem k polské hranici.",
-        "url": "https://www.ceskenoviny.cz/zpravy/u-kralovce-na-trutnovsku-se-otevre-prvni-cast-dalnice-d11/2901143"
+        "title": "26. Hejtman Grolich kritizoval odvolání Rady Vinařského fondu",
+        "detail": "Jihomoravský hejtman označil plošné odvolání rady po zjištěních NKÚ za příliš přísný krok.",
+        "url": "https://www.ceskenoviny.cz/zpravy/hejtman-grolich-odvolani-rady-vinarskeho-fondu-je-prisny-a-neadekvatni-krok/2901585"
       }
     ]
   },
   "risks": [
-    "Ariana zveřejňuje hotovostní lístek z 11. 11. 2026; k rannímu běhu je starý dva dny.",
-    "Notion nebyl technicky dostupný, takže interní poznámky a dlouhodobější projektový kontext chybí.",
-    "Dnešní bezplatné akce se večer překrývají a jejich kapacita nebo registrace se mohou změnit; před návštěvou ověř zdroj.",
-    "Zdrojový list COST HUNTER nemá samostatný sloupec Změna; nulová změna je dopočítaná z dvojice shodných cen."
+    "Ariana zveřejňuje lístek z 11. 11. 2026, tedy o tři dny starší; novější veřejný hotovostní lístek nebyl ověřen.",
+    "Notion konektor nebyl dostupný, takže briefing neobsahuje interní poznámky ani dlouhodobé projektové souvislosti.",
+    "U čtyř nově přidaných akcí zdroj neuvádí konec; hodinové bloky jsou proto výslovně orientační.",
+    "Kudy z nudy v dnešní kontrole nevrátil dost konkrétních ověřitelných levných akcí pro leden a únor; do kalendáře nebyly přidány nejisté položky.",
+    "Sešit COST HUNTER má pásmo America/Los_Angeles, ale kontrolní datum v listu výslovně uvádí 14. 11. 2026."
   ],
   "nextSteps": [
-    "Zablokuj si 05:45–15:00 na nejdůležitější úkol dne.",
-    "Pro večer vyber jednu akci mezi 17:00 a 19:30 a ověř její aktuální dostupnost.",
-    "Před zítřejší šermířskou akcí zkontroluj registraci.",
-    "Při příštím běhu znovu ověř dostupnost Notionu a nový lístek Ariana."
+    "Nejdřív ověř registraci na šerm ve 12:00; je to jediná dnešní akce s podmínkou účasti.",
+    "Pokud chceš dopoledne ven, farmářský trh začíná v 08:00 a bleší trh v 10:00.",
+    "U nefixovaných energií zkontroluj, zda se oznámené zdražení innogy týká tvého tarifu.",
+    "Kvůli výpadkům Microsoftu počítej ráno s možným zpožděním e-mailů a Teams."
   ],
   "urcSystemsMonitor": null
 }
