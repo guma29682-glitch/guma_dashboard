@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "template": "guma-dashboard-approved-2026-08-07",
   "newsMinimumItems": 20,
-  "date": "2026-11-15",
-  "title": "GUMA dashboard · 15. 11. 2026",
-  "updatedAt": "2026-11-15T05:45:01+01:00",
-  "updatedLabel": "Aktualizováno 15. 11. 2026 v 05:45 CET",
+  "date": "2026-11-16",
+  "title": "GUMA dashboard · 16. 11. 2026",
+  "updatedAt": "2026-11-16T05:45:01+01:00",
+  "updatedLabel": "Aktualizováno 16. 11. 2026 v 05:45 CET",
   "publicSafety": "Veřejně bezpečné shrnutí bez kódů, celých e-mailů, citlivých zdravotních údajů a soukromých konverzací.",
-  "daySummary": "Dnešek je bez blokujících schůzek a nabízí souvislý čas. V kalendáři jsou jen transparentní nabídky a volitelné bezplatné akce.",
+  "daySummary": "Dnešek je bez blokujících schůzek a nabízí souvislý čas. Kalendář obsahuje jen transparentní volitelné akce; synchronizace Gmail nabídek po odstranění vypršené nabídky nenašla žádnou aktivní.",
   "summaryItems": [
-    "Svátek: Dnes Leopold, zítra Otmar; státní svátek dnes není.",
+    "Svátek: Dnes Otmar, zítra Mahulena; zítra je státní svátek Den boje za svobodu a demokracii a Mezinárodní den studentstva.",
     "Kurzy ČNB: Oficiální denní lístek z 13. 11. 2026: EUR/CZK 24,425 (koruna oslabuje) a USD/CZK 22,101 (koruna oslabuje); trend vychází z několika předchozích fixingů.",
     "Ariana směnárna prodej: EUR 24,50 Kč a USD 22,40 Kč (veřejný hotovostní kurzovní lístek 13. 11. 2026; starší lístek).",
-    "COST HUNTER: Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum je 15. 11. 2026."
+    "COST HUNTER: Zlevnilo 0, zdražilo 0, beze změny 5, nezjištěno 0. Kontrolní datum je 16. 11. 2026."
   ],
   "signals": {
     "meetings": "0 / 0",
     "freeWindow": "celý den",
-    "newMail": "1 aktivní nabídka",
+    "newMail": "0 aktivních nabídek",
     "unknownPrices": "0"
   },
   "calendar": {
@@ -26,25 +26,28 @@
     "summary": "Žádná blokující schůzka ani kolize; všechny dnešní položky jsou transparentní.",
     "freeWindows": [
       "Celý den je bez blokujících událostí.",
-      "Prakticky nejklidnější okna: 05:45–12:00, 13:00–16:00 a po 18:00."
+      "Praktická okna mezi dnešními volitelnými akcemi: 05:45–16:00, 17:00–18:00 a po 19:00."
     ],
     "context": [
-      "Celý den – Vínokrál Black Week až -62 %, ověřená nabídka platná do dneška; neblokující.",
-      "12:00–13:00 – Úvod do Družiny Moravy, Orel Husovice; zdarma, konec orientační.",
-      "16:00–17:00 – Swingová tančírna #genderbender, Franz Kafka Špitál; zdarma, konec orientační.",
-      "17:00–18:00 – Jak vznikaly rajhradské fresky, Památník písemnictví na Moravě; zdarma."
+      "16:00–17:00 – Gaymer night, kaFFe, Brno; zdarma a neblokující.",
+      "18:00–19:00 – Václav Havel a divadlo, Galerie U Dvou Polívků; zdarma a neblokující.",
+      "17. 11. v 10:00 – Mama, queer up!, CO.LABS; zdarma a neblokující.",
+      "17. 11. ve 13:00 – Brněnský 17., náměstí Svobody; zdarma a neblokující.",
+      "19. 11. v 19:00 – Začíná ve světě i u nás jaderná renesance?, Moravská zemská knihovna; zdarma a neblokující."
     ]
   },
   "prep": [
     "Nejsou naplánované pracovní schůzky ani povinné podklady k přípravě.",
-    "Pokud půjdeš na šerm nebo tančírnu, před odchodem ověř aktuální program a případnou registraci.",
-    "Na rajhradskou přednášku počítej s přesunem mimo Brno."
+    "U dnešních volitelných akcí před odchodem ověř aktuální kapacitu a případnou registraci.",
+    "Zítřejší státní svátek může změnit otevírací dobu a dopravu; při plánování počítej s programem Brněnského 17."
   ],
   "context": [
-    "Gmail nabídky: před kalendářem byla zkontrolována aktivní i archivovaná pošta mimo koš a spam; jedna ověřená nabídka Vínokrál byla zapsána jako transparentní událost s Gmail markerem.",
-    "Akce zdarma / do 100 Kč: ověřeny Kudy z nudy, Objev Brno a Brno-střed; po kontrole duplicit byly přidány dvě dnešní transparentní akce.",
+    "Gmail nabídky: aktivní i archivovaná pošta mimo koš a spam byla synchronizována před načtením agendy; vypršená nabídka Vínokrál byla odstraněna a žádná ověřená aktivní nabídka nezůstala.",
+    "Akce zdarma / do 100 Kč: zkontrolovány Kudy z nudy, Objev Brno a Brno-střed; po kontrole duplicit byly přidány tři transparentní bezplatné akce v Brně.",
     "TED: celý Guma inbox byl zkontrolován bez omezení stáří, včetně přeposlaných TED Recommends; níže je 28 jedinečných Talků.",
-    "COST HUNTER: list GUMA report má dnešní kontrolní datum a všech pět sledovaných produktů.",
+    "COST HUNTER: list GUMA report má dnešní kontrolní datum a všech pět sledovaných produktů; ceny se znovu nedohledávaly.",
+    "Google Drive: nalezen dnešní COST HUNTER report; další konkrétní podklady k pracovní schůzce dnes nejsou potřeba.",
+    "Gmail: automatizace Update GUMA OS v16 hlásila neúspěšný běh; dnešní ruční publikace proto ověřuje výstupy přímo.",
     "Notion nebyl v tomto běhu technicky dostupný; interní poznámky a dlouhodobější kontext nejsou zahrnuty."
   ],
   "costHunter": {
@@ -56,9 +59,9 @@
       "newlyKnown": 0
     },
     "summary": "Zlevnilo 0 · zdražilo 0 · beze změny 5 · nezjištěno 0",
-    "freshnessNote": "Kontrolní datum 15. 11. 2026 je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
+    "freshnessNote": "Kontrolní datum 16. 11. 2026 je dnešní a všech pět produktů je přítomno; ceny se znovu nedohledávaly.",
     "linkNote": "Přímé odkazy jsou v názvech produktů. Poznámka se uvádí jen při absolutní změně alespoň 10 % nebo nejistotě.",
-    "sourceCheckedLabel": "Kontrola: 15. 11. 2026",
+    "sourceCheckedLabel": "Kontrola: 16. 11. 2026",
     "sourceSheet": "GUMA report",
     "sourceWorkbook": "COST HUNTER - sledovane ceny",
     "products": [
@@ -260,137 +263,132 @@
     ]
   },
   "news": {
-    "note": "Ověřeno 23 relevantních položek z Novinky.cz a ČTK / Českých novin v okně 14. 11. 2026 08:00 až 15. 11. 2026 05:45 CET; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu byly vynechány.",
+    "note": "Ověřeno 22 relevantních položek z Novinky.cz a ČTK / Českých novin v okně 15. 11. 2026 08:00 až 16. 11. 2026 05:45 Europe/Prague; sport, kriminalita a zprávy primárně o válce na Ukrajině nebo Íránu byly vynechány.",
     "items": [
       {
-        "title": "1. Babišova vysněná nemocnice má stát až 30 miliard. Část bude pod zemí",
-        "detail": "Projekt nové nemocnice počítá s částí provozu pod zemí; odhadovaná cena se pohybuje až kolem 30 miliard korun.",
-        "url": "https://www.novinky.cz/clanek/domaci-babisova-vysnena-nemocnice-ma-stat-az-30-miliard-cast-bude-pod-zemi-40608642"
+        "title": "1. Celý týden proprší",
+        "detail": "Týden bude převážně zatažený a deštivý; v úterý a ve středu mohou nárazy větru dosáhnout kolem 70 km/h, klidněji má být o víkendu.",
+        "url": "https://www.novinky.cz/clanek/pocasi-cely-tyden-proprsi-40608802"
       },
       {
-        "title": "2. Třetina mužů odkládá prohlídky u lékaře. Svádějí to na práci",
-        "detail": "Průzkum upozorňuje, že část mužů zanedbává prevenci kvůli pracovnímu vytížení a přichází později i s vážnými potížemi.",
-        "url": "https://www.novinky.cz/clanek/domaci-tretina-muzu-odklada-prohlidky-u-lekare-svadeji-to-na-praci-40607915"
+        "title": "2. Německo se chystá spustit uhelné elektrárny",
+        "detail": "Německo připravuje návrat části uhelných a olejových zdrojů pro případ nedostatku plynu.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-nemecko-se-chysta-spustit-uhelne-elektrarny-40608487"
       },
       {
-        "title": "3. Nacher: Jsem rád, že se v parlamentu nepereme. Atmosféra není dobrá",
-        "detail": "Předseda Sněmovny popisuje napjaté vztahy mezi poslanci a potřebu udržet politický spor v civilních mezích.",
-        "url": "https://www.novinky.cz/clanek/domaci-nacher-jsem-rad-ze-se-v-parlamentu-nepereme-atmosfera-neni-dobra-40608377"
+        "title": "3. Bývalý šéf Nvidie Huang zvažuje návrat",
+        "detail": "Jensen Huang podle zprávy zvažuje návrat do vedení Nvidie po svém dřívějším odchodu.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-byvaly-sef-nvidie-huang-zvazuje-navrat-40608811"
       },
       {
-        "title": "4. Zakázané čipy Nvidie skončily v Číně. Stopa vede k ženě spojené s pádem šéfa firmy",
-        "detail": "Vyšetřování sleduje cestu omezených AI čipů do Číny a vazby na nedávný skandál ve vedení firmy.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-zakazane-cipy-nvidie-skoncily-v-cine-stopa-vede-k-zene-spojene-s-padem-sefa-firmy-40608449"
+        "title": "4. StarDance opustil pár Tomáš Matonoha a Lenka Nora Návorková",
+        "detail": "Po šestém večeru věnovaném osmdesátým létům soutěž opustili Tomáš Matonoha a Lenka Nora Návorková.",
+        "url": "https://www.novinky.cz/clanek/kultura-tv-streaming-stardance-opustil-par-tomas-matonoha-a-lenka-nora-navorkova-40608677"
       },
       {
-        "title": "5. Firma innogy od ledna zdraží energie",
-        "detail": "Zdražení se týká nefixovaných produktů elektřiny a plynu; praktický dopad závisí na konkrétním tarifu a spotřebě.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-firma-innogy-od-ledna-zdrazi-energie-40608572"
+        "title": "5. Čeští investoři vévodí domácím realitním obchodům",
+        "detail": "Domácí investoři dál dominují českým realitním transakcím i v prostředí vyšších úrokových sazeb.",
+        "url": "https://www.novinky.cz/clanek/ekonomika-cesti-investori-vevodi-domacim-realitnim-obchodum-40608121"
       },
       {
-        "title": "6. Ruský diskont Mere v Česku končí",
-        "detail": "Řetězec uzavírá české prodejny; nízkonákladový model se na zdejším trhu neprosadil.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-rusky-diskont-mere-v-cesku-konci-40608569"
+        "title": "6. Věznice v Karviné ukázala svá tajemství",
+        "detail": "Karvinská věznice při prvních celostátních dnech otevřených dveří ukázala návštěvníkům cely i zabavené předměty.",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-moravskoslezsky-kraj-co-je-nejcasteji-pasovana-vec-veznice-v-karvine-ukazala-sva-tajemstvi-40608748"
       },
       {
-        "title": "7. Rubikova kostka se vrací domů. Její výroba se přesouvá zpět do Maďarska",
-        "detail": "Výroba ikonické hlavolamové kostky se má znovu soustředit v zemi jejího původu.",
-        "url": "https://www.novinky.cz/clanek/ekonomika-rubikova-kostka-se-vraci-domu-jeji-vyroba-se-presouva-zpet-do-madarska-40608565"
+        "title": "7. Tatranský ledový chrám je letos věnovaný sv. Františku z Assisi",
+        "detail": "Ledový chrám na Hrebienku letos připomíná svatého Františka z Assisi.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-tatransky-ledovy-chram-je-letos-venovany-sv-frantisku-z-assisi-40608571"
       },
       {
-        "title": "8. Sára Zeithammerová: Moje Svatá je v němčině, dostává divadelní i filmovou podobu",
-        "detail": "Český román se rozšiřuje do německého překladu a připravovaných adaptací pro jeviště i film.",
-        "url": "https://www.novinky.cz/clanek/kultura-knihy-spisovatelka-a-scenaristka-sara-zeithammerova-moje-svata-je-v-nemcine-dostava-divadelni-i-filmovou-podobu-40607670"
+        "title": "8. Na Letné je 350 až 400 tisíc lidí, řekl Minář",
+        "detail": "Organizátoři demonstrace na podporu veřejnoprávních médií odhadli účast až na 400 tisíc lidí.",
+        "url": "https://www.novinky.cz/clanek/domaci-na-letne-je-350-az-400-tisic-lidi-rekl-minar-40608758"
       },
       {
-        "title": "9. Balet s příchutí dezertu připomene taneční ikonu Annu Pavlovu",
-        "detail": "Plzeňské divadlo chystá světovou premiéru inspirovanou slavnou baletkou a dezertem nesoucím její jméno.",
-        "url": "https://www.novinky.cz/clanek/kultura-balet-s-prichuti-dezertu-plzenske-divadlo-pripomene-ve-svetove-premiere-tanecni-ikonu-annu-pavlovu-40608419"
+        "title": "9. Babiš s důvody demonstrace na Letné nesouhlasí, poplatky se zruší",
+        "detail": "Vládní politici po demonstraci uvedli, že plán na zrušení mediálních poplatků měnit nechtějí.",
+        "url": "https://www.novinky.cz/clanek/domaci-babis-s-duvody-demonstrace-na-letne-nesouhlasi-poplatky-se-zrusi-40608788"
       },
       {
-        "title": "10. Vesmírná loď Starship úspěšně přistála do zachytných ramen",
-        "detail": "Test přinesl další posun ve vývoji znovupoužitelného systému pro těžké kosmické lety.",
-        "url": "https://www.ceskenoviny.cz/zpravy/vesmirna-lod-starship-uspesne-pristala-do-zachytnych-ramen/2902173"
+        "title": "10. V noci se na obloze objeví vzácné blízké setkání dvou planet",
+        "detail": "Jupiter a Mars se v noci přiblíží při nápadné konjunkci pozorovatelné na obloze.",
+        "url": "https://www.novinky.cz/clanek/veda-skoly-v-noci-se-na-obloze-objevi-vzacne-blizke-setkani-dvou-planet-40608344"
       },
       {
-        "title": "11. AfD je v Meklenbursku-Předním Pomořansku mimo hru, povládnou levice a Zelení",
-        "detail": "Povolební dohoda vylučuje AfD z vlády a skládá většinu z levicových stran a Zelených.",
-        "url": "https://www.ceskenoviny.cz/zpravy/afd-je-v-meklenbursku-prednim-pomoransku-mimo-hru-povladnou-levice-a-zeleni/2902128"
+        "title": "11. Estonsko zavře hranice s Ruskem",
+        "detail": "Estonsko od 1. prosince uzavře hraniční přechody s Ruskem s odkazem na bezpečnostní a sabotážní hrozby.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-estonsko-zavre-hranice-s-ruskem-40608779"
       },
       {
-        "title": "12. Letový provoz v USA se podle úřadu asi vrátí k normálu během neděle",
-        "detail": "Po rozsáhlém výpadku se síť zotavuje; cestující musí dál počítat s návaznými zpožděními.",
-        "url": "https://www.ceskenoviny.cz/zpravy/letovy-provoz-v-usa-se-podle-uradu-asi-vrati-k-normalu-behem-nedele/2901912"
+        "title": "12. Vznikla první předvolební koalice na Slovensku",
+        "detail": "Progresivní Slovensko a Demokraté oznámili společný postup pro parlamentní volby v roce 2027.",
+        "url": "https://www.novinky.cz/clanek/zahranicni-evropa-vznikla-prvni-predvolebni-koalice-na-slovensku-simeckovo-ps-a-nadovi-demokrati-pujdou-spolecne-40608699"
       },
       {
-        "title": "13. Ve Francii demonstrovalo až 200 000 lidí, uvádějí pořadatelé",
-        "detail": "Celostátní protesty ukázaly sílu mobilizace; odhady účasti pořadatelů a úřadů se obvykle liší.",
-        "url": "https://www.ceskenoviny.cz/zpravy/ve-francii-demonstrovalo-az-200000-lidi-uvadeji-poradatele/2902111"
+        "title": "13. Není nejsobečtější čin, když si pořídíte děti?",
+        "detail": "Norská spisovatelka Linn Strømsborgová mluví o bezdětnosti, hněvu a společenském tlaku.",
+        "url": "https://www.novinky.cz/clanek/kultura-knihy-neni-nejsobectejsi-cin-kdyz-si-poridite-deti-spisovatelka-linn-stromsborgova-o-bezdetnosti-a-hnevu-40607035"
       },
       {
-        "title": "14. Prokop na festivalu Blues Alive oslavil osmdesátiny, tleskal mu plný sál",
-        "detail": "Michal Prokop oslavil jubileum koncertem na šumperském festivalu před vyprodaným publikem.",
-        "url": "https://www.ceskenoviny.cz/zpravy/prokop-na-festivalu-blues-alive-oslavil-osmdesatiny-tleskal-mu-plny-sal/2902096"
+        "title": "14. Režisér Bohdan Sláma: Dáša Havlová a Zuzana Kronerová k sobě hezky ladí",
+        "detail": "Režisér přibližuje film Houpačky a obsazení Dagmar Havlové se Zuzanou Kronerovou.",
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-reziser-bohdan-slama-dasa-havlova-a-zuza-kronerova-k-sobe-hezky-ladi-40607378"
       },
       {
-        "title": "15. Fanoušci na Comic-Con Brno slaví několik výročí populárních filmů a seriálů",
-        "detail": "Brněnský festival propojuje výroční program, hosty a fanouškovské komunity kolem sci-fi a fantasy.",
-        "url": "https://www.ceskenoviny.cz/zpravy/fanousci-na-comic-con-brno-slavi-nekolik-vyroci-popularnich-filmu-a-serialu/2902067"
+        "title": "15. Na jubilejním Blues Alive zářili pánové i dámy",
+        "detail": "Třicátý ročník šumperského festivalu představil domácí i zahraniční bluesové hudebníky.",
+        "url": "https://www.novinky.cz/clanek/kultura-hudba-na-jubilejnim-blues-alive-zarili-panove-i-damy-40608718"
       },
       {
-        "title": "16. EPH neuspěl v soutěži na prodej německé státní firmy Uniper, píší agentury",
-        "detail": "Česká energetická skupina podle agentur nezíská německý Uniper; transakce pokračuje s jinými zájemci.",
-        "url": "https://www.ceskenoviny.cz/zpravy/eph-neuspel-v-soutezi-na-prodej-nemecke-statni-firmy-uniper-pisi-agentury/2902066"
+        "title": "16. Matěj Ruppert z Monkey Business: Dnešní doba je vážnější a temnější",
+        "detail": "Matěj Ruppert vysvětluje český jazyk nové tvorby kapely i její reakci na vážnější společenskou náladu.",
+        "url": "https://www.novinky.cz/clanek/kultura-hudba-matej-ruppert-z-monkey-business-dnesni-doba-je-vaznejsi-a-temnejsi-40608316"
       },
       {
-        "title": "17. Jihlavané vysadili 90 stromů k nedožitým devadesátinám Václava Havla",
-        "detail": "Komunitní výsadba připomněla Václava Havla praktickým zásahem do veřejného prostoru.",
-        "url": "https://www.ceskenoviny.cz/zpravy/jihlavane-vysadili-90-stromu-k-nedozitym-devadesatinam-vaclava-havla/2902055"
+        "title": "17. Recenze: Thriller Manipulation nabízí spíš nechtěný smích",
+        "detail": "Recenze upozorňuje, že thriller oslabuje napětí nevěrohodností a nechtěně komickými momenty.",
+        "url": "https://www.novinky.cz/clanek/kultura-filmy-serialy-recenze-thriller-manipulation-nabizi-spis-nechteny-smich-40608190"
       },
       {
-        "title": "18. Italský úřad vyměřil společnosti Meta pokutu 805 milionů eur",
-        "detail": "Regulátor uložil vysokou sankci; případ znovu otevírá otázku pravidel digitální reklamy a hospodářské soutěže.",
-        "url": "https://www.ceskenoviny.cz/zpravy/italsky-urad-vymeril-americke-spolecnosti-meta-pokutu-805-milionu-eur/2902053"
+        "title": "18. Génius z Brna předběhl svou dobu. AI odkrývá objevy v Gödelových zápiscích",
+        "detail": "Analýza s pomocí AI odhaluje dosud přehlížené myšlenky v poznámkách matematika Kurta Gödela.",
+        "url": "https://www.novinky.cz/clanek/internet-a-pc-ai-genius-z-brna-predbehl-svou-dobu-ai-odkryva-objevy-v-godelovych-zapiscich-40608694"
       },
       {
-        "title": "19. Kupka: ODS musí projít změnami, prostor dostanou nové tváře",
-        "detail": "Vedení strany připouští personální a programovou obnovu po volebních výsledcích.",
-        "url": "https://www.ceskenoviny.cz/zpravy/-kupka-ods-musi-projit-zmenami-prostor-dostanou-nove-tvare/2901416"
+        "title": "19. Politolog: Protest by mohl přimět Babiše k úpravě zákona o rušení poplatků",
+        "detail": "Politolog připouští, že výrazná účast na protestu může otevřít prostor pro úpravy chystaného zákona.",
+        "url": "https://www.ceskenoviny.cz/zpravy/politolog-protest-by-mohl-primet-babise-k-uprave-zakona-o-ruseni-poplatku/2902442"
       },
       {
-        "title": "20. Organizátoři sbírky potravin by rádi letos vybrali podobně výrobků jako loni",
-        "detail": "Celostátní sbírka cílí na udržení objemu pomoci potravinovým bankám a lidem v nouzi.",
-        "url": "https://www.ceskenoviny.cz/zpravy/organizatori-sbirky-potravin-by-radi-letos-vybrali-podobne-vyrobku-jako-loni/2901933"
+        "title": "20. Na první lyžování na Monínci dorazilo za slunečného počasí až 500 lidí",
+        "detail": "Časné lyžování na Monínci využilo za slunečného počasí až pět set návštěvníků.",
+        "url": "https://www.ceskenoviny.cz/zpravy/na-prvni-lyzovani-na-moninci-dorazilo-za-slunecneho-pocasi-az-500-lidi/2902318"
       },
       {
-        "title": "21. Prezident České stomatologické komory Šmucler rezignoval",
-        "detail": "Personální změna uzavírá jeho působení v čele komory; další vedení bude řešit pokračující agendu oboru.",
-        "url": "https://www.ceskenoviny.cz/zpravy/prezident-ceske-stomatologicke-komory-smucler-rezignoval/2902015"
+        "title": "21. Ředitel ČRo: Dobrovolné platby za veřejnoprávní média by byly nesystémové",
+        "detail": "Generální ředitel Českého rozhlasu odmítá dobrovolné příspěvky jako stabilní náhradu mediálních poplatků.",
+        "url": "https://www.ceskenoviny.cz/zpravy/reditel-cro-dobrovolne-platby-za-verejnopravni-media-by-byly-nesystemove/2902287"
       },
       {
-        "title": "22. UK: Při kybernetickém útoku pachatel plošně neohrozil uživatelské účty",
-        "detail": "Univerzita upřesnila rozsah incidentu; přesto doporučuje obezřetnost a pokračuje v prověřování dopadů.",
-        "url": "https://www.ceskenoviny.cz/zpravy/-uk-pri-kybernetickem-utoku-pachatel-plosne-neohrozil-uzivatelske-ucty/2901579"
-      },
-      {
-        "title": "23. Microsoft obnovil funkčnost všech svých služeb",
-        "detail": "Firma oznámila plné obnovení provozu po výpadku; doznívat mohou jen opožděné fronty zpracování.",
-        "url": "https://www.ceskenoviny.cz/zpravy/microsoft-obnovil-funkcnost-vsech-svych-sluzeb/2901469"
+        "title": "22. Audi odkládá příchod elektrického A4",
+        "detail": "Automobilka Audi posouvá uvedení elektrické verze modelu A4.",
+        "url": "https://www.ceskenoviny.cz/zpravy/audi-odklada-prichod-elektrickeho-a4/2902311"
       }
     ]
   },
   "risks": [
     "Ariana zveřejňuje lístek z 13. 11. 2026; jde o poslední ověřený veřejný hotovostní lístek, ale pro dnešek je starší.",
     "Notion konektor nebyl dostupný, takže briefing neobsahuje interní poznámky ani dlouhodobé projektové souvislosti.",
-    "U nově přidaného šermu a tančírny zdroj neuvádí konec; hodinové bloky jsou proto výslovně orientační.",
-    "V kalendáři jsou dvě podobné budoucí položky MINT Market Brno 21.–22. 11.; před dalším zásahem je vhodné ověřit, zda jde o duplicitu.",
-    "Kudy z nudy v dnešní kontrole poskytlo řídké výsledky; nejisté položky nebyly přidány."
+    "Automatizace Update GUMA OS v16 hlásila neúspěšný běh; dnešní publikace byla provedena a kontrolována ručně.",
+    "Kalendáře akcí mají pro vzdálenější část období do konce února 2027 řídké nebo dosud nezveřejněné výsledky; nejisté položky nebyly přidány.",
+    "U nově přidaných bezplatných akcí je vhodné před cestou ověřit kapacitu a případnou změnu programu."
   ],
   "nextSteps": [
-    "Vyber jeden konkrétní výsledek dne a využij dopolední souvislý blok bez meetingů.",
-    "Pokud chceš dnešní akci, rozhodni se mezi šermem ve 12:00, tančírnou v 16:00 a rajhradskými freskami v 17:00.",
-    "Nabídka Vínokrál končí dnes; případný nákup posuzuj podle skutečné ceny, ne podle procenta slevy.",
-    "Před 21. 11. ověř duplicitní záznamy MINT Marketu v kalendáři."
+    "Vyber jeden konkrétní výsledek dne a využij dlouhý souvislý blok do 16:00.",
+    "Pokud chceš dnešní program, rozhodni se mezi Gaymer night v 16:00 a debatou Václav Havel a divadlo v 18:00.",
+    "Před zítřejším státním svátkem ověř otevírací dobu míst, která plánuješ navštívit.",
+    "Zkontroluj příčinu neúspěšného běhu automatizace Update GUMA OS v16."
   ],
   "urcSystemsMonitor": null
 }

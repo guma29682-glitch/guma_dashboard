@@ -1,8 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T05:45:00+01:00",
+  "generatedAt": "2026-11-16T05:45:01+01:00",
   "latest": "data/latest.json",
   "reports": [
+    {
+      "date": "2026-11-16",
+      "label": "16. 11. 2026",
+      "path": "data/reports/2026-11-16.json"
+    },
     {
       "date": "2026-11-15",
       "label": "15. 11. 2026",
